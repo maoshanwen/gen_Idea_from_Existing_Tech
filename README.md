@@ -5,8 +5,10 @@
 
 [![Python Version](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
+有的论文改进某一个技术进行刷榜取得sota,有的论文给技术赋予新的场景解决问题。本工程针对第二类论文，就是已经有一类技术，去参考结合顶会论文的新场景（热点）。
 本框架花钱不到三杯奶茶钱给你kuku生成创新点，分模块化好修改好运行，灵活多变，帮你高效挖掘来自顶级AI会议（ICLR、NeurIPS、ICML）最新的研究热点，智能地产出细腻入微、专属于你的创新点，让你的科研之路充满灵感火花！
-考虑到出版的会议会有一定的时间差，本项目还提供了预印的论文
+考虑到出版的会议会有一定的时间差，本项目还提供了预印的论文。
+考虑到便于大家使用，并没有把整个设置为自动的pipeline，而是切分成各个脚本，方便大家按需自取相关功能。
 
 
 
@@ -63,9 +65,6 @@ AI-Paper-IDEA/
 推荐使用 Conda 创建环境，并通过 `pip` 安装依赖。
 
 ```bash
-# 克隆仓库
-git clone [https://github.com/zhihengli-casia/AI-Paper-IDEA.git](https://github.com/zhihengli-casia/AI-Paper-Trends.git)
-cd AI-Paper-IDEA
 
 # 1. 创建 Conda 环境 (推荐 Python 3.10)
 conda create --name idea_analyze python=3.10

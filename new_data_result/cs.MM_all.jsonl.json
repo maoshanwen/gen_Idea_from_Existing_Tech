@@ -1,0 +1,90 @@
+{
+  "Frequency-Spatial Interaction Driven Network for Low-Light Image   Enhancement": {
+    "主题": "低光图像增强",
+    "场景": "改善弱光环境下捕获的图像质量和可解释性",
+    "创新点": [
+      "提出双阶段频率-空间交互驱动网络（FSIDNet），第一阶段恢复亮度，第二阶段细化结构",
+      "设计频率-空间交互块，融合互补的频率与空间域信息",
+      "引入信息交换模块（IEM），促进跨阶段和跨尺度特征传播"
+    ]
+  },
+  "Region-Adaptive Learned Hierarchical Encoding for 3D Gaussian Splatting   Data": {
+    "主题": "3D高斯喷洒数据压缩",
+    "场景": "带宽受限的体媒体流等应用中的3D高斯喷洒模型部署",
+    "创新点": [
+      "基于八叉树结构的层次多分辨率表示，适应3DGS数据的非规则空间分布",
+      "采用轻量级解码器网络独立解码过拟合的潜在表示，优化全局速率约束",
+      "联合优化多分辨率潜在表示、解码器和自回归熵编码网络，提升压缩效率"
+    ]
+  },
+  "Understanding What Is Not Said:Referring Remote Sensing Image   Segmentation with Scarce Expressions": {
+    "主题": "Referring Remote Sensing Image Segmentation (RRSIS)",
+    "场景": "遥感图像中基于描述表达的实例分割，适用于标注稀缺场景",
+    "创新点": [
+      "提出Weakly Referring Expression Learning (WREL)，利用大量类别名称作为弱标注表达与小规模精确标注联合训练",
+      "设计Learnable Reference Bank (LRB)，通过样本特定的提示嵌入优化粗粒度类别输入",
+      "结合动态EMA更新的师生框架，提升噪声弱标注下的跨模态泛化能力"
+    ]
+  },
+  "LLM-based Fusion of Multi-modal Features for Commercial Memorability   Prediction": {
+    "主题": "多模态商业广告记忆性预测",
+    "场景": "MediaEval 2025竞赛中的商业广告记忆性预测任务",
+    "创新点": [
+      "采用基于Gemma-3大语言模型的多模态特征融合框架，整合视觉（ViT）与文本（E5）特征并通过多模态投影实现融合",
+      "引入大模型生成的理论依据提示（rationale prompts），结合专家定义的记忆性维度指导模型融合过程",
+      "使用轻量化适配技术（LoRA）实现模型高效调优，相比传统梯度提升树基线模型展现更强鲁棒性和泛化能力"
+    ]
+  },
+  "A Comprehensive Benchmark for Multimodal Deepfake   Detection": {
+    "主题": "多模态深度伪造检测",
+    "场景": "检测伪造的人为中心的音视频内容，应对生成式AI滥用导致的社会风险（如金融诈骗、社会不稳定）",
+    "创新点": [
+      "构建大规模、多样化、高质量的Mega-MMDF数据集，包含21种伪造方法组合，现含11万伪造样本和1万真实样本",
+      "提出首个统一多模态深度伪造检测基准DeepfakeBench-MM，支持5个数据集和11种检测器，提供标准化协议和评估平台"
+    ]
+  },
+  "Learning Event-guided Exposure-agnostic Video Frame Interpolation via   Adaptive Feature Blending": {
+    "主题": "视频帧插值",
+    "场景": "动态曝光条件下从模糊低帧率视频恢复高帧率清晰视频",
+    "创新点": [
+      "提出目标自适应事件采样（TES），围绕目标时间戳和未知曝光时间采样事件，增强与模糊帧的时序对齐",
+      "设计目标自适应重要性映射（TIM），基于时空相关性生成特征混合权重，主导时序对齐特征并补充空间相关特征"
+    ]
+  },
+  "Time-Varying Mesh Compression via Multi-Stage Anchor Mesh   Generation": {
+    "主题": "时变网格压缩",
+    "场景": "增强现实等需要高效传输动态3D网格的应用",
+    "创新点": [
+      "多阶段渐进式锚网格生成（初始/粗糙/精细阶段），提升帧间预测精度",
+      "基于卡尔曼滤波的运动估计模块精准补偿帧间运动",
+      "采用二次误差度量优化的顶点位置细化，增强几何保真度",
+      "分层编码策略（基础网格+残差位移）实现高效紧凑表示"
+    ]
+  },
+  "Enabling American Sign Language Communication Under Low Data Rates": {
+    "主题": "ASL通信技术",
+    "场景": "低带宽环境下的美国手语视频会议通信",
+    "创新点": [
+      "通过音频通道编码传输人体姿态数据，实现在无可靠视频情况下的ASL通信",
+      "提出基于人体姿态数据固有结构约束的接收端错误检测与校正机制"
+    ]
+  },
+  "A Rigorous Benchmark for Evaluating Object State   Understanding in Vision-Language Models": {
+    "主题": "视觉语言模型中物体状态理解评估",
+    "场景": "评估视觉语言模型（VLMs）在识别物体状态（如开/关、位置变化等）时的性能",
+    "创新点": [
+      "提出首个专门评估VLMs物体状态理解能力的基准STATUS Bench，包含状态识别、图像检索和状态变化识别三项任务",
+      "构建手工标注的图像对数据集（带状态描述）及1300万条半自动生成的训练数据集STATUS Train",
+      "实验揭示当前最优VLMs在细粒度状态识别中表现接近随机水平，微调后可达到商用模型性能"
+    ]
+  },
+  "A Multi-Image Benchmark for Real-World Multimodal Sarcasm   Detection": {
+    "主题": "多模态讽刺检测",
+    "场景": "基于多图片的真实场景讽刺识别",
+    "创新点": [
+      "提出首个多图片讽刺检测基准MMSD3.0，填补跨图片语义关系建模的空白",
+      "设计跨图片推理模型（CIRM），通过针对性序列建模捕捉图片间潜在关联",
+      "引入基于图文对应关系的细粒度跨模态融合机制，减少信息整合损耗"
+    ]
+  }
+}

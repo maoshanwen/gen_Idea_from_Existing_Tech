@@ -1,0 +1,38 @@
+# Python Caches & Compiled Files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environments (venv)
+venv/
+.venv/
+# Conda environments should ideally live outside the project directory.
+
+# IDE and OS specific files
+.vscode/
+.idea/
+.DS_Store
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Data, Models, and Results - Runtime generated, often large
+data/
+models/
+results/
+
+# Build artifacts and Packaging
+*.egg-info/
+build/
+dist/
+
+# Logs and Temporary Files
+*.log
+*~
+*.tmp
+
+# Environment variables
+.env
+
+# (Add any other specific files/directories you want to ignore)

@@ -1,0 +1,77 @@
+{
+  "Generalized Kantorovich-Rubinstein Duality beyond Hausdorff and   Kantorovich": {
+    "主题": "广义Kantorovich-Rubinstein对偶性",
+    "场景": "概率分布的度量空间构建",
+    "创新点": [
+      "提出广义Kantorovich-Rubinstein对偶性的新定义，并在L\\'evy-Prokhorov距离和凸分布集的标准度量中验证其适用性",
+      "证明某些情况下必须使用额外的模态来保证Kantorovich提升与Wasserstein提升的等价性"
+    ]
+  },
+  "Language Equivalence is Undecidable in VASS with Restricted   Nondeterminism": {
+    "主题": "VASS语言等价性问题",
+    "场景": "二维向量加法系统状态（VASS）在受限非确定性下的语言等价性判定",
+    "创新点": [
+      "证明了即使一个二维VASS是确定性而另一个是历史确定性的，语言等价性仍不可判定",
+      "发现历史确定性VASS的语言等价性与其相互模拟能力等价，从而将不可判定性扩展到介于模拟等价与语言等价之间的任何等价关系"
+    ]
+  },
+  "A Framework for Verifiable AI Reliability": {
+    "主题": "可验证AI可靠性框架",
+    "场景": "安全关键系统中的AI集成（如自动驾驶感知系统）",
+    "创新点": [
+      "**离线形式化合成与在线运行时监控协同**：结合数学严格的形式化合成与实时监控，构建可验证的安全防护机制。",
+      "**实验验证的高效性**：在自动驾驶系统中成功检测93.5%的关键安全违规（传统方法难以发现的静默错误）。",
+      "**标准化合规支持**：框架适配ISO 26262及ISO/PAS 8800标准，为可靠性工程师提供可认证的AI部署路径。"
+    ]
+  },
+  "On the entailment problem for DL-Lite$_{core}$ ontologies and   conjunctive queries with negation": {
+    "主题": "DL-Lite$_{core}$本体论的蕴涵问题",
+    "场景": "描述逻辑中带有不等式的合取查询的蕴涵问题",
+    "创新点": [
+      "证明DL-Lite$_{core}$本体论中带有不等式的合取查询的蕴涵问题是不可判定的",
+      "进一步证明带安全否定的合取查询同样具有不可判定性"
+    ]
+  },
+  "Parametric Iteration in Resource Theories": {
+    "主题": "资源理论中的参数化迭代",
+    "场景": "密码学协议中的参数抽象化处理",
+    "创新点": [
+      "提出通用参数化迭代构造，适用于资源理论的字符串图语法",
+      "在概率布尔电路范畴中引入度量，通过渐近等价组合性捕捉可忽略性概念"
+    ]
+  },
+  "Adversarial Learning through Ehrenfeucht Fraisse Games": {
+    "主题": "逻辑约束的生成对抗网络",
+    "场景": "利用逻辑深度约束进行对抗生成模型的训练与验证",
+    "创新点": [
+      "提出LOGAN框架，将鉴别器建模为有限逻辑深度k的Ehrenfeucht–Fraïssé博弈对手，通过可解释的局部逻辑特征（如奇环、非平面交叉）进行样本判别",
+      "引入混合逻辑损失函数，结合逻辑回合弹性与低成本证书项，实现动态深度课程学习，提升对抗训练效率",
+      "开发轻量级工具包（EF探针模拟器+MSO图校验器），在仿真与真实GAN训练中实现92%-98%的逻辑属性满足率"
+    ]
+  },
+  "a Curry-Howard   correspondence for destructors": {
+    "主题": "线性类型与资源管理的程序语言模型",
+    "场景": "在编程语言中结合线性类型、副作用和异常处理的抽象模型研究",
+    "创新点": [
+      "引入分配单子（allocation monad）来建模和研究资源安全性",
+      "提出带有默认析构操作的线性演算，结合C++/Rust风格的析构器概念",
+      "通过交换规则（exchange rule）实现资源的非顺序释放，模拟类似C++/Rust中的\"move\"操作"
+    ]
+  },
+  "Proceedings of the Combined 32nd International Workshop on   Expressiveness in Concurrency and 22nd Workshop on Structural Operational   Semantics": {
+    "主题": "形式语义学与并发计算模型",
+    "场景": "研究系统和编程概念的形式语义及计算模型表达能力的国际学术研讨会",
+    "创新点": [
+      "结合两个长期研究领域（EXPRESS和SOS）的研讨会，促进跨领域协作",
+      "专注于形式语义与计算模型表达能力的交叉研究，拓展理论应用边界"
+    ]
+  },
+  "Decidability and Complete   Axiomatization": {
+    "主题": "可能性计算树逻辑（PoCTL）的决策问题",
+    "场景": "系统验证中处理具有可能性理论不确定信息的场景",
+    "创新点": [
+      "提出从PoCTL公式中提取可能性信息并构造其可能性Hintikka结构的技术，证明其可满足性在指数时间内可判定",
+      "提供了PoCTL的完整公理化系统，解决了其重要推理问题"
+    ]
+  }
+}

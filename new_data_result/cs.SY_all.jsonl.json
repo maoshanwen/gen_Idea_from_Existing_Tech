@@ -1,0 +1,532 @@
+{
+  "High-Performance Rotor Cooling with Ducted Liquid in Completely   Cold-Formed Modular Motor Shaft": {
+    "主题": "高性能电机转子冷却技术",
+    "场景": "电动汽车电机转子的高效冷却",
+    "创新点": [
+      "采用齿引导液冷设计，减少内部涡流形成，提升热传递效率",
+      "通过冷成形内部通道优化压力管理，降低冷却损耗",
+      "在低转速下实现比传统空心轴高110%的冷却效率"
+    ]
+  },
+  "Motion Planning with Precedence Specifications via Augmented Graphs of   Convex Sets": {
+    "主题": "基于凸集增强图的运动规划",
+    "场景": "在存在障碍物和需要满足钥匙-门优先级规范的环境中进行轨迹规划",
+    "创新点": [
+      "提出新颖的精确凸分割方法，编码自由空间、钥匙集和门集的连通性",
+      "构建凸集增强图，精确编码钥匙-门优先级规范",
+      "通过在该图上求解最短路径问题，提供了对轨迹有限参数化的精确解"
+    ]
+  },
+  "Control of neural field equations with step-function inputs": {
+    "主题": "神经场方程控制",
+    "场景": "研究Amari型神经场在分段/时不变输入下的可控性，用于计算神经科学和神经刺激应用",
+    "创新点": [
+      "基于Banach不动点定理提出时不变输入控制合成方法，对卷积核和传递函数要求最低",
+      "开发基于神经动态漂移流的通用合成框架，显式生成分段常数/时不变输入以克服线性化局限"
+    ]
+  },
+  "A Hybrid GNN-LSE Method for Fast, Robust, and Physically-Consistent AC   Power Flow": {
+    "主题": "电力系统AC功率流计算",
+    "场景": "现代大规模电力系统中快速、鲁棒且物理一致的AC功率流求解",
+    "创新点": [
+      "提出两阶段混合方法，结合物理信息图神经网络（GNN）和线性状态估计（LSE）细化步骤，实现快速求解",
+      "GNN采用动态加权方案的物理信息损失函数，高效预测初始系统状态",
+      "LSE细化步骤通过求解线性方程强制物理一致性，规避传统求解器的非线性和收敛问题"
+    ]
+  },
+  "Fixed Horizon Linear Quadratic Covariance Steering in Continuous Time   with Hilbert-Schmidt Terminal Cost": {
+    "主题": "连续时间线性二次协方差控制",
+    "场景": "固定时间段的协方差控制，终端成本采用Hilbert-Schmidt范数误差",
+    "创新点": [
+      "提出耦合矩阵ODE两点边值问题的解法，设计了矩阵递归算法并证明其收敛性",
+      "利用线性分数变换参数化哈密顿矩阵的状态转移矩阵，提高求解效率"
+    ]
+  },
+  "Pricing Problems in Adoption of New Technologies": {
+    "主题": "技术采用价格优化模型",
+    "场景": "新产品市场推广中的定价决策和政策干预",
+    "创新点": [
+      "提出离散时间Bass扩散模型的扩展，首次明确整合价格因素并验证其多产品适应性",
+      "建立垄断者有限时域最优定价的理论框架，完成单周期闭式解和多周期结构性质证明",
+      "构建政策制定者与企业的Stackelberg博弈模型，解析揭示补贴政策与定价策略的均衡关系"
+    ]
+  },
+  "Rate-cost tradeoffs in continuous-time control with a biomolecular   application": {
+    "主题": "连续时间控制的速率-成本权衡",
+    "场景": "生物分子系统中的控制波动，通过化学反应调控分子物种的浓度水平",
+    "创新点": [
+      "推导了实现期望控制成本所需数据率的下界，并在使用加性高斯白信道时达到该下界",
+      "将广义Ornstein-Uhlenbeck过程模型应用于离散态分子生灭过程，扩展了生物分子系统的控制理论框架"
+    ]
+  },
+  "A Perspective on the Algebra, Topology, and Logic of Electrical Networks": {
+    "主题": "电气网络代数拓扑逻辑框架",
+    "场景": "电气一端口网络的理论建模与自动化合成",
+    "创新点": [
+      "提出基于$m$-理论（jorbs）的统一代数/拓扑/逻辑框架，用有序字母表上的$m$-words表示网络结构",
+      "引入$\\lambda--\\Delta$度量与估值态射$\\Phi$，实现阻抗度结构的简洁描述，并建立符号化-拓扑化转换机制",
+      "开发程序化Cauer/Foster合成工作流，支持非同构串并联拓扑的算法生成与分类"
+    ]
+  },
+  "System-Theoretic Analysis of Dynamic Generalized Nash Equilibrium   Problems -- Turnpikes and Dissipativity": {
+    "主题": "动态广义纳什均衡问题的系统理论分析",
+    "场景": "多智能体控制中的战略交互建模",
+    "创新点": [
+      "提出严格耗散性生成GNE解的“收费站现象”分析框架",
+      "建立从收费站现象到严格耗散性的逆向理论证明",
+      "设计确保轨迹收敛至稳态GNE的线性终端惩罚方法"
+    ]
+  },
+  "Auction-Based Responsibility Allocation for Scalable Decentralized   Safety Filters in Cooperative Multi-Agent Collision Avoidance": {
+    "主题": "多智能体碰撞避障的安全过滤器",
+    "场景": "多智能体系统中实时安全协调与碰撞避免",
+    "创新点": [
+      "提出基于拍卖机制的责任分配方法，通过局部控制努力估计非对称分配约束执行责任",
+      "构建有向责任图，在保证全覆盖安全的同时减少冗余约束和单 agent 计算负载",
+      "结合高阶控制屏障函数（HOCBF）实现可扩展的分布式安全筛选"
+    ]
+  },
+  "Robust Regret Control with Uncertainty-Dependent Baseline": {
+    "主题": "鲁棒遗憾控制",
+    "场景": "离散时间不确定线性时不变系统的控制器设计",
+    "创新点": [
+      "提出基于不确定性依赖基线的鲁棒遗憾控制框架，基线随系统不确定性实时调整",
+      "通过线性近似方法将非线性依赖问题转化为标准μ-综合问题",
+      "建立鲁棒加法遗憾与改进系统的H∞性能之间的等效条件"
+    ]
+  },
+  "Analysis and Synthesis of Switched Optimization Algorithms": {
+    "主题": "优化算法的鲁棒性分析与设计",
+    "场景": "网络系统中存在时变延迟（如数据包丢失、非均匀采样）影响梯度下降算法的稳定性",
+    "创新点": [
+      "提出离散时间优化算法，在时变延迟下保证指数级收敛速率",
+      "采用切换调度输出反馈控制器实现算法，通过约束切换序列适应延迟变化",
+      "结合二分法和Zames-Falb滤波器系数搜索进行算法分析与综合"
+    ]
+  },
+  "Predictive control barrier functions for piecewise affine systems with   non-smooth constraints": {
+    "主题": "预测控制屏障函数",
+    "场景": "分段仿射系统的非光滑约束下的安全控制",
+    "创新点": [
+      "采用包含集值广义Clarke导数的预测安全滤波器设计，解决非光滑系统安全约束问题",
+      "提出PSF的显式近似方法以降低计算复杂度，实现实时控制"
+    ]
+  },
+  "The PhasorArray Toolbox for Harmonic Analysis and Control Design": {
+    "主题": "谐波分析与控制设计MATLAB工具箱",
+    "场景": "开发用于谐波分析与控制的用户友好MATLAB工具",
+    "创新点": [
+      "采用面向对象架构，通过重载运算符实现直观的周期矩阵操作",
+      "集成高级求解器（如谐波Sylvester/Lyapunov/Riccati方程）并与YALMIP无缝衔接，支持基于LMI的先进谐波控制技术"
+    ]
+  },
+  "Data-driven Koopman MPC using Mixed Stochastic-Deterministic Tubes": {
+    "主题": "数据驱动的随机模型预测控制（MPC）",
+    "场景": "离散时间非线性系统受加性干扰时的鲁棒控制",
+    "创新点": [
+      "**混合随机-确定性管设计**：通过Koopman算子将非线性系统提升至线性空间，结合分布鲁棒优化（DRO）和超立方体壳分别处理建模误差与加性干扰",
+      "**有限样本误差界理论保障**：为随机管（DRO）与确定性管（超立方体）提供严格的误差边界分析，确保约束条件下的系统稳定性"
+    ]
+  },
+  "The Role of Information Incompleteness in Defending Against Stealth   Attacks": {
+    "主题": "信息不完全性在防御隐蔽攻击中的作用",
+    "场景": "数据注入攻击（DIAs）中，系统信息不完全性对攻击隐蔽性和破坏性的影响",
+    "创新点": [
+      "系统分析信息不完全性对攻击隐蔽性与破坏性的双目标影响，确立两种极端操作模式的充分条件",
+      "提出最大化不完全性策略以优化降低攻击隐蔽能力，并设计启发式算法高效求解近似最优解"
+    ]
+  },
+  "Physics-Informed Neural Networks for MIMO Beam Map and Environment   Reconstruction": {
+    "主题": "物理信息神经网络在MIMO波束地图和环境重构中的应用",
+    "场景": "在缺乏明确3D环境知识的情况下，利用接收信号强度（RSS）数据重构MIMO系统的无线电波束地图和环境几何结构，应用于复杂通信网络（如6G及以后）。",
+    "创新点": [
+      "提出了一种定向虚拟障碍物模型，能够同时捕获阻塞和反射的几何特征，而现有方法仅学习阻塞结构。",
+      "提出了反射区的概念，基于环境几何关系识别相关反射路径，并推导了反射区的解析表达式，进一步分析其几何特性，使其更兼容深度学习表示。",
+      "提出了一个物理信息深度学习框架，整合基于反射区的几何模型，学习阻塞、反射和散射成分以及波束模式，利用物理先验知识增强网络的可迁移性。"
+    ]
+  },
+  "Evaluating Power-to-X Strategies Using   Agent-Based Simulation and Multi-Criteria Decision Framework": {
+    "主题": "Power-to-X策略评估",
+    "场景": "可再生能源丰富的背景下，绿色氢生产的动态评估与战略规划",
+    "创新点": [
+      "提出结合基于代理的仿真与多准则决策的新框架，动态评估氢生产策略",
+      "首次在真实市场数据中比较电网依赖、纯就地发电及混合策略的经济与环境绩效",
+      "量化揭示混合策略在成本、排放与产出稳定性上的综合优势，弥补静态模型忽略的实时交互影响"
+    ]
+  },
+  "The local Gaussian correlation networks among return tails in the   Chinese stock market": {
+    "主题": "金融网络中的尾部相关性分析",
+    "场景": "中国股市（上海证券交易所）股票收益率尾部的相关性网络构建与分析",
+    "创新点": [
+      "采用局部高斯相关系数替代传统Pearson相关系数，解决了非线性依赖和厚尾分布的处理问题",
+      "发现负尾部局部高斯相关网络对股市风险的敏感性高于正尾部网络和传统Pearson网络",
+      "提出应优先研究负尾部相关网络，并建议用新方法重新评估现有金融网络结论"
+    ]
+  },
+  "Environment-Dependent Components Identification of Behind-the-Meter   Resources via Inverse Optimization": {
+    "主题": "BTM资源环境依赖成分识别",
+    "场景": "电力系统中隐蔽电表资源（BTM）的负荷监控与行为预测",
+    "创新点": [
+      "提出混合物理启发与数据驱动框架，分解BTM资源的总负荷为环境依赖组件",
+      "开发双层迭代求解框架，结合数据驱动的逆向优化与物理模型识别各组件参数",
+      "验证方法在电力市场清算中降低系统运行成本的应用价值"
+    ]
+  },
+  "Resilient Composite Control for Stability Enhancement in EV Integrated   DC Microgrids": {
+    "主题": "电动汽车集成直流微电网稳定性控制",
+    "场景": "独立直流微电网中电动汽车的恒定功率负载行为引发稳定性问题。",
+    "创新点": [
+      "提出复合控制器（全局积分终端滑模控制和反步控制结合），并引入虚拟电容增强直流母线响应。",
+      "采用改进的分数阶幂次趋近律，减少抖振并加速收敛。",
+      "通过精确反馈线性化将非线性升压转换器模型转化为Brunovsky标准型，缓解负增量阻抗效应和非最小相位问题。"
+    ]
+  },
+  "Vector-Valued Native Space Embedding for Adaptive State Observation": {
+    "主题": "自适应状态观测的向量值再生核希尔伯特空间嵌入",
+    "场景": "具有匹配/非匹配不确定性和输出干扰的平面模型状态估计",
+    "创新点": [
+      "提出非参数化且鲁棒的算法，结合向量值再生核空间与自适应观测",
+      "首次实现无限维原生空间中匹配不确定性下的系统状态估计",
+      "提供状态观测误差的解析形式上界，并应用于刚体运动估计"
+    ]
+  },
+  "A Novel Multi-Timescale Stability-Preserving Hierarchical Reinforcement   Learning Controller Framework for Adaptive Control in High-Dimensional   Dynamical Systems": {
+    "主题": "多时间尺度分层强化学习控制框架",
+    "场景": "高维随机系统（如机器人、自动驾驶车辆和超混沌系统）的自适应控制",
+    "创新点": [
+      "提出结合半马尔可夫决策过程（SMDP）的分层策略框架，高层策略负责战略规划，低层策略负责反应式控制，有效降低维度灾难并处理多时间尺度决策问题。",
+      "通过神经Lyapunov函数（经拉格朗日松弛优化和多时间尺度Actor-Critic更新）严格保证随机动力学下的均方有界或渐进稳定性。",
+      "引入信任区域约束和解耦优化机制，提升学习效率和可靠性，在8维超混沌系统和5自由度机器人上实现显著更低的误差指数（如IAE: 3.912和1.623）及更强的抗干扰能力。"
+    ]
+  },
+  "Model-Free Power System Stability Enhancement with Dissipativity-Based   Neural Control": {
+    "主题": "电力系统稳定性增强",
+    "场景": "基于虚拟同步发电机（VSG）的电力系统瞬态稳定性控制",
+    "创新点": [
+      "提出无模型、非线性、基于耗散性的控制器，避免依赖精确的电网动力学模型",
+      "利用神经网络学习耗散特性矩阵，实现数据驱动的稳定控制",
+      "引入成本函数整形，优化用户指定目标的性能表现"
+    ]
+  },
+  "A DLMP-based Bilevel   Optimization with a Shapley Value Approach": {
+    "主题": "分布式能源社区成本分配",
+    "场景": "多个能源社区参与电网运行时，基于DLMP的动态定价与公平成本分摊问题",
+    "创新点": [
+      "提出双层优化模型（CEA调度DERs + DSO确定DLMPs），通过KKT条件和强对偶性转化为单层可解问题",
+      "首次将Shapley值应用于量化各社区对系统总成本节约的边际贡献，保障分配公平性"
+    ]
+  },
+  "Distributed Stochastic Proximal Algorithm on Riemannian Submanifolds for   Weakly-convex Functions": {
+    "主题": "分布式随机优化算法",
+    "场景": "多智能体网络系统在黎曼子流形上的弱凸函数优化",
+    "创新点": [
+      "提出基于收缩和黎曼共识协议的分布式黎曼随机近端算法框架，适应流形结构",
+      "证明了算法在弱凸成本函数下能收敛到近平稳点并达成共识",
+      "建立了收敛速率理论分析，揭示流形几何对算法性能的影响（$\\mathcal{O}(\\frac{1+\\kappa_g}{\\sqrt{k}})$）"
+    ]
+  },
+  "Politics, Inequality, and the Robustness of Shared Infrastructure   Systems": {
+    "主题": "共享基础设施系统的政治经济学分析",
+    "场景": "分析政治过程对共享基础设施系统稳健性的影响，探讨投资决策、用户异质性及动态偏好等因素。",
+    "创新点": [
+      "**动态建模**：结合政治经济学、社会生态系统和政治心理学，建立动态模型，弥补以往忽视动态基础设施和用户偏见的不足。",
+      "In this sentence, the phrase \"dynamic infrastructure and user biases\" is enriched by the term \"dynamic modeling\" (动态建模), which implies a methodological innovation that accounts for changing conditions over time. This makes the model more realistic and comprehensive compared to previous static approaches.",
+      "**政策干预机制**：揭示税收政策（如对私有基础设施使用征税）在精英与非精英政治影响平等时提升系统稳健性的作用。",
+      "Here, the term \"policy intervention mechanism\" (政策干预机制) refers to the systematic exploration of how specific fiscal policies (taxation on private infrastructure use) interact with political dynamics to affect system robustness. This highlights a novel causal pathway identified by the authors, linking political equity to infrastructure outcomes.",
+      "**选举周期非线性效应**：发现选举周期长度与系统稳健性之间存在非线性关系（先增后减），挑战传统线性假设。",
+      "The phrase \"nonlinear election cycle effects\" (选举周期非线性效应) captures the counterintuitive finding that extending election cycles doesn’t monotonically improve robustness—a departure from conventional assumptions in political economy models. This nuance is critical for designing governance timetables."
+    ]
+  },
+  "A Proof-of-Concept   Study": {
+    "主题": "宽禁带（WBG）工业控制系统（ICS）安全",
+    "场景": "WBG技术引入的高频噪声和复杂网络物理威胁下的ICS传感器通路防护",
+    "创新点": [
+      "利用WBG开关噪声（高达100 kHz）作为物理不可克隆函数（PUF）源，实现硬件级认证与异常检测的双重功能",
+      "结合混合机器学习模型与自适应贝叶斯滤波，提供对自然电磁干扰（EMI）和主动攻击的鲁棒低延迟检测（95%准确率，亚毫秒延迟）"
+    ]
+  },
+  "A Framework for Verifiable AI Reliability": {
+    "主题": "可验证AI可靠性框架",
+    "场景": "安全关键系统中的AI可靠性（如自动驾驶感知系统）",
+    "创新点": [
+      "结合离线形式化合成与在线运行时监控，构建可验证的安全框架（FAME）",
+      "在自动驾驶场景中实现93.5%关键安全违规的静默故障检测",
+      "提供符合ISO 26262/PAS 8800标准的可认证AI部署路径"
+    ]
+  },
+  "From Time Series to Affine Systems": {
+    "主题": "仿射时不变系统",
+    "场景": "从线性时不变系统扩展到仿射时不变系统的行为理论研究",
+    "创新点": [
+      "提出针对仿射时不变系统的新激励持续性条件，降低数据需求",
+      "建立了与线性系统结构平行的多种表征方法（核、输入输出、状态空间等）"
+    ]
+  },
+  "Trajectory Sensitivity-aware Neural Ordinary Differential   Equations for Efficient Dynamic Modeling": {
+    "主题": "动态系统建模",
+    "场景": "科学和工程领域中的连续时间动态预测与控制",
+    "创新点": [
+      "提出轨迹敏感性感知（TRASE-NODEs）方法，通过构建状态与敏感性的增强系统，同时学习其动态特性",
+      "采用伴随方法以内存高效的方式更新梯度，确保控制输入影响在动态学习中被捕获"
+    ]
+  },
+  "Approximate Receding Horizon Control for   Virus Spread on Networks": {
+    "主题": "病毒传播网络控制",
+    "场景": "基于TransNN的病毒传播抑制",
+    "创新点": [
+      "提出TransNN作为马尔可夫SIS模型的近似模型，显著降低计算复杂度（从2^n状态配置简化）",
+      "设计TransNN滚动时域控制方法，相比传统动态规划方案减少保守控制动作"
+    ]
+  },
+  "Characterization and Analysis of Emergent   Swarm Behaviors": {
+    "主题": "群体机器人行为分析",
+    "场景": "预测和控制简单局部交互产生的涌现行为",
+    "创新点": [
+      "提出“分析群体化学”框架，整合工程、基于代理的研究和化学概念，系统探索群体参数对涌现行为的影响",
+      "将参数视为热力学变量，可视化参数空间中产生特定行为的区域，奠定可预测涌现行为的理论基础"
+    ]
+  },
+  "Ellipsoidal Set-Theoretic Design of Robust Safety Filters for   Constrained Linear Systems": {
+    "主题": "鲁棒安全性滤波器的椭球集理论设计",
+    "场景": "受外部有界扰动和输入约束的线性系统安全控制",
+    "创新点": [
+      "采用椭球集理论框架，将安全性滤波器设计转化为凸LMI优化问题，兼顾计算高效性与安全性保证",
+      "提出基于距离的平滑混合控制策略，在安全运行时最小化干预，保持系统标称性能",
+      "通过将非线性项视为有界扰动，扩展方法至非线性系统并保持严格近似界限"
+    ]
+  },
+  "Curriculum-Based Iterative Self-Play for Scalable Multi-Drone Racing": {
+    "主题": "多无人机竞速的强化学习框架",
+    "场景": "高速、竞争性环境下的多自主智能体协调",
+    "创新点": [
+      "结合渐进难度课程与高效自博弈机制，提升训练鲁棒性和可扩展性",
+      "在高保真仿真中实现竞速速度近乎翻倍，并保持高成功率",
+      "通过消融实验验证课程结构是性能突破的关键因素"
+    ]
+  },
+  "Self-Play Incremental Racing Algorithm for Learning in   Multi-Drone Competitions": {
+    "主题": "多智能体无人机竞赛学习算法",
+    "场景": "自主无人机在动态竞争环境中学习飞行控制与协作策略",
+    "创新点": [
+      "采用自博弈机制，使无人机与逐步提升的自身版本对抗，渐进式训练复杂竞赛行为",
+      "兼容多种深度强化学习算法，提供通用可扩展框架"
+    ]
+  },
+  "Residual Bias Compensation Filter for Physics-Based SOC Estimation in   Lithium Iron Phosphate Batteries": {
+    "主题": "磷酸铁锂电池SOC估计",
+    "场景": "针对磷酸铁锂电池开放电路电压-荷电状态（OCV-SOC）曲线平坦导致观测性降低的问题",
+    "创新点": [
+      "提出双扩展卡尔曼滤波结构（RBC-DEKF），将残差偏差估计与电化学状态估计解耦，避免单滤波器中状态耦合导致的协方差放大",
+      "实时修正电压观测方程，结合温控参数分组单粒子模型，显著提升中段SOC范围（OCV平坦区）的估计精度",
+      "在0°C至50°C宽温域工况下验证，SOC均方根误差从3.75%降至0.20%，电压误差从32.8mV优化至0.8mV"
+    ]
+  },
+  "A Correlation-Aware Attribution Framework (CAAF)   for Real-world Data Modeling": {
+    "主题": "机器学习特征归因框架",
+    "场景": "复杂现实系统（如结构健康监测、翼型升力预测、湍流通道流速估计）中的最优传感器部署",
+    "创新点": [
+      "提出相关性感知归因框架（CAAF），通过聚类预处理降低高相关性输入数据的冗余",
+      "在非线性、混沌及多尺度相互作用的现实动态系统中，性能优于传统方法"
+    ]
+  },
+  "Approximate Gradient Coding for Distributed Learning with Heterogeneous   Stragglers": {
+    "主题": "分布式学习中的梯度编码优化",
+    "场景": "解决异构环境中分布式学习的拖尾者（straggler）问题",
+    "创新点": [
+      "提出基于拉格朗日对偶性和凸优化的闭式解，优化编码和解码系数，最小化残差误差",
+      "设计了减少冗余和计算负载的数据分配策略，优于传统数据复制方法",
+      "首次在梯度编码中显式建模个体拖尾概率，确保无偏梯度估计"
+    ]
+  },
+  "Robust Multi-Agent Safety via Tube-Based Tightened Exponential Barrier   Functions": {
+    "主题": "非线性多智能体系统安全控制",
+    "场景": "存在有界干扰的非线性多智能体系统的安全控制器合成",
+    "创新点": [
+      "提出基于鲁棒正不变（RPI）管的约束收紧方法，将鲁棒误差反馈与名义轨迹规划相结合",
+      "利用RPI管的几何特性推导状态依赖的安全边界，并用于收紧高阶指数控制屏障函数约束",
+      "在分布式模型预测控制中实现该方法，同时优化性能并保持鲁棒安全保证"
+    ]
+  },
+  "the Curse of   Dimensionality": {
+    "主题": "向量值再生核希尔伯特空间（vRKHS）在非参数自适应控制中的应用",
+    "场景": "解决非参数自适应控制策略中的维度灾难问题",
+    "创新点": [
+      "提出一类新型的算子值核定义的向量值再生核希尔伯特空间（vRKHS），用于表示非参数自适应控制中的功能不确定性",
+      "基于紧致、l维光滑黎曼流形M的结构推导出机动vRKHS，其中M近似支持待跟踪参考系统的最终动态",
+      "引入机动或轨迹vRKHS（KM）概念，针对特定类型非参数自适应控制策略中的维度问题进行优化"
+    ]
+  },
+  "A Scenario-based Stochastic Model of using BESS-based Virtual   Transmission Lines in Day-Ahead Unit Commitment": {
+    "主题": "可再生能源并网中的虚拟输电线路优化",
+    "场景": "考虑可再生能源不确定性的电力系统日前机组组合优化",
+    "创新点": [
+      "提出基于场景的随机安全约束机组组合模型（SSCUC-VTL），整合可再生能源预测误差和虚拟输电线路（VTL）决策",
+      "相比传统物理输电线路，VTL降低23%运行成本；相比独立电池储能，VTL多缓解67%网络阻塞"
+    ]
+  },
+  "Spatial Aggregation   Impacts on a Realistic Test-Case": {
+    "主题": "电力系统容量扩展规划（CEP）的空间聚合分析",
+    "场景": "评估低空间分辨率的区域模型与完整节点电力网络在CEP问题中的近似效果",
+    "创新点": [
+      "首次系统性研究了空间聚合在ISO和互连规模CEP中的适用性",
+      "通过基于加州电网的8,000+母线和10,000+线路的真实大规模测试网络，量化了不同聚合粒度对投资决策的失真影响"
+    ]
+  },
+  "Data-driven Exponential Framing for Pulsive Temporal Patterns without   Repetition or Singularity": {
+    "主题": "数据驱动的脉冲时间模式分析",
+    "场景": "从小数据集中提取非重复、非单一的脉冲时间模式，应用于制造业（如冲压机电流测量）",
+    "创新点": [
+      "提出Data-driven Exponential Framing（DEF）方法，量化时间模式的持续时间，不依赖模式重复性或单一性",
+      "基于时间延迟嵌入和Hankel矩阵分析，在线性动态系统模型中引入具有不同指数衰减常数的离散时间基",
+      "通过滑动窗口拟合子序列，实现多长度脉冲模式的同时识别，适用于现实振荡数据（如工业设备监测）"
+    ]
+  },
+  "Towards Stochastic (N-1)-Secure Redispatch": {
+    "主题": "电力系统随机最优潮流重调度",
+    "场景": "考虑可再生能源不确定性的电力系统(N-1)安全约束优化",
+    "创新点": [
+      "首次将多项式混沌展开(PCE)方法应用于(N-1)安全约束的随机最优潮流问题",
+      "提出迭代求解框架，通过逐步包含线路中断约束实现随机(N-1)安全重调度"
+    ]
+  },
+  "Simulation of Remote   Sensing and Control Systems": {
+    "主题": "物联网在禽类养殖中的自动化监控",
+    "场景": "基于物联网的肉鸡养殖环境（温度与喂食）远程监测与控制",
+    "创新点": [
+      "结合传感器网络与嵌入式系统，构建肉鸡管理的自动化仿真系统",
+      "集成云端数据库与可视化面板，提升监测数据的可访问性与决策效率",
+      "提供低成本自动化解决方案，促进养殖业的可持续发展和规模化应用"
+    ]
+  },
+  "Flexibility aggregation via set projection for distribution grids with   multiple interconnections": {
+    "主题": "电力系统灵活性聚合",
+    "场景": "多互联点配电网与输电网协同运行",
+    "创新点": [
+      "提出多互联点配电网的可行运行区域（FOR）计算方法，突破传统单互联点假设",
+      "从电力系统视角分析高维FOR特性，支持TSO/DSO分层优化协调"
+    ]
+  },
+  "An Error-Based Safety Buffer for Safe Adaptive Control (Extended   Version)": {
+    "主题": "安全自适应控制",
+    "场景": "具有匹配参数不确定性和状态约束的反馈线性化系统控制",
+    "创新点": [
+      "将自适应控制与控制屏障函数结合，确保系统在参数不确定性下的稳定性、性能与安全性",
+      "无需对指令信号施加激励条件，同时保证控制目标与安全目标近乎零保守性实现",
+      "针对不同参数不确定性类型，处理具有任意相对度的控制屏障函数"
+    ]
+  },
+  "Payload trajectory tracking control for aerial transportation systems   with cable length online optimization": {
+    "主题": "可变长度缆索航空运输系统的控制",
+    "场景": "多旋翼无人机吊运载荷时的轨迹跟踪与缆索长度动态调整",
+    "创新点": [
+      "提出基于反步法的控制策略，解决可变长度缆索引入的非线性和复杂耦合问题",
+      "开发缆索长度在线优化器，自动平衡无人机运动与缆索变化，无需人工轨迹规划"
+    ]
+  },
+  "Inertia Partitioning Modular Control Framework for Reconfigurable   Multibody Systems": {
+    "主题": "模块化控制框架",
+    "场景": "可重构刚性多体系统的轨迹跟踪控制",
+    "创新点": [
+      "提出基于自由度的惯性属性分割方法，通过运动诱导的动力学能量反映各自由度的影响",
+      "统一处理闭链与树状结构，无需显式约束力计算或微分代数方程",
+      "框架具有可扩展性，适用于多体系统的轨迹跟踪控制"
+    ]
+  },
+  "Improving Worst-Case   Guarantees during Training": {
+    "主题": "电力系统优化控制",
+    "场景": "交流最优潮流（AC-OPF）问题的安全高效求解",
+    "创新点": [
+      "将最坏情况约束违规直接纳入神经网络训练，提高模型安全性和准确性",
+      "首次实现大规模AC-OPF代理模型所有运行约束的可验证性",
+      "提出针对不可行操作点的恢复和预热启动策略，增强实用性"
+    ]
+  },
+  "Embroidery Actuator Utilizing Embroidery Patterns to Generate Diverse   Fabric Deformations": {
+    "主题": "刺绣气动执行器",
+    "场景": "通过刺绣图案设计实现多样化和可控的织物变形，适用于柔性执行器应用。",
+    "创新点": [
+      "采用刺绣技术直接在织物上缝制充气管，通过刺绣图案约束充气膨胀，实现定向弯曲或拉伸变形。",
+      "提出基于Neo-Hookean模型和拉格朗日方程的变形分析模型，可预测气动压力与弯曲角度的关系，并通过运动捕捉实验验证模型准确性。"
+    ]
+  },
+  "A Deep Neural Observer-Based Controller for Vehicle Lateral   Dynamics": {
+    "主题": "车辆横向动力学控制",
+    "场景": "自动驾驶车辆个性化横向控制",
+    "创新点": [
+      "采用深度神经网络（DNN）替代传统扰动观测器（DOB），学习驾驶员的转向补偿信号，针对性解决未建模动力学及驾驶员特异性行为",
+      "提出LQR与NeuroDOB的双系统架构，结合模型快速分析层（System 1）与数据驱动补偿层（System 2），实现稳定性和自适应性协同控制"
+    ]
+  },
+  "Context-awareness for Dependable Low-Power IoT": {
+    "主题": "低功耗物联网的上下文感知可靠性",
+    "场景": "大规模、能量受限的物联网部署中确保服务的可靠性与连续性",
+    "创新点": [
+      "提出四个关键上下文维度（能量状态、信息新鲜度、任务相关性和物理/介质条件）以支撑物联网可靠性",
+      "设计两步协议框架，集成特定操作上下文字段，显著提升系统可靠性且控制开销极低"
+    ]
+  },
+  "Combining High Level Scheduling and Low Level Control to Manage Fleets   of Mobile Robots": {
+    "主题": "移动机器人协同控制框架",
+    "场景": "工业环境中大规模移动机器人车队动态物料搬运的协调与避障",
+    "创新点": [
+      "提出两级架构（高层调度+底层控制），结合ComSat算法实时生成时变路径与分布式MPC局部轨迹规划",
+      "动态干扰快速响应机制，支持机器人故障/环境突变时的实时重调度与碰撞规避",
+      "模块化设计兼顾运算效率与扩展性，在仿真中验证了高任务完成率与拥堵鲁棒性"
+    ]
+  },
+  "A zero knowledge system for time series attack detection   enforcing regulatory compliance in critical infrastructure networks": {
+    "主题": "零知识证明在关键基础设施网络攻击检测中的应用",
+    "场景": "关键基础设施网络（如电网、供水系统、燃气管道）中的工业控制系统（ICS），需满足监管机构对网络安全合规性的要求，同时保护敏感操作数据的隐私。",
+    "创新点": [
+      "提出zkSTAR框架，利用zk-SNARKs技术实现可验证的攻击检测，无需公开敏感数据，确保数据机密性。",
+      "设计双管齐下的zk-SNARK架构，强制状态空间动态的时间一致性和检测测试的统计一致性，使监管机构能验证警报正确性而不访问具体数据。",
+      "通过真实ICS数据集的计算实验验证框架的可行性和可扩展性，为隐私保护的监管合规提供了替代方案。"
+    ]
+  },
+  "Sequential Sensing for End-to-End Control in Legged Robot   Navigation": {
+    "主题": "智能感知与控制的四足机器人导航",
+    "场景": "四足机器人在真实环境（道路和草地地形）中的自主导航",
+    "创新点": [
+      "提出Seq-DeepIPC模型，首次将多模态感知（RGB-D + GNSS）与时序融合、控制端到端结合，增强空间特征",
+      "采用EfficientNet-B0编码器优化边缘部署，在保持精度的同时减少计算量",
+      "创新性地通过连续GNSS位置直接计算航向角，替代噪声较多的IMU，简化航向估计",
+      "构建更大规模、多样化的数据集（含不同地形），并验证模型在机器狗上的实用性"
+    ]
+  },
+  "Planning Oriented Integrated Sensing and Communication": {
+    "主题": "规划导向的集成感知与通信（PISAC）",
+    "场景": "自动驾驶车辆在复杂城市环境中同时进行定位、环境感知和数据通信",
+    "创新点": [
+      "提出基于安全界的闭环功率分配模型，将感知不确定性与发射功率直接关联（利用克拉美罗下界和占用膨胀原理）",
+      "首创双层优化架构：内层优化ISAC波束功率分配，外层在不确定性感知约束下规划无碰撞轨迹",
+      "突破传统ISAC均质化目标处理的局限，针对性降低规划瓶颈障碍物的感知不确定性"
+    ]
+  },
+  "An Intelligent Water-Saving Irrigation System Based on Multi-Sensor   Fusion and Visual Servoing Control": {
+    "主题": "智能节水灌溉系统",
+    "场景": "精准农业中的水灌溉，特别是在地形复杂和光照多变的温室及丘陵地区",
+    "创新点": [
+      "采用多传感器融合和轻量级YOLO模型，在嵌入式视觉处理器上实现实时植物容器检测，准确率超96%",
+      "简化手眼校准算法，针对手持摄像头机器人臂配置，末端定位成功率超90%",
+      "开发主动调平系统，能在10度斜坡上稳定灌溉平台，响应时间仅1.8秒"
+    ]
+  },
+  "End-to-End Design and Validation of a Low-Cost Stewart Platform with   Nonlinear Estimation and Control": {
+    "主题": "低成本Stewart平台设计与控制",
+    "场景": "用于科研与教育的低成本六自由度机器人平台",
+    "创新点": [
+      "采用3D打印与定制零件结合现成组件，实现低成本全六自由度运动",
+      "集成反馈线性化与LQR的混合控制方案，补偿系统非线性动力学",
+      "扩展卡尔曼滤波融合多传感器数据，提升噪声干扰下的状态估计精度",
+      "提供从硬件到软件的完整验证框架（含动态建模与实时控制）"
+    ]
+  },
+  "Adaptive Virtual Model Control with LLM- and   Lyapunov-Based Reinforcement Learning": {
+    "主题": "机器人自适应虚拟模型控制",
+    "场景": "不确定环境下的机械臂控制",
+    "创新点": [
+      "结合大语言模型（LLM）提供结构化先验和高层推理，增强虚拟组件间协调性并提升样本效率",
+      "引入基于Lyapunov的强化学习（RL）强制理论稳定性约束，确保不确定条件下的安全可靠适配"
+    ]
+  }
+}

@@ -1,0 +1,798 @@
+{
+  "Design and Structural Validation of a Micro-UAV with On-Board Dynamic   Route Planning": {
+    "主题": "微型无人机设计与结构验证",
+    "场景": "搜救行动中的动态路径规划与避障",
+    "创新点": [
+      "采用轻量化且耐用的材料增强结构框架，提升在复杂地形中飞行的耐久性",
+      "基于开源软件的机载控制系统，实现实时感知和自适应导航，无需昂贵硬件加速器"
+    ]
+  },
+  "Enhancing Tactile-based Reinforcement Learning for Robotic Control": {
+    "主题": "机器人触觉强化学习",
+    "场景": "机器人操纵中的触觉感知优化",
+    "创新点": [
+      "提出自监督学习方法，有效利用稀疏二进制触觉信号提升灵巧性",
+      "分离自监督学习记忆与策略记忆以提高性能",
+      "发布Robot Tactile Olympiad (RoTO)基准促进触觉操纵研究标准化"
+    ]
+  },
+  "Estimation of Minimum Stride Frequency for the Frontal Plane Stability   of Bipedal Systems": {
+    "主题": "双足系统稳定性与步频优化",
+    "场景": "双足机器人在冠状面的平衡控制，通过调整步频实现无反馈稳定",
+    "创新点": [
+      "提出预测最小步频的方法，分析质量、刚度、腿长等参数对稳定性的影响",
+      "揭示自然频率与关键参数对维持稳定步频的作用，减少控制能耗",
+      "通过随机模型验证预测步频与实际值的匹配，增强前馈稳定机制的实用性"
+    ]
+  },
+  "Two-Steps Diffusion Policy for Robotic Manipulation via Genetic   Denoising": {
+    "主题": "扩散模型在机器人操作中的应用",
+    "场景": "机器人模仿专家演示进行精确操作任务",
+    "创新点": [
+      "针对具身AI任务特点（结构化、低维动作分布），优化去噪过程，仅需5次神经函数评估（NFE）即可高效运行",
+      "提出基于群体采样的遗传去噪策略，通过筛选低分布外风险的轨迹，提升性能与稳定性（仅需2次NFE达到任务目标）",
+      "（注：摘要中\"20%性能提升\"和\"200万次评估\"属于量化效果，未计入创新点描述；遗传算法在去噪中的迁移应用隐含在第二创新点中）"
+    ]
+  },
+  "Efficient Multiscale Adaptive Tracker for Real-Time Nighttime   UAV Operations": {
+    "主题": "夜间无人机实时追踪系统",
+    "场景": "低光环境下无人机操作（如夜间搜救、边境巡逻）",
+    "创新点": [
+      "提出多尺度分层混合模块（MHB），增强静态与动态模板特征一致性",
+      "设计自适应关键令牌门控机制，精准识别复杂背景中的目标信息",
+      "开发夜间模板校准器（NTC），确保长序列视频中的跟踪稳定性",
+      "（性能：UAVDark135基准上精度/SOTA提升5.9%/5.4%/4.2%，实时处理速度81FPS）"
+    ]
+  },
+  "Learning Neural Control Barrier Functions from Expert Demonstrations   using Inverse Constraint Learning": {
+    "主题": "神经控制屏障函数学习",
+    "场景": "自动驾驶等关键领域的安全控制",
+    "创新点": [
+      "采用逆约束学习（ICL）从未明确指定的失败状态集中学习安全约束",
+      "利用专家演示生成的安全标签训练神经CBF，替代传统计算密集型优化合成方法",
+      "在四种不同环境中验证性能，效果接近使用真实安全标签训练的基准模型"
+    ]
+  },
+  "Scalable Vision-Language-Action Model Pretraining for Robotic   Manipulation with Real-Life Human Activity Videos": {
+    "主题": "机器人操作的视觉-语言-动作模型预训练",
+    "场景": "使用现实生活人类活动视频预训练机器人操作模型",
+    "创新点": [
+      "提出将无标注的人类手部活动视频转化为与机器人VLA训练数据完全对齐的格式，扩展了训练数据的来源和多样性",
+      "开发了全自动整体人类活动分析方法，能够生成原子级手部活动片段及其语言描述，并附带3D手部运动和相机运动信息",
+      "构建了包含1百万个片段、2千6百万帧的大规模手部VLA训练数据集，覆盖范围远超现有机器人数据"
+    ]
+  },
+  "Attention Guided Upsampling with Residual Boundary-Assistive   Refinement for Drivable-Area Segmentation": {
+    "主题": "可行驶区域语义分割",
+    "场景": "自主机器人和自动驾驶车辆的地面可行驶区域识别",
+    "创新点": [
+      "提出残差边界细化模块（RBRM），增强边缘分割精度",
+      "设计注意力渐进上采样解码器（APUD），强化多尺度特征融合",
+      "引入轻量化空洞空间金字塔模块（ASPP-Lite），平衡多尺度提取与实时性"
+    ]
+  },
+  "From Real Videos to World Models of Deformable Objects via   Physics-Aware Demonstration Synthesis": {
+    "主题": "可变形物体的物理感知世界模型",
+    "场景": "从真实视频中学习可变形物体的物理一致性动态模型，应用于机器人、VR和AR领域",
+    "创新点": [
+      "提出PhysWorld框架，利用模拟器合成物理合理且多样化的演示数据，解决真实视频数据稀缺问题",
+      "采用本构模型选择和全局到局部物理属性优化方法，在MPM模拟器中构建物理一致性数字孪生",
+      "引入基于物理属性的轻量级GNN世界模型，推理速度比现有最优方法快47倍"
+    ]
+  },
+  "Load-bearing Assessment for Safe Locomotion of Quadruped Robots on   Collapsing Terrain": {
+    "主题": "四足机器人不稳定地形导航",
+    "场景": "搜救任务或行星探索中的坍塌地形环境",
+    "创新点": [
+      "利用关节力矩测量实现无硬件改装的实时地形稳定性评估（无需依赖专用传感器或外部地形建模）",
+      "结合模型预测控制（MPC）与状态机系统，动态协调地形探测与运动规划（同步优化稳定性与探测约束）"
+    ]
+  },
+  "Proactive Risk Evaluation and Vigilant Execution of Tasks for   Mobile Robotic Chemists using Multi-Modal Behavior Trees": {
+    "主题": "移动机器人化学家风险管理",
+    "场景": "化学与材料研究中，自主移动机器人执行实验流程时的异常检测与安全控制",
+    "创新点": [
+      "提出多模态行为树框架（PREVENT），集成AI与多传感器反馈（视觉/气体传感器）进行分层风险感知",
+      "首次实现零误报与零漏报的异常检测性能，优于单模态感知系统",
+      "兼容现有软件架构，最小化修改代价的同时提升化学实验流程的自主性与安全性"
+    ]
+  },
+  "Enhancing Social Robots through Resilient AI": {
+    "主题": "社交机器人的弹性AI",
+    "场景": "医疗、教育及日常生活场景中与老年人互动的社交机器人",
+    "创新点": [
+      "提出弹性作为社交机器人的核心特性，确保在不利条件下维持基本功能",
+      "通过弹性设计增强老年人对机器人的信任，解决低信任度环境中的交互问题"
+    ]
+  },
+  "Track-to-Track Association for Collective Perception based on Stochastic   Optimization": {
+    "主题": "无人驾驶多传感器轨迹关联",
+    "场景": "智能城市中多车协同感知，克服单一传感器局限",
+    "创新点": [
+      "提出基于随机优化的轨迹关联算法，引入多维似然度（轨迹数量与空间分布）",
+      "支持生成多个关联假设，提升模糊环境下的高似然解算能力"
+    ]
+  },
+  "A Neuro-Symbolic Framework for   Embodied Task Planning": {
+    "主题": "神经符号框架的具身任务规划",
+    "场景": "动态或部分可观测环境中的机器人任务执行",
+    "创新点": [
+      "引入显式符号验证和交互验证流程，增强代码生成的环境基础",
+      "生成探索性代码主动获取缺失观测，同时保留任务相关状态",
+      "相比基线方法提升46.2%任务成功率，动作可执行率达86.8%"
+    ]
+  },
+  "Remote Autonomy for Multiple Small Lowcost UAVs in GNSS-denied Search   and Rescue Operations": {
+    "主题": "低成本多无人机自主搜救系统",
+    "场景": "GNSS信号缺失环境下的多无人机协同搜救任务",
+    "创新点": [
+      "利用轻量化消费级DJI无人机实现自主飞行，无需昂贵定制传感器或强计算设备",
+      "通过遥控器安卓应用直接进行状态估计与避障，简化系统架构",
+      "地面控制站支持单操作员同时配置/监控异构无人机群",
+      "多机观测数据融合生成联合3D环境模型以增强态势感知"
+    ]
+  },
+  "Efficient Stein-variational and Sliced Consistency-Optimized   Temporal Belief Representation for POMDPs": {
+    "主题": "POMDP中的复杂信念表示",
+    "场景": "部分可观测马尔可夫决策过程中的高维、多模态信念分布建模",
+    "创新点": [
+      "引入相关感知投影，建模状态维度间的依赖关系",
+      "提出时间一致性约束，在更新时稳定相关性结构",
+      "动态适应信念分布复杂性，避免重采样或固定分布假设"
+    ]
+  },
+  "Generalizable Hierarchical Skill Learning via Object-Centric   Representation": {
+    "主题": "机器人分层技能学习",
+    "场景": "机器人操作任务中的策略泛化与样本效率提升",
+    "创新点": [
+      "提出基于物体中心化表征的通用性分层技能学习框架（GSL），利用物体中心化技能作为高层视觉语言模型与低层视觉运动策略的桥梁",
+      "采用基础模型将演示分解为可迁移且物体规范化的技能基元，实现物体坐标系中的高效低层技能学习"
+    ]
+  },
+  "An Agnostic End-Effector Alignment Controller for Robust Assembly of   Modular Space Robots": {
+    "主题": "模块化太空机器人末端执行器对齐控制",
+    "场景": "月球任务中模块化机器人的自主装配与重构",
+    "创新点": [
+      "提出动态超球体钳位方法，实现自适应速度限制，确保平稳稳定的末端执行器对齐",
+      "开发离散（步进式）和连续（速度式）两种控制变体，分别优化运动可预测性（低抖动）与快速收敛性（毫米级精度）",
+      "硬件无关设计，兼容不同机械缺陷（如背隙、弯曲）和传感噪声的机器人肢体"
+    ]
+  },
+  "Zero-shot Incremental 3D Scene Graphs via Vision-Language   Models": {
+    "主题": "3D场景图生成",
+    "场景": "机器人在复杂3D环境中的场景理解与增量更新",
+    "创新点": [
+      "提出ZING-3D框架，利用预训练视觉语言模型实现零样本开放词汇识别和3D几何 grounding",
+      "支持场景图的增量更新，适应机器人动态观测需求"
+    ]
+  },
+  "Underwater Visual-Inertial-Acoustic-Depth SLAM with DVL Preintegration   for Degraded Environments": {
+    "主题": "水下多传感器SLAM",
+    "场景": "视觉退化环境（低能见度、光照不足、特征稀少）的水下定位与建图",
+    "创新点": [
+      "提出四模态传感器（立体相机+IMU+DVL+压力传感器）紧耦合方案，提升视觉退化环境下的可靠性",
+      "设计基于速度-偏差的DVL预积分策略，抑制DVL漂移并提高测量效率",
+      "融合声学-惯性-深度数据的联合优化与多源混合残差图优化框架"
+    ]
+  },
+  "Real-Time Incremental Planning with   Fast Almost-Surely Asymptotically Optimal Planners": {
+    "主题": "实时增量式运动规划算法",
+    "场景": "机器人在动态环境中快速响应障碍物变化的路径规划",
+    "创新点": [
+      "提出无需更新已有规划的增量式规划方法，通过快速渐进最优（ASAO）算法独立解决系列问题",
+      "采用Effort Informed Trees (EIT*)算法，在动态障碍物下获得比传统响应式算法更短的路径中位数",
+      "验证Asymptotically Optimal RRT-Connect (AORRTC)在机械臂真实场景的适用性"
+    ]
+  },
+  "A short methodological review on social robot navigation benchmarking": {
+    "主题": "社会机器人导航基准测试",
+    "场景": "人类密集环境中机器人的安全高效移动",
+    "创新点": [
+      "系统分析了2020年1月至2025年7月期间社会机器人导航基准测试的研究趋势",
+      "首次聚焦于基准测试的指标、算法、人类调查及结果分析方法，填补领域标准化空白"
+    ]
+  },
+  "Separation of Unconscious Robots with Obstructed Visibility": {
+    "主题": "机器人分离问题",
+    "场景": "不透明机器人模型下，机器人需在可见性受阻的欧几里得平面中分离成同心半圆",
+    "创新点": [
+      "首次在可见性受阻的不透明机器人模型中解决分离问题，机器人可阻挡其他机器人间的视线",
+      "提出碰撞自由算法，在半同步调度器下以O(n)时间完成分离，形成同心半圆"
+    ]
+  },
+  "A Vision-Language Deep Reinforcement Learning Framework   for Lane Keeping in Autonomous Vehicles": {
+    "主题": "自动驾驶车道保持的增强学习框架",
+    "场景": "自动驾驶车辆在复杂驾驶环境中的车道保持",
+    "创新点": [
+      "提出BLIP-FusePPO框架，将视觉语言模型的语义嵌入与几何状态、LiDAR观测和PID控制反馈直接融合",
+      "设计了混合奖励函数，结合语义对齐、车道保持精度、障碍物避让和速度调节，提升学习效率和泛化能力",
+      "直接将语义特征嵌入状态表示，避免昂贵的运行时推理，实现持续性语义引导"
+    ]
+  },
+  "A Novel Multi-Timescale Stability-Preserving Hierarchical Reinforcement   Learning Controller Framework for Adaptive Control in High-Dimensional   Dynamical Systems": {
+    "主题": "高维动态系统自适应控制",
+    "场景": "机器人、自动驾驶车辆和超混沌系统等高维随机系统的控制",
+    "创新点": [
+      "提出多时间尺度Lyapunov约束分层强化学习（MTLHRL）框架，整合高层策略进行战略规划和低层策略进行反应控制，有效管理复杂多时间尺度决策并降低维度开销",
+      "通过基于拉格朗日松弛和多时间尺度actor-critic更新的神经Lyapunov函数严格确保随机动力学中的均方有界性或渐近稳定性",
+      "采用信任域约束和解耦优化促进高效可靠的学习"
+    ]
+  },
+  "Estimating Continuum Robot Shape under External Loading using   Spatiotemporal Neural Networks": {
+    "主题": "连续体机器人形状估计",
+    "场景": "在外部负载下预测柔性连续体机器人的3D形状",
+    "创新点": [
+      "提出时空神经网络架构，融合多模态输入（肌腱位移数据和RGB图像）",
+      "设计递归神经模块和编码模块，分别提取时空特征并实现多模态融合",
+      "通过贝塞尔曲线拟合点云实现连续3D形状重建，精度优于现有方法"
+    ]
+  },
+  "Joint Optimization of Control and   Morphology for Fall Recovery": {
+    "主题": "人形机器人控制与形态协同优化",
+    "场景": "人形机器人跌倒恢复性能提升",
+    "创新点": [
+      "提出RoboCraft框架，通过控制策略与形态的耦合迭代优化，实现高性能跌倒恢复",
+      "采用跨形态共享预训练策略，并结合高性能形态微调，避免从头训练的耗时问题",
+      "引入受人类启发的先验和优先级缓冲机制，平衡形态搜索中的探索与利用"
+    ]
+  },
+  "A Dynamic-Aware LIO Framework Via   Spatio-Temporal Normal Analysis": {
+    "主题": "动态环境下的激光-惯性里程计（LIO）",
+    "场景": "动态物体主导且几何结构稀疏的环境中的精准定位",
+    "创新点": [
+      "提出动态感知的迭代最近点算法，通过时空法向量分析直接区分动态特征",
+      "结合高效的空间一致性验证方法，提升静态地图构建的可靠性",
+      "打破传统LIO中定位精度与动态特征识别的循环依赖问题"
+    ]
+  },
+  "A Novel Inference Mechanism for Embodied Multi-Agent Systems Using   Composable Graphs of Thoughts": {
+    "主题": "自主车辆-机器人协作系统",
+    "场景": "自主车辆运输服务机器人在办公园区执行任务",
+    "创新点": [
+      "提出新型推理机制CGOT（可组合思维图），优化多智能体系统的决策过程",
+      "首次将大语言模型（LLMs）整合到车辆-机器人协同系统，提升任务执行效率",
+      "设计双自主车辆运输架构，实现载体智能体与被载智能体的动态协作机制"
+    ]
+  },
+  "Human Motion with Grasping in 3D Scenes": {
+    "主题": "三维场景中的人体抓取动作生成",
+    "场景": "机器人学、虚拟现实和人机交互中的精细动作模拟",
+    "创新点": [
+      "提出MOGRAS数据集，填补了全身抓取动作与三维场景融合的空缺",
+      "提出一种简单有效的方法，使现有技术能适应三维场景中的无缝生成"
+    ]
+  },
+  "Dual-Pipeline Neuro-Symbolic Landing   for UAVs in Cluttered Environments": {
+    "主题": "无人机自主着陆的神经符号框架",
+    "场景": "无人机在杂乱、非结构化环境中的安全着陆",
+    "创新点": [
+      "提出双管道架构，结合离线生成（LLMs提炼可验证符号知识）与在线推理（语义分割与符号推理融合）",
+      "使用几何计算而非学习方式生成节点属性和边缘关系，降低数据依赖性并提升实时性",
+      "通过可解释的Scallop程序输出安全评分与着陆区域建议，增强系统可靠性和可验证性"
+    ]
+  },
+  "A Vision-centric Multi-session Mapping System for Lifelong   Safe Navigation of Exoskeletons": {
+    "主题": "视觉中心多会话映射系统",
+    "场景": "下肢残疾人士外骨骼的长期安全导航",
+    "创新点": [
+      "增量式多会话空间知识融合，构建持久全局地图",
+      "环境变化检测与动态障碍物自适应路径规划",
+      "实现厘米级精度（<5cm误差）的激光扫描对标验证"
+    ]
+  },
+  "Action Coherence Guidance for Flow-based VLA models": {
+    "主题": "机器人视觉-语言-动作（VLA）模型的行动连贯性优化",
+    "场景": "在模仿学习训练的机器人操作任务中，提升动作连贯性以减少轨迹漂移和提高精准度",
+    "创新点": [
+      "提出无需重新训练的测试时引导算法（ACG），直接提升VLA模型的动作连贯性",
+      "在模拟环境和真实世界任务（RoboCasa/DexMimicGen/SO-101）中验证了性能提升的普适性"
+    ]
+  },
+  "Drone Carry-on Weight and Wind Flow Assessment via Micro-Doppler   Analysis": {
+    "主题": "无人机载重与风况的微多普勒分析",
+    "场景": "通过雷达监测无人机载重及风力影响，应用于国家安全与空中交通管理。",
+    "创新点": [
+      "提出微多普勒分析法，区分风力和载重对无人机悬停动态的不同影响（载重对称加速转子，风力导致转子转速分裂）。",
+      "设计可控环境实验（电磁隔离暗室+风洞），结合确定性算法从微多普勒谱分支中提取风力和载重参数。"
+    ]
+  },
+  "Eye-Gaze Interaction with Wearable Devices for Robotic   Manipulation": {
+    "主题": "眼动交互的机器人辅助操控系统",
+    "场景": "为行动不便人士提供基于可穿戴设备的机器人物体抓取辅助",
+    "创新点": [
+      "采用可穿戴混合现实（MR）头显实现第一人称视角的自然注视交互，提升直觉性",
+      "结合预训练视觉模型与增强现实视觉提示，实现>88%的单次意图/物体识别准确率",
+      "系统优化显著降低延迟并提高操控精度，摆脱传统摇杆/外接屏幕的限制"
+    ]
+  },
+  "A General Language-Guided Framework for Open-Set 3D Occupancy   Prediction": {
+    "主题": "开放的3D占用预测语言引导框架",
+    "场景": "自动驾驶或机器人导航中的3D场景理解",
+    "创新点": [
+      "提出LOC框架，融合语言引导与多模态学习，支持监督和无监督学习，增强开放集识别能力",
+      "采用多帧LiDAR点云融合与Poisson重建技术，填补动态/静态场景的体素空缺，并通过KNN赋予语义",
+      "引入密集对比学习（DCL），利用体素语义与预定义文本提示缓解特征同质化，无需密集像素级监督"
+    ]
+  },
+  "An LLM-Enhanced Universal and Lightweight Sim-to-Real   Reinforcement Learning Framework for UUV Attitude Control": {
+    "主题": "LLM增强的UUV姿态控制强化学习框架",
+    "场景": "无人水下航行器（UUV）在复杂水下环境中的鲁棒姿态控制",
+    "创新点": [
+      "结合并行强化学习训练与混合控制架构，通过自适应S-Surface控制器执行高层姿态校正",
+      "集成多模态大语言模型（LLM），利用视觉和文本反馈动态调整控制器参数，实现无训练的未建模动态适应",
+      "开发低成本6自由度UUV平台，并通过高效并行仿真训练RL策略"
+    ]
+  },
+  "Kinematically Controllable Cable Robots with Reconfigurable   End-effectors": {
+    "主题": "可重构末端执行器的电缆驱动机器人",
+    "场景": "扩大电缆驱动机器人的平移工作空间，同时解决电缆干扰导致旋转工作空间减少和电缆张力非唯一性问题。",
+    "创新点": [
+      "通过弹簧、螺旋槽轴和匹配螺母将末端执行器组件的线性运动转换为相对旋转，扩展机构的旋转工作空间",
+      "引入轴承提供额外的旋转自由度，使机构非冗余，实现纯运动学控制而无需额外张力传感与控制"
+    ]
+  },
+  "Characterization and Analysis of Emergent   Swarm Behaviors": {
+    "主题": "群体机器人行为分析",
+    "场景": "预测和控制简单局部互动产生的涌现行为，应用于现实世界群体系统。",
+    "创新点": [
+      "引入分析式群体化学框架，结合工程学、基于代理的研究和化学概念，系统探索群体参数对涌现行为的影响。",
+      "将参数视为热力学变量，可视化参数空间中产生特定行为的区域，实现行为预测。"
+    ]
+  },
+  "Integrating PDDL-Integer Programming with LLMs for Coordinating   Multi-Robot Teams Using Natural Language": {
+    "主题": "多机器人自然语言指挥协调",
+    "场景": "将自然语言指令转化为高效可行的多机器人团队行动计划",
+    "创新点": [
+      "提出PIP-LLM框架，结合PDDL团队级规划和整数编程（IP）机器人级规划，实现任务分解与分配分离",
+      "通过依赖图指导机器人级任务分配，显式优化旅行成本和工作负载，同时考虑机器人能力和用户约束",
+      "相比现有方法，提高了计划成功率，降低了旅行成本，实现了更好的负载平衡"
+    ]
+  },
+  "Learning Neural Observer-Predictor Models for Limb-level Sampling-based   Locomotion Planning": {
+    "主题": "神经观测-预测模型在腿式机器人运动规划中的应用",
+    "场景": "腿式机器人在复杂环境中（如狭窄通道和小型障碍物）的肢体级避障运动规划",
+    "创新点": [
+      "提出具有可证明UUB（一致最终有界性）保证的神经观测器，从本体感知历史数据中提供可靠的潜在状态估计",
+      "开发计算高效的预测器，专为基于采样的规划器（如MPPI）所需的数千条轨迹并行快速评估而设计"
+    ]
+  },
+  "Multi-Agent Cooperative SLAM with Text Semantics and WiFi   Features Integration for Similar Indoor Environments": {
+    "主题": "多智能体协同SLAM",
+    "场景": "具有重复结构的相似室内环境（如走廊和房间）中的定位与建图",
+    "创新点": [
+      "融合文本语义与WiFi信号特征，增强位置识别与闭环检测的准确性",
+      "提出TWC-SLAM框架，整合前端里程计、多模态数据关联及全局优化模块",
+      "通过跨智能体的文本-WiFi数据关联实现点云地图对齐，解决重复结构带来的混淆问题"
+    ]
+  },
+  "Complementary Rotational and Linear Prototypes   for Environment-Adaptive Grasping": {
+    "主题": "环境自适应抓取机构",
+    "场景": "机器人抓取不同形状和尺寸的物体",
+    "创新点": [
+      "设计两种互补的指型（SCAL-R旋转驱动和SCAL-L线性驱动），分别通过主动包络和被动展开适应不同物体特征",
+      "将接触表面跟随动作转换为抬升分支，实现低矮或薄型物体的无复杂传感抓取",
+      "通过准静态分析提供几何感知的指尖力模型，指导设计和操作"
+    ]
+  },
+  "Actor-Critic Task-Completion with Look-ahead Action Simulation": {
+    "主题": "Web-agent任务完成系统",
+    "场景": "非特定网站环境下的自适应网络任务自动化",
+    "创新点": [
+      "引入认知空间的动作模拟（ATLAS），通过前瞻性行动预测优化执行计划",
+      "模块化架构设计，无需针对特定网站的LLM微调",
+      "整合世界模型、分层规划器和前瞻重规划器，形成互补系统组件"
+    ]
+  },
+  "Reinforcement Learning for Autonomous Visual Inspection of   Space Targets": {
+    "主题": "自主空间目标视觉检测",
+    "场景": "利用强化学习实现航天器在轨自主视觉检测任务，包括绕月门户等空间目标的3D近距离机动",
+    "创新点": [
+      "提出RL-AVIST框架，结合高保真6自由度航天器动力学模拟和先进模型强化学习算法DreamerV3",
+      "开发两种训练策略：通用随机速度向量训练和专业固定轨迹训练，以增强适应性和任务性能",
+      "评估策略在多种航天器构型和任务领域中的鲁棒性和泛化能力"
+    ]
+  },
+  "Predicting the Road Ahead": {
+    "主题": "自动驾驶车辆感知系统",
+    "场景": "自动驾驶车辆在不确定环境下的道路布局预测与决策",
+    "创新点": [
+      "引入随机集合神经网络（RS-NNs）显式量化预测不确定性，优于传统CNN和贝叶斯方法",
+      "提出基于不确定性的动态车辆速度调节机制，提升自动驾驶的安全性和鲁棒性"
+    ]
+  },
+  "Reinforcement Learning based Distributed Pose-Graph   Optimization for Multi-Robot SLAM": {
+    "主题": "分布式位姿图优化 (PGO)",
+    "场景": "多机器人SLAM中的轨迹估计",
+    "创新点": [
+      "采用多智能体强化学习 (MARL) 框架解决分布式PGO问题，将问题建模为局部位姿图上的部分可观测马尔可夫博弈。",
+      "提出基于图神经网络的边缘去噪编码器与自适应边缘门控机制，结合先验动作记忆和图嵌入的混合策略优化位姿估计。",
+      "通过策略复制实现单一学习策略在更大规模机器人团队中的零重训练扩展，显著提升推理效率（至少6倍）。"
+    ]
+  },
+  "A Dataset for Multimodal Grounding Across Egocentric and   Exocentric Views": {
+    "主题": "多模态数据集在视角参照交流中的应用",
+    "场景": "研究通过自我中心（egocentric）和外部中心（exocentric）视角的多模态参照交流，应用于厨房场景中的对象识别。",
+    "创新点": [
+      "结合Project Aria智能眼镜和固定摄像头，同步记录视线、语音和视频，提供多模态数据集",
+      "数据集包含3D场景重建和2,707个标注的参照表达，支持评估2D与3D、自我与外部视角对多模态交流的影响"
+    ]
+  },
+  "Curriculum-Based Iterative Self-Play for Scalable Multi-Drone Racing": {
+    "主题": "多智能体无人机竞速强化学习",
+    "场景": "高速、竞争性环境下的多无人机协同竞速",
+    "创新点": [
+      "结合渐进难度课程与高效自我博弈机制，提升训练可扩展性",
+      "显著超越传统强化学习基线及先进博弈论规划器（速度提升近两倍）",
+      "通过课程结构验证实现性能突破，适应智能体密度动态增加"
+    ]
+  },
+  "Self-Play Incremental Racing Algorithm for Learning in   Multi-Drone Competitions": {
+    "主题": "多智能体无人机竞速学习算法",
+    "场景": "动态竞争环境中的自主无人机训练",
+    "创新点": [
+      "采用自博弈机制逐步培育复杂竞速行为，智能体通过不断与自身更强版本对抗提升能力",
+      "设计通用框架可兼容各类前沿深度强化学习算法，实现方法灵活性",
+      "自主生成难度递增的挑战环境，支持从基础飞行控制到高级协作策略的渐进式学习"
+    ]
+  },
+  "A Robust Gaussian Splatting SLAM System for Noisy and   Low-light Environment Resilience": {
+    "主题": "3D高斯泼溅SLAM系统",
+    "场景": "噪声和低光照环境下的同步定位与建图",
+    "创新点": [
+      "提出结构保持鲁棒融合机制（SP-RoFusion），结合渲染外观、深度和边缘线索",
+      "引入自适应跟踪目标与残差平衡正则化",
+      "采用基于CLIP的增强模块，在复杂退化条件下选择性恢复语义和结构保真度"
+    ]
+  },
+  "A Robust and Efficient Loop Closure Detection   Method Under Perceptual Aliasing": {
+    "主题": "视觉SLAM闭环检测",
+    "场景": "感知混叠环境（如狭窄管道）中的精准闭环检测",
+    "创新点": [
+      "提出词袋组（BoWG）方法，通过词组的空间共现与邻近性构建在线词典，增强特征表达",
+      "将概率转移模型融入相似性计算，采用自适应方案直接整合时间一致性，提升召回率",
+      "结合特征分布分析模块与专用后验证机制，兼顾鲁棒性与计算效率（16ms/帧）"
+    ]
+  },
+  "  Reinforcement Learning Approaches Based on Finite State Machines": {
+    "主题": "基于有限状态机的群体机器人控制",
+    "场景": "异构机器人群体在并发任务中保持空间分离",
+    "创新点": [
+      "提出基于有限状态机（FSM）的控制器，利用遭遇触发转换形成稳定隔离墙",
+      "将FSM与深度Q网络（DQN）结合，动态优化形成\"非军事区\"提升适应性",
+      "DQN增强控制器减少40-50%群体混合并加速收敛"
+    ]
+  },
+  "On Steerability Factors for Growing Vine Robots": {
+    "主题": "软体机器人导航控制",
+    "场景": "城市搜救任务中藤蔓状软体机器人姿态调控",
+    "创新点": [
+      "量化评估尖端负载、气压、长度及直径对机器人转向能力的影响",
+      "提出外置与内置气动执行器的压力比曲线差异及优化方案（外置低启压易饱和/内置高压高曲率）"
+    ]
+  },
+  "Forward Kinematics Solution For A General Stewart Platform Through   Iteration Based Simulation": {
+    "主题": "Stewart平台正运动学求解",
+    "场景": "六自由度材料测试系统中复杂负载条件下的材料表征",
+    "创新点": [
+      "采用改进Denavit-Hartenberg方法的迭代算法，实现对一般Stewart平台单可行正运动学解的自动生成",
+      "摆脱传统方法需人工验证解有效性的限制，可直接用于后续计算",
+      "通过原位校准实现移动平台高精度力控制，支持复合材料多载荷条件下的表征"
+    ]
+  },
+  "Subject-driven 3D and 4D Generation with   Progressive Texture Infilling": {
+    "主题": "主题驱动的3D/4D生成",
+    "场景": "从少数图像生成保持主体语义一致性的3D/4D内容",
+    "创新点": [
+      "提出TIRE框架（跟踪、修复、重映射），通过视频跟踪动态修正现有3D生成模型的输出",
+      "采用渐进式2D修复技术填充缺失区域，并保持多视角一致性"
+    ]
+  },
+  "A Vision-Language-Action Model for Urban Micromobility": {
+    "主题": "城市微移动导航模型",
+    "场景": "大规模动态城市环境中交付机器人导航",
+    "创新点": [
+      "提出两阶段训练框架（监督微调+强化微调），结合仿真与真实数据增强模型适应性和安全性",
+      "显式对齐噪声路径点与视觉观测，实现高低层导航技能（路径-视觉校准+避障）协同",
+      "在MetaUrban测试中SocialNav任务性能超越基线55%，首次展示大规模城市环境可扩展导航"
+    ]
+  },
+  "Bridging the Gap between Synthetic and Real Data for Unsupervised   Domain Adaptation in 3D LiDAR Semantic Segmentation": {
+    "主题": "3D LiDAR语义分割的无监督域适应",
+    "场景": "利用合成点云数据提升真实场景下3D LiDAR点云的语义分割性能",
+    "创新点": [
+      "提出动态伪标签过滤(DPLF)机制，动态调整伪标签选取阈值以提高未标记数据的利用率",
+      "设计先验引导的数据增强流程(PG-DAP)，通过视角变换和强度扰动缓解合成与真实点云的域偏移",
+      "引入数据混合一致性损失，使模型学习与场景上下文无关的鲁棒特征表示"
+    ]
+  },
+  "Scalable Robot Benchmarking via Real-to-Sim   Translation": {
+    "主题": "机器人任务评估框架",
+    "场景": "大规模模拟环境中的机器人策略评估",
+    "创新点": [
+      "通过视频演示自动转换为模拟环境，实现真实到模拟的转换",
+      "结合VLM自动评分和可扩展的人类偏好评估，优化评估效率",
+      "系统扰动模拟环境以测试策略的鲁棒性和泛化能力"
+    ]
+  },
+  "Explicit Memory through Online 3D Gaussian Splatting Improves   Class-Agnostic Video Segmentation": {
+    "主题": "基于3D高斯泼溅的类无关视频分割",
+    "场景": "通过显式3D记忆提升视频分割模型的准确性和一致性",
+    "创新点": [
+      "提出在线3D高斯泼溅技术存储视频序列中的对象级片段，构建显式3D记忆",
+      "开发FastSAM-Splat和SAM2-Splat融合方法，利用3D记忆增强基础模型预测性能",
+      "实验验证显式3D记忆优于无记忆或隐式神经网络记忆方法"
+    ]
+  },
+  "Deductive Chain-of-Thought Augmented Socially-aware Robot Navigation   World Model": {
+    "主题": "社交机器人导航世界模型",
+    "场景": "动态人类空间中的机器人导航",
+    "创新点": [
+      "提出NaviWM模型，结合空间-时间世界模型和演绎推理模块，增强LLM的逻辑一致性",
+      "将社交规范编码为一阶逻辑，实现可解释、可验证的推理过程"
+    ]
+  },
+  "Open-Source Vision-Language-Action Toolbox": {
+    "主题": "开源视觉-语言-动作模型工具箱",
+    "场景": "为具身智能领域研究者提供一站式VLA研究服务",
+    "创新点": [
+      "支持多主流VLA策略的代码库，单环境配置即可复现多种方法",
+      "实验导向设计，通过修改Exp脚本快速开发新VLA实验",
+      "提供更强预训练模型，显著提升现有VLA策略性能",
+      "持续更新行业最新预训练基础模型和前沿VLA模型"
+    ]
+  },
+  "Continual Open-Ended Human-Robot Assistance": {
+    "主题": "持续开放式人机协作",
+    "场景": "人机长期协作中的个性化辅助",
+    "创新点": [
+      "提出COOPERA框架，首次实现基于心理特征模拟的开放式长期人机协作研究",
+      "引入动态人类意图推断方法，实现机器人动作的个性化适配",
+      "开发跨任务时序基准测试，验证模拟人类行为的真实性"
+    ]
+  },
+  "proprioception in the era of distributed   surgical robotic system": {
+    "主题": "分布式手术机器人系统的本体感知技术",
+    "场景": "手术机器人缺乏空间感知能力，导致碰撞和工作流中断，尤其在分布式多机械臂系统中问题加剧。",
+    "创新点": [
+      "提出无需标记的轻量级本体感知方法，仅使用立体RGB摄像头和新型基于Transformer的深度学习模型，实现高精度定位，穿透无菌覆盖物遮挡。",
+      "建立迄今最大规模多中心手术机器人空间数据集（140万自标注图像），支持全机器人追踪和手术场景理解，提升 occlusion 鲁棒性。",
+      "首次在活体呼吸补偿实验中同步追踪组织动态，突破现有技术不可观测的限制，并在多机器人系统中实现准确定位，将追踪可视性提升25%。",
+      "（注：摘要中提及的\"消除标记物\"和\"提高安全性\"属于技术优势，已整合至创新点描述；\"模块化/自治手术\"为应用前景，未单独列出以保持创新点聚焦性。）"
+    ]
+  },
+  "Full-Dynamics Real-Time Nonlinear Model Predictive Control of Heavy-Duty   Hydraulic Manipulator for Trajectory Tracking Tasks": {
+    "主题": "重型液压机械臂非线性模型预测控制",
+    "场景": "实时高精度轨迹跟踪，同时满足安全和物理约束",
+    "创新点": [
+      "提出结合多射击策略与实时传感器反馈的非线性模型预测控制（NMPC）框架，实现1kHz高频实时控制",
+      "融合基于虚拟分解控制（VDC）的鲁棒底层控制器，确保关节级和末端执行器的双重约束满足"
+    ]
+  },
+  "Transformed Error-State Kalman Filter for Consistent   Visual-Inertial Navigation": {
+    "主题": "视觉惯性导航系统优化",
+    "场景": "解决视觉惯性导航系统中的不一致性问题",
+    "创新点": [
+      "引入线性时变变换改进误差状态卡尔曼滤波，保持系统可观测性",
+      "提出高效的协方差传播加速技术，基于T-ESKF与ESKF的变换关系",
+      "实现状态无关的不可观测子空间，提升线性化点变化时的稳定性"
+    ]
+  },
+  "A review": {
+    "主题": "大语言模型与服务机器人任务规划",
+    "场景": "复杂非结构化家庭环境中的智能服务机器人",
+    "创新点": [
+      "提出大语言模型作为服务机器人“认知大脑”的集成框架，增强自主决策能力",
+      "分析多模态输入（文本/视觉/音频）下任务规划的最新进展",
+      "指出当前技术的挑战并提出未来研究方向，推动非结构化环境中机器人应用"
+    ]
+  },
+  "  from Farmland to the Moon": {
+    "主题": "跨领域自主导航策略迁移",
+    "场景": "农业机器人与行星探索机器人在非结构化环境中的自主导航",
+    "创新点": [
+      "通过深度强化学习（DRL）实现策略在视觉与地形差异显著的领域（农田与月球）间的零样本迁移",
+      "提出基于PPO算法的训练框架，无需针对新环境重新调参或微调，减少适应成本"
+    ]
+  },
+  "Payload trajectory tracking control for aerial transportation systems   with cable length online optimization": {
+    "主题": "可变缆绳长度的空中运输系统控制",
+    "场景": "多旋翼与负载间通过可变长度缆绳进行空中运输，需精确跟踪负载轨迹并动态调整缆绳长度",
+    "创新点": [
+      "提出基于反步法的控制策略，解决可变缆绳带来的非线性和动态耦合问题，实现负载轨迹精准跟踪",
+      "开发缆绳长度在线优化生成器，自动满足状态约束，无需人工轨迹规划即可协调多旋翼运动与缆绳调整",
+      "通过李雅普诺夫理论保证闭环系统渐进稳定性，兼顾控制性能与系统约束"
+    ]
+  },
+  "Precise Time Delay Measurement and Compensation for Tightly Coupled   Underwater SINS/piUSBL Navigation": {
+    "主题": "水下SINS/piUSBL紧耦合导航的时间延迟测量与补偿",
+    "场景": "多传感器水下集成导航系统，尤其涉及声学定位时的时间同步问题",
+    "创新点": [
+      "提出紧耦合导航框架，整合piUSBL、SINS和深度计，通过融合方位角、斜距和深度数据，改善平面阵列垂直角观测性不足的问题",
+      "创新延迟测量策略，结合同步计时与声学信号处理，将传统不可观测的延迟误差转化为可量化参数，实现声波传播和系统处理延迟的显式估计"
+    ]
+  },
+  "Deep Active Inference with Diffusion Policy and Multiple Timescale World   Model for Real-World Exploration and Navigation": {
+    "主题": "深度主动推理机器人导航",
+    "场景": "真实环境下的自主机器人探索与目标导航",
+    "创新点": [
+      "提出结合扩散策略和多重时间尺度世界模型（MTRSSM）的深度主动推理框架，增强动作多样性和长时程预测能力",
+      "通过潜在想象实现期望自由能（EFE）最小化的动作选择，统一探索与目标导向导航",
+      "实验验证在探索需求场景中成功率提升且碰撞减少"
+    ]
+  },
+  "Optimal Dimensioning of Elastic-Link Manipulators regarding Lifetime   Estimation": {
+    "主题": "弹性连杆机械臂的寿命优化设计",
+    "场景": "工业自动化中的轻量级机械臂设计，特别是拾放操作场景",
+    "创新点": [
+      "提出结合雨流计数算法和临界切割平面法的疲劳分析方法，用于弹性连杆机械臂的寿命估计",
+      "采用Tresca假设和线性损伤累积理论构建等效应力模型，优化机械臂几何设计",
+      "通过Pareto前沿权衡寿命与振动特性，实现轻量化与动态性能的综合优化"
+    ]
+  },
+  "If They Disagree, Will You Conform? Exploring the Role of Robots' Value   Awareness in a Decision-Making Task": {
+    "主题": "人机交互中的价值感知机器人",
+    "场景": "人类与机器人在图像标签任务中的决策协作",
+    "创新点": [
+      "提出价值感知机器人（Value-Aware）概念，通过理解人类原则影响决策，显著增加用户凝视时长",
+      "发现双机器人持异议时，用户决策延迟提升，揭示机器人可能通过分歧促发人类反思，降低欺诈风险"
+    ]
+  },
+  "Workspace Registration and Collision Detection for Industrial Robotics   Applications": {
+    "主题": "工业机器人环境感知与碰撞检测",
+    "场景": "工业机器人运动规划中的障碍物识别与防碰撞环境构建",
+    "创新点": [
+      "采用区域增长分割和VCCS算法结合的点云聚类方法识别碰撞物体",
+      "提出多传感器对比框架优化工作空间点云采集精度",
+      "实现从环境检测到完整碰撞环境建模的流程标准化（注：根据摘要可推导的隐含创新）"
+    ]
+  },
+  "Time-Adaptive Robotic Control": {
+    "主题": "自适应机器人控制",
+    "场景": "机器人控制频率的动态调整以应对不同任务需求",
+    "创新点": [
+      "采用强化学习方法联合选择控制动作和应用时长，实现自主调节控制频率",
+      "通过零样本仿真到现实的实验验证，在高速遥控车和四足机器人平台上展现适应性"
+    ]
+  },
+  "Combining High Level Scheduling and Low Level Control to Manage Fleets   of Mobile Robots": {
+    "主题": "移动机器人调度与控制协同优化",
+    "场景": "工业环境中大规模移动机器人集群的动态物料搬运任务协调",
+    "创新点": [
+      "提出双层架构（高层调度+低层控制），结合ComSat算法生成时间参数化路径与分布式MPC实时轨迹调整",
+      "模块化设计支持快速重调度（应对机器人故障/环境突变），确保无碰撞且高任务完成率",
+      "在仿真验证中实现拥堵场景下的鲁棒性能，适应可变道路容量与动态交通条件"
+    ]
+  },
+  "An Automated Tape Laying System Employing a Uniaxial Force Control   Device": {
+    "主题": "自动化铺带系统",
+    "场景": "碳纤维增强HDPE带的自动化铺放，用于复杂形状的复合材料制造",
+    "创新点": [
+      "集成单轴力控制装置，确保必要的压实力和精确温度控制",
+      "固定式铺带装置设计，通过机器人移动模具以处理紧凑复杂形状"
+    ]
+  },
+  "Reliable Robotic Task Execution in the Face of Anomalies": {
+    "主题": "机器人异常检测与恢复",
+    "场景": "开放环境中的机器人任务执行（如门把手抓取和物体放置）",
+    "创新点": [
+      "提出三级序列恢复机制（暂停执行、局部状态扰动、重置至安全状态）应对执行异常",
+      "使用策略正常执行数据训练的异常检测模型实现实时故障识别",
+      "验证了仿真到实物的策略迁移及通用策略模型在异常环境中的可靠性提升"
+    ]
+  },
+  "Generalizable Dexterous Grasping via Foundation Model and   Force Feedback": {
+    "主题": "机器人灵巧抓取",
+    "场景": "基于人类指令的机器人灵巧抓取与操作",
+    "创新点": [
+      "利用基础模型增强泛化能力，支持多样化用户指令和任务",
+      "提出人机动作转换策略，将人类演示转化为可执行的机器人动作",
+      "采用力感知自适应抓取策略，确保抓取的鲁棒性和稳定性"
+    ]
+  },
+  "Rational-Wavelet 4D Gaussian Splatting for Endoscopic   Reconstruction": {
+    "主题": "4D高斯泼溅内窥镜重建",
+    "场景": "机器人辅助微创手术中的内窥镜视频3D重建",
+    "创新点": [
+      "提出基于光流的几何约束，增强时间一致性并有效约束场景3D结构",
+      "引入多分辨率有理正交小波监督，分离内窥镜细节并提升渲染性能",
+      "采用4D域统一时空高斯表示，直接优化原始数据"
+    ]
+  },
+  "An Autonomous Control-Switching Strategy for Stable   Orographic Soaring in MAVs": {
+    "主题": "微型飞行器自主控制策略",
+    "场景": "山地上升气流中的微型飞行器稳定滑翔",
+    "创新点": [
+      "提出SAOS切换控制方法，通过选择性控制水平或垂直轴，将系统从欠驱动转变为全驱动，减少盘旋行为",
+      "在INDI控制器中引入攻角参数改进力估计，提升飞行稳定性",
+      "结合随机初始位置仿真和风洞实验验证，证明该方法可提高位置收敛性、降低油门使用并缓解俯仰-横滚耦合引起的滚转振荡"
+    ]
+  },
+  "Awakening Facial Emotional Expressions in Human-Robot": {
+    "主题": "人机交互中的面部表情生成",
+    "场景": "人形社交机器人的自然表情交互",
+    "创新点": [
+      "提出基于KAN和注意力机制的端到端学习框架，实现机器人自主习得类人表情",
+      "设计基于面部运动基元专家策略的自动化数据收集系统，构建首个开源人形机器人面部数据集",
+      "开发高仿生电子-物理混合面部驱动单元，增强表情表现力"
+    ]
+  },
+  "Sequential Sensing for End-to-End Control in Legged Robot   Navigation": {
+    "主题": "端到端腿式机器人导航控制",
+    "场景": "真实环境中的腿式机器人自主导航",
+    "创新点": [
+      "提出Seq-DeepIPC模型，整合多模态感知（RGB-D+GNSS）与时序融合，实现语义分割和深度估计联合预测",
+      "采用EfficientNet-B0编码器优化边缘设备部署，降低计算量并保持精度",
+      "简化航向估计方法，直接通过连续GNSS位置计算方位角，避免IMU噪声干扰",
+      "构建更丰富的数据集（包含道路和草地地形），推动腿式机器人导航研究"
+    ]
+  },
+  "Efficient Planning with Non-uniform Temporal   Resolution": {
+    "主题": "非均匀时间分辨率规划",
+    "场景": "机器人路径规划与任务执行（如迷宫导航、厨房任务）",
+    "创新点": [
+      "提出混合密度扩散器（MDD），通过可调超参数实现轨迹规划中非均匀时间分辨率",
+      "突破传统均匀稀疏规划的局限，根据任务需求动态调整关键段的规划密度",
+      "在Maze2D等基准测试中达到当前最优性能，平衡计算成本与长期依赖建模"
+    ]
+  },
+  "Manipulability-Aware Diffusion Policy for Posture-Dependent   Bimanual Manipulation": {
+    "主题": "机器人双手操作技能学习",
+    "场景": "依赖姿态的双臂配置适应，以满足灵巧双手操作中的特定力和速度需求",
+    "创新点": [
+      "提出了Manipulability-Aware Diffusion Policy (ManiDP)，通过提取专家演示中的双手可操作性并利用黎曼概率模型编码姿态特征，生成与任务兼容的双臂运动序列",
+      "将编码的姿势特征整合到条件扩散过程中，优化双臂配置以满足依赖姿态的任务要求"
+    ]
+  },
+  "Planning Oriented Integrated Sensing and Communication": {
+    "主题": "规划导向的集成感知与通信（ISAC）",
+    "场景": "互联自动驾驶车辆的同时定位、环境感知与数据交换",
+    "创新点": [
+      "提出规划导向的ISAC框架（PISAC），针对规划瓶颈障碍物降低感知不确定性，拓宽安全导航路径",
+      "基于克拉美罗界和占用膨胀原理，建立闭式安全界限模型，明确关联发射功率与感知不确定性",
+      "设计双层功率分配与运动规划（PAMP）问题，内层优化波束功率分布，外层计算不确定性感知的避障轨迹"
+    ]
+  },
+  "End-to-End Design and Validation of a Low-Cost Stewart Platform with   Nonlinear Estimation and Control": {
+    "主题": "低成本Stewart平台设计与控制",
+    "场景": "用于科研与教育的六自由度机器人实验平台",
+    "创新点": [
+      "集成动态建模、数据采集与实时控制的统一软件框架",
+      "采用反馈线性化与LQR结合的鲁棒轨迹跟踪控制器",
+      "扩展卡尔曼滤波融合多传感器数据提升状态估计精度"
+    ]
+  },
+  "An Intelligent Water-Saving Irrigation System Based on Multi-Sensor   Fusion and Visual Servoing Control": {
+    "主题": "智能节水灌溉系统",
+    "场景": "精准农业中的高效节水和地形适应",
+    "创新点": [
+      "采用多传感器融合（视觉+惯性测量）和轻量化YOLO模型，实现复杂光照下实时植物容器检测（准确率>96%）",
+      "简化手眼标定算法，针对手持摄像头机械臂配置实现末端执行器精确定位（成功率>90%）",
+      "基于STM32与JY901S的主动调平系统，支持10度斜坡快速稳定（响应时间1.8秒）",
+      "集成视觉伺服控制，在温室/丘陵/复杂光照场景下节水30-50%，水效达92%以上"
+    ]
+  },
+  "Hybrid Perception for Object-Oriented Navigation in Unknown   Environment": {
+    "主题": "混合感知的物体导航",
+    "场景": "机器人在未知环境中自主导航至目标物体",
+    "创新点": [
+      "结合RGB-D传感器的局部观察与实时俯视地图的全局信息，形成互补的混合感知模式",
+      "利用视觉语言模型（VLMs）的推理和视觉语言理解能力，增强导航的智能性和有效性"
+    ]
+  },
+  "Clinic-Oriented Feasibility of a Sensor-Fused Wearable for Upper-Limb   Function": {
+    "主题": "传感器融合可穿戴设备",
+    "场景": "面向临床的上肢功能障碍康复",
+    "创新点": [
+      "集成多模态传感器（表面肌电、IMU、弯曲/力传感器）与轻量级设备端推理（Tiny 1D-CNN/Transformer）",
+      "采用安全边界辅助策略（角度/扭矩/急动度限制）提升运动质量与任务效率"
+    ]
+  },
+  "Adaptive Virtual Model Control with LLM- and   Lyapunov-Based Reinforcement Learning": {
+    "主题": "机器人自适应虚拟模型控制",
+    "场景": "不确定环境中的机器人臂控制，需应对扰动和信息不完整",
+    "创新点": [
+      "结合大型语言模型（LLM）提供结构化先验和高层推理，增强虚拟组件间协调与任务适应性",
+      "引入基于李雅普诺夫（Lyapunov）的强化学习（RL），确保在线自适应过程的理论稳定性保障"
+    ]
+  }
+}

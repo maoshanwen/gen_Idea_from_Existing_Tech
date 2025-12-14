@@ -1,0 +1,179 @@
+{
+  "Structure-Aware Cooperative Ensemble Evolutionary Optimization on   Combinatorial Problems with Multimodal Large Language Models": {
+    "主题": "基于多模态大语言模型的结构感知协同进化优化",
+    "场景": "图结构组合优化问题（如网络拓扑优化）",
+    "创新点": [
+      "采用图像编码保留拓扑信息，结合MLLM进化算子实现结构感知优化",
+      "提出协作进化框架，通过图稀疏化和多视图知识迁移增强鲁棒性",
+      "设计布局集成策略，通过共识投票聚合不同网络布局的输出结果"
+    ]
+  },
+  "Adaptive Split-MMD Training for Small-Sample Cross-Dataset P300 EEG   Classification": {
+    "主题": "跨数据集P300 EEG分类",
+    "场景": "小样本条件下使用迁移学习提升跨数据集P300信号检测性能",
+    "创新点": [
+      "提出自适应分割最大均值差异训练（AS-MMD），结合目标加权损失和预热策略",
+      "采用分割批归一化（Split-BN），共享仿射参数但保留各域独立统计量",
+      "引入无参数的RBF核最大均值差异（RBF-MMD）项，使用中值带宽启发式方法"
+    ]
+  },
+  "Enabling Robust In-Context Memory and Rapid Task Adaptation in   Transformers with Hebbian and Gradient-Based Plasticity": {
+    "主题": "Transformer模型的动态权重适应",
+    "场景": "大规模语言模型的快速任务适应与记忆增强",
+    "创新点": [
+      "引入生物启发的突触可塑性机制（Hebbian规则和梯度基可塑性），增强Transformer在序列内的快速适应能力",
+      "在复制、回归和少样本分类任务中，Hebbian可塑性表现出更低的损失和更强的泛化能力，而梯度基可塑性在长时程信用分配任务中表现最优",
+      "通过调制信号分析揭示了不同可塑性机制的作用边界：Hebbian规则对显著事件进行门控，梯度基规则维持持久更新"
+    ]
+  },
+  "Multi-Objective   Solver Optimization in CoW Protocol Batch Auctions": {
+    "主题": "区块链批量拍卖多目标求解优化",
+    "场景": "CoW Protocol批处理拍卖中，在严格的时间限制下，通过多目标优化算法寻找跨多个AMM的最佳执行路径以最大化用户收益。",
+    "创新点": [
+      "提出混合遗传算法（GA）架构，结合多目标NSGA-II引擎与自适应实例分析，在实时求解中实现用户收益、gas费用、滑点和执行风险的多目标优化。",
+      "设计自适应控制器，动态选择GA或确定性双分解优化器，确保算法性能不低于基准水平，并集成六层保护机制保证安全性。",
+      "开源系统通过8/8测试验证，在中小订单中实现0.40-9.82 ETH的绝对收益提升，并在0.5秒中位数时间内收敛（上限1.0秒）。"
+    ]
+  },
+  "An Automatic Detection Method for Hematoma Features in Placental   Abruption Ultrasound Images Based on Few-Shot Learning": {
+    "主题": "胎盘早剥超声图像血肿自动检测",
+    "场景": "孕期胎盘早剥的早期诊断，辅助医生减少主观误差",
+    "创新点": [
+      "提出改进模型EH-YOLOv11n，结合小样本学习与多维优化（小波卷积+坐标卷积增强频域/空间特征提取）",
+      "引入级联分组注意力机制，抑制超声伪影和遮挡干扰，提升定位精度",
+      "在准确率(78%)、PR曲线及实时性上显著优于YOLOv8/v11n等基线模型"
+    ]
+  },
+  "Theory and   Practice": {
+    "主题": "预测编码（PC）在深度神经网络训练中的应用",
+    "场景": "替代反向传播（BP）算法，提高训练效率和生物合理性",
+    "创新点": [
+      "将PC学习动态解释为使用二阶信息的近似置信域方法，尽管仅显式使用一阶局部更新",
+      "揭示PC可利用任意高阶信息，使前馈网络的有效学习景观比（均方误差）损失景观更平稳且对梯度消失更鲁棒",
+      "提出新参数化方法\"μPC\"，首次实现100+层网络的稳定训练，并在简单任务中取得竞争力"
+    ]
+  },
+  "Unveiling the Spatial-temporal Effective Receptive Fields of Spiking   Neural Networks": {
+    "主题": "脉冲神经网络的时空有效感受野",
+    "场景": "视觉长序列建模任务",
+    "创新点": [
+      "引入时空有效感受野（ST-ERF）分析框架，揭示基于Transformer的SNNs全局时空感受野薄弱的缺陷",
+      "提出两种新型通道混合架构（MLPixer和SRB），通过增强早期网络阶段的全局空间ERF提升性能"
+    ]
+  },
+  "An Evolutionary Framework for RTL Generation driven by Large   Language Models": {
+    "主题": "RTL代码生成与优化",
+    "场景": "利用大语言模型（LLMs）结合进化计算（EC）自动生成和优化硬件描述语言（RTL）代码",
+    "创新点": [
+      "提出双种群算法，将候选设计分为Fail和Success两组，分别进行错误修复和PPA优化，提高优化效率",
+      "引入自适应机制，根据各提示策略的成功率动态调整选择概率，提升搜索效率",
+      "结合LLMs的生成能力和EC的广泛搜索优势，克服了传统方法的局部搜索限制"
+    ]
+  },
+  "Seemingly Redundant Modules Enhance Robust Odor Learning in Fruit Flies": {
+    "主题": "果蝇嗅觉电路冗余模块",
+    "场景": "复杂噪声环境下的气味学习与模式分离",
+    "创新点": [
+      "揭示侧向抑制（LI）在低/中噪声下增强气味辨别，但在高噪声下效果减弱甚至相反",
+      "发现神经元脉冲频率适应（SFA）在所有噪声水平下均能持续提升辨别性能",
+      "证明LI与SFA的协同作用能实现最优辨别性能，阐明生物电路中冗余模块的互补必要性"
+    ]
+  },
+  "Genetic Optimization of a Software-Defined GNSS Receiver": {
+    "主题": "软件定义GNSS接收机的遗传算法优化",
+    "场景": "高动态环境下的GNSS信号跟踪，如火箭发射和低地球轨道卫星场景",
+    "创新点": [
+      "采用遗传算法自动优化软件定义GNSS接收机的跟踪环路参数（相位、频率和延迟），克服传统手动调参的多维搜索复杂性问题",
+      "在开源GNSS-SDR架构中验证了该框架对三种动态场景（静态、火箭飞行、低地球轨道卫星）的适应性，显著提升了位置、速度和时间（PVT）解算的精度和鲁棒性"
+    ]
+  },
+  "Graph Neural Network Assisted Genetic Algorithm for Structural Dynamic   Response and Parameter Optimization": {
+    "主题": "结构动力学优化",
+    "场景": "利用图神经网络辅助遗传算法优化结构参数（质量、刚度、阻尼系数）以实现高效动态响应设计",
+    "创新点": [
+      "提出GNN替代模型学习结构参数与动态位移的非线性映射，避免传统有限元/CFD仿真的高计算成本",
+      "结合GA全局搜索能力优化参数，同时最小化位移并提升动态稳定性",
+      "通过Newmark Beta方法生成数据集验证框架的收敛性、泛化性与计算效率优势"
+    ]
+  },
+  "Dissociating Pure   Perception from Task Demands in Brains and AI Models": {
+    "主题": "AI模型与人类大脑感知表征比较",
+    "场景": "认知神经科学中研究主观体验（颜色感知）的神经表征与AI模型的对比",
+    "创新点": [
+      "提出“无报告”范式下的fMRI数据集，比较纯感知与任务调制感知的神经表征差异",
+      "发现训练范式与架构的关键交互作用（CLIP训练对ViT和ConvNet的神经对齐效果相反）",
+      "提供新的颜色感知基准任务，揭示人工与生物视觉系统归纳偏好的本质差异"
+    ]
+  },
+  "Resource-efficient ApproxiMate Posit Processing for   Algorithm-Hardware Co-desigN": {
+    "主题": "近似计算与硬件协同设计",
+    "场景": "边缘AI应用的资源受限环境",
+    "创新点": [
+      "提出基于posit(8,2)的近似乘加单元（REAP MAC），通过乘法器近似设计降低35.66%面积与31.28%功耗",
+      "设计可扩展矢量执行单元（VEU），支持硬件复用与神经网络层间并行，适配多样化AI负载",
+      "结合算法-硬件协同设计框架，利用近似感知训练评估硬件近似对应用性能的影响"
+    ]
+  },
+  "Accelerating Materials Design via LLM-Guided Evolutionary Search": {
+    "主题": "材料设计优化",
+    "场景": "解决材料发现中多目标冲突的化学与结构空间探索问题",
+    "创新点": [
+      "结合大型语言模型（LLM）的化学知识与进化规则，提出LLM引导的进化框架（LLEMA），实现候选材料的定向生成",
+      "引入替代模型增强的性能评估与多目标评分机制，通过记忆反馈优化迭代过程"
+    ]
+  },
+  "Sequential Multi-Agent Dynamic Algorithm Configuration": {
+    "主题": "动态算法配置（DAC）",
+    "场景": "自动化机器学习中多参数算法的动态调优",
+    "创新点": [
+      "提出顺序多代理动态算法配置框架（Seq-MADAC），考虑多参数间的固有依赖关系",
+      "设计顺序优势分解网络，通过顺序优势分解利用动作顺序信息",
+      "在合成函数和多目标优化算法配置中验证了优于现有MARL方法的性能"
+    ]
+  },
+  "Benchmarking Black-Box Optimization for Chip Placement": {
+    "主题": "芯片布局的黑盒优化",
+    "场景": "现代芯片设计中的布局优化，评估不同黑盒优化算法性能",
+    "创新点": [
+      "提出首个针对芯片布局黑盒优化的统一基准测试BBOPlace-Bench，整合三种问题建模框架",
+      "模块化设计支持用户无缝测试/比较自定义算法，覆盖多种主流优化方法（如SA、EA、BO）",
+      "实验揭示掩模引导优化和超参优化问题建模优于传统序列对方法，进化算法在高维空间表现最优"
+    ]
+  },
+  "Multi-Task Surrogate-Assisted Search with Bayesian Competitive Knowledge   Transfer for Expensive Optimization": {
+    "主题": "贝叶斯竞争知识转移的代理辅助搜索",
+    "场景": "解决昂贵优化问题（EOPs）中的冷启动和负转移问题",
+    "创新点": [
+      "提出贝叶斯竞争知识转移（BCKT）方法，结合先验信念和经验证据动态评估知识可转移性",
+      "通过内部任务与跨任务解决方案的竞争机制，自适应筛选优质解并抑制劣质解",
+      "验证了BCKT在多任务及众任务场景中对多种SAS算法的通用性能提升"
+    ]
+  },
+  "Achieving High-performance ANN-to-SNN Conversion   via Scale-and-Fire Neurons": {
+    "主题": "高性能ANN到SNN转换",
+    "场景": "资源受限环境下的人工神经网络(ANN)到脉冲神经网络(SNN)高效转换",
+    "创新点": [
+      "提出时空等效理论，证明多时间步积分发放(IF)神经元可等效为单时间步多阈值神经元(MTN)",
+      "设计自适应缩放和发放的Scale-and-Fire神经元(SFN)，实现单时间步(\\(T=1\\))的高效脉冲",
+      "基于SFN开发Spiking Transformer，通过注意力分布与脉冲模式对齐降低多阈值设计的硬件开销"
+    ]
+  },
+  "Symbolic Neural Generation with Applications to Lead Discovery in Drug   Design": {
+    "主题": "神经符号混合模型在药物设计中的应用",
+    "场景": "早期药物设计中的潜在抑制剂分子生成",
+    "创新点": [
+      "提出符号神经生成器（SNG），结合符号学习的逻辑约束与神经网络的生成能力，确保生成数据满足形式化正确性",
+      "引入基于偏序集的语义框架及概率扩展，实现对加权偏序的搜索，增强模型实用性",
+      "在药物靶点不明的情况下，生成的分子结合亲和力与临床候选药物相当，且专家认可其符号规范作为初步筛选工具的价值"
+    ]
+  },
+  "Equivariant Neural Networks for General Linear Symmetries on Lie   Algebras": {
+    "主题": "广义线性对称性的等变神经网络",
+    "场景": "处理李代数上的广义线性变换（GL(n)），应用于科学计算中的矩阵结构数据（如粒子物理、3D无人机状态估计）。",
+    "创新点": [
+      "提出新型**Reductive Lie Neurons (ReLNs)**架构，首次实现对广义线性群（GL(n)）的精确等变性，突破传统等变网络仅适用于旋转等简单对称性的限制。",
+      "设计**伴随不变双线性层**，直接处理李代数特征和矩阵输入，无需为不同子群重新设计网络，统一支持非紧致群和复杂矩阵数据。",
+      "验证了ReLNs在多种任务（sl(3)/sp(4)代数基准、洛伦兹等变粒子物理、几何不确定性的无人机轨迹估计）的优越性，显著提升轨迹精度与泛化能力。"
+    ]
+  }
+}

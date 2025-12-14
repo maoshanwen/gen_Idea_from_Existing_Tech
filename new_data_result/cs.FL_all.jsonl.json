@@ -1,0 +1,44 @@
+{
+  "Language Equivalence is Undecidable in VASS with Restricted   Nondeterminism": {
+    "主题": "VASS的语言等价性问题",
+    "场景": "二维向量加法系统（VASS）在覆盖条件下的语言等价性判定",
+    "创新点": [
+      "证明即使一个系统是确定性VASS，另一个是历史确定性VASS，语言等价性仍不可判定",
+      "扩展不可判定性至介于双模拟等价和语言等价之间的任何等价关系"
+    ]
+  },
+  "Are Agents Just Automata? On the Formal Equivalence Between Agentic AI   and the Chomsky Hierarchy": {
+    "主题": "AI代理与自动机形式等效性",
+    "场景": "AI代理系统的设计与验证",
+    "创新点": [
+      "提出AI代理的存储器架构与自动机的形式等效性映射（有限自动机、下推自动机、图灵机）",
+      "扩展概率自动机框架以量化基于LLM的代理的风险分析",
+      "建立自动化理论在代理安全性和可预测性验证中的应用方法"
+    ]
+  },
+  "Synthesis of State-Attack Strategies for Anonymity and Opacity Violation   in Discrete Event Systems": {
+    "主题": "离散事件系统的状态攻击策略分析",
+    "场景": "针对自动化系统中传感器和执行器可能遭受的状态攻击，研究攻击者如何利用有限次数的状态攻击破坏系统的匿名性和不透明性。",
+    "创新点": [
+      "提出了一种状态攻击策略，确保攻击者能够通过有限次攻击强制系统进入违反匿名性或不透明性的状态。",
+      "设计了相应验证算法并提供复杂度分析，验证攻击策略的有效性和可行性。"
+    ]
+  },
+  "Provably Tractable Explanations with   Parallelism": {
+    "主题": "可证明易处理的并行解释计算",
+    "场景": "针对张量网络（TNs）模型（包含神经网络抽象与压缩等）的SHAP可解释性计算",
+    "创新点": [
+      "提出通用框架，支持任意结构张量网络的**精确SHAP计算**，突破现有算法局限",
+      "当张量网络限制为**张量链（TT）结构**时，利用并行计算将SHAP复杂度降至**对数多项式时间**",
+      "揭示神经网络中**宽度（而非深度）是SHAP计算的核心瓶颈**，为二值化神经网络提供高效计算路径"
+    ]
+  },
+  "Proceedings of the Combined 32nd International Workshop on   Expressiveness in Concurrency and 22nd Workshop on Structural Operational   Semantics": {
+    "主题": "形式语义学与并发计算模型",
+    "场景": "形式化系统与编程概念的语义表达及计算模型表达能力研究",
+    "创新点": [
+      "结合两个国际研讨会（EXPRESS/SOS），聚焦并发计算与结构操作语义的交叉研究",
+      "提供形式语义学和计算模型表达力的最新研究进展平台"
+    ]
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "a System Level Approach based in   the SpecC Methodology": {
+    "主题": "硬件/软件协同设计",
+    "场景": "PCM-to-PWM转换器的系统级设计（Class-D音频放大器核心）",
+    "创新点": [
+      "应用SpecC方法进行系统级建模与硬件/软件分区探索，平衡实时性与成本",
+      "通过快速功能仿真评估设计映射，避免了高端处理器纯软件方案的高成本"
+    ]
+  },
+  "Accelerating Electrostatics-based Global Placement with Enhanced FFT   Computation": {
+    "主题": "VLSI电路全局布局优化",
+    "场景": "现代复杂VLSI设计中的高效电路布局",
+    "创新点": [
+      "采用加速FFT技术（AccFFT）显著减少电场计算运行时（5.78倍加速）",
+      "在ePlace-MS和Pplace-MS算法中实现总运行时降低32%，同时细化布局后线长仅减少1.0%"
+    ]
+  },
+  "A Benchmark for Evaluating LLM Reasoning in Computer   Architecture": {
+    "主题": "LLM评测基准（计算机架构领域）",
+    "场景": "评估大型语言模型在计算机架构领域的知识与推理能力",
+    "创新点": [
+      "推出首个计算机架构领域专用的LLM评测基准QuArch，包含2671个专家验证的问答对",
+      "覆盖处理器设计、内存系统等细分方向，系统性评估高阶架构推理能力",
+      "揭示前沿模型在架构分析/设计类问题上的准确率波动（34%-72%），为能力提升指明缺口"
+    ]
+  },
+  "An Area and Energy-Efficient High-Precision Redundancy   Multiplier by Approximate Computing": {
+    "主题": "高精度冗余乘法器设计",
+    "场景": "关键系统中需要高可靠性的容错算术单元",
+    "创新点": [
+      "提出基于近似计算的高精度冗余乘法器（HPR-Mul），结合全精度和两个降精度乘法器及简化投票器，显著降低功耗（70%）和面积（69%）",
+      "采用数学公式设计简单投票器结构，替代传统复杂投票器，解决典型三模冗余（TMR）对微小输出差异敏感的问题",
+      "利用全精度乘法器的中间信号作为降精度乘法器输入，提升整体精度，软错误容忍度比现有RPR-Mul提高84%"
+    ]
+  },
+  "Hardware-Efficient Accurate 4-bit Multiplier for Xilinx 7 Series FPGAs": {
+    "主题": "硬件优化的4位乘法器设计",
+    "场景": "用于AMD Xilinx 7系列FPGA的IoT和边缘推理场景",
+    "创新点": [
+      "通过逻辑功能重组，将LUT数量从12个减少到11个，同时降低关键路径延迟",
+      "采用仅11个LUT和两个CARRY4块的硬件高效设计，实现最小资源占用（关键路径延迟2.750 ns）"
+    ]
+  },
+  "Allocator Optimisation for Industrial Workloads": {
+    "主题": "内存分配器优化",
+    "场景": "工业工作负载中的内存分配优化",
+    "创新点": [
+      "提出GreenMalloc框架，基于多目标搜索（NSGA II）自动配置内存分配器参数",
+      "采用rand_malloc作为轻量级代理基准测试工具，从执行痕迹中高效探索参数配置",
+      "通过案例研究（glibc malloc和TCMalloc），实现堆内存使用降低4.1%且保持运行时效率（额外获得0.25%效率提升）"
+    ]
+  },
+  "Approximate Signed Multiplier with Sign-Focused Compressor for Edge   Detection Applications": {
+    "主题": "近似有符号乘法器设计",
+    "场景": "机器学习和信号处理中的边缘检测应用",
+    "创新点": [
+      "提出新型符号聚焦压缩器（A+B+C+1和A+B+C+D+1），优化常数\"1\"和负部分积的高效处理",
+      "通过截断部分积矩阵低N-1列并引入误差补偿机制，降低功耗延迟积（PDP）29.21%和功耗14.39%",
+      "首次将近似乘法器集成至定制卷积层，验证边缘检测场景的实际有效性"
+    ]
+  },
+  "Rejection Sampling Core for Multivariate-based Public key   Cryptography": {
+    "主题": "后量子多元公钥密码硬件加速",
+    "场景": "资源受限设备上的抗量子签名生成",
+    "创新点": [
+      "提出RejSCore，首个专为后量子密码中拒绝采样设计的轻量级硬件加速器",
+      "采用AES-CTR-128伪随机数生成器与迭代方法，显著降低资源占用（Artix-7上仅2042 slices）",
+      "在65nm CMOS工艺下实现565MHz高频运行，适合安全关键场景部署"
+    ]
+  },
+  "Architecting Scalable Trapped Ion Quantum Computers using Surface Codes": {
+    "主题": "可扩展的量子计算机架构",
+    "场景": "利用表面码实现可扩展的离子阱量子计算机系统",
+    "创新点": [
+      "提出了一种近最优的拓扑感知编译方法，逻辑时钟速度比现有编译器平均快3.8倍",
+      "研究表明小离子阱（2离子）在性能和硬件效率上优于传统大离子阱（20-30离子），颠覆了之前的直觉设计"
+    ]
+  },
+  "Resource-efficient ApproxiMate Posit Processing for   Algorithm-Hardware Co-desigN": {
+    "主题": "近似计算硬件设计",
+    "场景": "资源受限的边缘AI应用中的高效计算",
+    "创新点": [
+      "提出REAP（资源高效近似Posit）MAC引擎，通过乘数近似实现面积和功耗显著降低（达35.66%面积和31.28%功耗减少）",
+      "结合算法-硬件协同设计框架，采用近似感知训练评估硬件近似对应用性能的影响",
+      "设计可扩展向量执行单元（VEU）支持硬件复用和DNN层间并行，适配多样AI负载"
+    ]
+  },
+  "Benchmarking Black-Box Optimization for Chip Placement": {
+    "主题": "黑盒优化在芯片布局中的应用",
+    "场景": "现代芯片设计中的黑盒优化算法评估与开发",
+    "创新点": [
+      "提出了首个针对芯片布局任务的黑盒优化（BBO）专用基准测试BBOPlace-Bench，统一评估不同问题表述和算法",
+      "集成了三种芯片布局的BBO问题表述（掩模引导优化、超参数优化、序列对优化），并提供模块化框架支持算法快速实现与对比",
+      "实验揭示演化算法（EAs）在高维搜索空间中优于模拟退火和贝叶斯优化，并达到主流芯片布局方法的先进性能"
+    ]
+  }
+}

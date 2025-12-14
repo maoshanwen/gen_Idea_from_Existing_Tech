@@ -1,0 +1,152 @@
+{
+  "A Location Independent Multi-Cluster Computing Framework for Data   Intensive Science": {
+    "主题": "分布式多集群计算框架",
+    "场景": "跨组织的分布式科学计算平台",
+    "创新点": [
+      "使用语义名称实现去中心化计算任务调度，无需集中式控制器",
+      "支持动态计算资源配置，无需预定义集群位置或手动配置"
+    ]
+  },
+  "A New Paradigm for Quantifying Cellular   Network Coverage Quality, Usability and Stability": {
+    "主题": "蜂窝网络覆盖质量评估",
+    "场景": "移动网络性能监测与优化",
+    "创新点": [
+      "提出多维度关键性能指标（QoC），综合评估网络质量、可用性和稳定性",
+      "引入时空维度分析，克服传统带宽单一指标局限性",
+      "通过三组数据集验证指标对网络行为表征的有效性"
+    ]
+  },
+  "Source-Coded Online Algorithm for Multicast Subgraph Construction": {
+    "主题": "源编码多播框架",
+    "场景": "下一代高吞吐量自适应组播网络的内容分发",
+    "创新点": [
+      "引入基于最大流分解的源编码多播框架，构建从源到接收者的多条不相交或部分重叠路径",
+      "提出新颖的路径重定向机制，在接收流之间出现多重重叠时重新调整下游路径，确保无环传输的同时最大化总吞吐量",
+      "开发低复杂度的路径构建、重叠检测和多播子图迭代优化算法，显著降低编码和解码复杂度"
+    ]
+  },
+  "Learning When Less is Enough through Early Termination of   Internet Speed Tests": {
+    "主题": "网络测速优化",
+    "场景": "减少大规模网络测速过程中的不必要数据传输",
+    "创新点": [
+      "提出两阶段机器学习框架（TURBOTEST），分离吞吐量预测与测试终止决策",
+      "利用传输层特征（RTT、重传、拥塞窗口等）动态调整终止时机，单参数控制精度容忍度",
+      "在17.3万次测试中实现数据量节省2-4倍，同时降低中值误差"
+    ]
+  },
+  "A Confidence-Constrained Cloud-Edge Collaborative Framework for Autism   Spectrum Disorder Diagnosis": {
+    "主题": "云边协作自闭症诊断框架",
+    "场景": "学校环境中基于物联网摄像头的自闭症谱系障碍（ASD）诊断",
+    "创新点": [
+      "提出分层框架C3EKD，边缘端处理高置信度样本，仅低置信度样本上传云端，平衡隐私与延迟",
+      "云端通过温度缩放的软标签和跨校全局损失蒸馏知识至边缘模型，提升泛化性且避免原始数据集中"
+    ]
+  },
+  "Enhanced Evolutionary Multi-Objective Deep Reinforcement Learning for   Reliable and Efficient Wireless Rechargeable Sensor Networks": {
+    "主题": "无线可充电传感器网络优化的多目标深度强化学习",
+    "场景": "动态环境下移动充电器为传感器网络充电，需平衡节点存活率与充电能效",
+    "创新点": [
+      "提出结合LSTM的策略网络处理时序依赖性，多层感知机模型预测未来状态",
+      "引入时变Pareto策略评估方法动态调整优化偏好",
+      "算法收敛速度提升25%，在能效与存活率平衡上显著优于现有方法"
+    ]
+  },
+  "A MARL-based Solution for Energy Saving in   Edge Internet of Things": {
+    "主题": "基于多智能体强化学习的边缘物联网节能方案",
+    "场景": "边缘物联网网络中由传感器冗余和数据重复导致的能耗问题",
+    "创新点": [
+      "采用多智能体强化学习（MARL）动态调整传感器覆盖范围，实现传感器级数据去重",
+      "在控制器级对不可调整覆盖的传感器进行数据分区和冗余数据消除",
+      "考虑设备异构性，全局均衡设备运行时间以延长网络整体寿命"
+    ]
+  },
+  "Event-Centric Forecasting of Bursty, Intermittent Time Series": {
+    "主题": "事件中心化网络流量预测",
+    "场景": "预测具有突发性和间歇性特征的网络流量时间序列（如服务、IP或子网级别的流量测量）",
+    "创新点": [
+      "提出NetBurst框架，将预测重构为突发时间点及强度的量化问题，采用分位数编码本和双自回归器",
+      "在真实网络流量数据上，相比Chronos等基线模型，MASE误差降低13-605倍，同时保持突发特性并生成更清晰的聚类嵌入（5倍提升）",
+      "首次将曼德勃罗特的经典统计理论与现代AI架构结合，解决高波动、间歇性、重尾分布场景的预测问题"
+    ]
+  },
+  "Space-Air-Ground Integrated Networks for 6G Mobile Communications": {
+    "主题": "6G空天地一体化网络",
+    "场景": "支持6G移动通信的高速传输与广域覆盖",
+    "创新点": [
+      "提出分层架构设计（SAGIN辅助6G），优化网络集成层结构",
+      "识别跨层关键技术（包括物理层、网络层等），解决协同难题",
+      "通过拥堵案例验证分层架构可行性，提供实际问题解决方案"
+    ]
+  },
+  "A Wi-Fi CSI Palm Authentication Approach for Access Control": {
+    "主题": "Wi-Fi CSI掌纹认证",
+    "场景": "基于Wi-Fi信道状态信息（CSI）的掌纹生物特征识别，用于访问控制场景",
+    "创新点": [
+      "提出首个利用低功率（1dBm）Raspberry Pi捕获掌纹CSI数据的认证系统，成本低且易于部署",
+      "通过手部生物物理特征（大小、形状、手指角度间距等）映射电磁信号变化，实现99.82%高精度分类",
+      "结合振幅与相位数据，采用五秒间隔采样优化，解决传统Wi-Fi传感易受环境干扰的问题"
+    ]
+  },
+  "Collaborative Secure Communications in   Low-altitude Wireless Networks": {
+    "主题": "低空无线网络安全通信",
+    "场景": "无人机群协作网络中抵御窃听攻击",
+    "创新点": [
+      "提出虚拟天线阵列（VAA）与智能反射面（IRS）协同的被动波束成形框架，增强抗窃听能力",
+      "设计异构多智能体控制方法（HMCA），联合优化无人机激励权重、轨迹与IRS相位，实现安全速率最大化与能耗最小化",
+      "将动态优化问题转化为异构马尔可夫决策过程，解决多目标协同的复杂性"
+    ]
+  },
+  "A Control-Theoretic Perspective on BBR/CUBIC Congestion-Control   Competition": {
+    "主题": "拥塞控制算法分析",
+    "场景": "BBR与CUBIC拥塞控制算法竞争时的公平性与稳定性分析",
+    "创新点": [
+      "引入控制理论扩展动态流体模型，提高了模型准确性与可解释性",
+      "定量推导BBR/CUBIC振荡条件，识别易受不稳定性影响的网络配置",
+      "提出并实验验证反映振荡期间极端速率分布的公平性界限"
+    ]
+  },
+  "How to build a sovereign network? - A proposal to measure network   sovereignty": {
+    "主题": "网络主权测量",
+    "场景": "网络运营商减少对组件制造商的依赖，避免供应商锁定问题",
+    "创新点": [
+      "提出新的网络主权度量标准：Cut Set Coloring (CSC) 分数",
+      "开发基于 CSC-ILP 的整数线性规划公式，以最大化网络主权",
+      "比较 CSC-ILP 的性能与现有制造商分配策略"
+    ]
+  },
+  "STAR-RIS-assisted Collaborative Beamforming for Low-altitude Wireless   Networks": {
+    "主题": "STAR-RIS辅助的协同波束成形",
+    "场景": "无人机低空无线网络中信号衰减问题的优化",
+    "创新点": [
+      "提出异构多智能体协作动态优化框架（HMCD），结合模拟退火（SA）与改进的多智能体深度强化学习（MADRL），动态优化STAR-RIS反射/传输系数及无人机群协同波束成形",
+      "在MADRL中引入自注意力评估机制和自适应速度转换机制，分别增强无人机交互建模与训练稳定性",
+      "联合速率和能量优化问题（JREOP）的数学建模，同步提升系统传输速率并降低无人机群能耗"
+    ]
+  },
+  "A   Measurement Campaign": {
+    "主题": "LR-FHSS与LoRa调制性能比较",
+    "场景": "城市环境中LoRaWAN网络的实景测量",
+    "创新点": [
+      "首次在真实城市环境中对LR-FHSS和LoRa调制进行全面的实景测量比较",
+      "发现LR-FHSS在密集城市区域的包接收率（PRR）比传统LoRa提高20%",
+      "LR-FHSS达到的最低RSSI为-138 dBm，显著优于LoRa的-120 dBm"
+    ]
+  },
+  "Trajectory-Aware Air-to-Ground Channel Characterization for Low-Altitude   UAVs Using MaMIMO Measurements": {
+    "主题": "低空无人机空地信道特性",
+    "场景": "郊区环境下的无人机通信信道测量",
+    "创新点": [
+      "采用大规模MIMO阵列测量低空无人机轨迹感知的空地信道特性，分析几何依赖的传播动态",
+      "通过相关矩阵距离和角度平稳性跨度量化信道的时变非平稳特性，揭示轨迹和几何形状的影响",
+      "提出俯仰角是接收功率的最强预测因子，并验证Nakagami模型对小尺度衰落的适用性"
+    ]
+  },
+  "Joint Optimization of Task Offloading and Uplink PASS   Beamforming": {
+    "主题": "PASS增强的移动边缘计算（MEC）架构",
+    "场景": "动态无线环境中的任务卸载和上行链路波束成形优化",
+    "创新点": [
+      "提出基于介质波导和可调夹持天线（PASS）的MEC架构，有效减少路径损耗和信号阻塞，建立短距离视距链路",
+      "开发负载均衡感知近端策略优化（LBPPO）算法，将节点级和波导级负载均衡信息整合到策略设计中，解决目标函数中max操作符带来的不稳定性"
+    ]
+  }
+}

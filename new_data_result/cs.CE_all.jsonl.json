@@ -1,0 +1,166 @@
+{
+  "Application of an ANN and LSTM-based Ensemble Model for Stock Market   Prediction": {
+    "主题": "股票市场预测的深度学习集成模型",
+    "场景": "金融领域中投资机构对股票价格波动的预测需求",
+    "创新点": [
+      "结合LSTM与ANN构建混合模型，突破单一模型性能瓶颈",
+      "通过R2/MAE/MSE/RMSE多指标系统评估主流算法（LSTM/ANN/CNN/BiLSTM）的预测效能",
+      "利用集成学习方法融合不同神经网络优势，提升金融时间序列预测精度"
+    ]
+  },
+  "A Physics-Informed Data-Driven Large Model for Real-Time   Seismic Response Prediction": {
+    "主题": "地震响应预测模型",
+    "场景": "建筑物在地震荷载下的动态响应实时预测",
+    "创新点": [
+      "结合物理知识与数据驱动的大模型（SeisGPT），基于GPT架构，提升预测精度与计算效率",
+      "能够实时生成多种动态响应指标（位移、加速度、层间位移等），适应不同建筑类型和地震强度"
+    ]
+  },
+  "Enabling Precise   Interface Evolution in Phase Field Modeling": {
+    "主题": "相场模拟的精确界面演化",
+    "场景": "解决涉及复杂初始形态的尖锐移动边界的动态系统中的物理场计算问题",
+    "创新点": [
+      "结合残差自适应细化（RBAR）与因果感知训练，提高PINNs在解时空偏微分方程时的性能",
+      "观察到动态复杂形态下的“超调重定位”现象，展示了方法的自适应错误修正能力",
+      "提供了一种可推广的方法论，能解决传统PINNs无法应对的具有复杂、演化界面的物理系统问题"
+    ]
+  },
+  "Design and Structural Validation of a Micro-UAV with On-Board Dynamic   Route Planning": {
+    "主题": "微型无人机设计与动态路径规划",
+    "场景": "搜救行动中的微型无人机应用，适用于复杂地形和动态障碍环境",
+    "创新点": [
+      "采用轻量耐用材料增强结构框架，提升抗冲击能力",
+      "基于开源软件的机载控制系统，实现低成本实时感知与自适应导航"
+    ]
+  },
+  "Sentiment Analysis on News": {
+    "主题": "基于LLM的通货膨胀情绪分析",
+    "场景": "疫情等经济波动时期通货膨胀的实时预测",
+    "创新点": [
+      "提出InflaBERT，基于BERT的模型，用于预测新闻中与通货膨胀相关的情绪",
+      "将情绪分析指数（NEWS）与传统宏观经济自回归模型结合，提高预测准确性"
+    ]
+  },
+  "Linked Cell Traversal Algorithms for Three-Body Interactions in   Molecular Dynamics": {
+    "主题": "分子动力学中的三体相互作用计算",
+    "场景": "并行计算分子存储于三个单元间的三体相互作用，结合截断条件优化计算负载",
+    "创新点": [
+      "扩展关联单元遍历算法，支持三体相互作用的并行计算",
+      "结合截断条件动态优化计算负载，提升算法效率",
+      "在均匀/非均匀场景下验证算法，并评估节点级强扩展性和分子更新性能"
+    ]
+  },
+  "A Multi-Agent System for Explainable Corporate Credit Rating": {
+    "主题": "多智能体信用评级系统",
+    "场景": "企业信用评级中的风险分析与决策",
+    "创新点": [
+      "采用多智能体系统（MAS）模拟专业分析师协作决策，提升评级准确性",
+      "通过业务、财务和治理风险三维度解析，增强模型可解释性"
+    ]
+  },
+  "Error bounded compression for weather and climate applications": {
+    "主题": "气象气候数据压缩",
+    "场景": "高分辨率气象和气候模拟产生的大规模数据存储与传输问题",
+    "创新点": [
+      "采用双层压缩方法（JPEG2000基础层+小波变换残差层）兼顾高压缩比与误差控制",
+      "首创结合反馈速率控制机制动态调整压缩比以满足预设最大误差目标",
+      "首次将拉格朗日空气轨迹模拟纳入压缩算法评估体系"
+    ]
+  },
+  "Graph Neural Network Assisted Genetic Algorithm for Structural Dynamic   Response and Parameter Optimization": {
+    "主题": "结构动力学优化",
+    "场景": "使用图神经网络辅助遗传算法优化结构参数（质量、刚度、阻尼系数）以提高结构动态响应性能",
+    "创新点": [
+      "提出GNN代理模型替代传统数值模拟（如FEM/CFD），快速预测结构动态位移，降低计算成本",
+      "结合遗传算法全局搜索能力，自动优化结构参数，提升设计效率和动态稳定性",
+      "通过Newmark Beta方法生成的SDOF数据集验证框架的收敛性和泛化能力"
+    ]
+  },
+  "A Correlation-Aware Attribution Framework (CAAF)   for Real-world Data Modeling": {
+    "主题": "基于机器学习的传感器优化布置",
+    "场景": "复杂现实系统（如结构健康监测、翼型升力预测、湍流通道流速估计）中的高效监控与预测",
+    "创新点": [
+      "提出相关性感知特征归因框架（CAAF），通过聚类预处理降低高相关输入数据的冗余",
+      "针对非线性动态、混沌行为和多尺度交互等复杂场景，提升特征归因的通用性和准确性"
+    ]
+  },
+  "Learning the PTM Code through a Coarse-to-Fine, Mechanism-Aware   Framework": {
+    "主题": "蛋白质翻译后修饰（PTM）预测",
+    "场景": "解析蛋白质修饰位点与催化酶的关系，用于细胞信号传导和疾病研究",
+    "创新点": [
+      "提出机制感知的粗到细学习框架（COMPASS-PTM），统一残基水平PTM分析与酶-底物分配",
+      "整合蛋白质语言模型的进化表示与物理化学先验，并采用交叉感知提示机制显式建模PTM间依赖关系",
+      "解决PTM数据的双长尾分布问题，实现可解释泛化（如恢复激酶基序和预测疾病相关PTM重编程）"
+    ]
+  },
+  "Tree-Cotree-Based IETI-DP for Eddy Current Problems in Time-Domain": {
+    "主题": "时域涡流问题的树共树方法",
+    "场景": "低频电磁问题中的瞬态启动响应和非线性行为模拟",
+    "创新点": [
+      "提出基于树共树方法的时域涡流撕裂与互连新算法",
+      "重点研究该方法在高性能计算中的可扩展性优势",
+      "针对传统时域仿真计算成本高的问题进行优化"
+    ]
+  },
+  "Validation through   Immersion Coolant Screening": {
+    "主题": "通用人工智能材料发现框架",
+    "场景": "数据中心的浸没冷却液筛选",
+    "创新点": [
+      "提出GATE框架，通过几何对齐共享空间联合学习34种物理化学性质，减少跨属性偏差",
+      "无需针对特定问题重新配置，直接应用于实际挑战（OCP的浸没冷却液发现），筛选出92,861个候选分子",
+      "实验验证4个分子性能优于商业冷却液，证明框架的通用性和实用性"
+    ]
+  },
+  "Data-Efficient Linear Affine Weight-Space Models for   Parameter-Controlled 3D Shape Generation and Extrapolation": {
+    "主题": "参数化控制的3D形状生成",
+    "场景": "工程设计中的高保真3D几何生成，需满足特定参数约束（如DrivAerNet++和BlendedNet数据集）",
+    "创新点": [
+      "提出LAMP框架，通过共享初始化对齐SDF解码器，在权重空间中求解参数约束混合问题，实现数据高效生成",
+      "引入线性度失配安全度量，检测几何有效性，支持超训练范围100%的参数外推",
+      "在仅需100样本条件下实现可控插值，并支持固定参数下的物理性能优化"
+    ]
+  },
+  "Common Task Framework For a Critical Evaluation of Scientific Machine   Learning Algorithms": {
+    "主题": "科学机器学习的通用评估框架",
+    "场景": "科学机器学习算法的标准化评估与比较",
+    "创新点": [
+      "提出科学机器学习的通用任务框架（CTF），包含精选数据集和任务特定指标，覆盖预测、状态重建和实际约束下的泛化能力",
+      "采用隐藏测试集和真实世界数据集（如海表温度），推动算法的严格评估和社区参与"
+    ]
+  },
+  "GroupSHAP-Guided Integration of Financial News Keywords and Technical   Indicators for Stock Price Prediction": {
+    "主题": "股票价格预测",
+    "场景": "金融新闻关键词与技术指标的融合预测",
+    "创新点": [
+      "提出GroupSHAP方法，量化语义相关关键词组的贡献，降低计算成本同时保持可解释性",
+      "将FinBERT嵌入的新闻聚类为语义组，生成多主题的组级SHAP变量作为预测特征",
+      "在S&P 500指数的预测中，显著降低了MAE和RMSE，相比基准模型提升明显"
+    ]
+  },
+  "DRO-Based Computation Offloading and Trajectory Design for Low-Altitude   Networks": {
+    "主题": "无人机网络计算卸载与轨迹优化",
+    "场景": "低空网络（LANs）中无人机（UAVs）与高空平台（HAPs）协作，为地面用户提供计算卸载服务，应对任务大小不确定性和高移动性挑战。",
+    "创新点": [
+      "提出基于分布鲁棒优化（DRO）的联合优化框架，最小化最坏情况延迟，同时优化卸载决策与无人机轨迹。",
+      "设计双层迭代算法：外层凸问题通过优化工具包求解，内层混合整数问题采用Benders分解，主问题（二进制卸载决策）由整数求解器处理，子问题（无人机轨迹）通过逐次凸近似优化。"
+    ]
+  },
+  "a multi-agent LLM workflow module for multi-modal financial   information analysis": {
+    "主题": "多智能体LLM金融信息分析框架",
+    "场景": "多模态金融信息分析与可解释交易决策支持",
+    "创新点": [
+      "提出分层多智能体LLM框架，通过协调的智能体通信和集成时间合成，系统性融合技术面、基本面和新闻数据",
+      "实施结构化推理流程（取代传统的角色模拟方法），实现可扩展且可解释的金融AI系统",
+      "在美股多模态数据集上验证了框架的优越性能（累计收益、风险调整后收益）和低回撤特性"
+    ]
+  },
+  "Capsule Network-Based Multimodal Fusion for Mortgage Risk Assessment   from Unstructured Data Sources": {
+    "主题": "多模态融合的抵押贷款风险评估",
+    "场景": "利用公开的非结构化数据（文本、图像、情感分数）替代传统结构化金融数据进行风险评估",
+    "创新点": [
+      "提出基于胶囊网络的新型多模态融合策略（FusionCapsNet），通过模态自适应机制保留空间、上下文和模态特异性信息",
+      "引入动态加权机制，使强模态主导预测的同时保留互补信号",
+      "结合跨新闻类别的情感分析和GradCAM可视化，增强模型可解释性与上下文理解"
+    ]
+  }
+}

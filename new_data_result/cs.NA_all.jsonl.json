@@ -1,0 +1,476 @@
+{
+  "An Introductory Guide to Koopman Learning": {
+    "主题": "非线性动态系统的Koopman学习",
+    "场景": "数据驱动的非线性动态系统预测与频谱分析",
+    "创新点": [
+      "通过残差方法在有限维和无限维环境中统一控制误差",
+      "提出广义拉普拉斯分析的收敛性基本证明，适应连续频谱和无频谱间隔的算子",
+      "综述最先进的连续频谱和频谱测量计算方法"
+    ]
+  },
+  "Revisiting Orbital Minimization Method for Neural Operator Decomposition": {
+    "主题": "线性算子的神经算子分解",
+    "场景": "机器学习与科学计算中的谱分解问题，如表示学习、动力系统和偏微分方程",
+    "创新点": [
+      "重新利用经典轨道最小化方法（OMM），提出其在现代学习管道中的适用性证明",
+      "将OMM框架扩展到训练神经网络分解半正定算子，提升数值模拟与机器学习任务的效率"
+    ]
+  },
+  "Analysis   and Simulations": {
+    "主题": "Cahn-Hilliard方程的数值解法",
+    "场景": "曲面上的Cahn-Hilliard方程求解",
+    "创新点": [
+      "提出结合稳定化迹有限元法（空间离散）与隐式-显式格式（时间离散）的新型混合数值方法",
+      "采用非拟合有限元方法，通过固定背景网格和水平集函数实现曲面隐式表征",
+      "建立离散问题的数值稳定性理论（能量耗散律）并推导最优阶误差估计（针对$m \\geq 1$阶有限元空间）"
+    ]
+  },
+  "Multilevel Picard scheme for solving high-dimensional drift control   problems with state constraints": {
+    "主题": "高维漂移控制问题求解",
+    "场景": "受限状态的高维漂移控制问题，应用于动态队列网络控制",
+    "创新点": [
+      "提出多层Picard（MLP）近似方案，克服高维问题的计算复杂性",
+      "证明MLP在计算复杂度上仅随问题维数和精度多项式增长"
+    ]
+  },
+  "Preconditioning and Reduced-Order Modeling of Navier-Stokes Equations in   Complex Porous Microstructures": {
+    "主题": "多孔微结构中Navier-Stokes方程的预处理与降阶建模",
+    "场景": "解决复杂多孔材料微结构内的不可压缩Navier-Stokes方程离散化问题，需处理大规模、病态、鞍点结构的线性系统。",
+    "创新点": [
+      "提出两种整体代数预处理方法（aPLMM_NS和aPNM_NS），基于孔隙级多尺度方法（PLMM）和孔隙网络模型（PNM），扩展了作者先前针对Stokes方程的预处理技术。",
+      "开发几何预处理方法（gPLMM和gPNM），通过在子域界面精确施加零速度法向梯度（∂n u=0）边界条件，实现更快的收敛速度。",
+      "构建基于gPLMM的稳态Navier-Stokes方程粗尺度求解器，能够以数量级更快的速度计算近似解，同时保持高精度。"
+    ]
+  },
+  "Error Estimates for Sparse Tensor Products of B-spline Approximation   Spaces": {
+    "主题": "稀疏网格张量积B样条近似空间",
+    "场景": "用于一般几何域上的数值逼近",
+    "创新点": [
+      "提出两种稀疏网格张量积构造方法（组合技术与分层子空间分解），并证明其数学等价性",
+      "在解的适当正则性假设下，证明稀疏网格方法在显著减少自由度的同时保持与标准张量积相同的逼近阶",
+      "揭示非张量积域上实现最优收敛速率需更强的解正则性条件（各向同性导数要求）"
+    ]
+  },
+  "The temporal domain derivative in inverse acoustic obstacle scattering": {
+    "主题": "时间相关声学散射逆问题",
+    "场景": "通过时域测量数据重建未知散射体边界",
+    "创新点": [
+      "提出并分析了时域导数在声学散射问题中的非线性算子及其Fréchet导数",
+      "开发了基于卷积求积的时间半离散化方法，保证稳定性和收敛性",
+      "将离散域导数应用于高斯-牛顿方法，实现高效边界重建算法"
+    ]
+  },
+  "Matrix- and tensor-oriented numerical schemes for the evolutionary   space-fractional complex Ginzburg--Landau equation": {
+    "主题": "矩阵和张量导向的数值方法",
+    "场景": "多维演化空间分数阶复Ginzburg-Landau方程的数值求解",
+    "创新点": [
+      "利用张量结构和高性能BLAS直接计算特殊矩阵函数（如逆、指数和$\\varphi$-函数）",
+      "在GPU上高效并行化点运算，提升计算速度一到两个数量级"
+    ]
+  },
+  "Applications to   Bézier Projection and Structure-Preserving Discretizations": {
+    "主题": "自适应细化策略在等几何分析中的应用",
+    "场景": "等几何分析（IGA）中的局部网格细化，用于改进Bézier投影和结构保持离散化",
+    "创新点": [
+      "提出基于宏元素的细化技术（$\\vec{q}$-boxes），根据样条阶数和应用需求动态调整块大小，避免网格修改",
+      "针对Bézier投影，细化$\\vec{p}$-boxes确保THB样条的局部线性独立性，简化算法实现",
+      "针对结构保持离散化，细化$(\\vec{p+1})$-boxes直接满足THB样条de Rham复形的精确性条件，支持自适应模拟"
+    ]
+  },
+  "Exponential integrators for parabolic problems with non-homogeneous   boundary conditions": {
+    "主题": "指数积分器在非齐次边界条件下的抛物问题中的应用",
+    "场景": "数值求解具有非齐次边界条件的抛物演化方程",
+    "创新点": [
+      "提出基于边界数据平滑扩展的校正策略，将非齐次边界问题转化为齐次问题与修正源项的结合",
+      "在非线性问题中保留指数Runge-Kutta方法的收敛阶，并通过高斯配置方法实现更高阶收敛（2s阶）"
+    ]
+  },
+  "A numerical method for the fractional Zakharov-Kuznetsov equation": {
+    "主题": "分数阶Zakharov-Kuznetsov方程的数值解法",
+    "场景": "二维周期域上的分数阶偏微分方程求解",
+    "创新点": [
+      "提出完全离散的傅里叶谱Galerkin方法，保留离散质量、动量和能量守恒性质",
+      "设计高效的积分因子Runge-Kutta时间离散方案处理刚性分数阶项，并给出误差分析",
+      "证明半离散解的存在唯一性及谱收敛性（可达指数收敛）"
+    ]
+  },
+  "A Variational Framework for the Algorithmic Complexity of PDE Solutions": {
+    "主题": "PDE解法的计算复杂性",
+    "场景": "研究偏微分方程（PDE）解法的计算可行性与复杂性",
+    "创新点": [
+      "提出基于最小二乘变分公式和梯度流的新框架，从优化角度分析PDE解的计算性和复杂性",
+      "将PDE的结构特性（如强制性、椭圆性、凸性）与其解的固有复杂性联系起来，区分多项式时间可解与复杂性爆炸的情形"
+    ]
+  },
+  "Multiscale Spectral Generalized Finite Element Methods for Discontinuous   Galerkin Schemes": {
+    "主题": "多尺度谱广义有限元方法",
+    "场景": "间断伽辽金（DG）离散化方案的二阶椭圆问题",
+    "创新点": [
+      "提出局部近似方法：结合局部源解和最优谱粗空间校正（源自广义特征问题）",
+      "全局解组装：利用单位分解实现多尺度解的高效构建",
+      "理论证明：加权对称内部惩罚DG格式下近似误差的近似指数级衰减"
+    ]
+  },
+  "Efficient optimization-based invariant-domain-preserving limiters in   solving gas dynamics equations": {
+    "主题": "优化不变域保持限制器",
+    "场景": "气体动力学方程的高阶数值求解",
+    "创新点": [
+      "提出简单高效的显式投影公式，用于不变域上的优化限制器",
+      "应用并扩展经典Douglas-Rachford分裂和现代Davis-Yin分裂方法",
+      "提出了基于优化的方法，可构建高阶、全局守恒且保持不变域的数值格式"
+    ]
+  },
+  "Ergodic Estimates of One-Step Numerical Approximations for Superlinear   SODEs": {
+    "主题": "随机常微分方程数值逼近的遍历估计",
+    "场景": "超线性系数与乘性噪声的随机常微分方程（SODEs）的数值解法分析",
+    "创新点": [
+      "**首次证明一阶收敛率**：针对超线性SODEs的遍历误差，提出误差阶为$\\mathscr{O}(\\tau)$的严格理论框架。",
+      "**生成器结合Stein方法**：通过生成器与Stein方法结合，导出一类单步数值格式的通用误差表示公式。",
+      "**广泛适用性**：框架适用于多种现有方法（如驯服欧拉、投影欧拉、后向欧拉），验证理论普适性。"
+    ]
+  },
+  "On the recent advances of spectral analysis for systems arising from   fully-implicit RK methods": {
+    "主题": "谱分析在隐式龙格-库塔方法中的应用",
+    "场景": "线性时变偏微分方程的数值求解",
+    "创新点": [
+      "证明了两种不同谱分析方法的等效性",
+      "统一了同一问题的不同公式化处理途径"
+    ]
+  },
+  "Quantiative Hypocoercivity and Lifting of Classical and Quantum Dynamics": {
+    "主题": "定量亚余性和经典/量子动力学提升",
+    "场景": "经典和量子开放系统的动力学收敛分析，如 Langevin 和 Lindblad 方程",
+    "创新点": [
+      "基于时空 Poincaré 不等式的亚余性估计，为经典和量子动力学提供统一处理方法",
+      "提出统一的提升框架，加速经典和量子马尔可夫半群，并给出收敛速率上下界"
+    ]
+  },
+  "Derivative-Free Sequential Quadratic Programming for   Equality-Constrained Stochastic Optimization": {
+    "主题": "无导数随机序列二次规划优化",
+    "场景": "解决具有随机目标和确定性等式约束的非线性优化问题，仅能获取零阶信息（无导数信息）。",
+    "创新点": [
+      "采用同步扰动随机逼近（SPSA）技术，仅需每次迭代进行维度无关的零阶评估（低至8次），随机估计目标函数和约束的梯度和Hessian矩阵。",
+      "提出基于动量估计器的在线去偏技术，通过动态聚合历史梯度与Hessian估计降低随机噪声，同时利用移动平均方案避免过高存储开销。",
+      "首次在无导数方法中结合全局收敛性与局部渐近正态性分析，证明迭代参数可通过DF-SSQP实现在线统计推断，其极限协方差矩阵近似于基于导数方法的最优协方差。"
+    ]
+  },
+  "Stable neural networks and connections to continuous dynamical systems": {
+    "主题": "神经网络稳定性与连续动力系统的联系",
+    "场景": "对抗性攻击等不稳定性问题研究，增强神经网络鲁棒性",
+    "创新点": [
+      "提出基于连续动力系统和最优控制理论的稳定神经网络设计方法",
+      "提供可扩展的代码实现及交互式案例（图像分类对抗鲁棒性示例）",
+      "建立该领域核心概念的系统性理论框架"
+    ]
+  },
+  "Davis-Kahan Theorem under a moderate gap condition": {
+    "主题": "矩阵扰动理论",
+    "场景": "中等特征值间隙下的矩阵特征空间扰动分析",
+    "创新点": [
+      "提出适用于中等特征值间隙情况下的新扰动界",
+      "利用自举论证方法，在扰动矩阵与原始矩阵不相关时获得高效边界",
+      "边界精度达到对数项内最优"
+    ]
+  },
+  "Nonconforming Linear Element Method for a Generalized Tensor-Valued   Stokes Equation with Application to the Triharmonic Equation": {
+    "主题": "非协调线性元方法",
+    "场景": "三维广义张量值Stokes方程及三调和方程的数值求解",
+    "创新点": [
+      "提出一种针对三维张量值Stokes方程的非协调线性元方法，建立分段常数空间离散Helmholtz分解以保证方法适定性",
+      "开发三调和方程的低阶解耦有限元方法，结合双调和子问题的Morley-Wang-Xu元与所提非协调方法"
+    ]
+  },
+  "A DSMC-PIC coupling method for the Vlasov-Maxwell-Landau system": {
+    "主题": "等离子体动力学数值模拟",
+    "场景": "非均匀电磁场中的碰撞等离子体动力学仿真",
+    "创新点": [
+      "将DSMC方法扩展到非均匀电磁场领域，实现Vlasov-Maxwell-Landau系统的耦合求解",
+      "采用受玻尔兹曼方程擦碰极限启发的随机粒子表述，高效且物理一致地处理朗道碰撞算子",
+      "通过算子分裂与标准PIC方案结合，保持系统物理不变量的同时兼顾计算效率"
+    ]
+  },
+  "Stochastic Trace and Diagonal Estimator for Tensors": {
+    "主题": "张量对角线与迹的随机估计",
+    "场景": "高阶张量只能通过张量-向量乘法访问时，估计其对角线和迹。",
+    "创新点": [
+      "提出高阶张量的无偏迹和对角线估计器，填补了矩阵方法向张量的扩展空白",
+      "理论证明新估计器是Hutchinson和Bekas矩阵估计器的广义推广（当N=2时退化为原方法）",
+      "通过仿真实验验证了理论分析的有效性"
+    ]
+  },
+  "Rational Approximation via p-AAA on Scattered Data Sets": {
+    "主题": "多元散乱数据有理逼近",
+    "场景": "处理非均匀/非网格结构的多元散乱数据点逼近问题",
+    "创新点": [
+      "将p-AAA算法从网格数据扩展到散乱数据集，无需均匀采样结构",
+      "提出结合插值约束的有理最小二乘优化新形式，通过结构化矩阵的SVD实现封闭解"
+    ]
+  },
+  "An extensive search for stable periodic orbits of the equal-mass zero   angular momentum three-body problem": {
+    "主题": "三体问题稳定周期轨道搜索",
+    "场景": "等质量零角动量平面三体问题的二维初始条件域分析",
+    "创新点": [
+      "计算并界定了四个新的稳定区域，发现了971个新的线性稳定无碰撞周期轨道初始条件",
+      "通过交星座序列模式实现了对各稳定区域周期轨道的特征化分类",
+      "首次提出这些轨道可作为KAM稳定轨道的候选对象"
+    ]
+  },
+  "High-order stable generalized finite element method for   elliptic interface problem": {
+    "主题": "高阶稳定广义有限元方法",
+    "场景": "椭圆界面问题求解",
+    "创新点": [
+      "提出降维的局部支撑分段多项式构造，满足含界面单元的单元分解性",
+      "基于元素中心的距离函数构建任意高阶（p阶）的 enrichment scheme，替代传统的全局函数构造"
+    ]
+  },
+  "a boundary integral equation   framework": {
+    "主题": "流体力学中的边界积分方程框架",
+    "场景": "液体介质边界表面波的动力学分析，特别涉及浮动板/膜及孔洞结构的影响",
+    "创新点": [
+      "提出适用于含孔洞板/膜问题的通用边界积分方程框架，证明其为Fredholm第二类方程",
+      "开发高效离散化算法，兼具鲁棒性和可扩展性，用于求解表面波现象",
+      "针对部分覆盖膜和冰间湖两类典型结构，解析方程关键解的性质"
+    ]
+  },
+  "Data-driven dimensionally decomposed generalized polynomial chaos   expansion for forward uncertainty quantification": {
+    "主题": "数据驱动的维度分解广义多项式混沌展开",
+    "场景": "高维随机输入的复杂工程系统中的不确定性量化",
+    "创新点": [
+      "提出无需先验输入分布知识的方法，通过平滑自举核密度估计直接从样本数据推断分布",
+      "结合维度分解框架，使核密度估计能通过低维边际估计处理高维输入",
+      "基于估计分布进行蒙特卡洛模拟白化变换，生成与测度一致的正交基函数"
+    ]
+  },
+  "Some aspects of neural network parameter optimization for joint   inversion of gravitational and magnetic fields": {
+    "主题": "神经网络参数优化",
+    "场景": "矿物勘探中重力和磁场联合反演",
+    "创新点": [
+      "采用双层级神经网络结构，下层并行处理重力和磁场数据，上层通过结构残差最小化实现几何一致性",
+      "优化神经网络元素（数据集、训练过程、损失函数等）提升联合反演精度",
+      "扩展应用至真实物理强度反演（传统方法仅关注几何分布）"
+    ]
+  },
+  "Accelerated Tensor Completion via Trace-Regularized Fully-Connected   Tensor Network": {
+    "主题": "张量补全优化",
+    "场景": "利用全连接张量网络（FCTN）分解进行数据重建，提升局部细节恢复性能",
+    "创新点": [
+      "在FCTN分解框架中引入基于模态展开和修正负拉普拉斯算子的迹正则化，增强因子平滑度及重建连续性",
+      "设计中间张量重用机制，降低算法10%-30%运行时间（尤其大规模数据），且不损失恢复效果"
+    ]
+  },
+  "Multi-Scale Finite Expression Method for PDEs with Oscillatory Solutions   on Complex Domains": {
+    "主题": "多尺度有限表达方法求解偏微分方程",
+    "场景": "复杂域上具有高频振荡解的偏微分方程数值求解",
+    "创新点": [
+      "引入符号谱组合模块，使方法能学习和表示多尺度振荡特性",
+      "改进线性输入层设计，显著提升模型表达能力",
+      "通过特征值公式扩展方法适用范围，可求解新类型的特征值偏微分方程问题"
+    ]
+  },
+  "Finite element analysis of density estimation using preintegration for   elliptic PDE with random input": {
+    "主题": "随机输入椭圆PDE的有限元分析",
+    "场景": "不确定性量化（UQ）问题中概率密度函数的估计",
+    "创新点": [
+      "验证了有限元近似满足预积分理论的假设条件（包括单调性条件）",
+      "结合有限元和拟蒙特卡罗方法，推导了收敛速度与计算期望值相当的误差界限"
+    ]
+  },
+  "Tree-Cotree-Based IETI-DP for Eddy Current Problems in Time-Domain": {
+    "主题": "低频电磁问题中的涡流模拟",
+    "场景": "用于捕捉瞬态启动响应或非线性行为的时域模拟",
+    "创新点": [
+      "提出了一种新颖的撕裂和互连方法，用于时域涡流问题",
+      "研究了该方法的可扩展性"
+    ]
+  },
+  "Mixed Precision Training of Neural ODEs": {
+    "主题": "混合精度训练",
+    "场景": "神经常微分方程（Neural ODEs）的高效训练",
+    "创新点": [
+      "提出定制反向传播方案，结合显式ODE求解器，实现低精度速度评估和中间状态存储，同时动态调整伴随梯度缩放以保证稳定性。",
+      "设计高精度累积解和梯度的机制，解决训练中网络重复评估的高计算成本和时间步长内存需求增长两大挑战。",
+      "开源模块化PyTorch工具包**rampde**，语法兼容主流库，在图像分类和生成模型中实现50%内存降低和2倍加速，精度与单精度训练相当。"
+    ]
+  },
+  "First Application to Rare-Event   Derivative Pricing": {
+    "主题": "金融衍生品定价中的罕见事件模拟",
+    "场景": "用于深度虚值二元期权等罕见事件金融合约的高效定价",
+    "创新点": [
+      "首次将自适应多级分裂（AMS）方法应用于金融衍生品定价，解决标准蒙特卡洛方法在罕见事件中效率低下的问题",
+      "将罕见事件问题重构为条件事件序列，在Black-Scholes和Heston模型下实现高达200倍的计算效率提升",
+      "提供开源Rcpp实现，支持多种离散化和重要性函数，适用于参数化保险和巨灾债券等实际场景"
+    ]
+  },
+  "A Finite Element framework for bulk-surface coupled PDEs to solve moving   boundary problems in biophysics": {
+    "主题": "有限元框架应用于生物物理移动边界问题",
+    "场景": "处理生物物理中移动边界问题涉及的体-表面耦合偏微分方程（PDEs）求解",
+    "创新点": [
+      "采用快速、可推广且精确的结构保持方案，增强了计算框架的可解释性",
+      "结合任意拉格朗日-欧拉（ALE）框架和创新性网格处理技术，有效减轻网格畸变问题",
+      "采用交错方法实现耦合，并通过数值实验验证了该耦合方法的收敛性"
+    ]
+  },
+  "Solving Biot poroelasticity by coupling OPM Flow with the two-point   stress approximation finite volume method": {
+    "主题": "Biot孔隙弹性耦合模拟",
+    "场景": "油藏模拟中孔隙弹性问题的数值求解",
+    "创新点": [
+      "首次将两点应力近似有限体积法（TPSA）与现有流动模拟器（OPM Flow）耦合，实现自然单元中心耦合无需插值",
+      "提出固定应力耦合方案并复用代数多重网格预条件器，提升两点通量有限体积方法的计算效率",
+      "通过数值算例验证了固体力学引入对分区流动系统行为的显著影响"
+    ]
+  },
+  "A grad-curl conforming virtual element method for a grad-curl problem   linking the 3D quad-curl problem and Stokes system": {
+    "主题": "grad-curl符合虚拟元方法",
+    "场景": "三维四阶旋度问题与Stokes系统的关联问题求解",
+    "创新点": [
+      "提出新颖的$\\boldsymbol{H}(\\operatorname{grad-curl})$符合虚拟元空间，满足离散Stokes复形的精确性",
+      "在最低阶情况下，为每个顶点分配三个自由度，每条边分配一个自由度，简化计算",
+      "实现压力解耦且对称正定的离散向量势公式，提升求解效率"
+    ]
+  },
+  "A least squares finite element method for backward parabolic problems": {
+    "主题": "反向抛物问题的有限元方法",
+    "场景": "求解不适定的反向抛物方程（如反向热方程）数值解",
+    "创新点": [
+      "提出基于最小二乘的有限元方法，适用于弱解形式下的非齐次反向抛物问题",
+      "建立条件稳定性估计，仅需解的最低正则性假设",
+      "开发处理对偶范数的计算框架，通过构造特殊测试空间实现迭代求解"
+    ]
+  },
+  "Unified Learning of the Profile Function in Discrete Keller-Segel Models": {
+    "主题": "离散Keller-Segel模型中的剖面函数统一学习",
+    "场景": "数学建模中的趋化性研究，涉及高维数据和奇异行为捕捉",
+    "创新点": [
+      "提出统一学习框架，整合粒子方法和随机微分方程数据，解决高维数据不稳定问题",
+      "引入自适应学习策略，提升对剖面函数奇异行为的精确捕捉能力"
+    ]
+  },
+  "An Energy-Stable Discontinuous Galerkin Method for the Compressible   Navier--Stokes--Allen--Cahn System": {
+    "主题": "计算流体力学中的能量稳定不连续Galerkin方法",
+    "场景": "可压缩、粘性、不混溶两相流体的动力学模拟",
+    "创新点": [
+      "提出一种质量守恒且能量稳定的全离散不连续Galerkin离散化方法",
+      "在空间和时间上分别实现高阶精度和第二阶精度",
+      "采用特殊分裂离散化自由能函数的导数"
+    ]
+  },
+  "Theory and   Applications": {
+    "主题": "低通图滤波与黎曼插值算法",
+    "场景": "图信号处理和非欧几里得域中的参数化图族",
+    "创新点": [
+      "提出基于Grassmann流形上法坐标的黎曼插值算法，用于高效计算参数化图族的低通图滤波器",
+      "将节点特征的时态演化转化为图拓扑演化，通过相似性校正调整网络的同质性程度",
+      "构建由静态图诱导的点积图族，改进节点分类中的消息传递方案"
+    ]
+  },
+  "Accelerating Eigenvalue Dataset Generation via Chebyshev Subspace Filter": {
+    "主题": "特征值问题求解加速",
+    "场景": "机器学习中需要大量特征值标签数据训练的场景",
+    "创新点": [
+      "利用运算符相似性，通过快速傅里叶变换排序分组相似特征值分布的运算符",
+      "构建切比雪夫子空间滤波器，复用已解决问题的特征对来辅助求解后续问题，减少冗余计算"
+    ]
+  },
+  "Stability analysis of discontinuous Galerkin with a high order embedded   boundary treatment for linear hyperbolic equations": {
+    "主题": "高阶嵌入式边界处理的间断伽辽金稳定性分析",
+    "场景": "针对线性双曲方程的数值模拟，采用固定网格处理复杂移动边界问题",
+    "创新点": [
+      "提出移位边界多项式校正法，通过校正非网格边界条件补偿几何误差，实现高阶精度",
+      "首次系统分析高阶嵌入式边界处理与显式时间积分联用时的稳定性限制，揭示多项式阶数对稳定区域的影响",
+      "证明隐式时间积分可克服稳定性限制，实现无条件稳定的高阶嵌入式边界处理"
+    ]
+  },
+  "Noisy nonlinear information and entropy numbers": {
+    "主题": "非线性信息恢复与熵数分析",
+    "场景": "在高维空间中从受噪声干扰的非线性测量中恢复向量",
+    "创新点": [
+      "提出使用$O(\\log m)$次自适应连续（Lipschitz）测量实现高维向量的任意精度恢复，显著优于线性测量",
+      "通过熵数理论量化确定性噪声下最优（不）连续信息恢复的质量，揭示连续测量在噪声环境中的性能边界"
+    ]
+  },
+  "Higher order numerical schemes for SPDEs with additive Noise": {
+    "主题": "高阶数值方案求解加性噪声SPDE",
+    "场景": "具有Dirichlet边界条件的线性随机热方程和波动方程",
+    "创新点": [
+      "采用改进的Crank-Nicolson格式结合噪声项数值积分，使随机热方程的强收敛速率提升至3/2",
+      "针对随机波动方程提出对应方法，实现2阶精度的高阶收敛"
+    ]
+  },
+  "Modeling a Smooth Surface by a Constrained Biharmonic Equation with   Application in Soil Science": {
+    "主题": "曲面建模方法",
+    "场景": "土壤厚度与基岩区域的地表建模",
+    "创新点": [
+      "提出基于离散双调和方程的表面建模方法，利用内点与内曲线数据拟合平滑曲面",
+      "针对边界数据构造不适定问题提出特殊正则化方法，适用于极少量测量数据的场景"
+    ]
+  },
+  "Deep Forward-Backward Dynamic Programming Schemes for High-Dimensional   Semilinear Nonlocal PDEs and FBSDE with Jumps": {
+    "主题": "高维半线性非局部偏微分方程和带跳跃的FBSDE求解",
+    "场景": "高维半线性非局部偏微分方程（PIDEs）和带跳跃的正向-反向随机微分方程（FBSDEJs）的数值求解",
+    "创新点": [
+      "同时使用深度神经网络逼近解和积分核，并通过数值微分技术近似解的梯度",
+      "提出积分核逼近的误差估计方法，为算法提供理论误差分析依据"
+    ]
+  },
+  "Identification of Governing PDE via   Koopman-Chebyshev Approximation": {
+    "主题": "PDE识别与Koopman算子近似",
+    "场景": "从观测数据中识别控制动力系统的偏微分方程（PDE）",
+    "创新点": [
+      "使用切比雪夫多项式基构建有限维Koopman矩阵，直接关联微分算子与非线性项",
+      "建立Koopman算子与微分算子的数值联系，提升可解释性",
+      "为未来与符号回归结合提供基础，直接从数据构建显式数学模型"
+    ]
+  },
+  "Multiscale modeling for contact problem with high-contrast heterogeneous   coefficients with primary-dual formulation": {
+    "主题": "多尺度建模与高对比接触问题",
+    "场景": "解决高对比异质材料中的Signorini类型接触问题",
+    "创新点": [
+      "提出结合CEM-GMsFEM（约束能量最小化广义多尺度有限元法）与原始-对偶主动集策略的迭代多尺度框架",
+      "通过局部谱问题构建辅助多尺度空间，并在超采样域上导出能量最小化基函数，实现对接触边界附近细尺度特征的高效鲁棒捕捉",
+      "在主动集演化过程中仅迭代更新接触边界处的多尺度基函数，优化计算效率"
+    ]
+  },
+  "A New Framework for Solving   Periodic Solutions of Non-linear and Non-smooth Systems": {
+    "主题": "非线性非光滑系统周期解计算",
+    "场景": "强非线性/非光滑振动系统的周期响应分析",
+    "创新点": [
+      "提出扰动函数迭代法（PFIM），通过时变线性系统转化和分段常数近似避免雅可比矩阵显式构造",
+      "采用无基迭代形式消除傅里叶截断误差与吉布斯现象的矛盾，提升非光滑问题求解鲁棒性",
+      "在光滑系统中实现二次收敛，非光滑系统中保持线性收敛，计算效率比谐波平衡法提升百倍量级"
+    ]
+  },
+  "High-order Computation of Floquet Multipliers and Subspaces using   Multistep Methods": {
+    "主题": "Floquet乘子和子空间的高阶计算方法",
+    "场景": "动力系统中的极限环分析和射频（RF）模拟的周期性稳态分析",
+    "创新点": [
+      "应用多步方法推导周期性多项式特征值问题，提高计算精度",
+      "提出pTOAR算法，高效计算大规模稀疏情况下的主导Floquet特征对，内存效率高"
+    ]
+  },
+  "Effective numerical integration on complex shaped elements by discrete   signed measures": {
+    "主题": "多项式矩压缩与离散符号测量",
+    "场景": "复杂几何形状元素的高效数值积分（高阶FEM/VEM和3D元素QMC积分）",
+    "创新点": [
+      "利用辅助测量的正交基和低基数代数正交公式，避免矩阵分解或反转带来的条件问题",
+      "提出符号测量权重绝对值之和的界限，提高稳定性与效率"
+    ]
+  },
+  "Validity of relaxation models arising from numerical schemes for   hyperbolic-parabolic systems": {
+    "主题": "双曲-抛物系统的松弛模型有效性验证",
+    "场景": "数值模拟中双曲-抛物系统的多尺度建模与计算",
+    "创新点": [
+      "首次将广义双曲松弛理论应用于数值方案中的松弛模型验证，证明了五种典型模型的收敛性",
+      "提出新型多维双曲-抛物系统松弛模型，突破了现有模型仅适用于特殊系统的限制"
+    ]
+  },
+  "MultiLevel Variational MultiScale (ML-VMS) framework for large-scale   simulation": {
+    "主题": "大规模模拟的多级变分多尺度方法",
+    "场景": "大规模工程模拟（如激光粉末床融合瞬态热传导问题）",
+    "创新点": [
+      "通过变分多尺度框架实现任意数量多级网格跨尺度耦合",
+      "采用C-HiDeNN基函数实现线性有限元网格上的任意阶逼近",
+      "结合时空降阶模型（C-HiDeNN-TD）实现万倍加速（10^10自由度问题单CPU加速5000倍）",
+      "提供可调超参数（如阶数p、块尺寸s）的系统化选择指南"
+    ]
+  }
+}

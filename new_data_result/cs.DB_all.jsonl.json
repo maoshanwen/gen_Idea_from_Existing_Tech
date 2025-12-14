@@ -1,0 +1,53 @@
+{
+  "A Provenance Graph Query System for Cyber Attack Investigation": {
+    "主题": "网络安全溯源图查询系统",
+    "场景": "通过系统审计事件构建溯源图，分析网络攻击的依赖关系",
+    "创新点": [
+      "引入PROGQL领域特定图搜索语言，支持约束图遍历、边权重计算、值传播及图合并等新语言结构",
+      "优化查询引擎，实现跨异构数据库的高效增量图搜索，减少内存占用，提升扩展性"
+    ]
+  },
+  "An Application for Accessing Global Pharmacovigilance Data": {
+    "主题": "全球药物警戒数据整合工具",
+    "场景": "药物安全监测与研究，需从多源异构数据库中提取数据",
+    "创新点": [
+      "支持从七个主要药物警戒数据库中一键检索数据，解决现有工具单一数据库的局限",
+      "采用模块化架构设计，兼容异构数据源，同时提供图形界面和编程接口",
+      "开源工具降低技术门槛，促进药物警戒研究流程整合"
+    ]
+  },
+  "Global Point-of-Interest Data Enriched from Foursquare and   OpenStreetMap as Tabular and Graph Data": {
+    "主题": "POI数据集成与增强",
+    "场景": "整合Foursquare和OpenStreetMap的POI数据，解决商业位置数据不完整或虚构的问题",
+    "创新点": [
+      "提出混合Foursquare的商业POI覆盖广与OSM元数据丰富的优势，构建约1TB的增强数据集",
+      "设计基于名称相似度和空间距离的记录链接方法，筛选高置信度真实商业POI",
+      "提供可调节阈值的过滤版本及图结构表示，提升跨领域实用性与空间分析能力"
+    ]
+  },
+  "Dynamically Detect and Fix Hardness for Efficient Approximate Nearest   Neighbor Search": {
+    "主题": "近似最近邻搜索（ANNS）的图结构优化",
+    "场景": "在分布外（OOD）查询场景下提升图基ANNS算法的准确性和效率",
+    "创新点": [
+      "提出\"Escape Hardness\"指标，动态评估查询周围图结构的质量，分两阶段修复缺陷（近邻区域修复NGFix和可达性修复RFix）",
+      "实现动态图优化，避免RoarGraph因查询分布变化需重建索引的问题，构建速度提升2.35-9.02倍",
+      "在OOD查询中达到99%召回率时，搜索速度比RoarGraph快2.25倍，比HNSW快6.88倍"
+    ]
+  },
+  "Determining Window Sizes using Species Estimation for Accurate Process   Mining over Streams": {
+    "主题": "流式过程挖掘中的动态窗口调整",
+    "场景": "实时事件流分析，处理过程动态变化和概念漂移",
+    "创新点": [
+      "基于物种多样性估计算法动态调整窗口大小，提高样本代表性",
+      "相比静态窗口方法，提升了分析准确性和对概念漂移的鲁棒性"
+    ]
+  },
+  "Model-based Database Auto-tuning with Minimal Distributional   Assumptions": {
+    "主题": "数据库自动调优",
+    "场景": "基于贝叶斯优化的数据库管理系统（DBMS）性能调优",
+    "创新点": [
+      "提出两阶段随机梯度提升集成学习（SGBE）方法，改进替代模型中的无分布点估计和区间估计",
+      "采用广义SGBE估计的局部自适应共形预测，实现无分布不确定性估计和获取函数"
+    ]
+  }
+}

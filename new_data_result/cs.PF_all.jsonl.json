@@ -1,0 +1,37 @@
+{
+  "Iterative Layer Pruning for Efficient Translation Inference": {
+    "主题": "大型语言模型剪枝优化",
+    "场景": "机器翻译中的高效推理部署",
+    "创新点": [
+      "提出基于层级重要性分析的迭代剪枝方法",
+      "在保持翻译质量前提下显著减小模型规模和推理时间",
+      "验证了方法在捷克语-德语/英语-埃及阿拉伯语翻译任务的有效性"
+    ]
+  },
+  "A Multi-Objective Optimization Perspective and Future Directions": {
+    "主题": "边缘智能模型卸载与优化",
+    "场景": "边缘计算环境下VR/AR、聊天机器人等智能应用的深度学习模型部署",
+    "创新点": [
+      "提出多目标优化框架，平衡推理延迟、数据隐私与资源成本",
+      "整合模型压缩、蒸馏及架构适配（如内部分类器）以缓解传输瓶颈"
+    ]
+  },
+  "Allocator Optimisation for Industrial Workloads": {
+    "主题": "内存分配器优化",
+    "场景": "工业工作负载中的内存分配性能优化",
+    "创新点": [
+      "使用多目标搜索框架（GreenMalloc）结合NSGA II算法，自动配置内存分配器参数",
+      "引入轻量级代理基准测试工具（rand_malloc）和执行轨迹分析，提升参数探索效率",
+      "通过配置迁移到gem5系统模拟器，验证了glibc malloc和TCMalloc的优化效果"
+    ]
+  },
+  "Accelerating Mobile Inference through Fine-Grained CPU-GPU Co-Execution": {
+    "主题": "移动设备CPU-GPU协同推理加速",
+    "场景": "在资源有限的移动设备上部署深度神经网络，实现高效推理",
+    "创新点": [
+      "提出基于OpenCL细粒度共享虚拟内存的轻量级同步机制，减少CPU-GPU协作时的同步开销",
+      "利用机器学习模型精确预测任务执行时间，动态适应GPU内核性能特征和调度时间",
+      "通过策略优化实现接近理论最大值的加速比（线性层1.89倍、卷积层1.75倍）"
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "A Stylometric Application of Large Language Models": {
+    "主题": "作者风格识别",
+    "场景": "利用大型语言模型（LLMs）区分不同作者的写作风格",
+    "创新点": [
+      "提出通过训练单个GPT-2模型来捕捉特定作者的独特写作风格",
+      "验证了该方法在已知作者书籍上的有效性，并成功应用于争议作品（Oz系列第15本）的作者归属确认"
+    ]
+  },
+  "Can ChatGPT be a good follower of academic paradigms? Research quality   evaluations in conflicting areas of sociology": {
+    "主题": "LLMs在学术评估中的范式偏倚",
+    "场景": "社会学领域内对立范式的学术论文质量评估",
+    "创新点": [
+      "首次证明LLMs（如ChatGPT）在评估学术论文时会因指令角色（追随者/反对者等）表现出对特定范式的倾向性",
+      "揭示指令设计对评估结果的关键影响，提出需保持范式中立以避免技术性解决范式冲突"
+    ]
+  },
+  "Can Small and Reasoning Large Language Models Score Journal Articles for   Research Quality and Do Averaging and Few-shot Help?": {
+    "主题": "小型与推理大语言模型的学术文章质量评分",
+    "场景": "评估医学、健康与生命科学领域期刊文章的研究质量",
+    "创新点": [
+      "首次证实参数>4b的小型LLM（含推理模型）具有与ChatGPT/Gemini相当的学术评分能力",
+      "发现多查询平均策略能普遍提升评分准确性",
+      "验证few-shot提示（四示例）的潜在优化作用（效果待定）"
+    ]
+  },
+  "Human-Inspired Knowledge by Machine Agents through a Multi-Agent   Framework for Semi-Autonomous Scientific Conferences": {
+    "主题": "AI驱动的半自主学术会议",
+    "场景": "重新构想学术交流，将AI集成到学术出版和会议全流程",
+    "创新点": [
+      "开发了首个端到端AI集成的学术会议框架（HIKMA），涵盖论文生成、审稿、修改、展示及存档全流程",
+      "提出人机协作研究模式，结合语言模型与领域保护机制，在保障知识产权的前提下增强学术效率",
+      "通过实际会议验证AI在学术中的可行性，探讨了AI作者权责归属等伦理问题"
+    ]
+  },
+  "A European Call to Action and How   Information Infrastructure Can Help": {
+    "主题": "学术诚信与信息基础设施",
+    "场景": "欧洲数学科学领域的学术出版欺诈问题",
+    "创新点": [
+      "呼吁欧洲利用开放科学政策和成熟的信息基础设施（如zbMATH Open）引领结构性改革",
+      "提出社区主导的钻石开放获取（diamond open access）等新型非印刷学术贡献形式"
+    ]
+  }
+}

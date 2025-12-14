@@ -1,0 +1,124 @@
+{
+  "Modeling Institutional Trust for Community   Adoption of Reinforcement Learning Policies": {
+    "主题": "信任感知的强化学习资源分配",
+    "场景": "政府或人道主义工程组织在社区中分配资源时，考虑居民对机构的信任度",
+    "创新点": [
+      "提出信任感知的强化学习算法（DDPG），将居民对机构的信任动态纳入资源分配策略优化",
+      "首次量化分析信任隐私性（private trust values）对组织策略学习效果的影响",
+      "引入外部配额干预机制，平衡组织效用与社区公平性/信任度"
+    ]
+  },
+  "Scale Laws and Robustness in One-Step Heaven-Hell   Consensus": {
+    "主题": "网络共识模型的规模定律与鲁棒性",
+    "场景": "研究Heaven-Hell动力学模型，用于网络节点间达成共识的过程",
+    "创新点": [
+      "提出规模定律和操作改进，使收敛阈值对多种因素（如断点策略、节点特定容忍度、目标种子、多中心节点和异步更新）具有鲁棒性",
+      "引入守恒定律的视角和参数化断点策略，改进了经典的最坏情况保证，提供了更紧密的逐点边界",
+      "为异步更新提供单次遍历公平性，并提出种子收敛的充分条件"
+    ]
+  },
+  "Towards Socio-Technical Topology-Aware Adaptive Threat Detection in   Software Supply Chains": {
+    "主题": "软件供应链威胁检测",
+    "场景": "针对软件供应链中的动态、异构技术和社会组件，进行自适应威胁检测",
+    "创新点": [
+      "提出结合社会-技术模型的方法，通过监控技术和社交数据来识别可疑行为",
+      "针对供应链的复杂性和动态性，实现有针对性和自适应的威胁检测",
+      "分析XZ Utils攻击案例，展示社会工程如何破坏维护者信任，从而支持该方法的必要性"
+    ]
+  },
+  "From Social Division to Cohesion with AI Message Suggestions in Online   Chat Groups": {
+    "主题": "AI辅助在线社交凝聚力优化",
+    "场景": "在线聊天群组中讨论政治争议话题时，通过AI消息建议促进社会凝聚力",
+    "创新点": [
+      "提供个性化（针对个人）与关系化（针对群体）两种AI消息建议模式，分析其对群体结构的影响",
+      "发现关系化AI建议能通过调整语言风格增强群体凝聚力，而个性化建议可能导致同质化群体割裂",
+      "揭示AI中介沟通的设计差异（个人适配vs群体情境适配）对社会凝聚力结果的关键影响"
+    ]
+  },
+  "Global Point-of-Interest Data Enriched from Foursquare and   OpenStreetMap as Tabular and Graph Data": {
+    "主题": "POI数据集成与图表示",
+    "场景": "整合Foursquare和OpenStreetMap的POI数据，以支持空间分析和下游应用",
+    "创新点": [
+      "提出基于名称相似性和空间距离的POI匹配方法，结合Foursquare的商业覆盖性与OSM的丰富元数据",
+      "提供可调阈值的过滤版本，平衡数据完整性与存储效率，并构建图结构增强多源属性关联分析"
+    ]
+  },
+  "Shift Bribery over Social Networks": {
+    "主题": "社交网络中的选票操纵",
+    "场景": "通过社交网络影响选民投票偏好，最大化贿赂效果",
+    "创新点": [
+      "提出基于社交网络的选票操纵模型，考虑选民间社会影响力的传播效应",
+      "证明问题在多数情况下属于NP难解，并针对特定图结构（完全图/路径图/竞赛图）设计多项式时间算法",
+      "首次提出以树宽和簇顶点删除数为参数的固定参数可解算法"
+    ]
+  },
+  "Social Simulations with Large Language Model Risk Utopian Illusion": {
+    "主题": "大型语言模型社会行为模拟",
+    "场景": "评估LLMs在模拟人类社交行为中的真实性与偏差",
+    "创新点": [
+      "提出多维度分析框架（五维语言指标）检测LLM社交认知偏差",
+      "揭示LLMs存在三重理想化偏差（社会角色/首因效应/积极性偏见），导致\"乌托邦式\"社会模拟",
+      "首次系统验证LLM与真实人类行为在社交语境中的本质差异"
+    ]
+  },
+  "Community Search in Attributed Networks using Dominance Relationships   and Random Walks": {
+    "主题": "属性网络中的社区搜索",
+    "场景": "社交网络分析与推荐系统",
+    "创新点": [
+      "结合基于跳数和随机游走的方法，平衡结构连通性与属性相似性",
+      "引入支配分数量化节点属性影响力，结合k核确保结构内聚性"
+    ]
+  },
+  "Topic and Sentiment Analysis of   China-US Relations on Douyin and TikTok": {
+    "主题": "中美关系社交媒体情感与主题分析",
+    "场景": "中美国际关系在中美社交平台（抖音/TikTok）上的公众讨论与情感差异",
+    "创新点": [
+      "首次利用中国社交媒体的省级地理位置信息，结合GDP、少数民族指数等社会经济指标分析对美情感变化",
+      "通过跨平台（抖音/TikTok）大数据（4,040视频+33万评论）揭示中美民众在经济、技术、文化等主题上的显著情感差异",
+      "提出\"全球挑战应对\"作为中美舆论新聚类维度，突破传统国际关系分析框架"
+    ]
+  },
+  "A Simulation Study Using the SeCoNet Growth Model": {
+    "主题": "HPV疫苗接种策略的网络模拟研究",
+    "场景": "通过性接触网络模型（SeCoNet）评估不同疫苗接种策略对HPV传播的影响",
+    "创新点": [
+      "比较多种基于网络中心性（度、介数、渗滤）的疫苗接种策略，发现基于中心性的策略效果更优",
+      "揭示网络拓扑参数（平均度数、幂律指数、最短路径长度、聚类系数）对疫苗接种效果的关键影响"
+    ]
+  },
+  "Larger holes as narrower degree distributions in complex networks": {
+    "主题": "复杂网络中的度分布与环路长度关系",
+    "场景": "研究复杂网络中窄度分布与较长最短环路之间的关联，用于提升网络连接鲁棒性",
+    "创新点": [
+      "发现窄度分布与较长最短环路之间的普遍关联性（适用于多种随机网络类型）",
+      "揭示长环路（O(log N)量级）对连接鲁棒性的增强作用",
+      "提出通过构建长环路优化网络结构的新视角（突破传统三角形环路研究的局限）"
+    ]
+  },
+  "A Novel Discrete-time Model of Information Diffusion on Social Networks   Considering Users Behavior": {
+    "主题": "社交网络信息传播建模",
+    "场景": "在线社交网络中用户行为对信息扩散的影响分析",
+    "创新点": [
+      "引入SDIR模型，新增D（delayable）状态描述用户接收信息后延迟或放弃传播的行为",
+      "结合平均场近似方法，推导模型动力学方程并分析收敛与稳定性条件",
+      "提出边删除问题的近似算法，以最小化信息扩散影响力"
+    ]
+  },
+  "Theory and   Applications": {
+    "主题": "低通图滤波器的Grassmann流形插值算法",
+    "场景": "非欧几里得域（如图结构）上的信号处理",
+    "创新点": [
+      "提出基于Grassmann流形上法坐标的黎曼插值算法，避免重复求解特征值问题",
+      "通过相似性校正将节点特征时域演化转换为图拓扑演化，调整网络同配性",
+      "构建静态图诱导的点积图族，利用滤波器插值改进消息传递机制以优化节点分类"
+    ]
+  },
+  "Modeling Political Discourse with Sentence-BERT and BERTopic": {
+    "主题": "政治话语分析",
+    "场景": "利用Twitter数据分析美国第117届国会期间的道德驱动话题演变",
+    "创新点": [
+      "结合BERTopic主题建模与Moral Foundations Theory（MFT）分析政治话题的道德维度",
+      "提出动态跟踪话题演变和量化话题持续性的新方法"
+    ]
+  }
+}

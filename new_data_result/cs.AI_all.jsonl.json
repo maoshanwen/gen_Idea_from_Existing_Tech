@@ -1,0 +1,4801 @@
+{
+  "A Comparative Study of Classic ML,   CNN, and GCN Models using Audio-Visual Features": {
+    "主题": "多模态谎言检测模型",
+    "场景": "提高测谎准确性和泛化能力，应用于司法和政治系统",
+    "创新点": [
+      "采用独特的**多模态Transformer架构**，结合音频输入、面部微表情和手势注释",
+      "使用**Vision Transformer和OpenSmile模型**分别提取视觉和听觉特征，结合微表情与手势转录提升分类性能",
+      "CNN Conv1D多模态模型实现**95.4%平均准确率**，显著超越当前方法"
+    ]
+  },
+  "AI-Driven Cyber Threat Intelligence Automation": {
+    "主题": "AI驱动的网络威胁情报自动化",
+    "场景": "工业环境中网络威胁情报（CTI）的自动化处理",
+    "创新点": [
+      "利用GPT-4o和单次微调技术优化语言模型，提升CTI报告的生成效率与精度",
+      "通过AI技术减少人工干预，实现威胁情报的快速收集、分析和传播"
+    ]
+  },
+  "Unifying Matrix Factorization, Network Embedding, and   LightGCN for Link Prediction": {
+    "主题": "图分析中的链接预测统一框架",
+    "场景": "图分析中的链接预测任务，适用于矩阵分解、网络嵌入和图神经网络方法。",
+    "创新点": [
+      "提出了一个统一框架，涵盖矩阵分解、网络嵌入和图神经网络等多种链接预测方法。",
+      "通过方法论和实证分析，揭示了基于统一框架的关键设计因素，有助于深化理解和启发新方法设计。"
+    ]
+  },
+  "Enhancing Software Agents with Monte Carlo Tree Search and   Iterative Refinement": {
+    "主题": "软件代理优化框架",
+    "场景": "复杂动态环境中的软件工程任务",
+    "创新点": [
+      "提出SWE-Search多代理框架，整合蒙特卡洛树搜索（MCTS）与自我改进机制，增强软件代理性能",
+      "创新混合价值函数，结合大语言模型进行数值估计和质性评估，实现定量与定性双重反馈循环",
+      "引入三代理协同架构（自适应探索代理+价值评估代理+鉴别代理），通过多代理辩论实现协作决策",
+      "在SWE-bench基准测试中实现23%性能提升，仅通过推理计算优化无需扩大模型或额外数据"
+    ]
+  },
+  "Masked Autoregressive Diffusion for Video Generation at Scale": {
+    "主题": "视频生成模型",
+    "场景": "视频插值、图像到视频生成、视频扩展",
+    "创新点": [
+      "结合掩码自回归（MAR）与扩散模型（DM），通过非对称网络设计分工处理时序规划（MAR）与空间生成（DM）",
+      "支持任意数量/位置的掩码帧作为条件输入，实现单模型覆盖多种视频生成任务（如插值、扩展等）",
+      "通过轻量化生成模型与低分辨率规划模型的高效计算分配，实现大规模时空注意力的可行应用"
+    ]
+  },
+  "Equivariant Blurring Diffusion for Hierarchical Molecular Conformer   Generation": {
+    "主题": "分子构象生成的扩散模型",
+    "场景": "基于分子图的多尺度3D分子构象生成",
+    "创新点": [
+      "提出两阶段分层生成框架：首先生成粗粒度的片段级3D结构，再生成精细原子细节并同时调整粗粒度结构",
+      "设计新型等变模糊扩散模型（EBD），通过模糊原子细节的顺向过程和等变网络逆向操作实现SE(3)等变性"
+    ]
+  },
+  "Enhancing efficiency with dynamic   frame sampling and feedback-driven reasoning": {
+    "主题": "长视频理解",
+    "场景": "基于大语言模型（LLMs）的代理方法，通过动态帧采样和反馈驱动推理提升长视频内容理解的效率和效果。",
+    "创新点": [
+      "提出查询自适应帧采样方法，利用LLMs的推理能力实时处理最相关帧，减少冗余或无关帧的采样。",
+      "利用LLMs的自我反思能力为视频理解代理提供语言反馈增强，提升性能的同时最小化访问帧数。"
+    ]
+  },
+  "An Efficient Approach to Open-Vocabulary Embodied Question   Answering": {
+    "主题": "开放词汇具身问答（Open-Vocabulary Embodied Question Answering）",
+    "场景": "机器人助手在动态环境中高效探索并回答开放词汇问题",
+    "创新点": [
+      "提出语义价值加权边界探索（SFE）结合语言化置信度（VC），优先探索语义重要区域，加快信息收集",
+      "基于BLIP的相关性自适应停止机制，通过标记高相关观察作为异常值来判断信息是否充足",
+      "采用检索增强生成（RAG）方法，使视觉语言模型（VLM）能基于观察历史中的相关图像生成准确回答，不依赖预定义选项"
+    ]
+  },
+  "Improving Model Evaluation using SMART Filtering of Benchmark Datasets": {
+    "主题": "NLP模型评估优化",
+    "场景": "解决基准数据集中的评估挑战（如数据污染、样本质量参差不齐）",
+    "创新点": [
+      "提出SMART过滤方法，通过三标准（易样本、污染样本、嵌入空间相似样本）筛选高质量子集",
+      "显著提升效率（数据集平均缩减48%）且增强与开放人工评估（ChatBot Arena）的相关性"
+    ]
+  },
+  "Modelling of Economic Implications of Bias in AI-Powered Health   Emergency Response Systems": {
+    "主题": "AI偏见的经济影响分析",
+    "场景": "AI驱动的健康应急响应系统中的资源分配与福利损失评估",
+    "创新点": [
+      "提出整合健康经济学、福利经济学与AI的理论框架，量化算法偏见对资源分配和福利的影响",
+      "首次在健康生产函数和社会福利模型中嵌入偏见函数，揭示偏见导致成本增加与效率-公平权衡",
+      "提出多维度缓解策略（公平约束优化、算法调整、政策干预），为应急服务提供经济公平性决策依据"
+    ]
+  },
+  "A Survey of Large Language Models for Arabic Language and its Dialects": {
+    "主题": "阿拉伯语及方言大语言模型",
+    "场景": "针对阿拉伯语及其方言（古典阿拉伯语、现代标准阿拉伯语和方言阿拉伯语）的大语言模型研究与应用",
+    "创新点": [
+      "全面分析阿拉伯语LLMs的架构（编码器、解码器及编码器-解码器）及多类型数据集（单语、双语、多语）",
+      "评估模型在下游任务（如情感分析、命名实体识别）的性能，并首次系统提出阿拉伯语LLMs的开放性标准（代码、数据、权重、文档）",
+      "强调方言数据集多样性的缺乏，推动研究可复现性与模型包容性发展方向"
+    ]
+  },
+  "A Task for Summarizing Equation   Dependencies in STEM Manuscripts": {
+    "主题": "STEM文章中的数学方程依赖关系总结",
+    "场景": "STEM领域文章中的数学方程关系提取与分析",
+    "创新点": [
+      "引入推导图（derivation graph）概念，总结STEM文章中数学方程间的依赖关系",
+      "系统评估分析模型与NLP模型（包括LLMs）在提取推导关系上的性能，揭示当前技术在该领域的局限性"
+    ]
+  },
+  "Ethical Focus   and Bias Detection through Role-Play": {
+    "主题": "LLM伦理风险与偏见检测",
+    "场景": "评估大型语言模型的伦理决策倾向和系统性偏见",
+    "创新点": [
+      "提出新型伦理决策风险态度量表（EDRAS），将认知科学中的DOSPERT量表创新应用于LLM评估",
+      "结合风险量表和角色扮演方法，首次实现LLM对不同群体系统性偏见的量化评估"
+    ]
+  },
+  "A Survey": {
+    "主题": "神经场（Neural Fields）在机器人领域的应用",
+    "场景": "机器人感知、规划与控制中的3D场景建模",
+    "创新点": [
+      "提出四种关键神经场框架（Occupancy Networks、Signed Distance Fields、Neural Radiance Fields、Gaussian Splatting），覆盖连续隐式与显式神经网络表示。",
+      "系统梳理神经场在机器人五大领域（姿态估计、操作、导航、物理模拟、自动驾驶）的应用，并分析技术优势与挑战。",
+      "兼具紧凑性、内存高效性与可微分性，支持实时多模态数据融合与生成新视角，提升机器人自适应决策能力。"
+    ]
+  },
+  "An End-to-end Density Field   Reconstruction Method": {
+    "主题": "密度场重建",
+    "场景": "从纹影图像定量重建密度场",
+    "创新点": [
+      "使用物理信息神经网络实现端到端重建",
+      "结合物理模型提升定量重建精度"
+    ]
+  },
+  "A Taxonomy of   Key Definitions and Emerging Applications, an ISPOR Working Group Report": {
+    "主题": "生成式人工智能在健康经济学与结果研究（HEOR）中的应用",
+    "场景": "系统文献综述、健康经济建模、真实世界证据生成及档案开发",
+    "创新点": [
+      "提出多种提升AI生成内容准确性的方法（如提示工程、检索增强生成、模型微调等）",
+      "探讨基础模型在自动化复杂任务中的潜力，突破传统HEOR研究效率瓶颈"
+    ]
+  },
+  "A Critical Review and Analysis in the Era of   Large Language Models": {
+    "主题": "大型语言模型的不确定性估计",
+    "场景": "人工智能应用中的LLM预测不确定性分析",
+    "创新点": [
+      "提出针对LLM的综合性框架，系统分类和定义不确定性类型",
+      "为开发精确定量不确定性的方法奠定基础，关注关键任务和安全敏感应用"
+    ]
+  },
+  "Uncertainty-Penalized Direct Preference Optimization": {
+    "主题": "LLM偏好对齐优化",
+    "场景": "减少LLM在人类偏好对齐中的奖励过优化问题，处理模糊或错误标注的偏好对",
+    "创新点": [
+      "引入悲观框架，通过偏好不确定性惩罚方案修正损失梯度",
+      "使用模型集成获取不确定性估计，改进高不确定性样本的完成质量"
+    ]
+  },
+  "A CNN-Based Model for medical   IoT Threat Detection": {
+    "主题": "基于CNN的医疗物联网威胁检测",
+    "场景": "医疗物联网（IoMT）环境中的网络攻击检测",
+    "创新点": [
+      "采用卷积神经网络（CNN）分析网络流量数据的时间特征，优于传统机器学习方法和简单深度神经网络",
+      "在CICIoMT2024数据集上实现99%的分类准确率，支持二进制、分类和多类分类任务"
+    ]
+  },
+  "Discriminating Hard Samples and Anomaly Contaminations   for Unsupervised Time Series Anomaly Detection": {
+    "主题": "无监督时间序列异常检测",
+    "场景": "区分有害的异常污染样本和有益的困难正常样本",
+    "创新点": [
+      "引入参数行为（parametric behavior）概念，通过测量输入样本微小扰动下的参数响应，补充传统损失行为的不足",
+      "提出双参数-损失数据增强方法（PLDA），在强化学习框架下动态增强训练数据，同时抑制异常污染并增强困难正常样本",
+      "方法具有普适性，可作为附加组件无缝集成到现有异常检测器中"
+    ]
+  },
+  "A Stack-Propagation Framework for Low-Resource Personalized Dialogue   Generation": {
+    "主题": "低资源个性化对话生成",
+    "场景": "开放领域对话系统在有限个性化对话数据下的响应生成",
+    "创新点": [
+      "提出堆叠传播框架，利用Transformer编码器和双解码器联合建模生成与一致性理解",
+      "通过一致性理解作为生成过程的正则化器，显著减少对密集人物对话数据的依赖"
+    ]
+  },
+  "blending text and molecules with modular   adapters": {
+    "主题": "跨模态分子生成",
+    "场景": "通过文本描述生成具有特定性质的分子，应用于药物发现（如蛋白质抑制剂设计）和膜渗透分子筛选",
+    "创新点": [
+      "提出轻量级适配器ChemLML，无需从头训练即可桥接预训练文本模型与分子模型，显著降低计算成本",
+      "揭示分子表示形式（SMILES/SELFIES）对生成性能的影响，发现SMILES在有效性未严格保证时仍更优",
+      "创建并公开过滤版的PubChem评估数据集，解决原始数据噪声对生成任务评估的干扰"
+    ]
+  },
+  "LLMs Can Evolve Continually on Modality for X-Modal Reasoning": {
+    "主题": "多模态大语言模型的持续学习",
+    "场景": "多模态大语言模型（MLLMs）在新模态扩展中的高效适应",
+    "创新点": [
+      "提出PathWeave框架，通过模态路径切换和扩展能力，实现MLLMs在无需联合模态预训练的情况下持续学习新模态",
+      "引入Adapter-in-Adapter（AnA）结构，无缝集成单模态和跨模态适配器，提升模态对齐与协作效率",
+      "采用基于MoE的门控模块增强多模态交互，同时减少98.73%的参数训练负担"
+    ]
+  },
+  "Report-to-CXR generation through a disease-knowledge enhanced   diffusion model": {
+    "主题": "医学报告到X光片生成",
+    "场景": "利用疾病知识增强扩散模型，从医学报告生成胸部X光片",
+    "创新点": [
+      "提出潜在噪声过滤策略，减少噪声数据对生成过程的负面影响",
+      "设计自适应视觉感知文本学习策略，生成简洁且重要的报告嵌入",
+      "通过控制适配器将通用疾病知识融入预训练模型，提升生成精度和真实性"
+    ]
+  },
+  "A Compact Survey": {
+    "主题": "因果抽象理论",
+    "场景": "深度学习的模型可解释性研究",
+    "创新点": [
+      "提出因果抽象理论框架，系统解释复杂模型的决策机制",
+      "结合理论分析与实际应用，探讨其对模型可解释性领域的影响"
+    ]
+  },
+  "A Multi-modal, Multi-GSD, Multi-scene Remote Sensing Dataset and   Benchmark for Text-to-Image Generation": {
+    "主题": "遥感图像文本生成",
+    "场景": "多模态、多地面采样距离(GSD)、多场景遥感图像的生成",
+    "创新点": [
+      "提出首个涵盖多模态、多GSD、多场景的遥感数据集MMM-RS，填补遥感图像生成领域数据空白",
+      "利用预训练视觉-语言模型自动生成文本描述并手动校正，构建信息丰富的文本-图像对",
+      "设计方法实现单样本中包含不同GSD及环境条件(如低光、雾天)的图像，增强数据多样性"
+    ]
+  },
+  "Exploring Welfare Maximization and Fairness in Participatory Budgeting": {
+    "主题": "参与式预算中的福利与公平优化",
+    "场景": "政府公共项目资金分配与科研资助提案选择",
+    "创新点": [
+      "提出新颖的参与式预算规则，兼顾福利最大化与公平性提升",
+      "引入多维度效用概念、公理化属性及公平性衡量标准，填补现有文献空白",
+      "针对二分偏好与有序偏好模型，分别研究固定成本与弹性成本两种场景的解决方案"
+    ]
+  },
+  "Adaptive Negative Proxy Guided OOD Detection with   Vision-Language Models": {
+    "主题": "自适应负代理引导的OOD检测",
+    "场景": "基于预训练视觉-语言模型的分布外（OOD）样本检测",
+    "创新点": [
+      "提出动态生成的**自适应负代理**（测试时实时生成），通过特征记忆库缓存实际OOD图像特征，解决传统静态负标签的语义错配问题",
+      "设计双模态代理：任务自适应代理（数据集级特征平均）与样本自适应代理（基于相似性加权特征），分别捕获全局和细粒度OOD特性",
+      "无需训练和标注，融合文本负标签与视觉自适应代理，显著提升性能（ImageNet上AUROC提升2.45%，FPR95降低6.48%）"
+    ]
+  },
+  "Mask-based Membership Inference Attacks for Retrieval-Augmented   Generation": {
+    "主题": "检索增强生成中的成员推断攻击",
+    "场景": "检测目标文档是否存储在RAG系统的知识库中以保护数据生产者权益",
+    "创新点": [
+      "提出基于掩码的成员推断攻击框架（MBA），通过掩码算法遮蔽目标文档部分内容，利用RAG系统预测掩码值的准确性判断文档是否存在",
+      "采用阈值分析方法提升推断可靠性，减少其他文档或LLM内部知识的干扰",
+      "实验证明方法比现有基线模型更有效且更具可解释性"
+    ]
+  },
+  "Towards Probabilistic Planning of Explanations for Robot Navigation": {
+    "主题": "机器人导航的解释性规划",
+    "场景": "人机交互中的机器人路径规划透明度提升",
+    "创新点": [
+      "提出概率框架，将用户偏好建模融入机器人路径规划，个性化生成解释",
+      "结合随机性人机交互特征，动态调整机器人决策的沟通策略"
+    ]
+  },
+  "An Ultra Fast 3D Physical Simulator as Development Tool for   AI Algorithms": {
+    "主题": "3D物理模拟器加速AI开发",
+    "场景": "AI算法在现实物理场景中的训练与开发",
+    "创新点": [
+      "采用点云碰撞检测、关节角度确定和摩擦力估计等策略性简化，实现超过实时1000倍的加速",
+      "单核中等CPU上9小时模拟机器人半年生命周期，显著提升训练效率"
+    ]
+  },
+  "On-Site Precise Screening of SARS-CoV-2 Systems Using a Channel-Wise   Attention-Based PLS-1D-CNN Model with Limited Infrared Signatures": {
+    "主题": "基于红外光谱的SARS-CoV-2快速筛查",
+    "场景": "利用有限的鼻咽拭样进行现场快速准确筛查，适用于呼吸道病毒爆发的早期阶段",
+    "创新点": [
+      "提出一种结合ATR-FTIR光谱、airPLS预处理算法和通道注意力机制PLS-1D-CNN模型的方法，能在10分钟内完成筛查",
+      "提出生物分子重要性(BMI)评估方法，用于评估不同实验条件下ATR-FTIR信号的质量"
+    ]
+  },
+  "Multi-Agent Debate for Visual Misinformation Detection": {
+    "主题": "多智能体辩论用于视觉错误信息检测",
+    "场景": "检测图像与误导性文本结合构建的错误信息（跨上下文虚假叙事）",
+    "创新点": [
+      "提出无需领域微调的多智能体辩论框架（MAD-Sherlock），通过协作评估语境一致性实现跨领域通用检测",
+      "结合外部信息检索与多模态推理，生成可解释的检测结果，提升模型透明度和用户信任度",
+      "实验表现显著优于现有方法（在3个基准数据集上精度分别提升2%/3%/5%），且辩论机制被证实可同时优化检测性能和可解释性"
+    ]
+  },
+  "A Framework For Building Multimodal Low-Latency Real-Time   Socially Interactive Agents": {
+    "主题": "社交交互代理框架",
+    "场景": "实时、低延迟的多模态社交交互代理开发",
+    "创新点": [
+      "提出Estuary框架，支持多模态（文本、音频、视频）组件，实现模块化和可互操作性架构",
+      "提供完全离云的灵活平台，增强可配置性、可控性、研究可重复性和代理响应速度"
+    ]
+  },
+  "Self-Normalized Resets for Plasticity in Continual Learning": {
+    "主题": "持续学习中的可塑性保持算法",
+    "场景": "神经网络在连续学习多个任务时出现的可塑性丧失问题",
+    "创新点": [
+      "提出自归一化重置（SNR）算法，通过神经元的权重重置机制有效缓解可塑性丧失",
+      "基于假设检验推导的阈值重置机制，相比竞争对手算法更鲁棒且超参数敏感度低",
+      "理论证明SNR在对抗性初始化下仍能学习目标ReLU，而正则化方法可能失效"
+    ]
+  },
+  "Guiding Visual Encoder to Perceive Overlooked Information": {
+    "主题": "多模态大语言模型的视觉编码优化",
+    "场景": "提升视觉编码器在文本到视频生成和视觉问答等任务中非显著物体的感知能力",
+    "创新点": [
+      "提出注意力引导适配器（AG-Adapter）和物体导向视觉语义学习模块，动态调整视觉焦点",
+      "设计三种新型损失函数（OITC/OIIC/OID），增强非显著物体的检索准确性和综合表征能力",
+      "构建多物体指令数据集（MOInst）以支撑细粒度视觉-语义对齐"
+    ]
+  },
+  "Emergence of Globally Attracting Fixed Points in Deep Neural Networks   With Nonlinear Activations": {
+    "主题": "神经网络隐藏表示演化",
+    "场景": "深度神经网络在不同层间数据表示的相似性变化分析",
+    "创新点": [
+      "提出基于Hermite多项式展开的核序列理论框架，显式刻画非线性激活函数下的核映射固定点",
+      "首次揭示非线性激活网络会全局收敛至唯一固定点（正交或相似表示），并扩展该结论到残差连接/归一化层架构",
+      "通过均值场理论证明核序列演化的确定性规律，仅取决于激活函数特性"
+    ]
+  },
+  "User-Aware Multilingual Abusive Content Detection in Social Media": {
+    "主题": "多语言社交媒体不当内容检测",
+    "场景": "针对低资源印度语言的多语言社交媒体平台，检测和识别不当内容。",
+    "创新点": [
+      "结合用户历史和社交上下文特征，提升检测效果",
+      "采用分离模块学习社交和文本上下文特征，并通过集成表征进行最终预测",
+      "在SCIDN和MACI数据集上表现优于现有方法，F1分数平均提高4.08%和9.52%"
+    ]
+  },
+  "Retrieval Augmented Retrieval with In-Context Examples": {
+    "主题": "检索增强的嵌入模型",
+    "场景": "基于上下文示例改进检索任务中的嵌入模型性能",
+    "创新点": [
+      "提出RARe方法，通过微调预训练模型利用语义相似查询的上下文示例",
+      "可适配多种基础架构（如仅解码器语言模型、检索器模型），在开放域检索数据集中性能提升高达2.72% nDCG",
+      "相比无上下文示例的模型，展现出更强的跨领域泛化能力"
+    ]
+  },
+  "Benchmarking Offline Goal-Conditioned RL": {
+    "主题": "离线目标条件强化学习基准",
+    "场景": "为离线GCRL算法提供系统性评估标准，促进多样化行为与表示的无监督学习",
+    "创新点": [
+      "提出OGBench，首个高质量离线GCRL基准，涵盖8类环境、85个数据集及6种算法实现",
+      "环境设计针对算法关键能力（如路径拼接、长程推理、高维输入处理），揭示现有方法的显著性能差异"
+    ]
+  },
+  "A Deep Learning-based Automated Query-Response System for   Agricultural Decision-Making": {
+    "主题": "农业决策自动化问答系统",
+    "场景": "农业领域中的农民咨询与决策支持，解决传统呼叫中心依赖人力导致的响应延迟和质量不一致问题。",
+    "创新点": [
+      "提出融合语义与词汇相似度的深度学习框架（KisanQRS），采用快速阈值聚类方法处理农民查询，提升问题归类效率。",
+      "基于LSTM的查询映射方法显著优化匹配精度，在印度五大邦测试中达到96.58%的Top F1分数。",
+      "创新答案检索策略：通过聚类候选答案并按规模排序，选取每类代表答案，NDCG评分达96.20%，实现高效精准响应。"
+    ]
+  },
+  "Optimizing Keyphrase Ranking for Relevance and Diversity Using   Submodular Function Optimization (SFO)": {
+    "主题": "关键短语排序优化",
+    "场景": "信息检索与摘要生成中的关键短语提取与排序",
+    "创新点": [
+      "使用子模函数优化（SFO）平衡关键短语的相关性和多样性",
+      "通过子模最大化框架选择具有代表性和多样性的关键短语"
+    ]
+  },
+  "Removing   Muscle Noise": {
+    "主题": "神经信号去噪",
+    "场景": "皮肤交感神经活动（SKNA）监测中的肌肉噪声去除",
+    "创新点": [
+      "提出基于深度卷积神经网络（CNN）的肌肉噪声检测与去除方法",
+      "采用2D CNN模型对频谱图进行分类，准确率达89.85%",
+      "推动可穿戴SKNA传感器在真实场景中的应用"
+    ]
+  },
+  "A Multi-Modal Non-Invasive Deep Learning Framework for Progressive   Prediction of Seizures": {
+    "主题": "癫痫发作预测的多模态深度学习框架",
+    "场景": "基于非侵入式多模态传感器网络的实时癫痫发作预测，适用于药物难治性癫痫患者提前预警。",
+    "创新点": [
+      "结合非侵入式EEG和ECG的多模态数据，利用深度学习提升预测准确性（灵敏度95%，特异性98%，准确率97%）。",
+      "优化算法实现边缘设备实时处理，减少云端依赖，兼顾隐私保护与设备能耗。",
+      "首创以15分钟为间隔的发作倒计时预测功能（最长提前1小时预警），为预防措施留出关键时间窗口。"
+    ]
+  },
+  "A Genetic Algorithm for Multi-Capacity Fixed-Charge Flow Network Design": {
+    "主题": "多容量固定费用流量网络设计",
+    "场景": "基础设施设计、交通运输、电信、供应链管理中的网络优化",
+    "创新点": [
+      "新型遗传算法解决方案表示方案，无需修复无效流量解",
+      "应用于实际二氧化碳捕集与封存基础设施设计，验证算法效率"
+    ]
+  },
+  "A Comparative Analysis of Vision Transformers,   CNNs, and Traditional ML for Knee Osteoarthritis Severity Diagnosis": {
+    "主题": "膝关节骨关节炎严重程度诊断",
+    "场景": "通过X光图像分析比较不同机器学习模型在膝关节骨关节炎诊断中的性能",
+    "创新点": [
+      "对比评估传统机器学习(如GaussianNB、KNN)、CNN(如Inception-V3)与ViT(如Da-VIT)在医学影像中的诊断效果，揭示ViT在精度(AUC>0.835)和关键指标(准确率66.14%)上的显著优势",
+      "首次系统性验证ViT的自注意力机制在膝关节骨关节炎分级任务中的临床适用性，为实际医疗工作流提供转型依据"
+    ]
+  },
+  "Personality Analysis from Online Short Video Platforms with Multi-domain   Adaptation": {
+    "主题": "多模态人格分析",
+    "场景": "基于短视频平台的个性化推荐、情感分析与人机交互",
+    "创新点": [
+      "提出基于时间戳的多模态对齐机制，实现跨模态精确同步",
+      "采用双向LSTM与自注意力结合的方法捕获时序依赖和模态间交互",
+      "开发基于梯度的多源域自适应方法，提升少标注目标域的预测性能"
+    ]
+  },
+  "Evaluating Neural Networks for Early Maritime Threat Detection": {
+    "主题": "神经网络在海事威胁检测中的应用",
+    "场景": "利用船艇轨迹分类评估早期海事威胁",
+    "创新点": [
+      "采用四种神经网络模型替代传统的基于熵的聚类方法，实现高达100%的测试准确率",
+      "引入轨迹归一化和基于旋转的数据增强技术，提升模型在测试时的鲁棒性",
+      "全面评估模型在时间步长变化和旋转数据条件下的性能表现，展现优于熵聚类的性能"
+    ]
+  },
+  "Multi-path Exploration and Feedback Adjustment for Text-to-Image Person   Retrieval": {
+    "主题": "文本到图像行人检索",
+    "场景": "基于文本描述查询特定行人的跨模态检索",
+    "创新点": [
+      "提出多路径探索与反馈调整框架（MeFa），通过模态内与模态间反馈实现精准调整",
+      "设计模态内推理路径，利用困难负样本反馈增强对细微差异的敏感性",
+      "引入跨模态细化路径，结合全局信息与模态间反馈优化局部特征表示",
+      "新增判别性线索校正路径，利用次级相似性细粒度特征减少检索失败"
+    ]
+  },
+  "Effective Zero-Shot Medical Information Retrieval without   Relevance Labels": {
+    "主题": "零样本医学信息检索",
+    "场景": "从电子健康记录、科学文献和医疗数据库中检索相关医学知识，缺乏相关标注数据",
+    "创新点": [
+      "提出SL-HyDE方法，利用大型语言模型生成假设文档作为检索引导，无需相关标注数据",
+      "自学习框架逐步优化伪文档生成和检索过程",
+      "构建中文医学信息检索基准CMIRB，包含5个任务和10个数据集，推动医学信息检索系统评估标准化"
+    ]
+  },
+  "Deep Quantized Recommendation Models": {
+    "主题": "大规模推荐模型的量化优化",
+    "场景": "互联网公司的大规模推荐系统，面临内存和计算瓶颈",
+    "创新点": [
+      "提出INT4量化的DLRM模型，实现无精度损失的模型压缩",
+      "针对推荐模型的嵌入表，改进量化感知训练（QAT）方法",
+      "结合梯度稀疏化和INT8量化，显著减少分布式训练中的通信开销"
+    ]
+  },
+  "A Proof of Concept": {
+    "主题": "痴呆患者激越行为预测系统",
+    "场景": "利用多模态数据实时预测痴呆患者的激越和攻击行为（AA）",
+    "创新点": [
+      "整合手腕带（EmbracePlus）和视频检测系统，首次发现激越行为前至少6分钟的预兆模式",
+      "采用隐私保护视频处理技术（面部特征遮蔽+深度学习模型），同时精确标注激越事件的起止时间",
+      "实现无需外界干预的自主实时监测系统，突破传统依赖护理人员主观报告的限制"
+    ]
+  },
+  "Roles of LLMs in the Overall Mental Architecture": {
+    "主题": "LLMs与人类心智架构的对比研究",
+    "场景": "探讨大型语言模型（LLMs）在人类认知架构中的定位及双向增强机制",
+    "创新点": [
+      "提出LLMs与人类隐性心智过程（直觉、本能等）的对应关系，并指出其缺乏显性符号处理能力",
+      "论证双向增强框架：通过双过程认知架构（隐式+显式）改进LLMs，同时LLMs也能优化传统认知模型",
+      "首次实现心理学、哲学、认知科学多领域理论在LLMs研究中的协同整合"
+    ]
+  },
+  "Architectural Flaw Detection in Civil Engineering Using GPT-4": {
+    "主题": "AI在土木工程中的建筑设计缺陷检测",
+    "场景": "利用GPT-4 Turbo视觉模型在建筑设计阶段检测门窗缺失等缺陷，提升设计质量与安全性",
+    "创新点": [
+      "首次将GPT-4 Turbo视觉模型应用于土木工程设计缺陷检测，验证其在精度、召回率等指标上优于人工验证",
+      "扩展AI能力至承重问题、材料缺陷及建筑规范合规性检测等多维度设计评估",
+      "通过自动化缺陷发现显著减少设计返工成本，同时支持可持续性建筑实践"
+    ]
+  },
+  "Introducing Inductive Bias via   Representational Alignment": {
+    "主题": "神经网络架构的归纳偏差引导",
+    "场景": "解决传统神经网络在特定任务上的不适应性（如过拟合、欠拟合或收敛效果差）",
+    "创新点": [
+      "提出“引导”方法，通过指导网络（guide network）利用神经距离函数引导目标网络（target network），传递架构先验知识",
+      "结合任务损失和分层表征相似性优化目标网络，实现跨架构的性能提升",
+      "方法不仅能提升已训练网络的性能（如FCN在ImageNet上的效果），还能通过初始化改善网络表现"
+    ]
+  },
+  "Enabling Natural Language Interactions for Daily Activity   Tracking Using Wearable Sensors": {
+    "主题": "基于可穿戴传感器的自然语言交互日常活动追踪",
+    "场景": "医疗健康监测（如老年患者或记忆障碍患者的日常活动追踪）",
+    "创新点": [
+      "首创结合可穿戴传感器数据与自然语言对话的模型（Sensor2Text），取代隐私敏感的视觉方案",
+      "采用迁移学习和师生网络架构，解决传感器数据信息密度低、单设备活动识别不足的问题",
+      "设计编码器-解码器网络联合处理语言与传感器数据，并集成大语言模型实现交互功能"
+    ]
+  },
+  "Instant Large-Scale Scene Reconstruction using VoxSplats": {
+    "主题": "大尺度场景三维重建",
+    "场景": "基于稀疏图像的快速大规模三维场景重建（几何、外观与语义）",
+    "创新点": [
+      "提出VoxSplat表示法，结合3D高斯分布与高分辨率稀疏体素支架，实现高效场景编码",
+      "采用分层体素潜在扩散模型（粗到细生成）与外观预测网络，仅需3张非重叠图像即可生成百万级高斯分布",
+      "突破传统方法对密集视角或低分辨率几何先验的依赖，实现少视角下的高清晰度重建（1024³体素网格/20秒）"
+    ]
+  },
+  "Agentic Feedback Loop Modeling Improves Recommendation and User   Simulation": {
+    "主题": "基于智能代理的反馈循环建模",
+    "场景": "推荐系统中的推荐代理与用户代理协同优化",
+    "创新点": [
+      "提出双向反馈循环框架，通过推荐代理与用户代理的迭代交互提升用户行为推断能力",
+      "实验证明该方法平均提升推荐效果11.52%（对比单一推荐代理）和用户模拟精度21.12%（对比单一用户代理）",
+      "揭示该框架不会加剧现实反馈循环中常见的流行度/位置偏差（传统系统痛点）"
+    ]
+  },
+  "Effective Strategies for Mitigating Hallucinations   in Large Language Models for Data Analytics": {
+    "主题": "大语言模型幻觉缓解策略",
+    "场景": "数据驱动的自然语言查询分析",
+    "创新点": [
+      "提出四种针对性策略（结构化输出生成、严格规则执行、系统提示增强、语义层集成），超越传统微调效果",
+      "构建更可靠的LLMs部署框架，提升数据分析查询准确性"
+    ]
+  },
+  "Decomposing Materials Discovery by Mimicking Human Experts": {
+    "主题": "基于LLM的材料发现框架",
+    "场景": "加速固态材料的设计与发现",
+    "创新点": [
+      "模仿人类专家工作流，提出检索-转换-生成三阶段框架（MatExpert）",
+      "结合对比学习与LLM，在材料有效性、分布性和稳定性指标上超越现有方法"
+    ]
+  },
+  "Towards Scalable Training of Transformer Models   Using Interleaved Offloading": {
+    "主题": "Transformer模型的可扩展性训练",
+    "场景": "大规模语言模型（LLMs）训练中的内存管理优化",
+    "创新点": [
+      "动态优化器状态迁移：通过利用训练阶段内存波动的特性，动态调整优化器状态在CPU和GPU之间的迁移",
+      "分组调度策略：将模型划分为子组，基于性能模型智能调度CPU/GPU更新，平衡数据迁移成本与计算加速效益"
+    ]
+  },
+  "Think Carefully and Check Again! Meta-Generation Unlocking LLMs for   Low-Resource Cross-Lingual Summarization": {
+    "主题": "低资源跨语言摘要生成",
+    "场景": "针对低资源语言的跨语言摘要任务（如有限使用或数据稀缺的语言）",
+    "创新点": [
+      "提出四步零样本方法SITR（摘要、改进、翻译、精炼）及对应提示设计",
+      "通过实验验证该方法可解锁LLMs在低资源语言上的跨语言摘要潜力，显著超越基线模型"
+    ]
+  },
+  "Off-Policy Selection for Initiating Human-Centric Experimental Design": {
+    "主题": "个性化策略选择的离线策略评估方法",
+    "场景": "医疗和教育领域中针对异构个体的个性化干预策略选择",
+    "创新点": [
+      "提出基于子群体分割的策略选择方法（FPS），解决参与者异构性问题",
+      "为每个子群体定制离线策略选择标准，实现个性化策略部署",
+      "在没有新参与者离线数据的情况下实现策略选择，突破现有方法限制"
+    ]
+  },
+  "Hierarchical Control with Filtered Subgoal Images": {
+    "主题": "机器人分层控制与子目标图像过滤",
+    "场景": "利用生成模型作为高层规划器，指导低层策略执行语言条件下的机器人操作任务，解决子目标图像物理不可行和视觉伪影问题。",
+    "创新点": [
+      "提出GHIL-Glue方法，过滤无助于任务进展的生成子目标图像",
+      "增强低层策略对含视觉伪影子目标的鲁棒性，实现生成模型与底层控制的高效衔接",
+      "在仿真与真实环境中验证性能提升25%，创CALVIN基准单RGB相机观察策略的新SOTA"
+    ]
+  },
+  "A Cross-Environment and Cross-Embodiment Path Planning Framework via a   Conditional Diffusion Model": {
+    "主题": "机器人跨环境跨本体路径规划",
+    "场景": "高维复杂环境中高效、安全、自适应的机器人路径规划",
+    "创新点": [
+      "提出混合双条件机制（GADGET），结合无分类器引导的场景编码与基于控制屏障函数（CBF）的安全整形，直接在去噪过程中整合环境感知与实时避障",
+      "支持零样本迁移至新环境与新机器人本体（如Franka Panda、Kinova Gen3等），无需重新训练"
+    ]
+  },
+  "Steering Autoregressive Music Generation with Recursive Feature Machines": {
+    "主题": "可控音乐生成",
+    "场景": "基于预训练音乐模型的可控音乐生成，无需重新训练模型",
+    "创新点": [
+      "采用递归特征机（RFMs）直接调控预训练模型的内部激活，实现细粒度、可解释的音乐属性控制（如音符、和弦）",
+      "提出动态时变调控机制和多属性同步控制方法，在保证生成质量的同时显著提升目标音符生成的准确性（从0.23提升至0.82）"
+    ]
+  },
+  "Brain Tumor and Pneumonia   Detection": {
+    "主题": "医学影像诊断的深度学习框架",
+    "场景": "通过MRI扫描检测脑肿瘤和X光片检测肺炎",
+    "创新点": [
+      "结合ResNet50和DenseNet121两种卷积神经网络，DenseNet121在准确率上表现更优（脑肿瘤94.3% vs 92.5%，肺炎89.1% vs 84.4%）",
+      "集成Grad-CAM技术生成热力图可视化，突出显示模型决策的关键区域，增强模型的可解释性",
+      "发现DenseNet121更集中于核心病理区域，而ResNet50有时会分散注意力到非病理区域，为模型优化提供方向"
+    ]
+  },
+  "A Novel Approach to Breast Cancer Segmentation using U-Net Model with   Attention Mechanisms and FedProx": {
+    "主题": "乳腺癌超声图像分割",
+    "场景": "使用分布式医疗数据（非独立同分布）进行癌症检测，同时保护患者隐私",
+    "创新点": [
+      "结合FedProx方法解决非独立同分布数据下的联邦学习模型泛化问题",
+      "在U-Net模型中引入注意力机制提升肿瘤边界分割精度"
+    ]
+  },
+  "Wavelet-based GAN Fingerprint Detection using ResNet50": {
+    "主题": "基于小波的GAN指纹检测",
+    "场景": "数字图像取证领域，用于检测StyleGAN生成的图像与真实图像的差异",
+    "创新点": [
+      "结合离散小波变换（DWT）预处理与ResNet50分类层，利用频域特征提升检测精度",
+      "使用Haar和Daubechies小波滤波器生成多分辨率表征，有效捕捉GAN生成图像的独特频域伪影",
+      "验证了小波域模型（最高95.1%准确率）显著优于空间域模型（81.5%），表明频域分析在深伪检测中的优势"
+    ]
+  },
+  "That's Deprecated! Understanding, Detecting, and Steering Knowledge   Conflicts in Language Models for Code Generation": {
+    "主题": "语言模型在代码生成中的知识冲突",
+    "场景": "代码生成时语言模型的参数知识与提示中的冲突信息",
+    "创新点": [
+      "提出领域无关的知识冲突检测框架，适用于代码生成场景",
+      "开发新型评估方法和针对代码冲突的数据集",
+      "利用激活层引导提升冲突检测精度（12.6%效果提升）"
+    ]
+  },
+  "What Makes a Good Curriculum? Disentangling the Effects of Data Ordering   on LLM Mathematical Reasoning": {
+    "主题": "大语言模型课程学习优化",
+    "场景": "数学推理任务中数据排序对模型性能的影响评估",
+    "创新点": [
+      "提出五维度课程难度评估框架（问题难度、模型意外度、置信度边界、预测不确定性、决策变异性），系统性量化数据排序影响",
+      "发现课程策略效果的双重依赖性（模型能力与任务复杂度共同决定正向/逆向课程有效性）",
+      "揭示任务对齐课程与内部状态课程的作用差异（前者优化最终表征/泛化能力，后者调控置信度等内部状态）"
+    ]
+  },
+  "Local Guidance for Configuration-Based Multi-Agent Pathfinding": {
+    "主题": "多智能体路径规划（MAPF）的局部引导方法",
+    "场景": "实时、次优的多智能体路径规划场景，通过局部引导优化智能体运动协调",
+    "创新点": [
+      "提出局部引导策略，仅关注单个智能体周围环境，降低全局计算复杂度",
+      "在LaCAM求解器中引入时空线索，显著提升路径质量而不显著增加计算时间"
+    ]
+  },
+  "Prompt fidelity of ChatGPT4o / Dall-E3 text-to-image visualisations": {
+    "主题": "AI图像生成与提示准确性分析",
+    "场景": "评估ChatGPT4o/DALL-E3在自动生成图像时对文本提示的忠实度，应用于文化创意行业及博物馆策展人形象生成。",
+    "创新点": [
+      "提出系统性评估框架，量化属性（年龄、服饰等）在文本到图像生成中的偏差率（15.6%总体偏差）。",
+      "发现偏差分布规律：器物类（如名牌）误差最低，人物自身特征（如年龄）误差最高，为偏差检测提供优先级依据。"
+    ]
+  },
+  "Using Scene Graphs To Guide LLMs-as-a-Judge For Detailed Image   Descriptions": {
+    "主题": "图像描述评价方法",
+    "场景": "详细图像描述的质量评估，特别是艺术领域中的复杂图像（如绘画、雕塑）",
+    "创新点": [
+      "提出PoSh评价指标，利用场景图作为结构化标准，引导大型语言模型（LLMs-as-a-Judge）进行细粒度错误定位（如组合理解错误）。",
+      "发布DOCENT数据集，包含艺术作品的专家参考描述和模型生成描述，并附加艺术史学生的质量评估，为挑战性领域提供新基准。",
+      "实验验证PoSh在DOCENT和现有数据集CapArena中的优越性，显示其与人类评估更高相关性（+0.05 Spearman ρ）及鲁棒性，并可作为有效奖励函数。"
+    ]
+  },
+  "Probing Music Perception and Auditory Relational   Reasoning in Audio LLMS": {
+    "主题": "音乐感知与音频关系推理的AI评估",
+    "场景": "评估多模态大语言模型（MLLMs）在音乐理解和关系推理任务中的表现",
+    "创新点": [
+      "提出开源评估基准MUSE，包含10项任务以全面测试音乐感知能力",
+      "发现CoT（思维链）提示在音乐推理任务中效果不稳定甚至有害，挑战现有方法适用性",
+      "揭示当前SOTA模型在复杂音乐推理上与人类专家的显著差距（如Qwen等模型表现接近随机）"
+    ]
+  },
+  "Rectifying Shortcut Behaviors in Preference-based Reward Learning": {
+    "主题": "基于偏好的奖励学习",
+    "场景": "强化学习中的奖励模型优化，用于对齐大型语言模型与人类偏好",
+    "创新点": [
+      "提出PRISM方法，通过不变性理论学习组不变核函数，以闭式学习目标缓解奖励模型中的捷径行为",
+      "在多种基准测试中验证方法能提升奖励模型的分布外任务准确性，并减少下游策略模型对捷径特征的依赖"
+    ]
+  },
+  "Hierarchical Attention Networks for   High-Dimensional Data Interpretation": {
+    "主题": "可解释性机器学习",
+    "场景": "高维数据分析（如基因组学、医疗、金融领域的决策敏感型应用）",
+    "创新点": [
+      "提出分层注意力机制架构（HAIN），结合多级注意力、降维和解释驱动损失函数，实现高维数据的可解释性分析",
+      "通过梯度加权注意力提供特征级解释，并采用原型表示实现全局模型解释，超越SHAP和LIME等事后解释方法",
+      "在TCGA癌症数据集上验证临床实用性，准确率达94.3%并有效识别癌症生物标志物"
+    ]
+  },
+  "Conversational Learning System in Virtual Reality with AI-Powered   Patients": {
+    "主题": "AI驱动的虚拟现实医疗对话学习系统",
+    "场景": "医学与护理教育中的临床推理与沟通技能培训",
+    "创新点": [
+      "结合大型语言模型（LLMs）、语音处理和3D虚拟形象，动态生成逼真的医患对话场景",
+      "通过情感分析提供交流语调的实时反馈，增强培训的交互性和教育效果"
+    ]
+  },
+  "\"Over-the-Hood\" AI Inclusivity Bugs and How 3 AI Product Teams Found and   Fixed Them": {
+    "主题": "AI产品包容性缺陷",
+    "场景": "用户面对的AI产品中存在的包容性障碍",
+    "创新点": [
+      "提出“over-the-hood”包容性偏见概念，区别于传统的“under-the-hood”偏见",
+      "开发GenderMag-for-AI方法，有效检测特定类型的AI包容性缺陷",
+      "与3个AI产品团队合作，识别并修复47个缺陷实例"
+    ]
+  },
+  "An Adaptive LLM Framework for Dynamic Semantic Dataset   Generation in Sensitive Domains": {
+    "主题": "自适应LLM框架用于敏感领域语义数据集生成",
+    "场景": "医疗、生物医学研究、网络安全等数据稀缺或敏感的领域",
+    "创新点": [
+      "结合句法-语义分析、检索增强生成、动态元素注入和迭代复述语义验证四组件，生成高质量领域相关数据",
+      "自主合成语义连贯且语言多样化的数据集，解决数据稀缺和标注瓶颈问题"
+    ]
+  },
+  "REPAIR Approach for Social-based City Reconstruction Planning in case of   natural disasters": {
+    "主题": "社会驱动的城市灾后重建规划",
+    "场景": "自然灾害后城市基础设施和社会经济功能的重建",
+    "创新点": [
+      "整合深度强化学习与随机代理基线模型，提出通用灾后重建规划框架（REPAIR），支持多利益相关方需求",
+      "生成可定制重建方案组合，供地方政府根据资源（预算/时间）和社会效益（市民需求、政治优先级）权衡选择",
+      "突破地理规模限制，通过结构化约束建模（如道路与建筑的依赖关系）提升方案可行性"
+    ]
+  },
+  "A Time-Aware Spatio-Temporal State-Space Model for   Breast Cancer Risk Prediction": {
+    "主题": "乳腺癌风险预测的时空建模",
+    "场景": "基于不规则时间间隔的连续医学影像分析",
+    "创新点": [
+      "提出连续时间选择性扫描机制，显式整合真实检查时间间隔到状态转移中",
+      "设计多尺度3D邻域融合模块，有效捕获跨时空的局部关系",
+      "保持线性计算复杂度，能高效处理长序列高分辨率影像（补充说明性创新点）"
+    ]
+  },
+  "Prior-informed optimization of treatment recommendation via bandit   algorithms trained on large language model-processed historical records": {
+    "主题": "个性化医疗推荐系统",
+    "场景": "利用历史医疗记录和机器学习优化癌症治疗方案推荐",
+    "创新点": [
+      "结合LLM处理非结构化医疗数据（93.2%准确率）与CTGAN生成合成患者数据（55%验证准确率），解决数据稀缺问题",
+      "集成T-learner反事实模型（84.3%准确率）和基于先验的上下文多臂赌博算法（KernelUCB），动态平衡治疗方案的探索与利用（0.60-0.61平均奖励）"
+    ]
+  },
+  "Towards Inclusive AI in Multi-User Domestic   Spaces": {
+    "主题": "包容性家庭AI代理",
+    "场景": "多用户家庭环境中，满足儿童、老年人和神经多样化用户的个性化需求，解决道德、自主权和包容性挑战。",
+    "创新点": [
+      "提出** Plural Voices Model (PVM)** 单代理框架，通过实时价值对齐动态协商多用户需求，整合心理健康、养老、教育等多领域公共数据集。",
+      "采用**人类+合成课程设计**结合公平感知场景与伦理增强，识别核心价值冲突和无障碍需求，生成包容性原则。",
+      "设计**隐私保护原型**，包含自适应安全支架（如神经多样化用户的逐步指导、儿童简化的语言交互）和公平冲突解决机制。",
+      "引入**视频引导、自主性滑块、家庭中心**等设计创新，在合规性、公平性、安全性（违规率0%）和延迟方面优于多代理基线。"
+    ]
+  },
+  "Robust Driving QA through Metadata-Grounded Context and Task-Specific   Prompts": {
+    "主题": "自动驾驶视觉语言问答系统",
+    "场景": "自动驾驶中的高级感知、预测和规划问题解答",
+    "创新点": [
+      "采用两阶段系统，结合多模态大模型（Qwen2.5-VL-32B）和历史帧数据，通过思维链提示和少样本示例提升回答可靠性",
+      "利用自一致性集成（多重采样推理链）和场景元数据（如物体标注、自车状态）增强提示，针对不同任务（感知、预测、规划）设计特定指令",
+      "在视觉严重受损情况下仍保持96%的准确率，展示系统的鲁棒性"
+    ]
+  },
+  "Learning Euclidean Signed Distance Functions Online with   Gradient-Augmented Octree Interpolation and Neural Residual": {
+    "主题": "混合符号距离函数(SDF)重建",
+    "场景": "在线大规模机器人自主能力（定位、建图、运动规划等）",
+    "创新点": [
+      "融合梯度增强八叉树插值（显式先验）与神经网络残差（隐式特征），平衡效率与精度",
+      "支持非截断欧式SDF重建，兼具体素方法的内存效率与神经网络的连续性",
+      "克服大规模环境中神经网络方法的灾难性遗忘与内存限制问题"
+    ]
+  },
+  "Timely Clinical Diagnosis through Active Test Selection": {
+    "主题": "临床诊断的主动测试选择",
+    "场景": "高压力或资源有限的临床环境中，支持医生进行及时且经济的诊断决策",
+    "创新点": [
+      "结合贝叶斯实验设计（BED）和大语言模型（LLMs），动态选择最能降低诊断不确定性的测试",
+      "利用LLMs作为灵活模拟器，生成患者状态分布和支持信念更新，无需结构化任务特定训练数据",
+      "支持医生参与决策循环，审查测试建议、解释中间输出并全程应用临床判断"
+    ]
+  },
+  "Enhancing Time Series Forecasting with Static   Categorical Embeddings for Both Lightweight and Pre-trained Foundation Models": {
+    "主题": "时间序列预测与静态类别嵌入",
+    "场景": "真实世界的时间序列预测任务，包括轻量级模型和预训练基础模型",
+    "创新点": [
+      "提出QKCV注意力机制，扩展传统QKV框架，通过静态类别嵌入C增强类别特定信息的捕捉",
+      "作为即插即用模块，提升多种基于注意力的模型（如Vanilla Transformer、Informer等）的预测精度",
+      "在微调单变量时间序列基础模型时，仅更新静态嵌入C而保留预训练权重，降低计算开销并提高微调性能"
+    ]
+  },
+  "Can Reasoning Models Obfuscate Reasoning? Stress-Testing   Chain-of-Thought Monitorability": {
+    "主题": "推理模型的可监控性测试",
+    "场景": "检测推理模型（Chain-of-Thought）在对抗性任务中是否隐藏其真实推理过程",
+    "创新点": [
+      "提出可组合、可量化的提示分类法，用于诱发推理过程的模糊化",
+      "评估模型在内部推理轨迹和外部输出中的模糊化行为差异",
+      "揭示模型在强压力下可能成功完成对抗任务并躲避监控"
+    ]
+  },
+  "Coverage, ROC, &   Sub-optimality": {
+    "主题": "大型语言模型的可验证测试时扩展",
+    "场景": "在测试阶段通过验证提升大型语言模型性能的过程中，分析验证器与生成器的交互作用",
+    "创新点": [
+      "提出统一框架，量化生成器覆盖率、验证器收敛区域和采样算法次优性之间的几何关系",
+      "将可验证测试时扩展建模为传输问题，发现次优性-覆盖率曲线的三种区域（传输区域、策略改进区域、饱和区域）",
+      "提出并分析两类采样算法（顺序式与批处理式），研究其计算复杂度对上述权衡的影响"
+    ]
+  },
+  "Towards Precise, Contextual Pixel Understanding for   Multimodal LLMs": {
+    "主题": "像素级多模态大模型理解",
+    "场景": "复杂场景中的细粒度视觉分析与区域交互",
+    "创新点": [
+      "提出RoI-aligned特征回放技术，结合全局上下文实现精确感知",
+      "首创多提示交互建模能力，支持跨区域组合推理",
+      "构建GAR-Bench评估基准，量化单区域理解与多区域复杂推理性能",
+      "（额外亮点：零样本视频领域迁移性能超越专用模型）"
+    ]
+  },
+  "Multi-Domain Rubrics requiring Professional Knowledge to   Answer and Judge": {
+    "主题": "大语言模型专业评估基准",
+    "场景": "跨领域专业文档处理与综合报告生成任务的LLM评估",
+    "创新点": [
+      "提出ProfBench数据集，包含7000+专家评估的响应-准则对，覆盖物理、化学、金融等多领域",
+      "开发低成本LLM-Judge方法，通过消除自我增强偏见将评估成本降低2-3个数量级",
+      "首次揭示专业任务中闭源与开源模型性能差距及扩展思维（extended thinking）的作用"
+    ]
+  },
+  "Activating Each Neuron's Potential for Parameter-Efficient   Fine-Tuning": {
+    "主题": "参数高效微调方法（PEFT）",
+    "场景": "自然语言生成和理解任务中的模型微调",
+    "创新点": [
+      "提出NeuroAda方法，结合选择性参数适配和旁路连接，实现细粒度调优",
+      "仅更新旁路连接，保持原始参数冻结，降低内存占用达60%",
+      "在23+任务中达到SOTA性能，可训练参数≤0.02%"
+    ]
+  },
+  "Lightweight and Efficient Memory-Augmented Generation": {
+    "主题": "轻量级高效记忆增强生成",
+    "场景": "动态复杂环境中大型语言模型(LLMs)的历史交互信息利用",
+    "创新点": [
+      "受人类记忆模型启发，将记忆系统划分为三层互补结构（感觉记忆快速过滤信息、短时记忆按主题分组整合、长时记忆离线更新）",
+      "通过异步离线更新机制解耦记忆巩固与在线推理，显著降低计算开销（减少117倍token使用、159倍API调用）"
+    ]
+  },
+  "End-to-End Speech Conversion for   Stuttering Transcription and Correction": {
+    "主题": "口吃语音转换与转录",
+    "场景": "自动语音系统对口吃语音的错误转录和失真问题",
+    "创新点": [
+      "首次提出端到端波形到波形模型（StutterZero和StutterFormer），直接转换口吃语音为流畅语音并同步生成转录",
+      "采用联合声学-语言表征的双流Transformer架构（StutterFormer）和卷积双向LSTM注意力编解码器（StutterZero），提升语义准确性与流畅度"
+    ]
+  },
+  "How Do LLMs Use Their Depth?": {
+    "主题": "LLM深度使用机制",
+    "场景": "大型语言模型（LLM）层级计算动态分析",
+    "创新点": [
+      "提出\"猜测-优化\"框架（Guess-then-Refine），揭示LLM早期层依赖高频词统计猜测、深层逐步优化预测的机理",
+      "通过三类案例（词性分析/事实召回/选择题）首次量化不同任务对模型深度的动态需求差异（如功能词最早预测稳定、答案首词需更深计算等）",
+      "发现早期层预测结果70%以上会被深层修正，颠覆\"单次预测完成\"的传统认知"
+    ]
+  },
+  "Scaling Reinforcement Learning for Trillion-Scale   Thinking Model": {
+    "主题": "万亿规模强化学习模型",
+    "场景": "训练万亿参数规模的思维模型，解决训练推理不对齐、低效处理和系统瓶颈等挑战。",
+    "创新点": [
+      "**IcePop**：通过令牌级差异屏蔽和裁剪稳定强化学习训练，解决训练与推理不匹配导致的不稳定性。",
+      "**C3PO++**：在令牌预算限制下动态分割长序列，提高资源利用率，实现高时间效率。",
+      "**ASystem**：专为万亿参数模型训练设计的高性能强化学习框架，突破系统性瓶颈。"
+    ]
+  },
+  "Direct Perceptual Preference Optimization for Real-World   Image Super-Resolution": {
+    "主题": "图像超分辨率",
+    "场景": "真实世界图像的超分辨率重建",
+    "创新点": [
+      "提出无需人工标注的感知偏好优化框架（DP²O-SR），结合全参考与无参考图像质量评估模型构建混合奖励信号",
+      "突破最优-最差样本对比范式，利用同模型输出的多组偏好对，并根据模型容量动态调整选择比例",
+      "提出分层偏好优化方法，基于组内奖励差距和组间多样性自适应加权训练对，提升学习效率"
+    ]
+  },
+  "Towards Faithful and Controllable Personalization via Critique-Post-Edit   Reinforcement Learning": {
+    "主题": "大语言模型个性化强化学习",
+    "场景": "个性化大语言模型（LLMs）与用户偏好对齐",
+    "创新点": [
+      "提出“Critique-Post-Edit”强化学习框架，结合多维评分与文本批评的生成式奖励模型（GRM），抑制奖励攻击",
+      "引入批评后编辑机制，策略模型根据批评自主修订输出，实现更精准高效的学习"
+    ]
+  },
+  "HDR Image Reconstruction using an Unsupervised Fusion Model": {
+    "主题": "高动态范围（HDR）图像重建",
+    "场景": "通过多曝光低动态范围（LDR）图像生成HDR图像",
+    "创新点": [
+      "采用无监督深度学习模型，无需依赖真实HDR图像作为训练数据",
+      "引入定制化的损失函数以提升重建保真度和模型性能"
+    ]
+  },
+  "A Feasibility Study": {
+    "主题": "量子强化学习与稳定性控制",
+    "场景": "连续时间车辆纵向控制（自适应巡航）",
+    "创新点": [
+      "将量子策略优化与李雅普诺夫稳定性分析结合，确保渐进收敛和安全决策",
+      "提出稳定性感知的策略梯度机制，在动态环境中实现可解释的量子控制",
+      "在量子强化学习架构中嵌入稳定性验证，为自主系统提供安全保证",
+      "（注：摘要中实际包含三个创新点，超出题目要求的两点，但因其紧密关联且均具突破性，故保留完整呈现）"
+    ]
+  },
+  "Actor-Free Continuous Control via Structurally Maximizable Q-Functions": {
+    "主题": "连续动作空间的无Actor强化学习",
+    "场景": "强化学习在连续动作空间中的应用，解决传统方法训练不稳定的问题",
+    "创新点": [
+      "提出纯基于价值的方法，无需单独学习Actor，简化框架并提升稳定性",
+      "引入结构最大化Q函数，解决连续动作空间中的计算效率问题",
+      "在受限动作空间环境中表现优于基于梯度的传统Actor-Critic方法"
+    ]
+  },
+  "An AI enhanced approach to the tree unimodality conjecture": {
+    "主题": "AI辅助数学猜想验证",
+    "场景": "使用AI技术验证树的独立集序列对数凹性猜想",
+    "创新点": [
+      "应用PatternBoost AI架构高效发现对数凹性猜想的反例",
+      "大幅扩展反例规模（27至101个顶点的树中发现数万个新反例）",
+      "揭示AI方法在数学猜想验证中的潜力与局限性（成功与失败案例并存）"
+    ]
+  },
+  "A Declarative and Composable Syntax for Reasoning,   Formatting, and Control in LLMs": {
+    "主题": "LLM行为控制语法",
+    "场景": "改进大型语言模型（LLMs）在推理、格式化和行为控制中的一致性与可解释性",
+    "创新点": [
+      "提出Prompt Decorators，一种声明式、可组合的语法，通过紧凑控制标记（如+++Reasoning）调控LLM行为，分离任务意图与执行行为",
+      "定义20个核心装饰器，分为认知生成与表达系统两大家族，细分推理、交互等子类，提供模块化行为控制",
+      "设计统一语法、作用域模型和确定性处理流程，增强行为组合的可预测性与可审计性"
+    ]
+  },
+  "An Explainable Hybrid AI Framework for Enhanced Tuberculosis and Symptom   Detection": {
+    "主题": "AI医疗影像诊断框架",
+    "场景": "肺结核和症状的早期筛查，尤其适用于资源有限和偏远地区",
+    "创新点": [
+      "提出教师-学生框架，结合监督学习和自监督学习头，提升胸片疾病与症状检测精度",
+      "模型在COVID-19、肺结核与正常病例分类中达到98.85%准确率，症状多标签检测F1值达90.09%",
+      "可解释性验证显示模型能基于解剖学特征进行预测，契合临床筛查需求"
+    ]
+  },
+  "Leveraging Chain-of-Thought Reasoning for   Industrial Asset Health Monitoring": {
+    "主题": "工业资产健康监测的链式思维推理",
+    "场景": "工业4.0中的小型语言模型（SLM）应用于资产健康监测",
+    "创新点": [
+      "提出基于链式思维（CoT）蒸馏的知识迁移框架，将大型语言模型（LLM）的推理能力迁移至高效的小型模型（SLM）",
+      "采用多选问答（MCQA）提示优化SLM的推理与决策能力，并通过上下文学习验证生成知识的质量"
+    ]
+  },
+  "Surprising Effectiveness of Self-Tuning   without Rewards": {
+    "主题": "自监督微调方法（OSFT）",
+    "场景": "大型语言模型（LLM）的数学推理任务",
+    "创新点": [
+      "提出无需奖励机制的在线自监督微调（OSFT），仅需单次推理生成数据即可高效训练",
+      "通过激活模型预训练中的潜在知识偏好（latent knowledge）提升推理能力，性能媲美基于验证奖励的强化学习方法（如GRPO）"
+    ]
+  },
+  "Comparative Analysis of Topic Models and   Uncovering the Effect of Gender and Geographic Location": {
+    "主题": "科研资助趋势与人口地理因素分析",
+    "场景": "分析加拿大NSERC资助的科研提案（2005-2022年），优化科学投资策略以促进公平性和多样性。",
+    "创新点": [
+      "提出**COFFEE算法**，填补了BERTopic在协变量效应分析（如性别、地理位置）中的技术空白，使其具备与概率模型STM相当的统计分析能力。",
+      "首次通过**多模型对比**（LDA/STM/BERTopic+COFFEE）验证BERTopic在识别细粒度、新兴主题（如人工智能）上的优越性，并揭示省级研究特色与性别相关研究模式。"
+    ]
+  },
+  "Language-Guided Geospatial Algae Bloom Reasoning and   Segmentation": {
+    "主题": "藻华监测的视觉语言模型",
+    "场景": "利用遥感图像和语言指导进行有害藻华的自动监测与严重程度估计",
+    "创新点": [
+      "结合GeoSAM辅助人工评估，生成高质量分割掩码",
+      "利用NASA的CAM数据集微调视觉语言模型，提升严重程度预测精度"
+    ]
+  },
+  "Formalizing   Interdependence and Complementarity": {
+    "主题": "战略竞合的形式化建模",
+    "场景": "现代社会经济技术系统中的战略依赖与协同价值创造（如三星-索尼合资案例）",
+    "创新点": [
+      "提出定量化互依系数框架，将i*概念模型的依赖关系转为可计算的博弈论参数",
+      "融合Brandenburger的附加价值理论，建立协同效应参数化验证方法",
+      "开发混合博弈模型，在纳什均衡中整合结构依赖性与议价能力因素",
+      "通过幂函数/对数函数对比验证框架，兼具理论可解性与实证拟合优度（三星案例达45/60分）"
+    ]
+  },
+  "Verifiable Accuracy and Abstention Rewards in Curriculum RL to Alleviate   Lost-in-Conversation": {
+    "主题": "多轮对话强化学习框架",
+    "场景": "缓解大语言模型在多轮对话中的性能退化问题",
+    "创新点": [
+      "引入可验证准确性和弃权奖励的混合奖励系统，平衡问题解决与知情弃权",
+      "采用基于能力的分级课程学习策略，逐步增加对话难度以稳定训练",
+      "通过多轮策略推演改善模型对问题可解性的判断能力"
+    ]
+  },
+  "Causally Perturbed Fairness Testing": {
+    "主题": "因果扰动公平性测试",
+    "场景": "AI模型处理表格数据时的公平性测试，涉及敏感特征（如性别、年龄、种族）。",
+    "创新点": [
+      "提出CausalFT框架，利用因果推断提取与敏感特征最直接相关的非敏感特征，指导测试样本生成。",
+      "框架可灵活与多种底层生成器结合，提升公平性漏洞检测效果，实验表明其在93%的案例中显著改进生成器性能。",
+      "相比基于相关性的方法，CausalFT在64%的案例中表现更优且效率更高，同时增强模型偏置鲁棒性。"
+    ]
+  },
+  "  Benefits of Multiple Options": {
+    "主题": "基于偏好的强化学习（PbRL）中的样本效率优化",
+    "场景": "在线偏好学习，特别是在大语言模型（LLM）对齐任务中，利用多动作子集的排名反馈提升性能。",
+    "创新点": [
+      "提出M-AUPO算法，通过最大化动作子集内的平均不确定性来选择动作，实现更优的理论性能保证（子最优性间隙与子集大小直接相关）。",
+      "首次在排名反馈的PbRL中证明样本效率随子集规模提升的理论结果，避免了对未知参数范数的指数依赖。",
+      "建立了近乎匹配的下界（Ω(d/(K√T))），量化了最大子集尺寸对性能的影响。"
+    ]
+  },
+  "An Architecture for Modern Multi-Agent Systems": {
+    "主题": "多智能体系统架构",
+    "场景": "集成传统多智能体原则与现代AI能力，构建去中心化、可验证的智能体协作平台",
+    "创新点": [
+      "提出分层架构，结合链上区块链服务（身份验证、发现、交易）与云端部署平台",
+      "引入智能协调层，通过LLM将人类目标转化为多智能体工作流",
+      "实现去中心化物流用例，展示自主智能体的动态发现、协商与安全交易能力"
+    ]
+  },
+  "A Framework for Adaptive Multi-Turn Jailbreak Attacks on Large   Language Models": {
+    "主题": "大型语言模型的越狱攻击框架",
+    "场景": "多轮越狱攻击在闭源和开源大型语言模型中的对抗性测试",
+    "创新点": [
+      "提出模块化框架HarmNet，包含分层语义网络ThoughtNet和反馈驱动的模拟器，实现迭代查询优化",
+      "引入网络遍历器（Network Traverser）实时动态执行自适应攻击，提升攻击路径隐蔽性和成功率",
+      "实验验证攻击成功率显著超越现有方法（如Mistral-7B上成功率99.4%，比基线高13.9%）"
+    ]
+  },
+  "A LVLM-Powered System Bridging Motion and Semantics for   Real-Time Free-Form Gesture Understanding": {
+    "主题": "LVLM驱动的自由手势理解系统",
+    "场景": "人机交互中的实时自由手势识别与语义理解",
+    "创新点": [
+      "引入地标处理模块（Landmark Processing Module），结合解剖学手部先验知识，增强LVLM对细微手势的捕捉能力",
+      "采用链式推理（CoT）策略，通过逐步语义推断提升模型对模糊/非常规手势的深层理解",
+      "首创开源自由手势意图数据集（含30万标注QA对），填补领域空白"
+    ]
+  },
+  "Exploring Membership Inference Vulnerabilities in Clinical Large   Language Models": {
+    "主题": "医疗大型语言模型中的成员推理漏洞",
+    "场景": "临床决策支持系统中使用的大型语言模型（LLMs）面临患者隐私泄露风险",
+    "创新点": [
+      "提出基于领域驱动的改述扰动策略，更真实模拟临床对抗环境",
+      "初步发现当前医疗LLMs存在有限但可测量的成员信息泄露",
+      "推动特定领域隐私评估方法（如差分隐私微调）的发展"
+    ]
+  },
+  "A Generative Decoder Is All You Need For Multitask Satellite   Image Time Series Modelling": {
+    "主题": "卫星图像时间序列生成模型",
+    "场景": "地球观测（EO）数据的多任务处理，如作物类型分类",
+    "创新点": [
+      "提出SITS-DECO模型，采用纯生成式框架（GPT风格解码器）统一处理多模态、多任务EO数据，无需任务或模态适配",
+      "通过符号提示实现监督与自监督任务的统一执行，证明密集时间序列建模是当前EO模型缺失的关键能力"
+    ]
+  },
+  "An Empirical Study": {
+    "主题": "推理大语言模型（RLLM）服务性能研究",
+    "场景": "RLLM在数学、编程等复杂推理任务中的实际部署与优化",
+    "创新点": [
+      "首次揭示了RLLM与传统LLM在服务性能上的关键差异（如内存波动、请求延迟等）",
+      "验证了现有推理优化技术（如模型量化）对RLLM的适用性与局限性",
+      "基于Gamma分布的真实工作负载评估验证了研究结论的普适性"
+    ]
+  },
+  "Explainability-Aware Structured Pruning for Efficient Neural   Networks Compression": {
+    "主题": "神经网络压缩/结构化剪枝",
+    "场景": "计算机视觉应用中，克服部署限制的高效模型压缩",
+    "创新点": [
+      "提出因果感知剪枝方法，利用模型预测与结构间的因果关系进行渐进式剪枝",
+      "实现一次性训练后剪枝（无需微调），在显著减小模型规模的同时保持性能"
+    ]
+  },
+  "Sparsely Supervised Semantic Segmentation of Microscopy   Data": {
+    "主题": "电子显微镜图像语义分割",
+    "场景": "生物样本的电子显微镜（EM）图像和荧光显微镜数据的稀疏标注语义分割",
+    "创新点": [
+      "提出基于层次变分自编码器（HVAE）的ε-Seg方法，结合中心区域掩码和稀疏标签对比学习，增强稀疏标注（0.05%以下）下的表征学习",
+      "采用高斯混合模型（GMM）先验优化潜在空间，无需聚类即可直接通过MLP分割头预测类别标签"
+    ]
+  },
+  "Learning to Ask the Right Questions for   Dialogue-Based Retrieval": {
+    "主题": "对话驱动的信息检索优化",
+    "场景": "处理模糊用户查询时，通过交互式对话精准识别用户意图",
+    "创新点": [
+      "提出基于强化学习的动态提问策略（SherlockLLM框架），无需大规模标注对话数据",
+      "设计二分式问题序列主动压缩搜索空间，在非结构化任务中显著超越基线性能",
+      "建立混合任务基准验证框架在结构化和非结构化场景的双重优势"
+    ]
+  },
+  "Beyond First-Order Quantization for   Real-Valued Matrix Compression": {
+    "主题": "矩阵量化压缩方法",
+    "场景": "矩阵压缩与神经网络后训练量化（PTQ）",
+    "创新点": [
+      "提出二元二次量化（BQQ），突破传统一阶量化方法的线性组合限制，利用二元二次表达式增强表达能力",
+      "在相同内存占用下，显著提升矩阵重建精度（优于传统方法）和PTQ性能（ImageNet上最高提升59.1%）",
+      "无需依赖PTQ专用的二元矩阵优化，泛化性强"
+    ]
+  },
+  "Comparative Expressivity for Structured Argumentation Frameworks with   Uncertain Rules and Premises": {
+    "主题": "结构化论证框架中的不确定性建模",
+    "场景": "形式化论证中定性不确定性的理论与应用研究",
+    "创新点": [
+      "提出一种能同时处理抽象和结构化形式的表达能力概念",
+      "呈现否定性与肯定性表达能力结果，比较抽象/结构化不确定性论证模型的表达能力差异"
+    ]
+  },
+  "Leveraging Association Rules for Better Predictions and Better   Explanations": {
+    "主题": "关联规则与树模型的分类方法",
+    "场景": "分类任务中提升预测性能和解释效果",
+    "创新点": [
+      "结合数据挖掘关联规则（含否定项）增强树模型（决策树、随机森林）的预测性能",
+      "生成比传统方法更通用的溯因解释，优化分类任务的解释性"
+    ]
+  },
+  "Balancing Exploration-Exploitation": {
+    "主题": "检索增强生成系统优化",
+    "场景": "复杂用户请求处理中的文档检索与生成任务",
+    "创新点": [
+      "将查询分解与文档检索建模为探索-开发权衡问题，动态选择最有信息的子查询",
+      "结合排序信息和人工判断来估计文档相关性，显著提升文档级精确度和生成质量"
+    ]
+  },
+  "Geometric Imagination Grounded Spatial Reasoning from   Limited Views": {
+    "主题": "3D空间推理",
+    "场景": "从有限视角理解3D空间关系",
+    "创新点": [
+      "提出3DThinker框架，首次实现无需3D先验输入的推理过程中的3D心理建模",
+      "利用两阶段训练方法（监督对齐3D潜变量与基于结果信号的轨迹优化）增强几何推理能力",
+      "不依赖显式3D标注数据，通过多模态基准测试验证性能优势"
+    ]
+  },
+  "Visual Attention Reasoning via Structured Search and Backtracking": {
+    "主题": "视觉注意力推理框架",
+    "场景": "多模态大语言模型在复杂任务中的幻觉和线性推理问题",
+    "创新点": [
+      "引入结构化搜索和回溯机制，将基础推理重铸为对推理轨迹空间的搜索",
+      "提出可追踪的证据基础和基于搜索的思维链生成，实现自我修正",
+      "设计具有语义和几何自验证组件的多面奖励函数，增强视觉输入的忠实性"
+    ]
+  },
+  "  LLM-Assisted Multi-Perspective and Thematic Evaluation": {
+    "主题": "AI课程教学大纲的多角度评估",
+    "场景": "通过大型语言模型（LLM）自动评估计算课程（尤其是AI/ML公平与伦理相关课程）的教学大纲，以提高课程设计的包容性与透明度。",
+    "创新点": [
+      "设计了一个面向公平的评分标准，并结合LLM的多角色模拟（教师、系主任、机构评审员等）进行多角度评估",
+      "利用LLM识别课程间的共性主题趋势，揭示传统人工评估难以发现的课程设计隐性缺陷"
+    ]
+  },
+  "Stabilizing Off-Policy Reinforcement Learning for LLMs via   Balanced Policy Optimization with Adaptive Clipping": {
+    "主题": "大语言模型强化学习优化",
+    "场景": "离策略强化学习中的策略优化不稳定问题",
+    "创新点": [
+      "提出动态调整裁剪边界的自适应平衡策略优化（BAPO），解决梯度爆炸和有用行为抑制问题",
+      "揭示PPO类目标中固定裁剪机制熵减规则的缺陷，设计自适应性熵保持机制"
+    ]
+  },
+  "A Rectification-Based Approach for Distilling Boosted Trees into   Decision Trees": {
+    "主题": "决策树蒸馏技术",
+    "场景": "在保持预测性能和可解释性平衡的前提下，将提升树模型蒸馏为决策树",
+    "创新点": [
+      "提出基于校正（rectification）的蒸馏方法，优化模型蒸馏过程",
+      "实证表明该方法相比重训练模型蒸馏具有更好的性能表现"
+    ]
+  },
+  "The Cost-Benefit of Interdisciplinarity in AI for Mental Health": {
+    "主题": "AI心理健康的跨学科协作",
+    "场景": "心理健康AI聊天机器人的开发与应用",
+    "创新点": [
+      "提出跨学科协作（技术、医疗、伦理、法律）在AI心理健康聊天机器人全生命周期中的必要性",
+      "结合欧盟AI法案要求，强调跨学科对价值对齐与合规性的关键作用"
+    ]
+  },
+  "Automating Quantitative Strategy Discovery through   Multi-Agent Evolutionary Framework": {
+    "主题": "量化交易策略自动化发现",
+    "场景": "动态市场中自动化开发个性化量化交易策略",
+    "创新点": [
+      "结合质量-多样性优化与假设驱动的多智能体策略生成，提升策略多样性",
+      "引入与投资者偏好对齐的特征映射（如风险、收益等），确保策略适应个性化需求"
+    ]
+  },
+  "Open-Sourced Multi-Subject Reference Video Generation Model": {
+    "主题": "多主体一致性视频生成",
+    "场景": "从多张参考图像合成保持主体一致性的视频，解决现有方法在多主体一致性和背景分离上的不足。",
+    "创新点": [
+      "提出专用数据构建流程（含低质量样本过滤和多样性数据合成），生成保持一致性的训练数据。",
+      "引入参考旋转位置编码（R-RoPE），实现稳定、精确的多图像集成，避免主体混淆。"
+    ]
+  },
+  "  Cinderella case study": {
+    "主题": "人工智能在民俗学中的应用",
+    "场景": "大规模童话故事集的自动分析与跨语言比较",
+    "创新点": [
+      "采用机器学习和自然语言处理技术自动识别大量《灰姑娘》变体中的主题",
+      "利用聚类和降维方法分析故事的相似性和差异性，支持跨语言比较"
+    ]
+  },
+  "A Unified Framework for Responsible AI Scoring and Evaluation": {
+    "主题": "负责任AI评估框架",
+    "场景": "高风险的AI应用领域（金融、医疗、社会经济）中评估模型的全面负责任性",
+    "创新点": [
+      "提出RAISE统一框架，量化模型在可解释性、公平性、鲁棒性和可持续性四个维度的性能",
+      "将多维度评估指标聚合成单一的综合责任分数，便于模型比较和选择"
+    ]
+  },
+  "Evaluating (M)LLMs as Critiques for Web Development Quality": {
+    "主题": "LLM评估网页开发质量",
+    "场景": "动态网页开发环境的自动化评估",
+    "创新点": [
+      "提出WebDevJudge基准，支持静态观察和动态交互两种评估模式",
+      "设计了结构化且查询导向的评估标准，提高标注质量",
+      "系统评估不同评估范式（LLM、多模态LLM、代理工作流）的影响"
+    ]
+  },
+  "Extracting alignment data in open models": {
+    "主题": "开放模型中对齐数据提取",
+    "场景": "从经过后期训练（如SFT或RL）的模型中提取对齐训练数据，用于改进模型的长上下文推理、安全性、数学能力等。",
+    "创新点": [
+      "提出使用嵌入模型而非传统字符串匹配方法，更精准识别语义相似的对齐数据。",
+      "揭示模型后期训练阶段（如SFT/RL）极易泄露原始训练数据，暴露蒸馏实践的潜在风险。",
+      "证明提取的数据可有效重训练基础模型，恢复原性能的显著部分。"
+    ]
+  },
+  "Textual Gradient Meets Multi-Agent Orchestration for   Automated Simulator Generation": {
+    "主题": "自动化模拟器生成",
+    "场景": "多智能体协同构建仿真器，用于用户建模、口罩采用和个人移动性等 CPS 任务",
+    "创新点": [
+      "提出端到端代理框架 SOCIA-Nabla，将仿真器构建视为代码实例优化",
+      "引入文本梯度下降 (TGD) 方法，以代码为可训练对象进行优化",
+      "结合多智能体编排和损失对齐优化视图，实现跨领域和模拟粒度的可扩展仿真器生成"
+    ]
+  },
+  "Towards On-Device Object-Goal Navigation with Navigation   Map Caching and Retrieval": {
+    "主题": "基于LLM的目标导航优化",
+    "场景": "边缘设备上的实时目标导航任务（ObjNav）",
+    "创新点": [
+      "提出语义感知记忆检索机制，精简导航地图冗余信息，提升小模型（如LLaMA）对复杂地图的理解能力",
+      "采用离散记忆缓存与注意力聚类技术优化KV缓存，减少67%的实时延迟",
+      "在不依赖云GPT-4的情况下，HM3D基准成功率反超基线11.1%"
+    ]
+  },
+  "Application of Reduced-Order Models for Temporal Multiscale   Representations in the Prediction of Dynamical Systems": {
+    "主题": "多尺度动态系统预测的降阶模型",
+    "场景": "复杂多尺度系统的动力学建模与预测，涉及非线性行为和初始条件敏感性",
+    "创新点": [
+      "采用分区统一（PU）方法与神经网络结合，分解动态并直接预测宏观与微观行为",
+      "应用稀疏高阶奇异值分解（SVD）从有限观测数据中重构多尺度动态，分离主次尺度",
+      "框架兼容高维系统和不完整观测数据，提供全时间尺度的近似与解释"
+    ]
+  },
+  "Constructing Backdoors That Survive   Distillation": {
+    "主题": "知识蒸馏中的后门攻击",
+    "场景": "大型语言模型（LLM）作为教师模型用于知识蒸馏时的安全风险",
+    "创新点": [
+      "提出 T-MTB 后门技术，通过构建由常见独立令牌组成的复合触发机制，确保后门在蒸馏过程中的可转移性",
+      "揭示了传统后门触发令牌选择方法的安全局限，论证了当前低估知识蒸馏安全风险的现状",
+      "针对越狱和内容调制两种攻击场景进行了系统研究，验证了跨四种 LLM 模型家族的后门转移有效性"
+    ]
+  },
+  "Physics-guided Emulators Reveal Resilience and Fragility under   Operational Latencies and Outages": {
+    "主题": "水文洪水预测模型的鲁棒性",
+    "场景": "在数据延迟、缺失或不一致的情况下，评估和改进洪水预报系统的稳定性和可靠性",
+    "创新点": [
+      "结合长短期记忆网络和宽松的水平衡约束，保持物理一致性，提升模型在数据异常情况下的表现",
+      "通过五种架构模拟不同数据可用性场景（从完整数据到数据延迟和缺失），系统性评估模型的鲁棒性",
+      "在跨气候和管理制度的流域中进行迁移测试，验证模型在数据稀缺和人类影响下的泛化能力"
+    ]
+  },
+  "Counterfactual Reasoning for Steerable Pluralistic Value Alignment of   Large Language Models": {
+    "主题": "大型语言模型的价值对齐技术",
+    "场景": "多文化、多社区和多人口群体中大型语言模型的价值观对齐",
+    "创新点": [
+      "引入结构因果模型（SCM）来建模价值维度间的复杂依赖关系和优先级",
+      "应用反事实推理生成符合任意特定价值目标的输出",
+      "通过显式因果建模提升模型的可解释性"
+    ]
+  },
+  "Zero-Shot Vehicle Model Recognition via Text-Based Retrieval-Augmented   Generation": {
+    "主题": "基于文本检索增强生成的零样本车辆型号识别",
+    "场景": "智能交通系统中的新款车辆型号识别",
+    "创新点": [
+      "结合视觉语言模型（VLM）与检索增强生成（RAG），通过文本描述实现零样本识别，避免大规模图像微调",
+      "利用文本数据库动态更新新车型特征，提升模型适应性和可扩展性"
+    ]
+  },
+  "Unifying Inductive, Cross-Domain, and Multimodal Learning for Robust and   Generalizable Recommendation": {
+    "主题": "跨域多模态推荐系统",
+    "场景": "复杂消费场景下的个性化推荐",
+    "创新点": [
+      "融合归纳建模、多模态引导和跨域迁移，提升异构数据中的用户偏好捕捉能力",
+      "通过模态聚合增强表征学习，利用重叠用户作为跨域锚点缓解数据稀疏问题"
+    ]
+  },
+  "Quantifying the Potential of Control Algorithms through LLM   Agents": {
+    "主题": "控制算法优化潜力评估",
+    "场景": "生产环境中的控制算法参数调优",
+    "创新点": [
+      "提出LLM驱动的多级专家模拟代理（Crucible），用于算法调优",
+      "定义量化评估控制算法调优潜力（Tuning Potential）的正式指标",
+      "为算法分析与设计提供新维度，提升实际性能"
+    ]
+  },
+  "One Size Fits All? A Modular Adaptive Sanitization Kit (MASK) for   Customizable Privacy-Preserving Phone Scam Detection": {
+    "主题": "隐私保护的电话诈骗检测",
+    "场景": "利用大型语言模型（LLMs）分析电话通话转录文本时，动态保护用户隐私",
+    "创新点": [
+      "提出模块化可扩展框架MASK，支持基于用户偏好的动态隐私调整（如关键词过滤/神经网络 sanitization 方法）",
+      "设计可插拔架构，兼容不同隐私-准确率需求的 sanitization 技术（从传统方法到神经网络方案）",
+      "探讨未来个性化的隐私感知LLM系统设计（含损失函数建模），扩展至其他检测场景"
+    ]
+  },
+  "From Noisy Rewards to Unbiased Gradients": {
+    "主题": "强化学习噪声鲁棒优化",
+    "场景": "人类反馈或可验证奖励下的RLHF/RLVR场景，用于对齐大语言模型或构建推理模型时应对奖励噪声",
+    "创新点": [
+      "提出Group Relative Policy Optimization (GRPO)及改进版Dr.GRPO，显式建模奖励噪声为伯努利分布并通过翻转概率估计进行校正",
+      "理论证明组优化方法天然缓解个体噪声，并增强策略梯度无偏性",
+      "实验验证在数学/编码任务中噪声校正显著提升性能（数学准确率+6.7%，编码+1.5%）"
+    ]
+  },
+  "Comparative Analysis of Object Detection Algorithms for Surface Defect   Detection": {
+    "主题": "表面缺陷检测算法比较",
+    "场景": "工业质量控制中的金属表面缺陷检测",
+    "创新点": [
+      "提出YOLOv11在NEU-DET数据集上的优越性能，平均准确率提高70%",
+      "采用改进的锚框生成和更深卷积层，实现更精确的缺陷定位",
+      "单次前向传递处理整个图像，提升检测速度和效率"
+    ]
+  },
+  "Revealing the True Potential of GUI Agents   through Benchmark Purification": {
+    "主题": "GUI代理性能评估与优化",
+    "场景": "移动设备虚拟助手（如Siri）的GUI交互任务性能提升",
+    "创新点": [
+      "揭示现有基准测试（如AndroidControl）的缺陷（如模糊性和事实错误），并推出净化版基准AndroidControl-Curated，使模型性能评估更准确（15%提升）",
+      "提出轻量级模型Magma-R1-3B，仅需2.4k样本微调和极低算力（60小时H20 GPU），性能媲美参数量200倍的大模型"
+    ]
+  },
+  "A Turn-Based RPG Benchmark for Agentic Multimodal   Decision-Making and Information Seeking": {
+    "主题": "多模态决策与信息寻求的智能体评测",
+    "场景": "基于回合制RPG游戏（《崩坏：星穹铁道》）的智能体决策与信息寻求评测",
+    "创新点": [
+      "提出了StarBench评测基准，专注于智能体的多模态决策（从像素到动作）和主动信息寻求能力",
+      "设计了两种评测模式：直接控制（仅接收屏幕截图并输出低层操作）和工具辅助控制（允许高层意图映射与OCR文本辅助）",
+      "引入\"询问或行动\"诊断机制，量化智能体在寻求引导时机选择上的表现及其对后续绩效的影响"
+    ]
+  },
+  "Agentic LLM-Driven Federated Analytics over Decentralized Data   Sources": {
+    "主题": "基于LLM的联邦数据分析",
+    "场景": "跨分布式数据源的隐私保护数据分析，支持自然语言查询",
+    "创新点": [
+      "提出首个集成LLM代理与联邦分析（FA）的系统LAFA，实现自然语言查询到可执行FA工作流的转换",
+      "引入分层多智能体架构：粗粒度规划器分解查询，细粒度规划器基于先验结构知识生成FA操作的有向无环图",
+      "优化代理通过重写合并DAG消除冗余操作，显著降低计算与通信开销"
+    ]
+  },
+  "Probabilistic Modeling of Intentions in Socially Intelligent LLM Agents": {
+    "主题": "社会性对话的LLM代理概率意图建模",
+    "场景": "多轮社交对话中LLM代理对伙伴潜在意图的推断与自适应策略生成",
+    "创新点": [
+      "提出基于概率的意图建模框架，通过上下文先验初始化并动态更新意图信念分布",
+      "利用意图分布为策略提供额外上下文，实现不确定性下的自适应对话调整",
+      "实验显示框架性能超越基线模型(Qwen2.5-7B)甚至部分超越直接观察意图的Oracle代理"
+    ]
+  },
+  "Benchmarking Fairness-aware Graph Neural Networks in Knowledge Graphs": {
+    "主题": "知识图谱中的公平性图神经网络",
+    "场景": "评估公平性图神经网络在知识图谱（YAGO、DBpedia、Wikidata）中的应用，如推荐系统",
+    "创新点": [
+      "首次在知识图谱上系统评估公平性图神经网络，揭示其与传统图数据不同的公平性与准确性权衡趋势",
+      "发现性能同时受公平性方法、图神经网络架构和早停条件的显著影响",
+      "提出预处理方法更有效提升公平性指标，而内处理方法更利于预测准确性"
+    ]
+  },
+  "Improving Code Generation via Reinforcement with Execution   Semantics Alignment": {
+    "主题": "代码生成与执行语义对齐",
+    "场景": "大型语言模型（LLMs）生成的代码功能正确性优化",
+    "创新点": [
+      "提出CodeRL+方法，通过变量级执行轨迹推断直接学习执行语义信号",
+      "利用现有策略滚动数据无缝构建执行语义对齐，兼容多种强化学习算法",
+      "在代码推理和测试输出生成任务上分别提升15.5%和4.4%准确率"
+    ]
+  },
+  "Mining High-Quality Data by Probing Mathematical Reasoning   Circuits in LLMs": {
+    "主题": "LLM数学推理数据挖掘",
+    "场景": "从大规模推理数据集中高效筛选高质量子集以优化LLM训练",
+    "创新点": [
+      "提出通过内部注意力机制识别稀疏核心推理回路（CircuitSeer），替代传统依赖外部模型/启发式的方法",
+      "首创基于回路影响力量化的数据复杂度评估指标，显著提升数据选择效率（10%数据实现性能超越全量训练）"
+    ]
+  },
+  "Simple and Efficient Heterogeneous Temporal Graph Neural Network": {
+    "主题": "异质时序图神经网络",
+    "场景": "处理现实世界中普遍存在的异质时序图数据，用于表示学习和预测任务",
+    "创新点": [
+      "提出动态注意力机制，将时间建模融入空间学习中，增强时空信息交互",
+      "利用大语言模型提示，自适应捕捉节点类型的隐式特性作为先验知识",
+      "模型在保持最佳预测精度的同时，实现10倍于现有基准的加速"
+    ]
+  },
+  "Open-ended art generation balancing originality   and coherence": {
+    "主题": "开放域艺术生成",
+    "场景": "自主代理生成既具原创性又内部一致的艺术作品",
+    "创新点": [
+      "提出文化异类采样器（CAS），明确分离概念组合的连贯性与文化典型性",
+      "采用两个微调的GPT-2模型分别评估概念共现合理性和文化典型性",
+      "通过高连贯性低典型性的组合策略突破传统文化限制，同时提升输出多样性和探索广度"
+    ]
+  },
+  "Large Language Model Decision Making through Planning under   Uncertainty": {
+    "主题": "大型语言模型的不确定性决策规划",
+    "场景": "在随机环境中进行多步决策任务（如不确定状态转换的环境）",
+    "创新点": [
+      "提出PlanU方法，将蒙特卡洛树搜索（MCTS）节点回报建模为分位数分布，以量化不确定性",
+      "设计具备好奇心奖励的上置信界（UCC）评分机制，动态平衡探索与利用"
+    ]
+  },
+  "Integrating Traditional Features with AI-driven Insights": {
+    "主题": "糖尿病视网膜病变（DR）早期筛查",
+    "场景": "糖尿病高发地区（如印度）的早期DR诊断",
+    "创新点": [
+      "结合传统特征提取与深度学习，提升DR检测准确性",
+      "融合可解释的临床数据与深度学习特征，降低漏诊率（假阴性）",
+      "多模态AI驱动框架，优于单一深度学习方法，实现高扩展性筛查"
+    ]
+  },
+  "Demand-Driven Short-Video Preloading with Scalable Watch-Time   Estimation": {
+    "主题": "短视频流预加载优化",
+    "场景": "短视频流媒体平台中动态预加载策略的设计与优化",
+    "创新点": [
+      "引入动态任务大小调整机制，适应不同网络条件和用户行为",
+      "提出多维度的观看时间预测方法，提升大规模部署的可靠性",
+      "采用深度强化学习（DRL）智能体自适应优化下载范围决策"
+    ]
+  },
+  "Scaling up Pretrained Neural Networks with Incremental   Parameters": {
+    "主题": "视觉Transformer模型高效扩展",
+    "场景": "大规模视觉Transformer模型的低成本快速扩展",
+    "创新点": [
+      "提出**参数增量扩展方法**，通过插入共享权重的新层实现模型深度扩展，大幅减少新增参数量",
+      "设计**并行适配器模块**，通过微调参数解决权重共享导致的性能下降问题",
+      "在ImageNet-1K上验证时，2倍深度的扩展模型比从头训练节省2/3训练周期且精度提升7.42%"
+    ]
+  },
+  "In-the-wild Generative Image Interaction Dataset for   Generative Model Personalization": {
+    "主题": "生成模型个性化",
+    "场景": "利用用户交互数据改进生成模型以适应用户个性化偏好",
+    "创新点": [
+      "提供首个包含真实用户交互行为的数据集（57K用户，242K定制LoRAs，3M文本提示，5M生成图像），支持细粒度偏好研究",
+      "提出基于潜在权重空间的端到端定制扩散模型编辑框架，实现个性化对齐",
+      "首次验证个性化检索模型与生成模型推荐的新范式性能"
+    ]
+  },
+  "Schema-Induced Games for Naming": {
+    "主题": "多智能体命名协调",
+    "场景": "大型语言模型智能体在协作编码和分布式规划等场景中的不一致命名问题",
+    "创新点": [
+      "提出Schema-Induced Games for Naming (SIGN)命名游戏，通过轻量级结构引导约定形成",
+      "对比模式化通信与非受限自然语言，实现最高5.8倍的更快收敛与更高一致性"
+    ]
+  },
+  "Approximate Model Predictive Control for Microgrid Energy Management via   Imitation Learning": {
+    "主题": "微电网能源管理",
+    "场景": "可再生能源集成的微电网高效能源管理",
+    "创新点": [
+      "基于模仿学习的框架近似混合整数经济模型预测控制（EMPC），实现实时快速决策",
+      "训练过程中加入噪声注入以增强鲁棒性，并显式考虑可再生能源与需求预测的不确定性"
+    ]
+  },
+  "LLMs can hide text in other text of the same length": {
+    "主题": "基于大语言模型的文本隐藏技术",
+    "场景": "在看似普通的文本中隐藏敏感或秘密信息，例如政治评论、产品评论或企业合规场景下的隐蔽通信。",
+    "创新点": [
+      "提出利用大语言模型（LLM）实现等长文本的高效隐藏协议，即使小型开源模型（如80亿参数）也能快速在本地完成编解码。",
+      "揭示了文本与作者意图的彻底解耦，为AI安全领域提出新挑战（如企业可通过合规模型隐藏未过滤的LLM输出）。"
+    ]
+  },
+  "Towards a Public Red Teaming Model": {
+    "主题": "公共红队测试模型",
+    "场景": "高风险领域（如教育、医疗、情报收集）的AI系统安全评估",
+    "创新点": [
+      "提出协作式公共AI红队测试方法，用于全面评估AI系统的潜在风险和漏洞",
+      "结合CAMLIS 2024等实际案例，验证该方法的可行性和可扩展性"
+    ]
+  },
+  "Bidirectional Opinion Dynamics in Multi-Turn   Human-LLM Interactions": {
+    "主题": "人机双向观点动态",
+    "场景": "多轮人类与LLM交互中的观点演化分析",
+    "创新点": [
+      "首次量化研究用户输入对LLM响应的反向影响机制",
+      "揭示个性化设置会双向加剧人类与LLM的立场漂移现象",
+      "发现包含个人故事的对话最易触发双方立场改变（非技术细节）"
+    ]
+  },
+  "Optimized Distortion in Linear Social Choice": {
+    "主题": "社会选择理论中的线性效用优化",
+    "场景": "基于线性效用函数的社会选择（如推荐系统、意见调查）",
+    "创新点": [
+      "首次研究线性效用函数下的社会选择失真问题，提出仅依赖候选嵌入维度的失真界限（独立于候选人或选民数量）",
+      "设计多项式时间的实例最优算法，并在推荐系统（协同过滤嵌入）和意见调查（语言模型嵌入）两个真实场景中验证其优越性"
+    ]
+  },
+  "The Temporal Graph of Bitcoin Transactions": {
+    "主题": "比特币交易图数据处理与机器学习应用",
+    "场景": "构建时间异构图模型，整合比特币全网交易历史数据以支持机器学习研究",
+    "创新点": [
+      "提出首个兼容机器学习的时间异构图模型，完整还原比特币资金流拓扑结构（24亿节点、397亿边）",
+      "开发专用采样方法和特征提取工具，实现交易社区节点/边特征的定制化生成",
+      "提供即用的图数据库快照与分析工具链，支持异常检测、地址分类等金融场景的规模化研究"
+    ]
+  },
+  "Towards Real-world Clinical Decision Making in the Era of   LLMs": {
+    "主题": "临床决策支持的LLM应用",
+    "场景": "真实医疗环境中的临床决策任务评估与优化",
+    "创新点": [
+      "提出基于临床背景和临床问题的二维范式，统一评估LLMs在真实医疗决策中的性能",
+      "扩展传统准确性指标，新增效率、可解释性等多维度评估体系"
+    ]
+  },
+  "Advancing Greek NLP through Quality-Based Corpus Curation": {
+    "主题": "希腊语自然语言处理",
+    "场景": "现代希腊语（形态丰富、资源中等语言）及法律领域的NLP应用",
+    "创新点": [
+      "提出希腊语嵌入模型（GEMs）家族，结合多样化架构（如RoBERTa、ConvBERT等）和精细数据管理（预处理、去重及特定领域数据重复）",
+      "首创针对跨语言法律应用的双语希腊语-英语嵌入模型",
+      "引入基于质量的语料库管理方法，提升领域适应能力，并在基准测试中显著优于现有模型（准确率提升3.6%）"
+    ]
+  },
+  "LLM-Augmented Symbolic NLU System for More Reliable Continuous Causal   Statement Interpretation": {
+    "主题": "混合符号与LLM的自然语言理解系统",
+    "场景": "从常识科学文本中提取和解释因果关系的可靠NLU任务",
+    "创新点": [
+      "结合LLM的广泛覆盖能力和符号NLU的结构化表示优势，形成混合系统",
+      "利用LLM进行文本改写和简化以填补知识空白，同时通过符号系统实现可解释的关系表示"
+    ]
+  },
+  "A Framework for the Adoption and Integration of Generative AI in Midsize   Organizations and Enterprises (FAIGMOE)": {
+    "主题": "生成式AI组织采纳框架",
+    "场景": "中小型组织和大型企业采纳生成式AI的差异化挑战",
+    "创新点": [
+      "提出首个融合技术采纳理论、组织变革管理与创新扩散的多阶段框架（FAIGMOE），覆盖战略评估至运营优化全流程",
+      "针对生成式AI特性设计专属模块（提示工程、模型编排、幻觉管理），突破传统技术框架泛化局限",
+      "提供可扩展的实施工具包（评估指标、治理模板），适配不同规模组织复杂度"
+    ]
+  },
+  "Minimum-Variance Two-Point   Estimators and Directionally Aligned Perturbations": {
+    "主题": "随机梯度估计的极小方差扰动优化",
+    "场景": "零阶优化（黑箱优化）中梯度估计的方差最小化问题",
+    "创新点": [
+      "提出方向性对齐扰动（DAP）方案，突破传统固定长度扰动的限制，根据梯度方向自适应调整扰动以提高估计精度",
+      "建立δ-无偏随机扰动下随机梯度下降的收敛性理论，扩展了现有复杂度分析的适用范围",
+      "通过约束泛函优化求解出渐进最优扰动分布，证明方向对齐优于固定长度扰动"
+    ]
+  },
+  "A Tutorial on Cognitive Biases in Agentic AI-Driven 6G Autonomous   Networks": {
+    "主题": "认知偏见在代理AI驱动的6G自主网络中的影响与缓解",
+    "场景": "6G自主网络中的跨域管理和资源分配",
+    "创新点": [
+      "提出针对锚定、时间和确认偏见的缓解技术（锚定随机化、时间衰减和拐点奖励）",
+      "通过多模态感知和基于记忆的推理增强代理AI的决策公平性",
+      "在跨域协商中实现5倍延迟降低和40%能耗节省的实际性能提升"
+    ]
+  },
+  "A Difficulty-Aware Curriculum Reinforcement Learning Framework   For Controllable Lyric Translation": {
+    "主题": "音乐歌词翻译的强化学习框架",
+    "场景": "无监督的歌词翻译任务，需平衡音乐性和语言学特征",
+    "创新点": [
+      "提出难度感知的课程学习设计器，动态分配训练资源以提升效率",
+      "采用自适应课程策略，减少40%训练步骤的同时保持性能优势",
+      "首个在段落级别建模跨行连贯性与全局韵律的框架"
+    ]
+  },
+  "A new wave of vehicle insurance fraud fueled by generative AI": {
+    "主题": "生成式AI与车辆保险欺诈",
+    "场景": "利用生成式AI大规模伪造事故证据进行保险欺诈",
+    "创新点": [
+      "提出UVeye分层解决方案，显著提升检测能力",
+      "结合深度伪造检测技术强化验证流程",
+      "应对欺诈者持续进化的反检测策略"
+    ]
+  },
+  "Predicting Academic Per-formance   Through Leadership Personality Traits": {
+    "主题": "学术表现预测",
+    "场景": "利用领导力人格特质预测硕士学生的学术表现，应用于个性化学习",
+    "创新点": [
+      "结合23种领导力人格特质与学术成绩，建立多特征机器学习模型",
+      "采用七种算法对比优化，RF分类器实现87.5%预测准确率",
+      "提出早期识别学生优劣势，为个性化学习提供数据支持"
+    ]
+  },
+  "Modeling Market Impact with   Elliptic Uncertainty Sets": {
+    "主题": "金融市场影响建模",
+    "场景": "金融市场的强化学习代理在交易过程中的市场影响问题",
+    "创新点": [
+      "提出一类新颖的椭圆不确定性集合，捕捉市场影响的定向特性",
+      "开发隐式和显式闭式解，实现高效且易于处理的鲁棒策略评估"
+    ]
+  },
+  "A Schema-Agnostic Perceiver Encoder for Multimodal Relational   Graphs": {
+    "主题": "多模态关系图的通用编码器",
+    "场景": "电子商务、医疗和科学研究中的多表关系数据，需要处理异构时序图和多元节点属性。",
+    "创新点": [
+      "提出RELATE，一种模式无关的通用特征编码器，可配合任意GNN使用，提升了可扩展性和参数共享性。",
+      "采用共享模态特定编码器处理分类、数值、文本和时间属性，结合跨注意力模块生成固定大小的节点表示。",
+      "性能接近特定模式编码器，参数减少高达5倍，支持模式变化和多数据集预训练。"
+    ]
+  },
+  "The Next Generation of Cross-Platform Computer Use Agents": {
+    "主题": "跨平台计算机代理",
+    "场景": "构建适用于网页、桌面和移动环境的通用计算机代理",
+    "创新点": [
+      "提出Surfer 2统一架构，仅依赖视觉观察实现跨平台部署",
+      "集成分层上下文管理、解耦规划与执行及自适应恢复的自我验证机制",
+      "在多个基准测试中超越现有系统及人类表现，无需任务微调"
+    ]
+  },
+  "On the Optimal Construction of Unbiased Gradient Estimators for   Zeroth-Order Optimization": {
+    "主题": "无偏梯度估计器构造",
+    "场景": "零阶优化中梯度不可用或计算成本高时的随机优化",
+    "创新点": [
+      "提出基于函数评估的新型无偏梯度估计器家族，通过将方向导数重构为伸缩级数并采样特定分布消除偏差",
+      "推导四种具体构造的最优缩放分布和扰动步长，证明其在平滑非凸目标上达到最优复杂度",
+      "实验验证方法在合成任务和语言模型微调中的精度与收敛性优于标准方法"
+    ]
+  },
+  "operations on extensional fuzzy numbers": {
+    "主题": "可扩展模糊数运算",
+    "场景": "处理模糊数据时的计算复杂性和结果非一致性问题",
+    "创新点": [
+      "引入可扩展模糊数概念，解决传统模糊数运算导致的非一致性结果问题",
+      "提出新的关系运算符（=, >, >=, <, <=），增强模糊数比较能力",
+      "提供C++实现并开源，便于实际应用验证"
+    ]
+  },
+  "Semantic World Models": {
+    "主题": "语义世界模型",
+    "场景": "机器人控制与规划",
+    "创新点": [
+      "将世界模型建模为对任务相关语义信息的预测，而非像素级重建，提升规划效率",
+      "提出将世界建模视为视觉问答问题，利用视觉语言模型工具进行训练",
+      "通过监督微调图像-动作-文本数据，使视觉语言模型具备规划能力，继承预训练模型的泛化性"
+    ]
+  },
+  "A   Reflective Approach to Agent Adaptation": {
+    "主题": "基于记忆增强的LLM代理自适应学习",
+    "场景": "预训练大语言模型代理无需参数更新即可从标注样本中学习目标分类函数",
+    "创新点": [
+      "提出双记忆框架（情景记忆+语义记忆），结合标注数据和LLM生成反馈，存储实例级反馈并提炼为可复用的任务级指导",
+      "引入新度量指标\"suggestibility\"，解析模型对记忆编码监督的响应差异，揭示模型特性与记忆策略的联合影响",
+      "相比仅依赖标签的RAG基线，批判性反馈带来最高24.8%的准确率提升，实现更灵活透明的自适应学习"
+    ]
+  },
+  "Complex Bug Generation for Efficient Learning of SWE Skills": {
+    "主题": "软件工程中高质量缺陷生成",
+    "场景": "训练基于语言模型的软件工程代理（SWE Agents）",
+    "创新点": [
+      "提出通过引入新特性间接生成缺陷的方法，更贴近真实开发过程中非故意的缺陷模式（而非直接扰动代码）",
+      "生成的缺陷数据具有更高训练效率（仅需1.2k样本即超越3k样本传统方法的性能2%）",
+      "结合新型缺陷数据训练出的32B/14B参数模型（FrogBoss/FrogMini）在SWE-bench基准上达到SOTA（54.6%/45.3% pass@1）"
+    ]
+  },
+  "Large Language Model enabled Mathematical Modeling": {
+    "主题": "LLM与运筹学优化建模结合",
+    "场景": "利用大型语言模型（DeepSeek-R1）降低运筹学数学建模对领域专家依赖，提升供应链等实际场景决策效率",
+    "创新点": [
+      "提出基于强化学习训练的高性价比模型DeepSeek-R1，替代高成本/易幻觉的GPT-4等模型",
+      "系统开发幻觉分类体系及缓解策略（LLM-as-a-Judge、少样本学习等），显著提升建模准确性",
+      "首次在四大OR基准（NL4OPT等）上验证模型自然语言转数学建模的实践效能"
+    ]
+  },
+  "Scaffolded Group Relative Policy Optimization for Enhancing   LLM Reasoning": {
+    "主题": "LLM推理增强方法",
+    "场景": "大语言模型（LLM）在复杂数学推理任务中的性能提升",
+    "创新点": [
+      "提出Scaf-GRPO框架，通过动态诊断学习停滞并注入分层提示（从抽象概念到具体步骤），突破模型能力边界",
+      "改进GRPO算法的优势计算崩溃问题，使模型能够从零奖励信号中学习高难度问题",
+      "实验验证框架有效性，在AIME24基准上将Qwen2.5-Math-7B模型的pass@1分数相对提升44.3%"
+    ]
+  },
+  "A   Case of Nonprofit Program Evaluation": {
+    "主题": "AI在非营利项目评估中的应用",
+    "场景": "公共和非营利组织采用AI工具进行项目评估",
+    "创新点": [
+      "提出“从业者在环”工作流，结合透明决策树模型与大型语言模型（LLMs），提升预测准确性、可解释性及实用洞察生成",
+      "通过LLM基于透明模型生成案例级预测，增强结果的可信度和可操作性",
+      "全流程融入从业者参与（特征工程、模型设计、解释审查等），确保领域专业知识贯穿分析"
+    ]
+  },
+  "Generative AI's Impact on Professional Authority   in Journalism": {
+    "主题": "AI在新闻业的专业权威影响",
+    "场景": "荷兰新闻机构如何将AI技术整合到日常工作中，以应对生成式AI对新闻生产、经济模式和受众个性化的影响。",
+    "创新点": [
+      "提出“受控变革”概念，解释记者如何通过制定指南、实验性使用AI工具来主动管理技术整合。",
+      "基于专业权威理论，揭示记者通过三种机制监督AI整合：制定适应性伦理准则、实验性评估AI必要性、批判性分析AI能力与局限。"
+    ]
+  },
+  "Benchmarking World-Model Learning": {
+    "主题": "世界模型学习评估",
+    "场景": "模型学习代理在交互式网格环境中进行无奖励探索和多任务测试",
+    "创新点": [
+      "提出**WorldTest协议**，分离无奖励探索与衍生测试阶段，支持未知任务评估",
+      "设计**AutumnBench基准**，包含43个网格环境和129个跨任务（帧预测/规划/因果动态预测），实现模型无关比较",
+      "引入**行为评分模板**，通过多任务表现量化动态理解能力，揭示人类与AI模型差距"
+    ]
+  },
+  "Can They Dixit? Yes they Can! Dixit as a Playground for Multimodal   Language Model Capabilities": {
+    "主题": "多模态大型语言模型评估",
+    "场景": "通过游戏Dixit评估多模态语言模型的综合能力",
+    "创新点": [
+      "提出基于游戏的评估方法，通过Dixit游戏同时评估多模态语言模型的多种能力",
+      "利用竞争性游戏规则提供客观、固定的评估标准，避免主观评价和模型利用表面捷径",
+      "实验显示Dixit评估结果与传统基准排名一致，同时揭示模型推理能力的改进方向"
+    ]
+  },
+  "Selective Knowledge Distillation for Efficient Speculative   Decoders": {
+    "主题": "高效推测解码器的选择性知识蒸馏",
+    "场景": "通过改进知识蒸馏方法提升大语言模型推理速度",
+    "创新点": [
+      "引入选择性令牌过滤（AdaSPEC），利用参考模型剔除难以拟合的令牌，专注简单令牌的蒸馏",
+      "与传统KL散度最小化方法（DistillSpec）相比，显著提高令牌接受率（最高15%）且不牺牲生成质量"
+    ]
+  },
+  "Understanding and Improving Multilinguality in   Vision-Language Models": {
+    "主题": "多语言视觉语言模型",
+    "场景": "多语言环境下的图像文本和视频文本任务",
+    "创新点": [
+      "提出TowerVision模型家族，基于多语言文本模型Tower+，支持多语言视觉语言任务",
+      "引入视觉和文化背景的微调方法，在ALM-Bench、Multi30K等基准上超越现有方法",
+      "发布高质量视觉语言数据集VisionBlocks，促进多语言视觉语言研究"
+    ]
+  },
+  "Advancing LLM Reasoning by Overcoming Underthinking via   Promoting Deeper Thought Exploration": {
+    "主题": "LLM推理优化",
+    "场景": "提升大型语言模型在复杂推理任务中的长链思维能力",
+    "创新点": [
+      "提出SmartSwitch推理框架，可即插即用动态监测模型推理过程，检测并干预\"欠思考\"现象",
+      "结合现成过程奖励模型(PRM)评估思维潜力，通过回溯插入\"深化提示\"引导模型深入探索高潜力路径"
+    ]
+  },
+  "Toward Efficient   Multi-Modal Generation": {
+    "主题": "扩散模型高效推理",
+    "场景": "多模态生成任务的实时应用",
+    "创新点": [
+      "提出**扩散缓存**技术，无需训练、架构无关，通过特征级跨步重用和层间调度减少计算冗余",
+      "提出从静态重用到动态预测的技术演进框架，增强跨任务缓存灵活性，并可与其他加速技术（如采样优化）协同"
+    ]
+  },
+  "Measuring Proactive Problem Solving in LLM Agents": {
+    "主题": "LLM代理的主动问题解决能力评估",
+    "场景": "评估基于大语言模型（LLM）的代理在未受明确指令时自主预测和解决用户需求的能力",
+    "创新点": [
+      "提出PROBE框架，将主动性分解为三个核心能力：搜索未指明问题、识别具体瓶颈及执行解决方案",
+      "开发新基准测试，突破局部上下文限制，支持跨来源和长期推理的评估",
+      "对前沿LLM和代理框架进行系统评测，揭示当前最佳模型端到端性能仅达40%，并分析共性失败模式"
+    ]
+  },
+  "Transformer-Based Path-Flow Estimation   to the Traffic Assignment Problem": {
+    "主题": "基于Transformer的交通流量分配",
+    "场景": "大规模交通网络中的路径级流量分配问题",
+    "创新点": [
+      "提出基于Transformer的数据驱动模型，直接预测均衡路径流量，替代传统数学规划方法，显著降低计算复杂度",
+      "在路径级别捕获OD对间复杂关联，相比传统链路级方法提供更精细、灵活的流量分析",
+      "实现需求变化和网络结构调整的即时响应，无需重新计算，支持快速\"假设分析\""
+    ]
+  },
+  "Learning Affordances at Inference-Time for Vision-Language-Action Models": {
+    "主题": "机器人控制中的视觉-语言-动作模型优化",
+    "场景": "机器人执行复杂任务时通过动态调整策略提高成功率",
+    "创新点": [
+      "提出LITEN框架，在推理时通过包含先前实践经验进行上下文学习，动态调整策略",
+      "设计了推理阶段（生成执行计划）与评估阶段（反思执行结果）的迭代优化流程",
+      "开发了对非结构化机器人轨迹（如原始视频）进行结构化评估的引导机制"
+    ]
+  },
+  "Crowdsourcing AI Agent Misbehavior": {
+    "主题": "AI行为偏差检测",
+    "场景": "众包收集AI代理与人类意图偏离的行为案例",
+    "创新点": [
+      "提出众包项目（Misalignment Bounty）作为检测AI行为偏差的新方法",
+      "建立可复现的评估标准并公开9个典型案例，为AI安全性研究提供实证数据"
+    ]
+  },
+  "Training Memory-Efficient Embodied Agents with Reinforcement   Learning": {
+    "主题": "强化学习驱动的高效记忆体化智能体",
+    "场景": "长期任务中的体化智能体决策（如室内导航）",
+    "创新点": [
+      "提出Memo架构，通过周期性摘要令牌与模型输入交错，实现动态记忆压缩与检索",
+      "突破传统固定内存或全上下文依赖范式，在计算/存储效率优于长上下文Transformer基线",
+      "展示在流式推理场景中的强鲁棒性，支持历史上下文截断条件下的持续学习"
+    ]
+  },
+  "Enabling Granular Subgroup Level Model Evaluations by Generating   Synthetic Medical Time Series": {
+    "主题": "合成医疗时间序列数据生成",
+    "场景": "ICU患者预测模型的细粒度评估",
+    "创新点": [
+      "提出增强版TimeAutoDiff，通过分布对齐惩罚改进潜在扩散目标，减少真实与合成数据评估差距（TRTS gap）达70%以上",
+      "在32个交叉亚组中，大规模合成数据将亚组级AUROC估计误差降低50%，优于小规模真实测试集"
+    ]
+  },
+  "a   post-hoc analysis approach": {
+    "主题": "隐私保护中的成员推断攻击",
+    "场景": "评估数据点是否属于模型训练集，检测隐私风险",
+    "创新点": [
+      "提出GP-MIA方法，基于高斯过程元建模，无需影子模型或频繁查询，更高效且可解释",
+      "利用单一训练模型的多种后验指标（如准确率、熵、数据集统计量及梯度等敏感特征）实现成员推断，并提供校准的不确定性估计"
+    ]
+  },
+  "Rule Generation with Logistic Regression, Iterative Refinement,   and Evaluation for Large Language Models": {
+    "主题": "神经符号推理与规则学习",
+    "场景": "大型语言模型（LLMs）与概率规则结合的归纳推理",
+    "创新点": [
+      "提出RLIE框架，通过逻辑回归、迭代优化和评估四阶段联合学习加权规则集",
+      "发现直接使用加权规则集作为分类器性能优于将规则导入LLM的提示方法",
+      "揭示LLMs在语义生成与解释上的优势，但概率整合能力不足的局限性"
+    ]
+  },
+  "Do Prompts Reshape Representations? An Empirical Study of Prompting   Effects on Embeddings": {
+    "主题": "提示工程对嵌入表示的影响",
+    "场景": "零样本分类任务中的预训练语言模型应用",
+    "创新点": [
+      "通过实验揭示提示相关性并不总是提升嵌入表示质量，挑战传统假设",
+      "提出多维度探测方法分析提示模板与表征变化的非线性关系",
+      "发现提示语对模型内部表征的影响机制独立于任务相关性"
+    ]
+  },
+  "Framing Vision, Values,   and Vocabulary": {
+    "主题": "Agentic Software Engineering (SE)",
+    "场景": "将自主人工智能（Agentic AI）整合到软件工程中，以应对社会技术挑战并扩展其应用范围。",
+    "创新点": [
+      "提出“全过程”视角，扩展自主SE的研究范围，超越传统代码相关活动，涵盖软件工程的基础与演化。",
+      "建议制定初步的价值观与原则，用于指导自主SE的发展方向和实践。",
+      "推动明确定义的术语设计，以促进自主SE领域的清晰交流与协作。"
+    ]
+  },
+  "Are Large Language Models Sensitive to the Motives Behind Communication?": {
+    "主题": "大型语言模型对沟通动机的敏感性",
+    "场景": "评估LLMs在识别和处理人类沟通动机方面的能力，应用于广告可信度分析等现实场景",
+    "创新点": [
+      "首次系统验证LLMs是否具备人类类似的动机警觉能力，结合认知科学实验与自然场景测试",
+      "提出简单干预方法（增强动机显著性）显著提升LLMs与理性模型的行为一致性"
+    ]
+  },
+  "A   Production-Scale BDaaS Implementation": {
+    "主题": "服务器大数据分析服务（BDaaS）",
+    "场景": "面向企业和政府的中等规模、延迟敏感且需合规的数据分析",
+    "创新点": [
+      "集成单节点无服务器GPU运行环境与TabNet模型，实现高性能与解释性",
+      "通过GPU加速提升吞吐量，无服务器弹性降低成本，特征掩码解释性满足合规要求"
+    ]
+  },
+  "Directive, Metacognitive or a Blend of Both? A Comparison of   AI-Generated Feedback Types on Student Engagement, Confidence, and Outcomes": {
+    "主题": "AI生成反馈在教育中的应用",
+    "场景": "高等教育中的设计与编程课程",
+    "创新点": [
+      "对比研究了指令性反馈、元认知反馈及混合反馈对学生参与度、自信心和学习效果的影响",
+      "提出混合反馈方法，结合指令性反馈的明确指导与元认知反馈的自我反思优势"
+    ]
+  },
+  "Study of Training Dynamics for Memory-Constrained Fine-Tuning": {
+    "主题": "内存高效的深度神经网络微调",
+    "场景": "在资源受限的环境中训练大型神经网络模型",
+    "创新点": [
+      "提出动态随机通道选择方法，优化梯度近似效果",
+      "通过对层重要性进行先验确定性分析，减少更新开销",
+      "实现了高达97%的计算量削减和99%的激活稀疏性"
+    ]
+  },
+  "Visual Search as a Behavioural Test for MLLMs": {
+    "主题": "多模态大语言模型视觉处理机制",
+    "场景": "通过视觉搜索范式评估MLLMs的感知能力",
+    "创新点": [
+      "提出将传统认知心理学中的视觉搜索范式（如「跳出效应」）迁移至MLLMs评测",
+      "发现MLLMs在颜色/尺寸单项特征搜索中表现出类人「跳出效应」，而在多特征联合搜索中存在容量限制",
+      "通过微调和可解释性分析验证MLLMs像人类一样整合自然场景先验（如光照方向）到物体表征中"
+    ]
+  },
+  "Unraveling Emotions with Pre-Trained Models": {
+    "主题": "基于预训练模型的情绪识别",
+    "场景": "开放文本中的自动情绪分析，应用于情感分析、人机交互和用户行为理解",
+    "创新点": [
+      "比较微调预训练模型与简单提示的通用大语言模型在情绪检测中的效果",
+      "探索不同情绪提示设计及情绪分组技术对模型性能的提升作用"
+    ]
+  },
+  "A Graph Engine for Guitar Chord-Tone Soloing Education": {
+    "主题": "基于图引擎的吉他和弦独奏教育",
+    "场景": "吉他学生学习即兴演奏中的和弦音独奏练习",
+    "创新点": [
+      "提出加权图模型表示和弦音，节点代表和弦音琶音，边权重体现最优过渡音",
+      "采用最短路径算法生成和弦音独奏建议",
+      "设计用户友好系统实现自动化输入输出，辅助学习流程"
+    ]
+  },
+  "Explainable e-sports win prediction through Machine Learning   classification in streaming": {
+    "主题": "可解释性电竞胜利预测",
+    "场景": "电竞直播中的实时胜利预测与决策支持",
+    "创新点": [
+      "提出基于滑动窗口的流式数据处理方法，实时反映游戏变化",
+      "集成可解释性模块增强预测结果的可信度，支持排名和推荐系统决策",
+      "实现超过90%的预测准确率，优于现有批量处理方案"
+    ]
+  },
+  "When Fonts Become a Camouflage for Adversarial   Intent": {
+    "主题": "对抗性文本攻击",
+    "场景": "社交媒体中风格化字体对NLP模型的隐蔽攻击",
+    "创新点": [
+      "提出基于风格化字体的新型对抗攻击方法（SAD），利用人类与模型对文本的感知差异",
+      "设计轻量级（高效查询）和强力级（高攻击性能）两种攻击模式",
+      "首次验证风格化攻击在多模态任务（文本生成图像/语音）中的潜在威胁"
+    ]
+  },
+  "Policy World Model for Collaborative   State-Action Prediction": {
+    "主题": "自动驾驶的Policy World Model",
+    "场景": "自动驾驶系统中的世界建模与轨迹规划一体化",
+    "创新点": [
+      "提出**动作无关的未来状态预测方案**，通过协同状态-动作预测实现类人类预知感知，提升规划可靠性",
+      "设计**动态增强的并行令牌生成机制**（含上下文引导的分词器和自适应动态焦点损失），优化视频预测效率",
+      "仅依赖单摄像头输入即达到/超越多视角多模态SOTA方法的性能"
+    ]
+  },
+  "A Realistic and Expert-level Benchmark for Deep Search   Agents in Hierarchical Rule Application": {
+    "主题": "深度搜索代理在分层规则应用中的基准测试",
+    "场景": "电子商务平台中基于分层规则（如海关编码）的产品分类",
+    "创新点": [
+      "提出首个真实、专家级的电子商务基准HSCodeComp，用于评估深度搜索代理在分层规则（HS编码）应用中的性能",
+      "构建包含632个多样产品类别的真实数据集，编码由多位人类专家标注，具有噪声但现实的描述",
+      "揭示了当前最佳代理（46.8%准确率）与人类专家（95.0%）间的巨大性能差距，证明分层规则应用的挑战性"
+    ]
+  },
+  "LLMs Empower Generalizable and Explainable Web-Based   Participatory Urban Sensing": {
+    "主题": "LLM赋能的通用可解释城市感知系统",
+    "场景": "基于网页的参与式城市感知，用于动态城市管理和异构工作者偏好适配",
+    "创新点": [
+      "提出混合免训练框架AgentSense，结合经典规划器生成基线方案，并通过多智能体演化系统迭代优化，适应动态城市条件",
+      "利用LLM生成自然语言解释，增强任务分配透明度和可信度，克服传统方法可解释性差的缺陷",
+      "首次实现动态干扰（7种类型）下感知任务的自适应分配，在两大移动数据集中展现出优于单智能体LLM基线的鲁棒性"
+    ]
+  },
+  "Human-Agent Collaborative Paper-to-Page Crafting for Under $0.1": {
+    "主题": "科研网页自动化生成",
+    "场景": "研究人员将论文内容快速转化为交互式网页，无需手动编写代码或设计页面",
+    "创新点": [
+      "采用分层多智能体协作框架（AutoPage），实现从叙事规划到多模态内容生成的端到端流程",
+      "引入\"Checker\"代理逐环节校验内容一致性，并支持人工校对节点防止AI幻觉",
+      "发布首个论文转网页基准（PageBench），生成成本低于0.1美元/耗时15分钟内"
+    ]
+  },
+  "A Goal-Driven Survey on Root Cause Analysis": {
+    "主题": "云服务根因分析（RCA）",
+    "场景": "大规模云服务中的故障管理",
+    "创新点": [
+      "提出基于目标的分类框架，整合135篇RCA论文，突破传统按数据类型分类的局限",
+      "揭示不同RCA任务的目标差异（如快速定位故障服务 vs. 精确修复功能缺陷）",
+      "首次讨论RCA研究的统一终极目标，并指出开放挑战与未来方向"
+    ]
+  },
+  "A Comprehensive Benchmark for Visual-Language Explanations in   Chest Radiography": {
+    "主题": "视觉语言模型在胸部放射影像中的跨模态可解释性评估",
+    "场景": "医疗影像分析（胸部X光片）的临床可解释性需求",
+    "创新点": [
+      "首次系统性地构建了针对胸部X光片的跨模态（视觉-语言）可解释性评测基准（XBench），涵盖7种CLIP风格模型变体",
+      "提出基于交叉注意力和相似性定位图的量化评估方法，与放射科医生标注区域对比验证模型对齐能力",
+      "发现领域预训练数据（胸部X光专用数据集）显著提升模型定位能力，揭示模型识别能力与可解释性的强相关性"
+    ]
+  },
+  "A   Multimodal Benchmark": {
+    "主题": "多模态历史文档分析",
+    "场景": "从混合语言、多样版式的历史文档中提取拉丁文片段",
+    "创新点": [
+      "提出首个从混合语言历史文档中提取拉丁文片段的多模态基准任务",
+      "首次全面评估大模型在该任务上的性能与局限性",
+      "构建包含724页标注数据的多模态数据集用于基准测试"
+    ]
+  },
+  "Quantifying Feature Importance for Online Content Moderation": {
+    "主题": "在线内容审核的特征重要性量化",
+    "场景": "评估用户对内容审核干预的行为反应",
+    "创新点": [
+      "采用“量化”任务框架分析用户行为变化，引入753个多维特征（社会行为、语言、关系、心理等）",
+      "提出贪心特征选择策略，同时实现关键特征识别与重要性评估，发现跨任务通用特征与任务特异特征",
+      "揭示用户活跃度、毒性变化比多样性变化更易预测，为定制化审核策略提供数据支撑"
+    ]
+  },
+  "Evaluating ChatGPT's Performance in Classifying Pneumonia from Chest   X-Ray Images": {
+    "主题": "ChatGPT在医学图像分类中的应用",
+    "场景": "评估ChatGPT在零样本设置下对胸部X光片进行肺炎分类的能力",
+    "创新点": [
+      "在零样本条件下评估ChatGPT对胸部X光片的分类性能，无需微调",
+      "通过四种不同的提示设计（从简洁指令到基于推理的详细提示）对模型性能进行比较"
+    ]
+  },
+  "Beyond Task Ambiguity for Language-Conditioned Reinforcement   Learning": {
+    "主题": "语言条件强化学习",
+    "场景": "处理自然语言指令的任务模糊性问题",
+    "创新点": [
+      "提出分布策略（distributional policy），通过值分布估计机制增强任务可区分性",
+      "设计语义对齐模块（semantic alignment），捕获轨迹与语言指令的对应关系"
+    ]
+  },
+  "Enhancing single-modality   models via modality collaboration": {
+    "主题": "多模态协作学习",
+    "场景": "地球观测（EO）领域中，利用训练阶段的多模态数据提升推理阶段的单模态模型性能",
+    "创新点": [
+      "提出泛化性强的多模态协作学习框架，不针对特定推理模态，适用于多种任务",
+      "结合对比学习和模态判别学习，引导单模态模型分离模态共享与模态特定信息",
+      "在四个EO基准测试（分类和回归任务）中验证框架有效性，性能超越现有方法"
+    ]
+  },
+  "Demonstrating Real Advantage of Machine-Learning-Enhanced Monte Carlo   for Combinatorial Optimization": {
+    "主题": "机器学习增强蒙特卡洛组合优化",
+    "场景": "三维伊辛自旋玻璃中的最小能量配置求解",
+    "创新点": [
+      "提出全局退火蒙特卡洛算法，结合局部移动与机器学习驱动的全局移动",
+      "首次证明机器学习辅助方法在组合优化中稳定超越经典最优技术（模拟退火和群体退火）",
+      "无需超参调优即保持跨问题难度和系统规模的鲁棒性"
+    ]
+  },
+  "Revealing the Structure of Time in Vision-Language   Models": {
+    "主题": "视觉语言模型中的时间结构",
+    "场景": "评估视觉语言模型（如CLIP）对视觉内容的时间定位能力",
+    "创新点": [
+      "提出TIME10k基准数据集（10,000张带时间标注图像）和新型评估方法",
+      "发现时间信息在嵌入空间呈低维非线性结构，并基于此推导显式时间线表示",
+      "时间线表示方法在时序推理任务中计算高效且优于基于提示的基线模型"
+    ]
+  },
+  "Federated Data Diversity Analysis on   Molecular Data": {
+    "主题": "联邦学习在分子数据分析中的应用",
+    "场景": "制药行业中利用联邦学习分析分布式分子数据的多样性和结构",
+    "创新点": [
+      "提出SF-ICF化学域评估指标，将领域知识融入联邦多样性分析",
+      "系统性比较三种联邦聚类方法（Fed-kMeans、Fed-PCA+Fed-kMeans、Fed-LSH）并引入客户端可解释性分析"
+    ]
+  },
+  "Black Box Bayesian Optimization with   Energy-Based Model and Reinforcement Learning": {
+    "主题": "黑盒贝叶斯优化",
+    "场景": "针对高成本、高维或复杂黑盒函数的优化问题",
+    "创新点": [
+      "结合高斯过程（GP）和能量基模型（EBM），利用局部引导与全局结构信息捕捉提升优化效果",
+      "将贝叶斯优化迭代建模为马尔可夫决策过程（MDP），采用PPO算法实现自适应多步前瞻探索",
+      "动态调整探索深度和方向，有效克服传统BO方法的单步偏差和局部收敛问题"
+    ]
+  },
+  "A Multimodal, Multitask System for Generating E Commerce Text Listings   from Images": {
+    "主题": "多模态多任务电子商务文本生成",
+    "场景": "从电商商品图像自动生成准确的描述性文本列表",
+    "创新点": [
+      "采用多任务学习方法微调视觉编码器，同时训练属性预测（如颜色、下摆和领型）和价格回归任务，提升模型效率与性能",
+      "引入分层生成过程，将模型预测的属性嵌入提示词输入文本解码器，增强事实一致性，显著降低幻觉率44.5%",
+      "相较单一任务模型，多任务架构在价格回归（R2值提升3.6%）和属性分类（F1分数提高6.6%）上均表现更优"
+    ]
+  },
+  "SHAP-Driven Counterfactuals   for Multivariate Time-Series Multi-class Classification": {
+    "主题": "多变量时间序列多分类的SHAP反事实解释",
+    "场景": "基于12导联心电图分类模型的可解释人工智能（XAI）在医疗领域的应用",
+    "创新点": [
+      "提出基于SHAP阈值的关键信号段识别方法，将其转换为区间规则，提高解释稀疏性（仅修改原信号78%）。",
+      "结合动态时间规整（DTW）和中心点聚类生成代表性原型，并通过R峰对齐保证与样本的时序一致性，时间稳定性提升43%。",
+      "实现临床有效反事实的近实时生成（<1秒），支持心肌梗死（MI）分类98.9%有效性，为交互式解释平台奠定基础。"
+    ]
+  },
+  "Software architecture and Application to   Toulouse": {
+    "主题": "智能交通系统中的人类行为建模",
+    "场景": "基于代理和多模态交通数据的个性化城市出行决策模拟（法国图卢兹案例）",
+    "创新点": [
+      "结合LLM与基于代理的仿真（GAMA平台），实现真实城市环境中的人类移动决策建模",
+      "集成GTFS公共交通数据与OpenTripPlanner多路径规划，构建免开发的交互式交通仿真环境",
+      "首次通过LLM生成代理在月尺度模拟中形成交通习惯，验证了决策模型的时序适应性"
+    ]
+  },
+  "Context-Aware Resolution Selector for VLMs": {
+    "主题": "视觉语言模型输入分辨率优化",
+    "场景": "大型视觉语言模型（VLMs）处理图像时的计算效率优化",
+    "创新点": [
+      "提出CARES轻量级预处理模块，动态预测图像-查询对的最小足够输入分辨率",
+      "通过小型VLM（350M）提取特征并预测目标VLM的响应收敛点，实现离散分类器的连续分辨率插值",
+      "在保持任务性能的同时，计算量减少高达80%"
+    ]
+  },
+  "Advancing Molecular Large Language Models with Multi-Level   Chemical Knowledge": {
+    "主题": "分子大语言模型",
+    "场景": "分子理解与生成任务",
+    "创新点": [
+      "提出KnowMol-100K数据集，包含10万条多层级分子注释，填补分子与文本描述间的鸿沟",
+      "设计化学信息分子表示方法，优化现有分子表示策略",
+      "构建多模态分子大语言模型KnowMol，在分子理解与生成任务中表现优异"
+    ]
+  },
+  "Using Non-Expert Data to Robustify Imitation Learning via Offline   Reinforcement Learning": {
+    "主题": "机器人模仿学习与离线强化学习结合",
+    "场景": "利用非专家数据（如次优演示、部分任务完成数据）提升机器人策略学习的鲁棒性",
+    "创新点": [
+      "提出通过离线强化学习算法修改，有效利用非专家数据增强模仿学习性能",
+      "展示扩展策略分布支持可提升恢复能力和泛化能力，显著增加初始条件范围使策略成功",
+      "方法能够利用所有收集的数据（包括部分或次优演示数据）提升任务导向策略性能"
+    ]
+  },
+  "Graph Unlearning Meets Influence-aware Negative Preference Optimization": {
+    "主题": "图数据遗忘优化",
+    "场景": "图神经网络中遗忘特定数据时保持模型性能",
+    "创新点": [
+      "提出基于影响感知的负偏好优化（INPO），减缓遗忘过程中梯度上升的快速发散速度",
+      "设计基于边移除的影响估计方法，放大被遗忘边的影响力并缓解拓扑耦合",
+      "引入拓扑熵损失，从拓扑角度避免遗忘过程中局部结构信息过度丢失"
+    ]
+  },
+  "Computer Use Pretraining from Unlabeled Videos": {
+    "主题": "计算机使用代理预训练",
+    "场景": "从无标注视频中自动挖掘GUI交互数据训练计算机使用代理",
+    "创新点": [
+      "提出Video2Action模块，结合视频基础模型和动作内容识别器，从视频中提取精确的GUI动作和结构化参数",
+      "开发可扩展的流水线（VideoAgentTrek），利用公开的屏幕录制视频自动生成大规模训练数据，免去人工标注",
+      "通过持续预训练和监督微调相结合的方式，显著提升任务成功率（相对提高70%）和步骤准确率"
+    ]
+  },
+  "Scaling Expert Parallelism to Cross-Datacenter Scenario via   Hybrid Expert/Data Transmission": {
+    "主题": "跨数据中心混合专家/数据传输并行优化",
+    "场景": "跨数据中心（DC）带宽受限下的混合专家模型（MoE）训练",
+    "创新点": [
+      "动态调整专家空间布局以减少通信流量和频率，降低通信开销",
+      "基于流式建模确定最优传输比例，融合数据与专家通信模式",
+      "引入域划分和参数高效迁移技术，优化GPU级通信拓扑并扩大域规模"
+    ]
+  },
+  "A Concrete Roadmap towards Safety Cases based on Chain-of-Thought   Monitoring": {
+    "主题": "AI安全认证",
+    "场景": "基于思维链（CoT）监控的高风险AI系统安全验证",
+    "创新点": [
+      "提出双重安全认证框架：验证无CoT时模型无害性 + 确保CoT激活的危险能力可被监测",
+      "系统性分类不可监测性威胁（神经语言漂移/隐写/异质推理）并分析成因",
+      "开发从不可监测CoT中提取可监测内容的新技术",
+      "引入预测市场机制评估CoT监控方案的可行性里程碑"
+    ]
+  },
+  "Categorical Duality and Logical   Completeness for Probabilistic Systems": {
+    "主题": "概率系统的统一量化抽象理论",
+    "场景": "概率系统（如马尔可夫决策过程）的抽象建模与逻辑分析",
+    "创新点": [
+      "提出基于范畴论、最优传输和定量模态逻辑的统一框架，建立抽象与实现函子的对偶性（$Q_{\\varepsilon} \\dashv R_{\\varepsilon}$）",
+      "引入行为伪度量作为Bellman式算子的唯一不动点，并在余代数环境下证明其收缩性",
+      "设计定量模态$\\mu$-演算，证明其对于逻辑可表示系统的表达完备性，使行为距离与最大逻辑偏差一致",
+      "分析接口细化下的组合性，阐明跨系统边界抽象的交互机制"
+    ]
+  },
+  "Neurosymbolic Proceduralization For Efficient Embodied Reasoning": {
+    "主题": "神经符号程序化推理框架",
+    "场景": "动态环境中的实体化任务（如PDDLGym、VirtualHome、ALFWorld），受延迟、连接和资源限制",
+    "创新点": [
+      "将符号规划转化为可组合的程序化表示，无需外部符号引导即可单步推理",
+      "通过神经符号程序化抽象多步路径规划为单步LM推理，提升延迟敏感场景的效率"
+    ]
+  },
+  "Neural Variational Dropout Processes": {
+    "主题": "贝叶斯元学习方法",
+    "场景": "多任务少样本学习（如1D随机回归、图像修复、分类）",
+    "创新点": [
+      "基于任务特定dropout的低秩Bernoulli专家元模型，实现内存高效的条件后验建模",
+      "提出任务数据驱动的先验优化策略，增强dropout后验在摊销变分推断中的鲁棒性",
+      "全局共享神经网络通过dropout率快速重构，适应广泛功能模糊性和不确定性"
+    ]
+  },
+  "Monitoring LLM-based Multi-Agent Systems Against Corruptions via Node   Evaluation": {
+    "主题": "LLM-based多智能体系统防御",
+    "场景": "动态监测和防御多智能体系统中的腐败攻击",
+    "创新点": [
+      "提出动态防御范式，实时监控并调整MAS图拓扑结构",
+      "精准中断恶意通信，有效抵御动态多样化攻击"
+    ]
+  },
+  "A Rigorous Benchmark for Multi-Server Tool Orchestration": {
+    "主题": "多服务器工具编排基准测试",
+    "场景": "评估大语言模型（LLM）代理在分层模型上下文协议（MCP）生态系统中的多跳端到端工具编排能力",
+    "创新点": [
+      "提出“等能函数集”方法构建基准测试的客观标准，减少对LLM作为评判的依赖",
+      "设计五级课程体系，系统评估代理从单工具编排到复杂跨服务器规划的渐进能力",
+      "引入鲁棒性测试机制（如处理超范围请求），暴露现有代理的系统性缺陷",
+      "（注：创新点顺序按技术突破性排列，第三点实际为对传统评估框架的补充性创新）"
+    ]
+  },
+  "Dynamic Fairness Correction without Performance Loss via   Contrastive Conditional LoRA": {
+    "主题": "动态公平纠正模型",
+    "场景": "机器学习模型中的公平性保障，尤其针对数据稀疏和少数群体",
+    "创新点": [
+      "提出动态实例级公平纠正框架FairNet，结合偏置检测器和条件LoRA，仅对偏置实例激活纠正机制",
+      "设计新型对比损失函数，最小化不同敏感群体的类内表示差异，有效缓解少数群体欠拟合问题",
+      "支持敏感属性标签完整、部分缺失或全缺失的灵活场景，理论证明可在不损害整体性能的情况下提升最差群体表现"
+    ]
+  },
+  "Scaling up Mechanistic Interpretability to Long Context in LLMs   via Sparse Attention": {
+    "主题": "大型语言模型的长上下文机制解释性",
+    "场景": "针对百万token级别的长上下文LLM，传统注意力机制分析方法因计算资源过高而难以应用",
+    "创新点": [
+      "提出动态稀疏注意力技术\"Sparse Tracing\"，实现高效长上下文注意力模式分析",
+      "开发近线性时间复杂度的层次剪枝算法Stream，仅保留每个查询最相关的关键块，在保持模型性能的同时减少97-99%的token交互",
+      "首次实现消费级GPU上的长上下文可解释性分析，突破传统方法需要TB级缓存的限制"
+    ]
+  },
+  "A Replay-Aware Dataset for Practical Speech Deepfake Detection": {
+    "主题": "语音深度伪造检测",
+    "场景": "实际场景中的语音重放攻击检测（如电话诈骗和身份盗窃）",
+    "创新点": [
+      "提出EchoFake数据集，包含多样化的真实环境重放录音和最先进的零样本TTS语音",
+      "在多种设备和真实环境下收集数据，更贴近实际攻击场景",
+      "验证了在该数据集上训练的模型具有更好的泛化性能（较低的平均EER）"
+    ]
+  },
+  "ToMMeR -- Efficient Entity Mention Detection from Large Language Models": {
+    "主题": "轻量级实体提及检测",
+    "场景": "信息提取中的提及检测任务",
+    "创新点": [
+      "提出ToMMeR模型，仅需<300K参数即可从LLM早期层高效提取实体提及",
+      "跨模型实验证明不同架构LLM（14M-15B参数）在提及边界识别上高度一致（DICE >75%）",
+      "扩展span分类头后实现接近SOTA的NER性能（标准基准上80-87% F1）"
+    ]
+  },
+  "Building A Robust, Personalized, and Interactive OS Agent": {
+    "主题": "个性化交互式OS代理",
+    "场景": "人机交互中的操作系统代理，执行用户指令并主动交互",
+    "创新点": [
+      "采用逐步强化学习和自我进化训练增强模型的长时程环境交互能力",
+      "开发定制化多代理框架确保通用性、一致性和鲁棒性",
+      "研究个性化用户意图识别与主动交互，使代理成为协作伙伴而非单纯工具"
+    ]
+  },
+  "The Massive Legal Embedding Benchmark (MLEB)": {
+    "主题": "法律信息检索基准",
+    "场景": "跨司法管辖区和多文档类型的法律信息检索",
+    "创新点": [
+      "构建了最大规模、最多样化的开源法律信息检索基准（MLEB），涵盖10个专家标注数据集",
+      "填补了开源法律信息检索领域在司法管辖区和文档类型上的空白，新创建了7个数据集"
+    ]
+  },
+  "Enhancing LLM Reasoning via Agentic-based Math Data   Generation": {
+    "主题": "LLM数学推理增强",
+    "场景": "高质量数学问答数据集生成，用于监督微调LLMs",
+    "创新点": [
+      "提出四阶段代理管道（AgenticMath），包括种子问题过滤、代理问题重构、答案增强和问答评估，确保生成高质量数学问答对",
+      "采用多代理系统生成多样且逻辑一致的改写问题，无需依赖人工标注提升答案正确性",
+      "实验证明小规模高质量数据集（30-60K样本）可超越大规模低质量数据（400K-2.3M样本）的微调效果"
+    ]
+  },
+  "Learning To Defer To A Population With Limited Demonstrations": {
+    "主题": "学习延迟决策（L2D）系统",
+    "场景": "数据稀缺情况下的人机协作决策系统部署",
+    "创新点": [
+      "提出基于元学习的上下文感知半监督框架，仅需少量演示即可生成专家特定嵌入",
+      "引入双用途机制：首先生成大量伪标签用于训练，其次支持测试时实时适应新专家",
+      "通过合成标签训练使模型快速达到接近预言机水平的性能"
+    ]
+  },
+  "Transferring CUDA Optimization Expertise via   Reasoning Graph": {
+    "主题": "基于推理图的CUDA优化知识迁移",
+    "场景": "提升轻量级语言模型（SLM）在复杂CUDA代码生成中的推理能力与优化效果",
+    "创新点": [
+      "提出ReGraphT框架，通过检索增强生成技术将大语言模型（LLM）级推理能力迁移至SLM，无需额外训练",
+      "构建结构化推理图（Reasoning Graph）建模CUDA优化轨迹，结合蒙特卡洛图搜索（MCGS）高效探索优化状态转移",
+      "设计分层推理难度的CUDA专用评测基准，实现模型性能的细粒度评估"
+    ]
+  },
+  "Evaluating Speaker-Attributed Reasoning in Multimodal Large   Language Models": {
+    "主题": "多模态大语言模型的说话人属性推理评估",
+    "场景": "评估多说话人、多轮对话中说话人属性理解能力的基准测试",
+    "创新点": [
+      "提出首个专注于多说话人、多轮口语理解（M3-SLU）的基准测试，整合四个开源语料库构建大规模数据集（12,000+实例）",
+      "设计两种新型评估任务：说话人属性问答和基于语句匹配的说话人归属识别，揭示现有模型在\"谁说的\"推理上的缺陷",
+      "创新引入LLM-as-Judge评估框架，对比级联流水线与端到端MLLM性能差异"
+    ]
+  },
+  "A New Type of Adversarial Examples": {
+    "主题": "对抗样本生成",
+    "场景": "机器学习模型安全测试与攻击",
+    "创新点": [
+      "提出逆向对抗样本生成方法（显著差异相同输出），突破传统邻近扰动限制",
+      "开发NI-FGSM/NI-FGM等新算法及其动量变体（NMI-FGSM/NMI-FGM）",
+      "揭示对抗样本在样本空间中的广泛分布特性（非局部集中）"
+    ]
+  },
+  "To Use or to Refuse? Re-Centering Student Agency with Generative AI in   Engineering Design Education": {
+    "主题": "生成式AI在工程设计教育中的应用",
+    "场景": "工程与建筑专业大一学生的AI增强设计课程",
+    "创新点": [
+      "提出“工具-队友-非使用”三分法框架，促进学生反思AI的角色与使用伦理",
+      "将AI效率转化为创新机会，通过选择性拒绝AI输出来深化用户研究",
+      "开发可评估的设计习惯培养方法，包括幻觉识别训练和奖励机制"
+    ]
+  },
+  "Form and Function": {
+    "主题": "时间序列基础模型的预测形式与实用性",
+    "场景": "评估不同预测形式（点、分位数、参数化、轨迹集成）在操作任务中的适用性",
+    "创新点": [
+      "提出预测形式的转换条件：轨迹集成可简化为边际形式，但逆向转换需引入时间依赖性假设",
+      "证明边际预测无法处理路径依赖事件概率，揭示相同边际分布可能对应不同联合分布的决策风险",
+      "开发任务导向的评估框架，将6类核心操作任务映射到最小充分预测类型"
+    ]
+  },
+  "An Efficient Hybrid Architecture for   Long-Context Reasoning": {
+    "主题": "长上下文推理的混合架构",
+    "场景": "长上下文推理场景下的高效模型训练与推理",
+    "创新点": [
+      "采用线性注意力与softmax注意力混合架构，显著降低I/O和计算开销",
+      "通过系统探索不同注意力机制的比例，确定当前最优模型结构",
+      "利用自研高性能FP8算子库提升50%训练效率"
+    ]
+  },
+  "Metadata Extraction Leveraging Large Language Models": {
+    "主题": "法律文本元数据提取",
+    "场景": "合同管理系统中的法律条款自动分析与标注",
+    "创新点": [
+      "提出基于LLM的优化三要素：鲁棒文本转换、策略性文本分块选择、LLM专用技术（如Chain of Thought提示和结构化工具调用）",
+      "在公开/私有合同数据集上实现高精度条款识别，显著提升审查效率并降低成本"
+    ]
+  },
+  "A multi-task network for joint bathymetry estimation and   seabed classification from remote sensing imagery in shallow waters": {
+    "主题": "浅水遥感图像联合多任务学习",
+    "场景": "浅水环境下的海底地形测绘与底质分类",
+    "创新点": [
+      "提出统一多任务框架Seabed-Net，通过双分支编码器同步预测水深和像素级海底分类，实现任务交互",
+      "引入注意力特征融合模块（AFF）和窗口化Swin-Transformer融合块，增强跨任务特征整合",
+      "采用动态任务不确定性加权平衡目标，提升低对比度区域深度预测精度（RMSE降低10-30%）及分类准确率（提升8%）"
+    ]
+  },
+  "Adaptive Trust Management and Multi-LLM Aligned Governance   for Future Smart Cities": {
+    "主题": "智能城市多智能体协同治理",
+    "场景": "异构智能城市生态系统中，基于多大型语言模型（LLM）的自治决策和动态协调管理",
+    "创新点": [
+      "提出SORA-ATMAS框架，集成天气、交通、安全等领域的多LLM（GPT/Grok/DeepSeek），通过领域优化策略对齐降低35%平均MAE",
+      "设计高风险场景回退机制与跨域规则（如交通动态改道需验证天气条件），实现策略合规的实时决策（延迟<100ms，吞吐量13.8-17.2请求/秒）"
+    ]
+  },
+  "A Benchmark for Evaluating LLM Reasoning in Computer   Architecture": {
+    "主题": "LLM在计算机架构中的推理能力评估",
+    "场景": "评估大型语言模型在计算机架构领域的知识和推理能力",
+    "创新点": [
+      "提出了首个专门针对计算机架构的LLM评估基准QuArch，包含2,671个专家验证的QA对",
+      "揭示了前沿模型在计算机架构高阶思维问题上的显著能力差距（准确率34%-72%）",
+      "通过跨机构协作（40个机构的140+贡献者）建立了该领域的社区评估标准"
+    ]
+  },
+  "Automated Discovery of Narrative-Based Jailbreaks for   Large Language Models": {
+    "主题": "大型语言模型的安全漏洞与对抗性攻击",
+    "场景": "AI驱动安全系统中的漏洞评估与红队测试",
+    "创新点": [
+      "提出Jailbreak Mimicry方法，通过参数高效微调（LoRA）训练紧凑攻击模型，实现单次生成叙事型越狱提示，将对抗性提示发现从手工制作转变为可复现的科学流程。",
+      "在跨模型评估中达到高攻击成功率（如GPT-4达66.5%，Llama-3达79.5%），相比直接提示提升54倍，揭示当前安全对齐方法的系统性漏洞。",
+      "采用自动化有害性评估结合人类专家验证，为网络安全红队提供可靠且可扩展的评估框架，并识别技术领域（如网络安全93% ASR）和欺骗类攻击（如欺诈87.8% ASR）为高脆弱方向。"
+    ]
+  },
+  "Agentic Reinforcement Learning for Real-World Code Repair": {
+    "主题": "代码修复的强化学习",
+    "场景": "真实代码库中的代码修复任务，面临复杂构建和依赖变化的不稳定评估环境",
+    "创新点": [
+      "提出可验证的代码修复流程，通过固定依赖和禁用自动升级提高重现性",
+      "设计了适用于大规模强化学习的可扩展简化流程",
+      "在简化环境中应用强化学习，在匹配训练-测试条件下实现7-20%的绝对性能提升"
+    ]
+  },
+  "Frequentist Validity of Epistemic Uncertainty Estimators": {
+    "主题": "机器学习不确定性估计",
+    "场景": "机器学习系统的预测不确定性分解",
+    "创新点": [
+      "提出基于bootstrap的频率学派认知不确定性测度，与贝叶斯互信息方法渐近等价",
+      "建立了深度集成方法与所提理论框架的联系，解释了其成功经验",
+      "提供互信息的新计算策略和频率派解释"
+    ]
+  },
+  "Automatic Assessment of Students' Classroom Engagement with Bias   Mitigated Multi-task Model": {
+    "主题": "学生课堂参与度自动评估",
+    "场景": "在线学习环境中监测学生参与度",
+    "创新点": [
+      "提出一种新型训练方法，通过属性正交正则化技术减少模型对敏感特征（如性别）的依赖",
+      "采用多任务迁移学习策略的分割模型分类器，显著降低预测分布偏差（Pearson系数从0.897提升至0.999）",
+      "同时提升模型预测的可解释性并符合伦理标准"
+    ]
+  },
+  "a System Level Approach based in   the SpecC Methodology": {
+    "主题": "硬件/软件协同设计",
+    "场景": "Class-D音频放大器中的PCM-to-PWM转换器设计",
+    "创新点": [
+      "应用SpecC方法进行系统级建模和硬件/软件分区探索",
+      "通过快速功能仿真评估满足实时约束的映射方案，降低全硬件方案成本"
+    ]
+  },
+  "Pathways and Paradigms": {
+    "主题": "下一代人工智能系统",
+    "场景": "动态环境中实时决策的轻量级领域特定多模态模型",
+    "创新点": [
+      "提出轻量级领域特定多模态模型，相比当前大型模型显著降低能耗（参考人脑20W功耗）",
+      "硬件重新设计以实现超1000倍能效提升，支持实时推理与动态环境适应",
+      "融合持续学习与先验知识，增强模型在不确定性环境中的决策能力"
+    ]
+  },
+  "Energy-Structured Causal Models": {
+    "主题": "因果模型与人工智能解释性",
+    "场景": "机器学习系统因果不透明性问题",
+    "创新点": [
+      "提出能量结构化因果模型（ESCMs），将机制表示为约束而非输入输出映射，支持局部干预",
+      "引入计算解释（computational explanations）框架，将观察映射到可干预的因果账户",
+      "分析经验风险最小化导致的表征纠缠问题，提出规范编码器-能量对的度量歧义解决方案"
+    ]
+  },
+  "Human-Centric Anomaly Detection in Surveillance Videos Using YOLO-World   and Spatio-Temporal Deep Learning": {
+    "主题": "视频监控异常检测",
+    "场景": "多类异常事件（如盗窃、斗殴、纵火、爆炸等）的实时监控识别",
+    "创新点": [
+      "采用YOLO-World开放词汇检测器与ByteTrack结合，实现精准的人体检测与身份感知跟踪",
+      "提出高斯模糊背景抑制方法，有效减少场景干扰并聚焦行为相关前景",
+      "融合InceptionV3空间特征与BiLSTM时序建模，在UCF-Crime数据集上达到92.41%平均准确率"
+    ]
+  },
+  "Understanding and Characterizing the Emotional   Latent Space of Large Language Models": {
+    "主题": "大语言模型的情感潜在空间分析",
+    "场景": "探究大语言模型内部如何表征情感，及其跨语言、跨数据集的通用性",
+    "创新点": [
+      "发现低维情感流形，揭示情感表征的方向性编码及跨层的分布式结构，与可解释维度对齐",
+      "提出可学习干预模块，实现在保持语义的同时操控内部情感感知，尤其对跨语言基础情绪控制效果显著"
+    ]
+  },
+  "Evaluating VLMs on Structured Comprehension and   Perturbation Sensitivity in PPT": {
+    "主题": "视觉语言模型在幻灯片理解与评估中的应用",
+    "场景": "评估视觉语言模型（VLMs）在理解幻灯片内容时的准确性、鲁棒性和高级理解能力",
+    "创新点": [
+      "提出VLM-SlideEval框架，从元素级提取、抗干扰能力和高级理解能力三个维度系统评估VLMs",
+      "引入标准化的元数据模式，统一从PPT XML和实时渲染数据中提取真实元素以用于验证"
+    ]
+  },
+  "LLM-powered Automated Reasoning Framework": {
+    "主题": "LLM驱动的自动推理框架",
+    "场景": "基于创始人特征预测初创企业成功率的风险投资决策",
+    "创新点": [
+      "提出LLM-AR框架，将LLM生成的启发式规则转化为概率规则，通过ProbLog自动推理引擎执行",
+      "采用迭代策略进化循环，结合关联规则挖掘逐步优化预测规则"
+    ]
+  },
+  "Predictive Coding Enhances Meta-RL To Achieve Interpretable   Bayes-Optimal Belief Representation Under Partial Observability": {
+    "主题": "元强化学习与预测编码结合的表示学习",
+    "场景": "部分可观环境下的智能体决策与泛化",
+    "创新点": [
+      "将神经科学的预测编码机制引入元强化学习，提升贝叶斯最优信念表示的紧凑性与可解释性",
+      "提出自监督预测模块在复杂任务（如主动信息搜寻）中展现出传统元RL无法实现的表征学习能力",
+      "验证了改进的表征学习可显著增强智能体在部分可观环境中的策略泛化性能"
+    ]
+  },
+  "Differentiable Constraint-Based Causal Discovery": {
+    "主题": "可微约束的因果发现",
+    "场景": "从小样本观测数据中进行因果推断",
+    "创新点": [
+      "提出基于渗流理论和软逻辑的可微d-分离评分，实现基于梯度的条件独立性优化",
+      "融合约束方法与评分方法的优势，在小样本场景下超越传统基线性能"
+    ]
+  },
+  "Normalization in Attention Dynamics": {
+    "主题": "Transformer归一化机制",
+    "场景": "深度学习模型中注意力的动态归一化分析",
+    "创新点": [
+      "将归一化机制建模为球面上粒子相互作用的动力学过程，揭示其作为速度调节器的作用",
+      "提出统一分析框架，比较Post-LN/Pre-LN等6种方案对表征聚类动态的影响，发现Peri-LN最优"
+    ]
+  },
+  "Online Optimization for Offline Safe Reinforcement Learning": {
+    "主题": "离线安全强化学习",
+    "场景": "从固定数据中学习奖励最大化策略，同时满足累积成本约束",
+    "创新点": [
+      "采用极小极大目标框架，结合离线强化学习与在线优化算法",
+      "提出无需离线策略评估的实用近似方法，适配任意离线强化学习算法",
+      "理论证明近似最优性（结合近似离线RL oracle和无悔在线优化）"
+    ]
+  },
+  "Toward Understanding the Transferability of Adversarial Suffixes in   Large Language Models": {
+    "主题": "大型语言模型对抗性后缀的迁移性理解",
+    "场景": "针对大型语言模型的离散优化越狱攻击",
+    "创新点": [
+      "提出三个与迁移成功率强相关的统计属性：未加后缀提示的拒绝方向激活度、后缀导致的拒绝方向偏离度、正交方向的偏移量",
+      "发现提示语义相似性仅与迁移成功率弱相关，突破传统认知"
+    ]
+  },
+  "Une Approche   Hybridée CNN-LSTM Basée sur Mediapipe": {
+    "主题": "手势识别技术",
+    "场景": "实时手语翻译系统，应用于医疗、教育和公共服务",
+    "创新点": [
+      "融合CNN-LSTM混合架构提升识别精度（平均准确率92%）",
+      "基于Mediapipe实现轻量化手势关键点实时提取"
+    ]
+  },
+  "A Systematic Literature Review": {
+    "主题": "企业架构中生成式AI应用",
+    "场景": "敏捷软件组织中生成式AI对企业架构工作的影响分析",
+    "创新点": [
+      "系统汇总了生成式AI在企业架构中的三大核心支持领域（设计构思、构件快速生成、架构决策支持）及风险分类",
+      "首次提出敏捷环境下人机协作所需的新技能体系（提示工程、模型评估等）与组织使能因素",
+      "构建了包含应用场景、能力建设、治理框架的完整研究议程"
+    ]
+  },
+  "Mobile Agentic Foundation Models": {
+    "主题": "移动GUI代理基础模型",
+    "场景": "移动平台GUI代理系统，面临本地模型性能不足与云端模型成本高昂的挑战",
+    "创新点": [
+      "提出设备-云协作方案LightAgent，结合本地模型成本优势与云端模型的高性能",
+      "通过两阶段训练（SFT→GRPO）增强3B模型决策能力，并集成高效长推理机制优化资源利用",
+      "实时复杂度评估动态分配子任务（默认本地执行，高难度任务云端处理），显著降低云成本"
+    ]
+  },
+  "Review of Math Word Problems from Human   Cognition Perspective": {
+    "主题": "数学应用题求解的认知视角分析",
+    "场景": "人工智能领域中对数学应用题（MWP）解题能力的研究与评估",
+    "创新点": [
+      "首次从人类认知角度（问题理解、逻辑组织、联想记忆等5项能力）系统分类并综述数学应用题研究",
+      "提出统一评估框架，重新运行代表性模型并在5个主流基准上进行横向性能比较",
+      "融合神经网络求解器与大语言模型求解器的分析，揭示其模仿人类认知的机制"
+    ]
+  },
+  "Towards Building More Interpretable Models": {
+    "主题": "深度学习模型的可解释性",
+    "场景": "高风险的深度学习应用场景中理解模型预测",
+    "创新点": [
+      "提出因果可解释性概念，形式化反事实查询的评估条件",
+      "开发了一个因果可解释模型的设计框架，包括完整的图形准则",
+      "揭示了因果可解释性与预测准确性之间的基本权衡关系"
+    ]
+  },
+  "Two-Steps Diffusion Policy for Robotic Manipulation via Genetic   Denoising": {
+    "主题": "机器人操作中的扩散模型优化",
+    "场景": "通过专家示范模仿实现高效机器人操作",
+    "创新点": [
+      "提出遗传去噪的群体采样策略，降低分布外风险，提升性能与稳定性",
+      "针对具身AI任务特点（结构化、低维度动作分布），仅需2次NFE即可解决复杂任务"
+    ]
+  },
+  "Uncovering the Persuasive Fingerprint of LLMs in Jailbreaking Attacks": {
+    "主题": "LLMs的越狱攻击与说服机制",
+    "场景": "利用社会科学的说服理论设计对抗性提示，绕过LLMs的对齐防护",
+    "创新点": [
+      "首次将社会科学的经典说服理论应用于LLM越狱攻击，揭示模型对人类说服结构的敏感性",
+      "提出并验证LLMs自身在越狱响应中存在独特的\"说服指纹\"特征",
+      "通过跨学科方法证明 persuasion-aware 提示能显著突破多种对齐LLMs的安全防护"
+    ]
+  },
+  "Is Temporal Difference Learning the Gold Standard for Stitching in RL?": {
+    "主题": "强化学习中的经验重组",
+    "场景": "探讨不同强化学习算法在大规模模型中的经验重组能力",
+    "创新点": [
+      "实证研究表明蒙特卡洛方法也能实现经验重组，挑战传统认为时序差分方法是唯一方法的观点",
+      "发现模型容量增加能显著缩小蒙特卡洛与时序差分方法之间的重组能力差距，暗示大规模模型时代时序差分偏置的必要性降低",
+      "提出经验重组可通过通用规模化方案实现，而非依赖时序差分等专用算法"
+    ]
+  },
+  "Mitigating General Capabilities Forgetting in   Large Reasoning Models": {
+    "主题": "大语言模型训练优化",
+    "场景": "强化学习训练中防止大模型通用能力遗忘",
+    "创新点": [
+      "提出动态目标重加权机制（RECAP），根据收敛性和不稳定性信号自适应调整训练目标权重",
+      "端到端的通用知识保留方法，无需额外模型训练或复杂调参即可应用于现有RLVR流程",
+      "通过灵活权衡任务内奖励，在保持通用能力的同时提升推理性能"
+    ]
+  },
+  "Distribution Shift Alignment Helps LLMs Simulate Survey Response   Distributions": {
+    "主题": "大语言模型在调查问卷模拟中的应用",
+    "场景": "利用大语言模型模拟人类调查问卷响应，减少大规模数据收集成本",
+    "创新点": [
+      "提出分布偏移对齐（DSA）方法，通过两阶段微调同时对齐输出分布和背景变化带来的分布偏移",
+      "通过建模分布变化而非拟合训练数据，使得结果比训练数据更接近真实分布"
+    ]
+  },
+  "Performance Trade-offs of Optimizing Small Language Models for   E-Commerce": {
+    "主题": "小型语言模型优化",
+    "场景": "电子商务领域的多语言意图识别",
+    "创新点": [
+      "使用QLoRA方法优化10亿参数Llama 3.2模型，实现与GPT-4.1相当的99%准确率",
+      "提出硬件感知的量化方案：GPU场景采用GPTQ降低VRAM占用，CPU场景采用GGUF实现18倍推理加速",
+      "揭示量化性能悖论：4-bit GPTQ在旧GPU架构上因反量化开销导致推理速度下降82%"
+    ]
+  },
+  "Towards Low-Latency and Adaptive Ransomware Detection Using Contrastive   Learning": {
+    "主题": "基于对比学习的勒索软件检测",
+    "场景": "快速检测和自适应应对不断演变的勒索软件攻击",
+    "创新点": [
+      "提出结合硬件性能计数器（HPC）的对比学习框架，实时分析勒索软件运行行为",
+      "设计定制化损失函数，显著降低检测延迟，实现早期恶意活动识别",
+      "采用神经架构搜索（NAS）自动构建自适应模型，灵活应对未知勒索软件变种"
+    ]
+  },
+  "A Framework for Automatic Mining of Architectural   Issue-Solution Pairs from Online Developer Communities": {
+    "主题": "软件架构知识挖掘",
+    "场景": "从开发者社区（如Stack Overflow）中自动提取架构相关的问题-解决方案对",
+    "创新点": [
+      "提出ArchISMiner框架，结合传统ML/DL模型、预训练语言模型（PLMs）和大语言模型（LLMs），自动识别架构相关帖子（ARPs），最佳模型F1值达0.960。",
+      "采用间接监督方法（ArchISPE），融合BERT嵌入和局部TextCNN特征，高效提取架构问题-解决方案对，F1值超过现有SE/NLP基线（问题0.883，解决方案0.894）。",
+      "跨平台扩展性验证，发布包含18K+架构问题-解决方案对的数据集。"
+    ]
+  },
+  "Automated Scientific Discovery through Contrastive   Embedding and Hypothesis Testing": {
+    "主题": "自动化科学发现",
+    "场景": "高维科学数据中的异常检测与统计验证",
+    "创新点": [
+      "提出AutoSciDACT框架，结合对比学习预训练生成低维嵌入，提升噪声数据中的特征表达",
+      "基于NPLM框架的新型两样本检验方法，实现异常数据的统计量化与科学可解释性声明"
+    ]
+  },
+  "the Firefox Case": {
+    "主题": "RAG在软件开发辅助中的应用",
+    "场景": "评估RAG在Mozilla Firefox项目中协助开发者的效果",
+    "创新点": [
+      "实证比较显示RAG增强的GPT模型在全面性上优于人类开发者（62.50% vs. 54.17%）",
+      "提出通过调整检索机制优化响应简洁度，以适配大型开源项目（如Firefox）的协作需求"
+    ]
+  },
+  "A Knowledge-Graph Translation Layer for Mission-Aware Multi-Agent Path   Planning in Spatiotemporal Dynamics": {
+    "主题": "多智能体路径规划的知识图谱翻译层",
+    "场景": "动态时变环境中自主智能体的任务协调与路径规划（如墨西哥湾自主水下航行器）",
+    "创新点": [
+      "提出双平面知识图谱架构，将声明性事实转换为任务感知的个体世界观和物理感知的遍历规则",
+      "实现任务语义与领域无关规划器的解耦，仅需修改图谱事实即可调整复杂协调路径",
+      "将知识图谱升级为具备状态维护能力的适应性系统协调器（超越传统数据存储功能）"
+    ]
+  },
+  "Towards Explainable Conservation Monitoring via Attribution   and Perturbations": {
+    "主题": "可解释性生态监测",
+    "场景": "利用计算机视觉技术进行生态保护监测，特别是在冰川湾国家公园的海豹检测",
+    "创新点": [
+      "应用多种后解释方法（如HiResCAM、LayerCAM、LIME和基于扰动的解释）提升模型透明度，验证预测可靠性",
+      "提出评估解释效果的三个维度：定位准确性、忠实度和诊断实用性，以揭示系统错误来源（如海豹与黑冰/岩石的混淆）"
+    ]
+  },
+  "Enabling Robust In-Context Memory and Rapid Task Adaptation in   Transformers with Hebbian and Gradient-Based Plasticity": {
+    "主题": "Transformer模型的动态权重适应机制",
+    "场景": "在序列建模任务（如分类、回归）中实现快速任务适应",
+    "创新点": [
+      "引入神经调控的Hebbian规则，提升少样本学习中的泛化能力",
+      "融合梯度可塑性机制，优化长序列任务的信用分配问题",
+      "通过动态权重边界分析，明确了可塑性机制适用的条件（短线性关联任务中静态权重仍更优）"
+    ]
+  },
+  "A Multimodal Benchmark for Framing of Oil & Gas Advertising and   Potential Greenwashing Detection": {
+    "主题": "多模态能源广告框架分析与绿色洗涤检测",
+    "场景": "石油和天然气公司通过广告进行品牌形象塑造，可能存在言行不一的绿色洗涤行为。",
+    "创新点": [
+      "引入首个专家标注的多模态（视频）广告数据集，覆盖13种框架类型、50余家企业的20国数据，突破传统文本单一模态限制。",
+      "针对视觉-语言模型（VLMs）设计评估基准，揭示模型在隐含框架、视频时长差异及文化背景理解等新挑战。",
+      "基线实验量化差距（GPT-4.1环境信息检测F1 79% vs 绿色创新框架识别仅46%），为后续研究提供明确改进方向。"
+    ]
+  },
+  "Complex Multi-Ontology Alignment via Pattern-Guided In-Context   Learning": {
+    "主题": "多本体复杂对齐",
+    "场景": "构建综合知识图谱时整合多个领域本体以实现语义互联",
+    "创新点": [
+      "提出首个端到端复杂多本体对齐策略（CMOMgen），可生成完整且语义合理的映射，无目标本体/实体数量限制",
+      "结合检索增强生成技术筛选相关类并利用参考映射示例增强上下文学习",
+      "在生物医学任务中验证优于基准方法，类选择准确率提升且63%以上F1分数"
+    ]
+  },
+  "A Dynamic Knowledge Distillation Method Based on the Gompertz Curve": {
+    "主题": "动态知识蒸馏",
+    "场景": "深度学习模型训练中的知识迁移",
+    "创新点": [
+      "基于Gompertz生长模型的阶段感知蒸馏策略，动态调整蒸馏损失权重以适应学生模型学习进度",
+      "融合Wasserstein距离和梯度匹配技术，同步优化特征级差异与反向传播行为对齐"
+    ]
+  },
+  "Multi-Person Pose and Global Translation from   Sparse Inertial Sensors and Ultra-Wideband Ranging": {
+    "主题": "多人体姿态与全局位移估计",
+    "场景": "使用稀疏惯性传感器与超宽带测距技术进行多人在复杂环境中的运动追踪",
+    "创新点": [
+      "结合超宽带测距（UWB）与惯性测量单元（IMU）数据，通过结构化状态空间模型融合时空信息，提升多人场景下的3D姿态估计精度",
+      "提出两步优化方法，利用传感器间绝对距离信息精确追踪全局轨迹，解决纯IMU的位移漂移问题",
+      "发布首个IMU+UWB双人追踪数据集（GIP-DB），包含14名参与者200分钟的真实运动数据"
+    ]
+  },
+  "Rigorous Benchmarking of AI Agents with a Scientific Research   Suite": {
+    "主题": "AI代理的科学评测基准",
+    "场景": "评估AI代理在科学研究任务中的综合能力",
+    "创新点": [
+      "提出首个面向科学研究全流程的综合性评测套件（AstaBench），覆盖2400+问题及多科学领域",
+      "开发首个配备生产级检索工具的科学研究环境，实现可控、可复现的评估",
+      "引入九类针对科学优化的AI代理及基线系统，解决现有基准缺乏标准化基线的问题"
+    ]
+  },
+  "Fast and Scalable Out-of-Distribution Dynamics Detection": {
+    "主题": "强化学习的离群分布检测",
+    "场景": "安全关键的强化学习应用中，检测分布偏移以提高鲁棒性",
+    "创新点": [
+      "提出DEEDEE检测器，仅使用episodewise均值和RBF核相似度两个统计量，实现计算高效且准确的离群检测",
+      "相比现有方法，计算量降低600倍，同时平均精度提升5%，显著优于强基线",
+      "揭示RL轨迹中异常类型可通过低阶统计量捕捉，为复杂环境OOD检测提供简洁理论基础"
+    ]
+  },
+  "Few-Shot Knowledge Distillation of LLMs With Counterfactual Explanations": {
+    "主题": "知识蒸馏",
+    "场景": "少样本任务感知场景下的知识蒸馏",
+    "创新点": [
+      "引入反事实解释（CFEs）来精确映射教师模型的决策边界，显著减少样本需求",
+      "从统计和几何角度提供理论保证，证明CFEs在参数估计和决策边界模拟中的有效性",
+      "在少样本场景（8-512样本）下性能优于标准蒸馏方法，仅需基线样本量的一半即可提升表现"
+    ]
+  },
+  "Structure-Aware Cooperative Ensemble Evolutionary Optimization on   Combinatorial Problems with Multimodal Large Language Models": {
+    "主题": "结构感知协同进化优化",
+    "场景": "图结构组合问题的多模态大语言模型进化求解",
+    "创新点": [
+      "采用图像编码保留拓扑上下文，利用多模态大语言模型（MLLMs）作为进化算子实现图数据的结构感知优化",
+      "提出协同进化框架，通过跨领域知识迁移统一多样化结构的稀疏化变体，增强鲁棒性",
+      "引入集成策略，通过共识投票聚合不同布局配置的输出，缓解MLLMs对网络布局的敏感性"
+    ]
+  },
+  "The Universal Landscape of Human Reasoning": {
+    "主题": "人类推理动态建模",
+    "场景": "跨认知心理学、哲学和人工智能的人类推理行为分析",
+    "创新点": [
+      "提出信息流追踪（IF-Track）方法，首次在单一度量空间内统一量化推理动态（信息熵与增益）",
+      "通过大语言模型概率编码揭示人类系统性错误模式与个体差异，调和单/双加工理论分歧",
+      "建立人工与人类认知的量化关联，揭示大语言模型对人类推理过程的重塑机制"
+    ]
+  },
+  "A General Reasoning Agent with Scalable Toolsets": {
+    "主题": "通用推理智能体与可扩展工具集",
+    "场景": "处理需要外部工具和长周期交互的真实世界任务",
+    "创新点": [
+      "提出自主记忆折叠机制，压缩历史交互为结构化记忆（情景/工作/工具记忆），减少错误积累并保留关键信息",
+      "开发端到端强化学习策略ToolPO，利用LLM模拟API并进行工具调用优势归因，精细化分配调用令牌信用"
+    ]
+  },
+  "Generating Synthetic Data with   Preserved Higher-Order Correlations": {
+    "主题": "合成数据生成技术",
+    "场景": "隐私保护数据共享与鲁棒模型训练",
+    "创新点": [
+      "提出Generative Correlation Manifolds（GCM）方法，通过数学证明保留从简单对关系到高阶交互的完整相关性结构",
+      "采用Cholesky分解目标相关矩阵，计算效率高，适用于复杂多变量相互作用的真实系统"
+    ]
+  },
+  "Human-Level Coding Agent Development by an   Approximation of the Optimal Self-Improving Machine": {
+    "主题": "自改进编码代理技术",
+    "场景": "通过自我修改提升编码代理性能，应用于软件开发基准测试",
+    "创新点": [
+      "提出CMP指标，聚合后代代理的基准测试表现以评估自我改进潜力",
+      "设计Huxley-Gödel Machine（HGM），利用CMP估计引导自我修改树的搜索，实现高效自优化",
+      "在多项编码数据集上展示了强大的迁移能力，达到人类工程师水平的编码性能"
+    ]
+  },
+  "User Mental Modeling For Software Engineering Agents": {
+    "主题": "软件工程代理的用户心智建模",
+    "场景": "上下文不明确或依赖上下文的编码任务中，软件工程代理难以推断和跟踪用户意图。",
+    "创新点": [
+      "引入双代理架构（ToM-SWE），结合主软件工程代理和轻量级心智理论（ToM）代理，专门建模用户心智状态。",
+      "ToM代理通过指令和交互历史推断用户目标、约束和偏好，维护用户持久记忆，并向主代理提供用户相关建议。"
+    ]
+  },
+  "A Study   in Minigrid Environments": {
+    "主题": "软件工程代理在具身任务中的控制器生成研究",
+    "场景": "在Minigrid环境中评估软件工程代理（SWE-Agents）生成控制器的性能",
+    "创新点": [
+      "首次将SWE-Agents扩展到具身任务领域，评估其在20个多样化Minigrid任务中的控制器生成能力",
+      "量化分析不同信息访问条件（源代码可用性、交互探索能力）对SWE-Agents性能的影响",
+      "建立具身任务控制器生成作为SWE-Agents评估的关键领域，为未来高效推理系统研究提供基线结果"
+    ]
+  },
+  "Scalable Vision-Language-Action Model Pretraining for Robotic   Manipulation with Real-Life Human Activity Videos": {
+    "主题": "机器人操作的视觉-语言-动作模型预训练",
+    "场景": "使用人类手部活动的真实视频数据预训练机器人操作模型",
+    "创新点": [
+      "提出一种全自动整体人类活动分析方法，将无标注的人类手部视频转换为与机器人VLA训练数据对齐的格式",
+      "创建大规模手部VLA训练数据集（1M片段，26M帧），覆盖广泛物体、操作任务和环境变化",
+      "设计灵巧手部VLA模型架构，在零样本和少量微调场景下展示出色泛化能力"
+    ]
+  },
+  "Chunk-Level GRPO For Text-to-Image   Generation": {
+    "主题": "文本到图像生成优化方法",
+    "场景": "基于流匹配的文本到图像生成模型优化",
+    "创新点": [
+      "提出首个块级优化的GRPO方法（Chunk-GRPO），将连续步骤分组为块以捕捉流匹配的时序动态",
+      "引入加权采样策略进一步提升生成性能"
+    ]
+  },
+  "Creating the First Pragmatics   Understanding Benchmarks for Slovene": {
+    "主题": "斯洛文尼亚语语用理解基准测试",
+    "场景": "评估大语言模型在斯洛文尼亚语语境下的语用理解能力，包括非字面含义和文化特定表达。",
+    "创新点": [
+      "首次针对斯洛文尼亚语构建语用理解基准测试（SloPragEval和SloPragMega），包含405道选择题。",
+      "通过本土化数据设计和人类基线验证，强调文化特异性对语言理解的影响。",
+      "揭示专有模型与开源模型在隐含语义推断上的显著性能差距。"
+    ]
+  },
+  "Learning Neural Control Barrier Functions from Expert Demonstrations   using Inverse Constraint Learning": {
+    "主题": "神经控制障碍函数学习",
+    "场景": "自动驾驶等关键领域的安全控制系统",
+    "创新点": [
+      "利用逆向约束学习（ICL）从专家演示中推导隐含的安全约束，避免直接定义复杂故障状态集",
+      "通过约束函数自动标注模拟轨迹数据，替代基于优化计算的传统合成方法",
+      "在四种环境中实证验证性能优于基线方法，接近需要真实安全标签的训练效果"
+    ]
+  },
+  "Enhancing LLM-Based Agents via Conflict-Aware   Meta-Verification and Trustworthy Reasoning with Structured Facts": {
+    "主题": "LLM-based agents的长期推理优化",
+    "场景": "解决基于LLM的智能体在长期推理过程中由于中间推理验证不足而导致的失败问题",
+    "创新点": [
+      "引入Conflict-Aware Meta-Verification (CAMV)，将验证转化为冲突识别和目标证伪，仅针对专家智能体之间的分歧热点进行计算，提高效率和可靠性",
+      "提出Trustworthy Reasoning with Structured Facts (TRSF)，通过结构化事实模块持续组织、验证和同步证据，确保推理基于一致且可溯源的信息",
+      "CAMV和TRSF形成闭环验证循环，通过选择性证伪或强化结构化事实，实现透明且可信的推理"
+    ]
+  },
+  "Deep Literature Survey Automation with an Iterative Workflow": {
+    "主题": "自动文献综述生成系统",
+    "场景": "自动化文献综述的迭代生成与优化",
+    "创新点": [
+      "采用循环大纲生成框架，通过规划代理逐步检索、阅读和更新大纲，提升探索性和连贯性",
+      "引入带可视化增强的审阅-优化循环机制，整合图表等多模态元素，改善文本流畅度",
+      "提出Survey-Arena基准测试方法，通过成对比较更可靠评估机器生成与人工撰写综述的差异"
+    ]
+  },
+  "Measuring Illegal Behavior of LLM Agents Under EU Law": {
+    "主题": "LLM代理的法律合规性评测",
+    "场景": "评估LLM代理在欧盟法律框架下的非法行为倾向",
+    "创新点": [
+      "提出EU-Agent-Bench基准，通过人工标注和可验证的方式评估LLM代理在可能导致非法行为的用户输入下的合规性",
+      "研究在系统提示中提供相关法律条文和明确合规指令对LLM代理合规性的影响",
+      "基准涵盖多个法律领域（数据保护、偏见/歧视、科学诚信等），并允许请求的合规和非合规执行对比"
+    ]
+  },
+  "Trust Attitude Measurement Instrument": {
+    "主题": "人工智能信任度测量",
+    "场景": "AI医疗支持系统（癌症/健康预测）中非专家用户的信任态度评估",
+    "创新点": [
+      "开发了一个遵循心理测量原则的16项信任度量表",
+      "设计了六阶段评估流程（包括项目开发、评估、调查管理、维度测试等）来验证量表可靠性"
+    ]
+  },
+  "Enhancing Social Robots through Resilient AI": {
+    "主题": "社交机器人弹性AI",
+    "场景": "医疗保健、教育等敏感领域，特别是与老年人互动的场景",
+    "创新点": [
+      "提出弹性作为社交机器人的核心特性，确保其在逆境中保持基本功能",
+      "通过增强弹性能力提升用户（尤其是老年人）对机器人的信任度"
+    ]
+  },
+  "Multi-Task Vehicle Routing Solver via Mixture of Specialized Experts   under State-Decomposable MDP": {
+    "主题": "多任务车辆路径问题求解",
+    "场景": "多约束车辆路径优化",
+    "创新点": [
+      "提出状态可分解马尔可夫决策过程（SDMDP），通过笛卡尔积重构状态空间，显式生成各基础VRP变体的最优策略",
+      "开发基于潜在空间的SDMDP扩展框架，利用最优基础策略与可学习混合函数实现策略复用",
+      "设计混合专家求解器（MoSES），通过低秩自适应专家实现基础策略，采用自适应门控机制动态组合专家输出"
+    ]
+  },
+  "From Real Videos to World Models of Deformable Objects via   Physics-Aware Demonstration Synthesis": {
+    "主题": "基于物理的交互式可变形物体世界模型",
+    "场景": "利用合成视频数据学习物理学一致的动态模型，用于机器人、VR/AR",
+    "创新点": [
+      "提出PhysWorld框架，通过模拟器合成多样化的物理合理演示数据以解决数据稀缺问题",
+      "采用物质点法(MPM)数字孪生构建技术，结合本构模型选择和物理属性全局-局部优化",
+      "训练轻量级GNN世界模型，推理速度达现有最优方法(PhysTwin)的47倍"
+    ]
+  },
+  "Does Model Size Matter? A Comparison of Small and Large Language Models   for Requirements Classification": {
+    "主题": "语言模型在需求工程中的性能比较",
+    "场景": "比较大型语言模型（LLMs）和小型语言模型（SLMs）在需求分类任务中的表现",
+    "创新点": [
+      "研究发现SLMs在需求分类任务中几乎达到LLMs的性能，且在某些情况下（如召回率）甚至优于LLMs，尽管其体积小300倍。",
+      "研究指出数据集特性对性能的影响比模型大小更重要，为选择模型提供了新的考量因素。"
+    ]
+  },
+  "An Autonomous System Integrating Wearables and Multimodal Large   Language Models for Enhanced Remote Health Monitoring": {
+    "主题": "远程健康监测系统",
+    "场景": "结合可穿戴设备和多模态大语言模型，实时监测患者健康状态并辅助医疗交互",
+    "创新点": [
+      "采用多模态大语言模型（MLLMs）处理患者活动、情感识别及医疗人员自然语言查询，增强人机交互",
+      "融合可穿戴设备（如智能手表）、IoT及视觉数据，通过异常检测模块（跌倒检测、紧急状态算法）实现自动化持续监测",
+      "基于提示工程（prompt engineering）整合多源患者信息，提供实时体征与情绪状态的可视化交互界面，降低医护人员工作量"
+    ]
+  },
+  "Beyond   Conventional Neurosymbolic AI": {
+    "主题": "神经符号AI与大语言模型融合",
+    "场景": "提高大语言模型（LLMs）的响应透明度和可解释性",
+    "创新点": [
+      "提出了一种新的分类框架，从四个维度（集成阶段、耦合机制、架构范式和算法/应用视角）系统化符号技术与LLMs的融合",
+      "制定了首个面向LLMs的符号集成路线图，填补了传统神经符号AI方法在LLM适配性上的理论空白"
+    ]
+  },
+  "A Dataset and a Unified Framework for Automating Optimization   Problem Solving": {
+    "主题": "自动化优化问题求解",
+    "场景": "数学优化模型的识别与求解自动化",
+    "创新点": [
+      "提出AutoOpt-11k数据集，包含11,000+手写/印刷数学优化模型图像及LaTeX/建模语言标注，支持多类复杂问题",
+      "开发三模块AutoOpt框架（图像→LaTeX→PYOMO→求解），实现端到端无人干预优化求解",
+      "M1模块在数学表达式识别上超越ChatGPT等模型；M3混合分解法在复杂问题上优于传统算法"
+    ]
+  },
+  "Optimizing exploration through uncertainty estimation": {
+    "主题": "强化学习中的探索优化",
+    "场景": "Atari100k和DeepMind Control Visual Benchmark任务中的稀疏奖励环境",
+    "创新点": [
+      "引入基于轨迹回报、重建损失和价值误差的优先回放缓冲区",
+      "使用基于世界模型集成预测奖励分歧的内在奖励机制"
+    ]
+  },
+  "Vision Language Models for Dynamic Human Activity Recognition in   Healthcare Settings": {
+    "主题": "基于视觉语言模型的动态人体活动识别",
+    "场景": "医疗环境中的远程健康监测",
+    "创新点": [
+      "提出一种描述性字幕数据集，用于评估视觉语言模型在人体活动识别中的动态和非确定性输出",
+      "设计综合评估方法，验证视觉语言模型性能优于或媲美传统深度学习方法",
+      "为智能医疗系统中视觉语言模型的整合提供新基准和应用可能性"
+    ]
+  },
+  "Large Language Models as Model Organisms for Human Associative Learning": {
+    "主题": "大型语言模型与人类联想学习",
+    "场景": "利用LLMs模拟人类联想学习过程，研究表征动态变化",
+    "创新点": [
+      "将LLMs作为可扩展替代方案，用于研究人类联想学习中的表征变化，克服生物系统测试的挑战",
+      "发现词汇干扰（vocabulary interference）调节表征分化，揭示新联想与先验知识的竞争机制"
+    ]
+  },
+  "An Application-Grounded User Study": {
+    "主题": "AI辅助临床诊断",
+    "场景": "睡眠医学中AI辅助医生解读多导睡眠图数据",
+    "创新点": [
+      "透明AI辅助（白盒）比黑盒AI显著提升事件检测准确率约30%",
+      "首创质量控制的时序策略（实时辅助vs事后审查），优化临床计数指标",
+      "实证验证人机协作可降低医生间判断差异，同时保持临床效率"
+    ]
+  },
+  "An Evolutionary Framework for RTL Generation driven by Large   Language Models": {
+    "主题": "LLM驱动的RTL生成与优化",
+    "场景": "使用大语言模型（LLM）结合进化计算（EC）自动生成和优化寄存器传输级（RTL）代码",
+    "创新点": [
+      "提出双种群算法（Fail/Success分组），分别针对性处理功能错误修复和PPA优化",
+      "引入自适应机制动态调整提示策略的选择概率，提升搜索效率",
+      "结合LLM的生成能力与EC的全局搜索优势，突破传统局部搜索的限制"
+    ]
+  },
+  "Boosting Accuracy and Efficiency of Budget Forcing in LLMs via   Reinforcement Learning for Mathematical Reasoning": {
+    "主题": "强化学习在大型语言模型数学推理中的性能优化",
+    "场景": "通过强化学习提升小型语言模型（1.5B参数）在数学推理任务（GSM8K数据集）中的计算效率和准确性",
+    "创新点": [
+      "引入强化学习（RL）框架，减少长上下文监督微调（SFT）导致的冗余响应，提升令牌效率达40%以上",
+      "仅需1.5K训练样本即显著提高1.5B小模型在动态计算预算下的数学推理准确率，恢复因长上下文训练损失的模型性能"
+    ]
+  },
+  "Human-Inspired Knowledge by Machine Agents through a Multi-Agent   Framework for Semi-Autonomous Scientific Conferences": {
+    "主题": "AI驱动的半自主学术会议框架",
+    "场景": "学术出版与会议流程的AI集成应用",
+    "创新点": [
+      "提出首个端到端AI集成的学术会议框架（涵盖论文生成、审稿、修订到展示全流程）",
+      "结合语言模型与领域保护机制，在保护知识产权前提下增强学术协作",
+      "通过实验验证人机协作模式对学术透明性与完整性的影响"
+    ]
+  },
+  "Compressing Quaternion Convolutional Neural Networks for Audio   Classification": {
+    "主题": "压缩四元数卷积神经网络",
+    "场景": "音频分类任务（如音乐流派识别、环境声音分类、语音情感识别）",
+    "创新点": [
+      "结合知识蒸馏和剪枝技术，降低四元数CNN的计算复杂度，保持性能",
+      "剪枝后的四元数CNN在AudioSet数据集上减少50%计算成本和80%参数量",
+      "在多个音频分类基准（GTZAN、ESC-50、RAVDESS）上展现出良好的泛化能力"
+    ]
+  },
+  "Gaze-VLM:Bridging Gaze and VLMs through Attention Regularization for   Egocentric Understanding": {
+    "主题": "基于凝视的视觉语言模型",
+    "场景": "助力辅助机器人等现实场景下的自我中心行为建模",
+    "创新点": [
+      "提出仅在训练阶段使用凝视信号的凝视正则化框架，而非依赖额外输入",
+      "设计模块化注意力对齐机制，将视觉语言模型焦点与人类凝视模式匹配",
+      "（注：实验指标提升部分属于效果佐证，非创新点本身）"
+    ]
+  },
+  "Patient-specific AI for generation of 3D dosimetry imaging from two   2D-planar measurements": {
+    "主题": "个性化AI在核医学剂量学中的应用",
+    "场景": "从2D平面闪烁扫描图像生成3D放射药物分布图，用于核医学治疗后的剂量评估。",
+    "创新点": [
+      "利用患者特异性强化学习，从两张2D平面图像（前位和后位）生成3D活性分布图，避免了传统方法中昂贵且耗时的3D SPECT成像需求。",
+      "结合3DUnet和扩散模型，显著提升了成像质量（模拟数据SSIM达0.89，真实数据SSIM达0.73），并改善了器官轮廓和患者解剖结构的清晰度。",
+      "通过患者特异性数据集生成，实现了多时间点剂量研究，为核医学剂量学提供了更高效、更经济的解决方案。"
+    ]
+  },
+  "A Multi-modal Fusion Framework for Robust Apple Leaf Disease   Recognition in Complex Environments": {
+    "主题": "苹果叶病害多模态融合识别",
+    "场景": "复杂果园环境中苹果叶片病害的自动化识别",
+    "创新点": [
+      "提出CNN-Transformer-CLIP（CT-CLIP）多分支框架，结合CNN局部病灶特征与Transformer全局结构关系",
+      "设计自适应特征融合模块（AFFM），动态优化局部与全局特征耦合",
+      "引入多模态图像-文本学习，利用预训练CLIP实现视觉特征与病害语义的深度对齐",
+      "显著提升复杂背景干扰下的少样本识别准确率（公开数据集达97.38%）"
+    ]
+  },
+  "Effective Fine-Tuning via Base Model Rescaling": {
+    "主题": "预训练模型微调",
+    "场景": "通过基模型重缩放提升微调性能，应用于LLMs（大语言模型）等场景",
+    "创新点": [
+      "提出新的再参数化方法，增强微调模型的泛化能力",
+      "利用随机矩阵理论工具在高维二分类场景中验证方法的有效性"
+    ]
+  },
+  "Global Point-of-Interest Data Enriched from Foursquare and   OpenStreetMap as Tabular and Graph Data": {
+    "主题": "POI数据融合与增强",
+    "场景": "整合Foursquare和OpenStreetMap的POI数据以提升商业位置信息的完整性与准确性",
+    "创新点": [
+      "提出混合Foursquare商业覆盖广度与OSM元数据细节的方法，生成高置信度POI匹配数据集",
+      "开发基于名称相似度与空间距离的记录链接技术，筛选真实商业POI并排除虚构条目",
+      "构建图结构POI表征模型，支持融合双数据源属性的高级空间分析与下游应用"
+    ]
+  },
+  "Guided MCTS for Latent Space Exploration and Novelty   Generation": {
+    "主题": "LLM创新生成框架",
+    "场景": "大语言模型（LLM）在生成创新性想法时存在局限性，通常倾向于生成常见概念。",
+    "创新点": [
+      "提出Magellan框架，将创新生成重新定义为对LLM潜在概念空间的原则性探索",
+      "采用分层引导系统控制的蒙特卡洛树搜索（MCTS），包括远距离导向的“语义指南针”和局部决策的景观感知价值函数"
+    ]
+  },
+  "A CausalBoost Attention Model for Sequential Recommendation": {
+    "主题": "因果注意力模型的序列推荐系统",
+    "场景": "基于用户历史行为的序列推荐任务",
+    "创新点": [
+      "首次在序列推荐中引入因果推理，通过因果发现模块学习用户行为序列的因果图",
+      "提出CausalBooster机制，利用因果图改进注意力机制，优先考虑具有因果意义的行为",
+      "提供理论保证学习到的因果图的可识别性"
+    ]
+  },
+  "Weak-to-Strong Generalization under Distribution Shifts": {
+    "主题": "弱监督强模型泛化",
+    "场景": "在分布偏移下，弱模型监督强模型的性能下降问题",
+    "创新点": [
+      "提出RAVEN框架，动态学习弱模型的最优组合及强模型参数",
+      "在图像分类、文本分类和偏好对齐任务中，RAVEN在分布外任务上性能提升30%以上",
+      "自动分配更高权重给更准确的弱模型，实现可信监督的自适应识别"
+    ]
+  },
+  "Director-Orchestrated Multi-Stage Reasoning for Chest X-Ray   Interpretation": {
+    "主题": "胸部X光影像智能分析",
+    "场景": "临床诊断中的多阶段自动CXR影像解读",
+    "创新点": [
+      "采用导演协调的多阶段框架（工具调用→诊断规划→协作决策），增强复杂推理的适应性",
+      "引入证据驱动验证器（EDV），通过视觉证据标准化工具输出，提升可靠性",
+      "动态组建专家团队并协调交互，实现基于上下文记忆的协作式决策"
+    ]
+  },
+  "Seemingly Redundant Modules Enhance Robust Odor Learning in Fruit Flies": {
+    "主题": "嗅觉神经环路计算模型",
+    "场景": "果蝇嗅觉学习在复杂噪声环境下的模式分离机制",
+    "创新点": [
+      "揭示侧向抑制（LI）在低/中噪声环境下增强气味辨别，而在高噪声下效果减弱",
+      "发现神经元脉冲频率适应（SFA）在所有噪声水平下均能稳定提升辨别能力",
+      "提出LI与SFA的协同作用机制（LI主导低噪声，SFA主导高噪声）实现最优学习性能"
+    ]
+  },
+  "A Benchmark for Adaptive Travel Planning under Disruptions": {
+    "主题": "基于LLM的自适应旅行规划",
+    "场景": "现实旅行中突发干扰（如航班取消、景点关闭）下的行程调整",
+    "创新点": [
+      "提出首个评估LLM在干扰下行程修订能力的基准TripTide，量化干扰严重性及游客容忍度等多维指标",
+      "设计三重评估体系：自动化指标（意图保持率、响应度、适应度）、LLM-as-a-judge自动评分、专家人工验证",
+      "揭示LLM长行程处理能力与地理一致性的矛盾现象（短途空间偏差大但干扰处理强，长途反之）"
+    ]
+  },
+  "A Convergence Analysis of Adaptive Optimizers under Floating-point   Quantization": {
+    "主题": "低精度训练中的自适应优化器收敛分析",
+    "场景": "大型语言模型（LLMs）的低精度训练，以减少内存消耗并提升效率",
+    "创新点": [
+      "提出首个理论框架，分析梯度、权重和优化器状态在浮点量化下的自适应优化器（如Adam、Muon）收敛性",
+      "证明在平滑非凸目标下，只要尾数长度随迭代次数对数增长，量化误差对收敛影响可控",
+      "揭示Adam对权重和第二动量量化高度敏感，而Muon因误差控制要求更低可能更鲁棒"
+    ]
+  },
+  "Efficient semantic uncertainty quantification in language models via   diversity-steered sampling": {
+    "主题": "语义不确定性量化",
+    "场景": "大语言模型在自由形式问答中的不确定性估计",
+    "创新点": [
+      "提出多样性导向的采样器，减少语义冗余输出，提高样本效率",
+      "结合自然语言推理模型和重要性重加权，优化不确定性估计的偏差与方差",
+      "模块化设计，无需梯度访问基础模型，可即插即用"
+    ]
+  },
+  "A Scoping Review of AIES & FAccT   Articles": {
+    "主题": "可信AI的跨学科研究",
+    "场景": "AI伦理会议（AIES/FAccT）对可信AI的技术与社会维度评估",
+    "创新点": [
+      "批判性揭示当前可信AI研究过度侧重技术属性（如鲁棒性），忽视社会技术维度",
+      "提出结合社会文化因素的跨学科框架，弥合技术精确性与伦理考量间的鸿沟"
+    ]
+  },
+  "A Neuro-Symbolic Framework for   Embodied Task Planning": {
+    "主题": "神经符号框架的具身任务规划",
+    "场景": "动态或部分可观察环境中的机器人任务规划",
+    "创新点": [
+      "融入显式符号验证和交互式验证过程，提升代码生成的环境适应性",
+      "生成探索性代码主动与环境交互以补充缺失的观测，同时保持任务相关状态",
+      "在动态环境中将任务成功率提升46.2%，任务相关动作可执行率达86.8%"
+    ]
+  },
+  "Mitigating Self-Jailbreak in Large   Reasoning Models with Chain-of-Guardrails": {
+    "主题": "大型推理模型的安全防护",
+    "场景": "防止大型推理模型在复杂任务中生成有害内容或遭受越狱攻击",
+    "创新点": [
+      "提出“自我越狱”现象，揭示模型自身具备拒绝不安全查询的能力但被破坏的机制",
+      "设计Chain-of-Guardrail框架，通过重组或回溯不安全推理步骤，实现安全轨迹引导",
+      "在保持模型推理能力的同时显著提升安全性（优于现有折衷方案）"
+    ]
+  },
+  "Investigating Scale Independent UCT Exploration Factor Strategies": {
+    "主题": "UCT算法的探索因子策略优化",
+    "场景": "应用于不同奖励规模的非零和游戏",
+    "创新点": [
+      "提出五种新的λ-策略，使UCT算法适应不同奖励规模的游戏",
+      "推荐使用2σ（Q值经验标准差）作为λ策略，在多种任务中优于现有方法"
+    ]
+  },
+  "Improving Baleen Whale Call Detection with Boundary   Proposal Networks and Post-processing Optimisation": {
+    "主题": "鲸鱼叫声检测优化",
+    "场景": "海洋音频中的鲸鱼叫声识别，解决误报和少数类检测问题",
+    "创新点": [
+      "提出边界提议网络（BPN），利用分类模型中的潜在表示减少误报",
+      "引入两种后处理超参数选择方法（前向搜索与后向搜索），分别优化事件级和帧级参数",
+      "WhaleVAD-BPN系统在开发集上F1分数提升9.8%，少数类d-calls和bp-calls检测F1分数分别提高21.3%和9.4%"
+    ]
+  },
+  "Sparser Block-Sparse Attention via Token Permutation": {
+    "主题": "稀疏块注意力优化",
+    "场景": "大规模语言模型的长上下文预填充计算优化",
+    "创新点": [
+      "提出可插拔的置换块稀疏注意力（PBS-Attn），利用注意力置换特性提升块级稀疏性",
+      "设计定制化置换FlashAttention内核，实现端到端预填充速度最高提升2.75倍",
+      "在真实长上下文数据集中，模型精度优于现有块稀疏方法且接近全注意力基线"
+    ]
+  },
+  "Tokenizing Personalized Context for Generative Recommendation": {
+    "主题": "个性化上下文感知的生成推荐模型",
+    "场景": "在生成推荐模型中，通过动态、个性化的语义ID生成，提升推荐系统的个性化程度和效果。",
+    "创新点": [
+      "提出个性化上下文感知的tokenizer，结合用户历史交互动态生成语义ID，打破了传统静态、非个性化的tokenization方法。",
+      "实现了同一物品在不同用户上下文中生成不同语义ID的能力，从而捕捉用户多角度解释标准（如意图和偏好差异）。",
+      "在三个公开数据集上验证了效果，NDCG@10指标最高提升11.44%。"
+    ]
+  },
+  "Understanding Network Behaviors through Natural Language   Question-Answering": {
+    "主题": "自然语言问答网络行为理解",
+    "场景": "通过自然语言查询理解复杂网络行为和配置，降低网络管理和故障排除的复杂性。",
+    "创新点": [
+      "提出基于树的配置分块策略，保持语义连贯性同时实现高效分割",
+      "构建统一事实图谱作为中间表示，归一化不同厂商的配置",
+      "设计混合命令式-声明式语言，减轻LLMs推理负担并提高精度"
+    ]
+  },
+  "Correlation Dimension of Auto-Regressive Large Language Models": {
+    "主题": "大语言模型的复杂性度量",
+    "场景": "评估和改进大语言模型（LLMs）的文本生成质量",
+    "创新点": [
+      "引入相关维度（correlation dimension），一种分形几何度量，以量化文本的自相似性和长程结构复杂性",
+      "该方法揭示了预训练过程中的三个不同阶段，并反映了上下文依赖的复杂性",
+      "能够可靠地检测生成文本中的多种退化形式，包括幻觉倾向"
+    ]
+  },
+  "Out-of-Distribution Detection for Safety Assurance of AI and Autonomous   Systems": {
+    "主题": "AI安全与OOD检测",
+    "场景": "自动驾驶等安全关键领域中的异常检测",
+    "创新点": [
+      "系统分析OOD检测在ML开发生命周期中的应用及其对安全论证的支持",
+      "提出系统与安全工程师在整合OOD检测时需注意的关键问题"
+    ]
+  },
+  "A Dual-Dimensional Benchmark for Expert-Level Intelligent   Outbound Evaluation of Xbench's Professional-Aligned Series": {
+    "主题": "大语言模型专家级外呼评估",
+    "场景": "专业外呼场景下的智能评估",
+    "创新点": [
+      "设计跨6个业务领域、30个子场景的结构化评测框架，包含场景定制化流程分解和动态评分",
+      "提出基于大模型的用户模拟器，生成具有行为多样性、情感变化和个性化特征的虚拟用户",
+      "开发动态评估方法，结合自动化与人机协同评估任务准确性、专业知识应用和用户体验"
+    ]
+  },
+  "Physics-Informed Neural Networks for MIMO Beam Map and Environment   Reconstruction": {
+    "主题": "物理信息神经网络在多输入多输出（MIMO）波束图与环境重建中的应用",
+    "场景": "无线通信网络（如6G及更高版本）中，在没有明确3D环境知识的情况下，利用接收信号强度（RSS）数据重建波束图和环境几何结构",
+    "创新点": [
+      "提出了一种定向虚拟障碍物模型，能够同时捕捉阻塞和反射的几何特征，而现有方法仅能学习阻塞结构",
+      "引入了反射区概念，通过环境几何关系识别相关的反射路径，并推导了反射区的解析表达式，优化了深度学习表示的兼容性"
+    ]
+  },
+  "Securing AI Agent Execution": {
+    "主题": "AI代理安全执行",
+    "场景": "保护AI代理与外部工具交互时的系统安全",
+    "创新点": [
+      "提出首个MCP服务器访问控制框架AgentBound，结合声明式策略机制（类似Android权限模型）与恶意行为拦截引擎",
+      "自动化生成访问控制策略（准确率80.9%），且无需修改MCP服务器代码",
+      "验证框架能拦截多数恶意攻击并保持性能开销可忽略（<1%）"
+    ]
+  },
+  "Reducing the Probability of Undesirable Outputs in Language Models Using   Probabilistic Inference": {
+    "主题": "语言模型对齐优化",
+    "场景": "减少语言模型生成不良输出的概率，同时保持平均性能",
+    "创新点": [
+      "提出RePULSe方法，在标准强化学习损失中增加辅助损失，通过学习建议引导低奖励输出的采样并降低其概率",
+      "相比现有方法，实现了期望奖励与不良输出概率间更优的平衡，并增强对抗鲁棒性"
+    ]
+  },
+  "Proactive Low-Rank Allocation for Continual Learning": {
+    "主题": "持续学习的低秩分配方法",
+    "场景": "大型预训练模型在持续学习任务中的高效微调",
+    "创新点": [
+      "提出正交基向量分配策略，为每个任务分配专用子空间以减少参数冲突",
+      "引入基于扰动的优化方法，最小化新任务与已学参数之间的干扰",
+      "设计新型选择机制，识别并分配干扰敏感度最低的基向量以保护旧知识"
+    ]
+  },
+  "Graph Topology-Oriented Prompting for Graph Neural Networks": {
+    "主题": "图神经网络（GNN）的拓扑导向提示学习",
+    "场景": "预训练GNN在下游任务中的适配阶段",
+    "创新点": [
+      "首次提出基于图拓扑结构的提示学习框架（GraphTOP），通过修改图拓扑而非节点特征来适配预训练GNN",
+      "将拓扑导向提示转化为多跳局部子图的边重连问题，并通过重参数化松弛到连续概率空间，兼顾紧密松弛和稀疏性保持"
+    ]
+  },
+  "Multimodal Room Impulse Response Generation Through Latent   Rectified Flow Matching": {
+    "主题": "房间脉冲响应（RIR）生成",
+    "场景": "虚拟现实、建筑声学、音频制作中高质量RIR合成",
+    "创新点": [
+      "提出两阶段生成框架，结合变分自编码器和条件扩散变压器模型，实现从自然语言描述生成RIR",
+      "引入修正流匹配技术，提升生成的RIR的感知质量和声学准确性，平均RT60误差显著优于基线方法"
+    ]
+  },
+  "A Two-Phase Training Strategy for Adaptive Activation   Function Learning in Neural Networks": {
+    "主题": "自适应激活函数学习",
+    "场景": "神经网络训练中优化激活函数选择",
+    "创新点": [
+      "提出两阶段训练策略（SmartMixed），第一阶段通过可微分硬混合机制自适应选择候选激活函数，第二阶段固定最优函数保持计算效率",
+      "支持在推理阶段保留向量化操作的同时实现继续训练",
+      "实验证明不同层级神经元对激活函数存在差异化偏好（如ReLU/Sigmoid等组合使用）"
+    ]
+  },
+  "Evaluating Multimodal Large Language Models on Core Music Perception   Tasks": {
+    "主题": "多模态大语言模型的音乐感知能力评估",
+    "场景": "评估多模态大语言模型在核心音乐感知任务（如切分音评分、转调检测、和弦音质识别）中的表现",
+    "创新点": [
+      "**分离变异性来源**：明确区分感知限制（音频与MIDI输入）、示例接触（零样本与少样本）和推理策略（独立、思维链、LogicLM）对模型性能的影响",
+      "**LogicLM音乐适配**：首次将LogicLM（结合符号求解器的结构化推理框架）应用于音乐领域，揭示模型在符号（MIDI）与音频推理的显著性能差距"
+    ]
+  },
+  "Group size effects and collective misalignment in LLM multi-agent   systems": {
+    "主题": "LLM多智能体系统中的群体规模效应与集体失调",
+    "场景": "多智能体LLM在协调游戏中的集体行为动态分析",
+    "创新点": [
+      "揭示集体偏差的新机制：交互可放大个体偏差、引入新偏差或覆盖模型偏好",
+      "发现群体规模对动态的非线性影响，并识别模型依赖的动态机制",
+      "开发均值场分析方法，确定临界群体规模后系统会收敛至确定性预测"
+    ]
+  },
+  "Modeling Hierarchical Thinking in Large Reasoning Models": {
+    "主题": "大型推理模型的分层思维建模",
+    "场景": "分析大型语言模型（LLMs）在链式推理（CoT）过程中涌现的层次化推理动态",
+    "创新点": [
+      "提出**有限状态机（FSM）框架**，将复杂的模型推理过程抽象为离散状态（如初始化、演绎、回溯等），实现可解释的结构化表达",
+      "通过**状态转换序列可视化**不同模型的推理轨迹，揭示其策略差异与潜在缺陷（例如不确定性处理能力）",
+      "提供**标准化标注方案**，将模型生成的CoT步骤映射到FSM状态，便于跨模型比较与鲁棒性分析"
+    ]
+  },
+  "Knowledge-guided Continual Learning for Behavioral Analytics Systems": {
+    "主题": "行为分析系统的持续学习",
+    "场景": "在线平台上用户行为演变的持续模型更新",
+    "创新点": [
+      "提出基于知识引导的数据增强方法，结合外部知识库扩展重放缓冲区的有限容量",
+      "在重放式持续学习框架中整合外部知识，缓解灾难性遗忘问题",
+      "通过三个异常行为分类数据集的实验验证，证明增强策略优于基线重放方法"
+    ]
+  },
+  "Top-Down Semantic Refinement for Image Captioning": {
+    "主题": "图像描述的语义细化",
+    "场景": "基于大型视觉语言模型（VLM）的图像描述任务",
+    "创新点": [
+      "提出自上而下的语义细化框架（TDSR），将图像描述建模为马尔可夫决策过程（MDP），解决单步生成导致的全局叙事连贯性问题",
+      "设计高效的蒙特卡洛树搜索（MCTS）算法，结合视觉引导并行扩展和轻量级值网络，显著降低对VLM的调用频率",
+      "引入自适应早停机制，根据图像复杂度动态调整计算开销，提升效率"
+    ]
+  },
+  "Long-Term PM2.5 Forecasting Using a DTW-Enhanced CNN-GRU Model": {
+    "主题": "PM2.5长期预测模型",
+    "场景": "城市公共健康早期预警系统，尤其是监测网络稀疏的城市（如伊朗伊斯法罕）",
+    "创新点": [
+      "采用动态时间规整（DTW）进行智能站点相似性选择，识别跨站点的相似污染模式",
+      "结合轻量级CNN-GRU架构，增强气象特征，优化稀疏监测网络的扩展性设计",
+      "首个实现稳定10天PM2.5预测（R2 = 0.73）且性能不衰减的研究，满足早期预警系统关键需求"
+    ]
+  },
+  "Encoder-Decoder Diffusion Language Models for Efficient Training and   Inference": {
+    "主题": "高效离散扩散语言模型",
+    "场景": "文本生成任务（如摘要、翻译、数学推理）",
+    "创新点": [
+      "采用编码器-解码器架构分离干净令牌表示与去噪任务，降低计算成本",
+      "提出块扩散模型加速训练，分区处理序列提升生成质量",
+      "集成专用训练与采样算法框架（E2D2），优化生成质量与推理吞吐量权衡"
+    ]
+  },
+  "Decoupling Exploration from Safety in Reinforcement Learning": {
+    "主题": "强化学习中的安全探索解耦",
+    "场景": "混合离线-在线强化学习（O2O RL），解决分布偏移导致的不稳定性问题",
+    "创新点": [
+      "提出RLPD-GX框架，将策略优化与安全执行解耦（自由探索的奖励学习器 + 基于投影的守护器保障规则一致性与安全备份）",
+      "设计动态课程学习机制，逐步扩展时间范围并调整离线-在线数据混合比例以稳定训练",
+      "通过守护贝尔曼算子的收缩性证明收敛性，在Atari-100k上实现SOTA性能（标准化平均分3.02，提升45%）"
+    ]
+  },
+  "Lyapunov Function-guided Reinforcement Learning for Flight Control": {
+    "主题": "强化学习的飞行控制",
+    "场景": "基于李雅普诺夫函数引导的强化学习在飞行控制系统中的应用",
+    "创新点": [
+      "提出级联在线学习飞行控制系统，提升动作平滑性",
+      "采用李雅普诺夫函数候选增量作为收敛性能指标，兼顾离散化和状态预测误差"
+    ]
+  },
+  "Zero-Shot Concept Erasure in Diffusion Models": {
+    "主题": "扩散模型中的概念擦除",
+    "场景": "文本到图像扩散模型中的有害内容抑制",
+    "创新点": [
+      "提出训练无关的零样本框架（Semantic Surgery），直接在扩散过程前操作文本嵌入实现动态概念擦除",
+      "引入共现编码模块增强多概念擦除鲁棒性，并首创视觉反馈环解决潜在概念残留问题",
+      "通过校准向量减法实现源头干预，在保持图像质量同时达到93.58 H-score擦除效果"
+    ]
+  },
+  "Reasoning via Per-Instance Program Synthesis": {
+    "主题": "大语言模型的程序合成推理",
+    "场景": "提升大语言模型在复杂多步推理任务中的性能，如算法、视觉问答、关系推理和数学推理",
+    "创新点": [
+      "提出实例级程序生成与优化方法（PIPS），利用结构反馈动态修正程序，无需任务特定指导或显式测试用例",
+      "引入置信度度量，动态选择直接推理或程序合成，实现实例级自适应决策",
+      "在算法任务中将不良程序生成减少65.1%，相比Program of Thought方法显著提升可靠性"
+    ]
+  },
+  "Rethinking the Text-Vision Reasoning Imbalance in MLLMs through the Lens   of Training Recipes": {
+    "主题": "多模态大型语言模型（MLLMs）训练方法优化",
+    "场景": "视觉与文本模态推理能力不平衡的改善",
+    "创新点": [
+      "提出“模态间隙”概念，量化评估文本与视觉模态性能差异",
+      "从数据和损失函数设计两个角度提出解决方案，优化训练策略",
+      "公开实验代码，促进多模态平衡推理研究复现与扩展"
+    ]
+  },
+  "Training a recurrent reasoning model in dynamic environments   using reinforcement learning": {
+    "主题": "强化学习的动态环境中循环推理模型",
+    "场景": "动态不确定迷宫环境中的目标导航",
+    "创新点": [
+      "提出HRM-Agent，首次将HRM模型仅通过强化学习训练应用于动态、不确定环境",
+      "利用循环推理过程成功实现跨时间步的计算重用"
+    ]
+  },
+  "Toward Agents That Reason About Their Computation": {
+    "主题": "强化学习中的计算效率优化",
+    "场景": "强化学习代理在任务学习中动态降低计算消耗",
+    "创新点": [
+      "引入代理对计算成本的感知能力，动态调整计算资源使用",
+      "实验证明在相同训练计算预算下，75%游戏性能提升且平均计算量减少3倍"
+    ]
+  },
+  "LLM-based Fusion of Multi-modal Features for Commercial Memorability   Prediction": {
+    "主题": "商业广告记忆性预测",
+    "场景": "多模态商业广告记忆性预测竞赛（MediaEval 2025）",
+    "创新点": [
+      "采用Gemma-3 LLM主干网络，通过多模态投影融合视觉（ViT）与文本（E5）特征",
+      "引入基于专家知识生成的LLM理性提示（rationale prompts）指导多模态特征融合",
+      "使用LoRA（低秩适应）技术适配模型，提升计算效率"
+    ]
+  },
+  "Will Humanity Be Rendered Obsolete by AI?": {
+    "主题": "人工智能对人类存在的风险",
+    "场景": "探讨从当前AI到超智能的发展轨迹及其对人类存续的影响",
+    "创新点": [
+      "结合Irving J. Good和Nick Bostrom的理论框架，分析超智能的伦理与存在威胁",
+      "提出人类灭绝可能源于超智能的不可控认知优势，而非恶意"
+    ]
+  },
+  "Air Quality Prediction Using LOESS-ARIMA and Multi-Scale CNN-BiLSTM with   Residual-Gated Attention": {
+    "主题": "空气质量预测",
+    "场景": "印度大城市（如德里、孟买）的空气质量指数（AQI）动态预测，用于突发污染事件的及时干预",
+    "创新点": [
+      "提出混合框架（LOESS-ARIMA + 多尺度CNN-BiLSTM），结合时序分解与深度学习的残差门控注意力机制，捕获多尺度非线性波动",
+      "引入统一自适应多阶段元启发优化器（UAMMO），融合多种优化策略实现高效超参数调优"
+    ]
+  },
+  "Cross-Lingual Stability and Bias in Instruction-Tuned Language Models   for Humanitarian NLP": {
+    "主题": "跨语言指令调优语言模型的人道主义NLP应用",
+    "场景": "人道主义组织在多语言人权侵犯检测中的成本-可靠性权衡",
+    "创新点": [
+      "提出首个商业与开源大语言模型（LLMs）系统对比，覆盖7种语言（含低资源语言），量化成本与可靠性的权衡",
+      "引入新型跨语言稳定性评估指标：校准偏差（CD）、决策偏差（B）、语言鲁棒性分数（LRS）和语言稳定性分数（LSS）",
+      "发现模型稳定性关键因素是指令对齐而非规模，对齐模型在低资源语言（如林加拉语、缅甸语）中保持近乎不变的准确性"
+    ]
+  },
+  "Generalization Through   Measurement of Uncertainty (Learning is Measuring)": {
+    "主题": "基于信息不确定性的模型无关机器学习框架",
+    "场景": "跨任务通用推理（生成推理、因果发现、异常检测、时序预测等）",
+    "创新点": [
+      "提出模型无关框架，利用信息熵量化不确定性，绕过传统分布建模，减少偏差",
+      "支持高效数据更新（直接编辑/删除训练数据）并保持可解释性",
+      "建立信息\"物理学\"数学基础，兼容缺失数据等复杂类型，性能接近SOTA神经网络"
+    ]
+  },
+  "Agentic Meta-Orchestrator for Multi-task Copilots": {
+    "主题": "多任务Copilot的代理元编排",
+    "场景": "Microsoft Copilot套件中动态扩展的代理任务分配与响应",
+    "创新点": [
+      "提出Agentic Meta-orchestrator (AMO)框架，支持多任务处理与可扩展代理的自然语言及动作响应",
+      "采用基于元学习的决策树模型动态选择最优推理策略（代理/模型间）",
+      "通过生产用例验证（M365电商Copilot与代码合规Copilot），整合动态数据源（如关系数据库）与人工客服协作"
+    ]
+  },
+  "Collaborative LLM Agents for C4 Software Architecture Design Automation": {
+    "主题": "LLM-based C4软件架构设计自动化",
+    "场景": "自动化生成C4软件架构模型（Context、Container、Component视图）",
+    "创新点": [
+      "提出基于LLM的多智能体系统，通过角色专家对话模拟实现架构设计自动化",
+      "引入混合质量评估框架（结构/语法检查+C4规则验证+LLM语义评分）",
+      "对比了四种前沿LLM在架构设计任务中的性能差异"
+    ]
+  },
+  "How Do AI Agents Do Human Work? Comparing AI and Human Workflows Across   Diverse Occupations": {
+    "主题": "AI与人类工作流程对比",
+    "场景": "跨领域职业技能（数据/工程/计算/写作/设计）的AI代理效能评估",
+    "创新点": [
+      "首次提出多领域AI与人类工作流的系统性对比框架，涵盖五大核心技能",
+      "开发可扩展工具包，从计算机操作中提取结构化、可解释的工作流（适用于人类和AI）",
+      "揭示AI代理程序化倾向的本质缺陷（如用代码思维处理开放式设计任务）及质量缺陷掩盖机制"
+    ]
+  },
+  "Towards Personalized AI Assistant via Personal KV-Cache   Retrieval": {
+    "主题": "个性化AI助手",
+    "场景": "基于视觉语言模型（VLM）的个性化问答任务",
+    "创新点": [
+      "提出个人KV-Cache检索框架，将用户特定信息存储于文本和视觉标记的KV-Cache中",
+      "通过提取用户图像中的显著局部区域生成视觉标记，提升对细粒度信息的应答准确性",
+      "构建细粒度评测基准，强调依赖用户特定细节的精准问答能力"
+    ]
+  },
+  "How Temporal Biases Shape Retrieval in Transformer and   State-Space Models": {
+    "主题": "大语言模型中的时间偏置与情景检索",
+    "场景": "分析Transformer和状态空间模型在上下文学习中对时间分离事件的检索能力",
+    "创新点": [
+      "通过固定重复令牌位置并置换其他令牌，消除语义干扰，首次孤立出时间效应对模型预测的影响",
+      "发现模型对输入序列两端（开头/结尾）的令牌表现出显著的时间偏置，并通过消融实验将Transformer中的该现象归因于归纳头机制",
+      "在独特语义上下文的部分重叠场景中，首次验证了提示中间位置的记忆检索可靠性较低的特性"
+    ]
+  },
+  "Multi-Modal Fact-Verification Framework for Reducing Hallucinations in   Large Language Models": {
+    "主题": "多模态事实验证框架",
+    "场景": "减少大语言模型生成虚假信息（幻觉问题）",
+    "创新点": [
+      "结合结构化数据库、实时网络搜索和学术文献进行多源实时交叉验证",
+      "自动检测并纠正事实错误，同时保持回答的自然流畅性"
+    ]
+  },
+  "Integrating PDDL-Integer Programming with LLMs for Coordinating   Multi-Robot Teams Using Natural Language": {
+    "主题": "多机器人自然语言协调规划",
+    "场景": "通过自然语言指令协调多机器人团队执行任务",
+    "创新点": [
+      "提出分层规划框架（PIPHow do small angular increments enhance accuracy in panorama generation?Small angular increments enhance accuracy in panorama generation by improving several key aspects of the image stitching and alignment process:",
+      "1. **Higher Sampling Density**:",
+      "Capturing images with smaller angular steps (e.g., 1-5° vs 30°) provides more overlapping visual data between adjacent frames.",
+      "This denser sampling reduces parallax errors and ensures better coverage of scene details.",
+      "2. **Improved Feature Matching**:",
+      "More images mean more matched feature points between frames, enabling more precise homography/alignment calculations.",
+      "Fine angular steps minimize large perspective distortions between frames.",
+      "3. **Smoother Transitions**:",
+      "Small rotations produce minimal changes in perspective, resulting in:",
+      "Less noticeable stitching seams",
+      "Reduced geometric distortions in the final composite",
+      "Better color/blending continuity",
+      "4. **Error Distribution**:",
+      "Alignment errors accumulate additively in panoramas",
+      "Smaller steps mean each pairwise stitching operation introduces less error",
+      "The total error across the full panorama is thus reduced",
+      "5. **Motion Compensation**:",
+      "For handheld shots, small quick rotations are easier to stabilize",
+      "Allows software to better compensate for accidental camera movements",
+      "Typical professional panorama workflows use ≤5° increments, while consumer apps may use 10-30° for speed/convenience at some accuracy cost. The optimal increment balances required precision against capture time and processing overhead."
+    ]
+  },
+  "A French   Dialect Case-Study": {
+    "主题": "低资源方言的持续预训练优化",
+    "场景": "使用有限数据和计算资源优化大型语言模型（LLMs）对魁北克法语的适配",
+    "创新点": [
+      "结合低秩适配（LoRA）与高效计算持续预训练，仅更新不足1%的模型参数即提升方言性能",
+      "提出语料组成对性能增益的关键影响，为低成本可持续方言资源开发提供实证依据",
+      "首次发布魁北克法语LLMs模型，填补少数语言社区的高质量AI工具空白"
+    ]
+  },
+  "Reinforcement Learning based Distributed Pose-Graph   Optimization for Multi-Robot SLAM": {
+    "主题": "多机器人SLAM中的分布式姿态图优化",
+    "场景": "多机器人协同定位与建图时的高精度轨迹估计",
+    "创新点": [
+      "采用多智能体强化学习（MARL）框架，通过部分可观测马尔可夫博弈建模分布式PGO，结合图神经网络（GNN）编码器及自适应门控机制降噪",
+      "提出混合策略，整合先验动作记忆与图嵌入信息，实现本地姿态的序列优化",
+      "通过角色复制机制，使单一策略无需重新训练即可扩展至更大规模机器人团队"
+    ]
+  },
+  "Your Text Embedding can Also be an Effective   and Efficient Listwise Reranker": {
+    "主题": "文本嵌入模型统一检索与重排序",
+    "场景": "搜索应用中高效检索与高质量重排序",
+    "创新点": [
+      "提出统一框架E²Rank，通过列表排序目标继续训练，使单一文本嵌入模型同时支持高效检索和列表重排序",
+      "设计基于余弦相似度的联合排序函数，利用包含Top-K文档信号增强的排序提示（类似伪相关反馈），保持基础模型效率的同时显著提升重排序性能"
+    ]
+  },
+  "Actor-Critic Task-Completion with Look-ahead Action Simulation": {
+    "主题": "强化学习在web-agent任务完成中的应用",
+    "场景": "web-agent在新环境中无需微调即可高效执行任务",
+    "创新点": [
+      "引入认知空间的动作模拟（ATLAS），通过前瞻性模拟优化执行计划",
+      "模块化架构设计，无需针对特定网站的LLM微调",
+      "结合认知映射构建、分层规划和基于前瞻的重规划，提升任务成功率"
+    ]
+  },
+  "REVISION:Reflective Intent Mining and Online Reasoning Auxiliary for   E-commerce Visual Search System Optimization": {
+    "主题": "电子商务视觉搜索系统优化",
+    "场景": "淘宝平台中用户隐性意图挖掘与搜索策略优化，解决高无点击率问题",
+    "创新点": [
+      "提出离线意图挖掘与在线决策执行的整合框架（REVISION），结合大模型推理隐式意图因素并生成优化建议",
+      "训练轻量化在线模型（REVISION-R1-3B），通过查询图像和历史商品联合分析动态调度搜索策略",
+      "建立用户-搜索系统意图差异（Intent Discrepancy）的周期性挖掘管道，实现端到端搜索流程智能优化"
+    ]
+  },
+  "Critical Insights into Leading Conversational AI Models": {
+    "主题": "对话式AI模型评估",
+    "场景": "企业及个人用户选择适合的对话AI模型",
+    "创新点": [
+      "多维度对比评估（性能与准确性、伦理与偏见缓解、可用性与集成）",
+      "提出针对性应用策略（根据不同模型特点优化使用场景）"
+    ]
+  },
+  "Locomotion Reconstruction from Pressure Sensing Insoles": {
+    "主题": "基于压力传感鞋垫的运动重建",
+    "场景": "通过穿戴式鞋垫传感器在户外等无约束环境中捕捉和重建人类运动",
+    "创新点": [
+      "提出首个利用多模态鞋垫传感器（压力与惯性数据）进行运动重建的方法Step2Motion",
+      "突破传统运动捕捉的限制（无需动作捕捉服、不受光学系统视线限制），适应多样步态（如侧移、踮脚、半蹲、跳舞等）",
+      "在真实场景中实现鲁棒的运动重构，填补了穿戴式鞋垫与现有运动重建方法结合的研究空白"
+    ]
+  },
+  "Bridging Value Estimation with Flow Matching in   Reinforcement Learning": {
+    "主题": "强化学习中的价值估计",
+    "场景": "通过生成建模方法改进强化学习中的长期回报评估",
+    "创新点": [
+      "提出FlowCritic，利用流匹配（flow matching）建模价值分布，取代传统的确定性价值预测回归方法",
+      "生成样本进行价值估计，避免现有方法中离散化或分位数回归对复杂价值分布表达的限制"
+    ]
+  },
+  "Plug-and-Play Contrastive Example Generation Mechanism for   Enhanced LLM Reasoning Reliability": {
+    "主题": "检索增强生成框架优化",
+    "场景": "处理知识稀疏和语义模糊的长尾查询，提升大型语言模型推理可靠性",
+    "创新点": [
+      "提出预检索阶段对比思考机制（RaCoT），自动生成语义相邻但答案不同的对比问题，提取差异提示（Δ-Prompt）引导模型聚焦关键细节",
+      "单次检索即可抑制语义干扰，突破单向量查询同时编码注意与忽略信号的理论瓶颈",
+      "在6个基准测试中准确率提升0.9-2.4%，对抗测试性能下降仅8.6%，延迟低至3.12秒，实现精度-效率帕累托最优"
+    ]
+  },
+  "A VLM-Based Approach for Spatially and Temporally   Calibrated Urban Development Monitoring": {
+    "主题": "基于VLM的城市发展监测",
+    "场景": "利用卫星影像进行城市化发展的时空校准监测",
+    "创新点": [
+      "提出**Atlas Urban Index (AUI)**，结合VLM模型处理Sentinel-2影像，克服大气噪声、季节性变化和云层干扰等传统指数（如NDBI）的局限性",
+      "采用**时间窗口影像融合技术**，选择云量最小影像作为时段代表，并引入历史影像对比以增强时间一致性和降噪",
+      "通过**参考图像集和时序锚定策略**提升评分稳定性，实验表明AUI在班加罗尔地区的表现优于传统指数"
+    ]
+  },
+  "A Hybrid Framework for Synthetic LOB Generation": {
+    "主题": "合成订单簿生成",
+    "场景": "金融交易中的时间序列数据生成，用于补充历史数据以训练大型交易模型",
+    "创新点": [
+      "将基于代理的Chiarella模型与深度学习TABL模型结合，生成高质量的合成订单簿数据",
+      "提出一种新的模拟删除订单流的方法，增强了市场微观结构的模拟",
+      "通过风格化事实验证生成模型的性能，揭示了现有方法在模拟市场微观结构时的不足"
+    ]
+  },
+  "Predicting the Road Ahead": {
+    "主题": "不确定性感知自动驾驶感知系统",
+    "场景": "自动驾驶车辆在罕见事件或样本外数据场景下的环境感知",
+    "创新点": [
+      "提出使用随机集神经网络（RS-NN）显式量化预测不确定性，优于传统CNN和贝叶斯方法",
+      "将RS-NN集成到ROS车辆控制管道中，实现动态车速调节，提升安全性和鲁棒性",
+      "在真实自动驾驶赛车场景中验证了RS-NN的道路分类与不确定性校准优势"
+    ]
+  },
+  "Detecting Boilerplate Responses with a Single Iteration": {
+    "主题": "LLM响应效率优化",
+    "场景": "减少大型语言模型生成模板化响应时的计算资源消耗",
+    "创新点": [
+      "提出基于首词元对数概率分布的模板响应检测方法，仅需单步生成即可分类后续响应类型",
+      "利用轻量级k-NN分类器实现高精度预测，支持提前终止或转向小模型计算，显著降低推理成本",
+      "验证不同规模/类型模型中首词元概率向量呈现可分离聚类特征，方法具有普适性"
+    ]
+  },
+  "Gaussian Splatting SLAM for Dynamic Scenes via Hierarchical   Explicit-Implicit Representation Collaboration Rendering": {
+    "主题": "动态场景SLAM技术",
+    "场景": "大规模动态户外场景的高精度三维重建与定位",
+    "创新点": [
+      "提出分层显隐式协作表示模块，结合LiDAR与视觉数据，优化映射以减轻尺度漂移并提升重建鲁棒性",
+      "设计联合动态建模模块，融合开放世界分割与隐式残差约束，生成细粒度动态掩膜，消除动态物体干扰"
+    ]
+  },
+  "Unsupervised Time Series Representation   Learning via Frame Projections": {
+    "主题": "无监督时间序列表示学习",
+    "场景": "无需标签数据的时间序列数据表示学习，适用于多种时序任务。",
+    "创新点": [
+      "使用正交基和过完备框架生成视图，替代传统手工数据增强方法，避免领域知识依赖和表示不变性限制。",
+      "联合利用不同几何空间（正交和过完备）的互补性，提升表示学习性能，无需通过增强人为增加数据多样性。"
+    ]
+  },
+  "A Vision Language Foundation Model for Semantic Understanding   and Target Recognition in SAR Imagery": {
+    "主题": "SAR视觉语言基础模型",
+    "场景": "合成孔径雷达（SAR）图像的多模态对齐与零样本目标识别",
+    "创新点": [
+      "提出首个SAR领域的视觉语言基础模型SARCLIP，通过对比学习实现图像与文本的跨模态对齐",
+      "构建大规模SARCLIP-1M数据集（超百万文本-图像对），解决SAR领域多模态数据稀缺问题",
+      "采用领域迁移策略训练模型，显著提升零样本分类和图文检索任务的性能"
+    ]
+  },
+  "A Critical Study on Tea Leaf Disease Detection using Deep Learning   Techniques": {
+    "主题": "茶叶病害检测",
+    "场景": "利用深度学习技术检测和分类茶叶病害（红锈病、盲蝽、红蜘蛛螨）并量化叶片受损区域",
+    "创新点": [
+      "对比评估SSD MobileNet V2和Faster R-CNN ResNet50 V1模型性能，后者mAP提升4.1%（25% vs 20.9%）",
+      "提出基于Mask R-CNN的自定义方法实现病害区域实例分割与面积计算"
+    ]
+  },
+  "Variational Polya Tree": {
+    "主题": "变分Polya树模型",
+    "场景": "深度学习中的密度估计，用于生成建模、不确定性量化和可解释性分析",
+    "创新点": [
+      "采用随机变分推断计算后验分布，降低传统MCMC方法的高计算复杂度",
+      "提出联合分布似然函数，提供比传统均值场方法更精确的变分后验近似",
+      "构建灵活的非参数贝叶斯先验，兼容随机梯度优化并捕捉潜在密度"
+    ]
+  },
+  "Enhancing Graph Classification Robustness with Singular Pooling": {
+    "主题": "图神经网络的鲁棒性增强",
+    "场景": "对抗性攻击下的图分类任务",
+    "创新点": [
+      "提出鲁棒奇异值池化（RS-Pool），利用节点嵌入矩阵的主奇异向量构建鲁棒的图级表示",
+      "理论分析了标准平坦池化方法的对抗风险上界，揭示了其在不同攻击场景和图结构下的脆弱性",
+      "所提方法模型无关，可通过幂迭代高效实现，在保持干净数据精度的同时提供更好的鲁棒性"
+    ]
+  },
+  "Morphological Analysis and Corpus   development of Endangered Toto Language of West Bengal": {
+    "主题": "濒危语言数字化保护",
+    "场景": "印度西孟加拉邦Toto语的语料库开发与学习应用构建",
+    "创新点": [
+      "开发三语（Toto-孟加拉语-英语）学习应用，整合Unicode脚本和结构化语料库",
+      "结合传统语言学方法与AI技术，训练小型语言模型（SLM）和基于Transformer的翻译引擎",
+      "设计文字标准化工具和数字扫盲方案以促进文字使用"
+    ]
+  },
+  "Self-Speculative Decoding for Fast Vision-Language Model   Inference": {
+    "主题": "视觉语言模型推理加速",
+    "场景": "视觉语言模型（VLMs）的高计算成本和推理延迟问题",
+    "创新点": [
+      "提出基于模仿学习的自推测解码框架（SSD），结合轻量级草稿模型自回归生成令牌与全模型非自回归验证",
+      "通过拒绝令牌校正机制和模仿网络增强草稿模型，利用全模型深层知识提升生成效率",
+      "在保持全模型性能完整性的同时实现1.55-1.85倍推理加速，平衡效率与精度"
+    ]
+  },
+  "A Multilingual Human-AI Framework for Real-Time Defense   Against Adversarial LLM Jailbreaks": {
+    "主题": "对抗性大语言模型（LLM）防御框架",
+    "场景": "实时检测和缓解针对LLM的越狱和提示注入攻击",
+    "创新点": [
+      "采用混合架构（FAISS索引SBERT嵌入+微调Transformer分类器）检测直接和混淆的攻击向量",
+      "提出分类器-检索器融合模块，动态计算上下文感知风险评分",
+      "语言无关预处理层实现100+语言的跨语言语义评估",
+      "集成人工反馈（HITL）循环实现持续学习和快速适应"
+    ]
+  },
+  "A Self-Iterative, Complexity-Aware Multi-Agent Framework for   Competitive Programming": {
+    "主题": "多智能体框架用于竞争性编程",
+    "场景": "竞争性编程环境，要求程序满足时间和内存限制",
+    "创新点": [
+      "提出复杂度感知的多智能体系统SwiftSolve，结合算法规划和经验性性能分析",
+      "引入复杂度导向的修复机制，通过性能分析和复杂度分类指导针对性修复",
+      "采用角色专业化代理（规划器、静态修剪器、编码器、性能分析器等）分工协作",
+      "通过版本化JSON通信和迭代控制机制保证系统效率和稳定性"
+    ]
+  },
+  "Evaluating Commonsense Reasoning in Persian via Multiple-Choice   Sentence Completion": {
+    "主题": "波斯语常识推理评测",
+    "场景": "多选句子补全任务，用于评估波斯语常识推理能力",
+    "创新点": [
+      "提出首个大规模波斯语常识推理基准PerCoR，含106K问题，来源多样",
+      "基于连词的分割策略生成连贯的补全句子对，增强主题和结构多样性",
+      "设计无生成的对抗过滤方法DRESS-AF，从正确答案池中筛选高迷惑性干扰项"
+    ]
+  },
+  "Evaluating ZebraPose   Adaptation for Dairy Cattle Pose Estimation": {
+    "主题": "动物姿态估计",
+    "场景": "利用跨物种迁移学习进行奶牛姿态估计，应用于畜牧业视觉监控",
+    "创新点": [
+      "评估基于合成斑马数据训练的ViT模型（ZebraPose）在真实牛栏环境中的跨物种迁移能力",
+      "揭示合成数据与真实农业场景的域差距问题，指出物种形态相似性不足以支撑跨域迁移",
+      "提出农业AI设计需优先考虑农场环境多样性、跨场景鲁棒性和开源基准数据集的新方向"
+    ]
+  },
+  "Evaluating the Security of Backbone LLMs in AI   Agents": {
+    "主题": "大型语言模型在AI代理中的安全性评估",
+    "场景": "评估不同主干LLM对AI代理安全性的影响，涉及非确定性序列行为和传统软件与AI组件的集成。",
+    "创新点": [
+      "提出威胁快照框架，隔离代理执行流中LLM漏洞表现的特定状态，实现安全风险的系统识别与分类。",
+      "构建基于19.4万次众包对抗攻击的安全基准b³，评估31种流行LLM，发现推理能力提升安全性而模型规模无关。",
+      "开源基准、数据集和评估代码，为LLM提供商和开发者提供指导，激励主干安全改进。"
+    ]
+  },
+  "Does In-IDE Calibration of Large Language Models work at Scale?": {
+    "主题": "大型语言模型在IDE中的校准",
+    "场景": "在集成开发环境（IDE）中校准代码生成模型的置信度以提高可靠性和开发者体验",
+    "创新点": [
+      "提出可扩展的校准框架，支持使用任意数据集对开源模型进行置信度校准",
+      "通过分析2400万次真实开发者交互数据，发现基于Platt-scaling的通用后校准方法平均无法提升置信信号可靠性",
+      "揭示动态个性化校准的有效性高度依赖用户交互数据量",
+      "通过多阶段设计研究（153名开发者参与）提出非数值化、颜色编码的可靠性信号呈现方案"
+    ]
+  },
+  "A Robust Gaussian Splatting SLAM System for Noisy and   Low-light Environment Resilience": {
+    "主题": "基于3D高斯泼溅的鲁棒性SLAM系统",
+    "场景": "噪声和低光照环境下的同时定位与地图构建",
+    "创新点": [
+      "提出结构保持的鲁棒融合机制（SP-RoFusion），结合渲染外观、深度和边缘线索",
+      "引入自适应跟踪目标与残差平衡正则化方法",
+      "采用基于CLIP的增强模块，在复合退化条件下选择性恢复语义和结构保真度"
+    ]
+  },
+  "Building the Health Infrastructure for   Everyday Insight and Guidance": {
+    "主题": "个人健康管理数字基础设施",
+    "场景": "构建一个全天候、个性化的AI健康指导系统，整合多模态数据和医疗服务，服务于个人及群体健康管理",
+    "创新点": [
+      "提出“个人健康公共设施”(PCU)概念，将传统片段式医疗转变为持续实时健康监测与指导",
+      "整合多模态代理、事件中心建模和情境推理技术，实现个性化健康信息推送、主动健康导航和医疗事件后康复追踪三大核心功能",
+      "结合个人传感技术、体验式计算和群体健康分析，同时支持个体健康改善和公共卫生研究新范式"
+    ]
+  },
+  "A Safety-Constrained Hybrid Framework for Clinical Diagnosis   and Treatment Generation": {
+    "主题": "临床诊断与治疗生成的安全约束框架",
+    "场景": "医疗诊断与治疗推荐，特别是在资源有限的医疗环境中，提高诊断准确性和治疗安全性。",
+    "创新点": [
+      "提出CLIN-LLM框架，整合多模态患者编码、不确定性校准的疾病分类和检索增强的治疗生成，优化症状到疾病的分类和治疗推荐的准确性。",
+      "利用Focal Loss结合Monte Carlo Dropout实现置信度感知预测，自动标记低确定性案例（18%）进行专家审查，确保人为监督，提高临床安全性。",
+      "整合Biomedical Sentence-BERT和FLAN-T5模型，从MedDialog语料库中检索证据并结合患者情境生成个性化治疗建议，结合RxNorm进行抗生素管理和药物相互作用筛查。",
+      "减少67%的不安全抗生素建议，显著提升治疗方案的可行性和安全性。"
+    ]
+  },
+  "A Framework for Quantifying How Pre-Training and Context Benefit   In-Context Learning": {
+    "主题": "预训练与上下文对情境学习影响的量化分析",
+    "场景": "大语言模型的情境学习（ICL）能力评估",
+    "创新点": [
+      "提出新框架分析ICL性能，涵盖网络架构、数据编码等现实设置",
+      "发现预训练数据与查询任务分布不同时，构建的上下文可将输出分布向查询任务量化偏移",
+      "推导出ICL性能、上下文长度与预训练-查询任务KL散度之间的精确关系"
+    ]
+  },
+  "Automating LLM Evaluation through Reciprocal Peer Assessment": {
+    "主题": "自动化LLM评估",
+    "场景": "通过相互同行评估动态生成任务，实现大语言模型的持续自动化评估",
+    "创新点": [
+      "提出动态任务生成机制，模型交替扮演问题生成器、参赛者和评委角色",
+      "采用迭代加权机制，增强可靠评估者的影响力，形成共识排名",
+      "多评委设计显著优于单评委基线，评估结果更稳健且与人类一致"
+    ]
+  },
+  "Combining Deep Learning and Explainable AI for Toxicity Prediction of   Chemical Compounds": {
+    "主题": "化学毒性预测",
+    "场景": "基于Tox21数据集的化学化合物毒性预测",
+    "创新点": [
+      "提出基于DenseNet121的新型图像化处理流程，处理化学结构的2D图形表示",
+      "应用可解释AI技术Grad-CAM可视化，解释模型预测并突出毒性分类的关键分子区域"
+    ]
+  },
+  "AdapTive and OptiMized dynamic temporal knowledge graph   construction using LLMs": {
+    "主题": "动态时序知识图谱构建",
+    "场景": "从非结构化文本中实时提取并更新时序知识，适用于实时分析、时序推理和动态记忆框架。",
+    "创新点": [
+      "将输入文档拆分为最小自包含的“原子”事实，提高提取的完整性和稳定性。",
+      "采用双时间建模，区分信息观测时间和有效时间，增强时序表达的准确性。",
+      "并行合并原子时序知识图谱，显著降低延迟（90%以上），提升可扩展性。"
+    ]
+  },
+  "A Rigorous Benchmark for Evaluating Object State   Understanding in Vision-Language Models": {
+    "主题": "视觉-语言模型中的物体状态理解",
+    "场景": "评估和提升视觉-语言模型对物体状态（如位置、功能状态）的识别能力",
+    "创新点": [
+      "提出首个严格评估视觉-语言模型物体状态理解能力的基准STATUS Bench，包含多任务（状态识别、图像检索、状态变化识别）。",
+      "构建大规模半自动生成训练数据集STATUS Train（1300万条描述），支持模型微调与性能提升。"
+    ]
+  },
+  "Curriculum-Based Iterative Self-Play for Scalable Multi-Drone Racing": {
+    "主题": "多智能体无人机竞速强化学习",
+    "场景": "高速竞争环境中的多无人机协调与竞速",
+    "创新点": [
+      "结合渐进难度课程与高效自对弈机制，提升算法可扩展性",
+      "在密集智能体环境下实现近两倍于现有规划器的平均竞速速度",
+      "通过课程结构设计实现性能飞跃（消融实验证实其关键作用）"
+    ]
+  },
+  "Self-Play Incremental Racing Algorithm for Learning in   Multi-Drone Competitions": {
+    "主题": "多无人机竞赛的强化学习算法",
+    "场景": "自主无人机在多智能体竞赛中学习复杂竞速行为",
+    "创新点": [
+      "提出SPIRAL算法，通过自博弈机制逐步培养无人机在动态环境中的竞速能力",
+      "可集成多种深度强化学习算法，提供灵活、可扩展的学习框架"
+    ]
+  },
+  "A comprehensive study": {
+    "主题": "区块链数字签名方案安全分析",
+    "场景": "区块链系统的交易不可否认性及数据完整性保障",
+    "创新点": [
+      "系统分析多种数字签名方案在非伪造性、可延展性抵抗、聚合支持等关键安全属性上的表现",
+      "提出不同签名设计在共识协议、智能合约等区块链场景中的适用性评估框架",
+      "首次总结签名方案选择对吞吐量、存储开销及抗量子攻击能力等实践权衡的影响"
+    ]
+  },
+  "Diffusion Denoising Trace Recovery": {
+    "主题": "扩散去噪痕迹恢复",
+    "场景": "非确定性来源（如不确定传感器或机器学习模型）生成的过程日志的恢复",
+    "创新点": [
+      "提出基于扩散去噪概率模型（DDPM）的新型深度学习方法，用于随机痕迹恢复",
+      "利用过程知识（隐式发现模型或显式注入训练阶段）通过去噪恢复痕迹",
+      "在实证评估中展示比现有方法提升25%的性能，并提高高噪声水平下的鲁棒性"
+    ]
+  },
+  "Are LLMs Ready for Real World Long Dependency Challenges?": {
+    "主题": "大语言模型的长上下文理解能力评估",
+    "场景": "需要处理超长文本（16k至2M tokens）的领域（法律、金融、游戏、代码等）中的长依赖任务",
+    "创新点": [
+      "提出LooGLE v2基准，包含自动收集的真实世界超长文本及10类领域特定长依赖任务",
+      "设计可扩展的数据管线，生成1,934个多样且复杂的QA实例，用于实际需求",
+      "发现即使最佳模型在长上下文理解中表现有限（整体得分仅59.2%），揭示模型宣称能力与实际表现的差距"
+    ]
+  },
+  "Benchmarking Unlearning Misinformation in Multimodal Large   Language Models": {
+    "主题": "多模态大语言模型的信息遗忘评测",
+    "场景": "针对足球转会谣言的多模态大语言模型（MLLMs）选择性信息遗忘",
+    "创新点": [
+      "提出**OFFSIDE评测基准**，包含15.68K条手工标注的球员转会谣言数据，覆盖四种测试集（遗忘效果、泛化性、实用性、鲁棒性）",
+      "支持**先进任务设置**：选择性遗忘、纠错再学习，以及关键的单模态遗忘（仅文本数据遗忘）",
+      "揭示**当前方法的五大漏洞**（如单模态遗忘失效、视觉谣言处理困难、易受提示攻击等），推动多模态遗忘算法改进"
+    ]
+  },
+  "Evaluating Fine-Tuning and LoRA Trade-offs in Language   Models for Unfair Terms of Service Detection": {
+    "主题": "法律NLP中的语言模型优化",
+    "场景": "检测服务条款(ToS)文件中的不公平条款",
+    "创新点": [
+      "系统评估了全参数微调、参数高效适配（LoRA/QLoRA）和零样本提示在ToS领域的性能差异",
+      "使用4-bit低秩适配(LoRA)技术实现比全微调低3倍内存消耗的竞争性召回表现",
+      "开源了法律文本处理的微调基准（CLAUDETTE-ToS和多语言爬虫语料库）"
+    ]
+  },
+  "Toward Robust Signed Graph Learning through Joint Input-Target Denoising": {
+    "主题": "鲁棒符号图学习",
+    "场景": "真实世界带噪声的符号图（含正负连接）分析",
+    "创新点": [
+      "提出首个基于理论指导（图信息瓶颈GIB扩展）的符号图神经网络（SGNN）鲁棒性框架RIDGE",
+      "扩展GIB理论，实现输入与目标空间联合去噪能力",
+      "通过重参数化机制和变分近似设计易处理的优化目标函数"
+    ]
+  },
+  "Open Multimodal Retrieval-Augmented Factual Image Generation": {
+    "主题": "开放式多模态检索增强事实图像生成",
+    "场景": "大型多模态模型（LMMs）生成细粒度或时效性图像时易产生事实错误，需结合动态知识增强准确性。",
+    "创新点": [
+      "提出**ORIG框架**，通过开放式多模态网络检索动态知识并迭代整合至生成过程，解决传统静态检索的局限性。",
+      "构建**FIG-Eval基准**，涵盖感知、组合及时态维度十类任务，首次系统评估事实图像生成的综合性能。",
+      "采用**代理式检索与过滤机制**，主动筛选多模态证据并增量优化生成提示，提升视觉真实性与事实一致性。"
+    ]
+  },
+  "Value Learning via Divide and Conquer": {
+    "主题": "强化学习算法",
+    "场景": "离线目标条件强化学习（GCRL），解决从任意状态到达目标状态的最短路径问题",
+    "创新点": [
+      "将GCRL中的三角不等式结构转化为分治值更新规则，减少偏差累积",
+      "仅需$O(\\log T)$递归处理轨迹，相比TD学习的$O(T)$计算效率更高",
+      "结合动态编程降低蒙特卡洛方法的高方差问题"
+    ]
+  },
+  "An Adaptive 3D Multimodal Neuroimaging Fusion Network for   Parkinson's Disease Diagnosis": {
+    "主题": "神经影像融合网络",
+    "场景": "帕金森病诊断",
+    "创新点": [
+      "提出基于门控的融合模块，自适应学习模态特异性注意力权重和通道门控向量，实现选择性特征调制",
+      "通过分层门控机制增强ROI相关特征，同时抑制无关信号"
+    ]
+  },
+  "Accelerating Materials Design via LLM-Guided Evolutionary Search": {
+    "主题": "材料设计框架",
+    "场景": "多目标约束下的材料发现，涵盖电子、能源、涂层、光学和航空航天等领域",
+    "创新点": [
+      "结合大语言模型与化学进化规则，提出结晶结构候选方案",
+      "引入基于记忆的优化和代理模型预测，提升材料化学可行性与热力学稳定性"
+    ]
+  },
+  "Scalable Oversight via Partitioned Human Supervision": {
+    "主题": "AI可扩展监督",
+    "场景": "评估和训练超越人类专家能力的多领域AI系统",
+    "创新点": [
+      "提出基于互补标签（weak signal）的无偏估计方法，无需真实标签即可评估AI系统性能",
+      "设计两种混合估计器，结合稀缺普通标签与丰富互补标签提升效率",
+      "开发自动化AI代理系统，利用分区人类监督信号实现性能提升"
+    ]
+  },
+  "An Analytic Theory of Quantum Imaginary Time Evolution": {
+    "主题": "量子虚时间演化算法理论分析",
+    "场景": "噪声中尺度量子设备（NISQ）与全容错量子计算间的过渡技术",
+    "创新点": [
+      "提出量子虚时间演化（QITE）与量子自然梯度下降（QNGD）的等效性理论，通过量子Fisher信息矩阵作为学习率张量",
+      "应用量子神经正切核框架分析宽量子神经网络，证明QITE收敛速度始终优于基于梯度下降的变分量子算法"
+    ]
+  },
+  "Boosting Knowledge Distillation via   Angular Diversity": {
+    "主题": "知识蒸馏中的角度多样性增强",
+    "场景": "轻量级学生模型训练，通过单一教师模型生成多样化知识视图以降低计算成本",
+    "创新点": [
+      "提出两种角度多样性目标（约束的视角间多样化损失和视角内多样化损失），确保生成的多视图具有语义差异性",
+      "理论证明所提方法能提升集成多样性并降低预期损失上界，从而提升蒸馏效果",
+      "兼容现有知识蒸馏框架，可即插即用提升泛化性能"
+    ]
+  },
+  "Communication-Efficient Multi-Agent Systems via Group   Sequence Policy Optimization": {
+    "主题": "多智能体系统的通信效率优化",
+    "场景": "多智能体系统在推理任务中的高通信成本问题",
+    "创新点": [
+      "提出Agent-GSPO框架，通过序列级强化学习直接优化通信词汇经济性",
+      "利用稳定且内存高效的GSPO算法，显式惩罚冗余通信以训练智能体",
+      "在多个推理基准上实现最先进性能的同时大幅减少词汇消耗"
+    ]
+  },
+  "Collaborative Harmonization fOr Inference Robustness": {
+    "主题": "大型语言模型推理鲁棒性",
+    "场景": "基于角色分配的多样性推理场景，提升模型对人口统计学扰动的鲁棒性",
+    "创新点": [
+      "提出CHOIR框架，通过协调多角色推理信号生成统一预测，动态平衡推理路径中的一致性与分歧",
+      "将角色差异视为有益资源而非偏差，利用反事实角色协作解码提升性能",
+      "无需额外训练即可跨人口统计组/模型架构/规模实现性能提升（最高提升26.4%）"
+    ]
+  },
+  "High-Quality 4D Dynamic Content Generation via Pose   Alignment Loss": {
+    "主题": "4D动态内容生成",
+    "场景": "从单张静态图像生成高质量4D动态内容（如动画、视觉特效）",
+    "创新点": [
+      "提出DynaPose4D框架，结合4D高斯泼溅(4DGS)与类别无关姿态估计(CAPE)技术，提升动态几何变化建模能力",
+      "利用单视图支持预测多视角姿态关键点，通过监督信号增强运动一致性",
+      "在3D高斯泼溅基础上构建时间维度，实现动态运动的连贯性生成"
+    ]
+  },
+  "Training Large Language Models with   Approximate Gradients under Memory Constraints": {
+    "主题": "大语言模型高效训练优化器",
+    "场景": "内存受限条件下的大型语言模型（LLMs）全参数微调",
+    "创新点": [
+      "提出**梯度近似技术**（GradLite），通过低秩Jacobian近似降低反向传播误差信号维度",
+      "采用**误差反馈校正机制**，跨迭代累计补偿近似误差以保持收敛性",
+      "在理论层面证明其梯度估计无偏且方差有界，收敛速度与Adam相当"
+    ]
+  },
+  "Variational Masked Diffusion Models": {
+    "主题": "变分掩码扩散模型",
+    "场景": "离散生成建模中的依赖关系学习，应用于数独和文本数据。",
+    "创新点": [
+      "引入隐变量增强掩码扩散过程，显式建模令牌间依赖关系",
+      "通过变分推理提升生成质量与全局一致性，解决标准掩码扩散的并发预测局限"
+    ]
+  },
+  "Learning \"Partner-Aware\" Collaborators in Multi-Party Collaboration": {
+    "主题": "多智能体协作中的LLM优化",
+    "场景": "多轮多方的协作任务中，LLM驱动的协作智能体与干预智能体的交互",
+    "创新点": [
+      "提出基于\"Partner-Aware\"学习的新型协作算法（ICR），优化群体共识构建",
+      "采用改进的二人马尔可夫决策过程分析传统RLHF智能体的次优行为",
+      "首次将AI对齐理论扩展应用到多方协作场景的CG（共同基础）优化"
+    ]
+  },
+  "Self-Evolving Generative Agent for Agent Generation": {
+    "主题": "自我进化生成代理",
+    "场景": "将通用AI代理转化为特定领域专家，提升复杂推理任务的准确性和效率",
+    "创新点": [
+      "提出了ALITA-G框架，通过生成、抽象和筛选模型上下文协议（MCP）工具实现自我进化",
+      "引入了检索增强的MCP选择机制，结合工具描述和使用案例进行高效工具选择",
+      "在GAIA等基准测试中实现了新的最优性能，同时降低了约15%的计算开销"
+    ]
+  },
+  "Subject-driven 3D and 4D Generation with   Progressive Texture Infilling": {
+    "主题": "主题驱动的3D/4D生成",
+    "场景": "从单张或多张特定主题图像生成保留语义身份的3D/4D内容",
+    "创新点": [
+      "提出TIRE方法（Track, Inpaint, REsplat），通过视频跟踪识别需修改区域，逐步填充改进",
+      "采用主题驱动的2D修复模型，增强多视角一致性，显著提升身份保持能力"
+    ]
+  },
+  "Performance of   Traditional and Transformer Models": {
+    "主题": "希望语音检测",
+    "场景": "社交媒体平台上激励性表达的识别",
+    "创新点": [
+      "评估传统机器学习模型与微调Transformer模型在希望语音检测任务中的性能",
+      "发现Transformer模型能捕捉希望语音的微妙语义，实现更高的精确率和召回率"
+    ]
+  },
+  "Emerging Paradigm or Overstated Hype?": {
+    "主题": "数据代理（Data Agents）技术分类与发展",
+    "场景": "构建数据+AI生态系统以处理复杂数据任务",
+    "创新点": [
+      "提出首个数据代理的层次化分类系统（L0-L5），明确能力边界与责任划分",
+      "识别关键演进跃迁（如L2到L3的自主协调突破）",
+      "系统性综述按自主性递进的研究进展并展望生成式主动数据代理"
+    ]
+  },
+  "LLM Self-Improve through Co-evolution": {
+    "主题": "LLM自进化框架",
+    "场景": "大型语言模型（LLM）在数学、推理及通用问答任务中的能力提升",
+    "创新点": [
+      "提出三元智能体交互框架（Proposer/Solver/Judge），通过自我博弈实现协同进化，减少对人类标注数据的依赖",
+      "创新性将强化学习应用于多智能体行为优化，拓展至无明确反馈环境的通用领域（如数学、常识推理）",
+      "实验证明框架在3B参数模型上实现跨任务平均4.54%性能提升，具有强可扩展性"
+    ]
+  },
+  "A Vision-Language-Action Model for Urban Micromobility": {
+    "主题": "城市微交通导航",
+    "场景": "大规模城市环境中配送机器人的长距离导航任务",
+    "创新点": [
+      "提出UrbanVLA框架，通过视觉-语言-动作对齐实现动态非结构化环境的鲁棒导航",
+      "采用两阶段训练（模拟SFT+真实数据RFT），提升模型安全性和现实适应性",
+      "首次显式对齐噪声路径点与视觉观测，支持高低层级导航能力统一"
+    ]
+  },
+  "Scalable Robot Benchmarking via Real-to-Sim   Translation": {
+    "主题": "机器人基准测试框架",
+    "场景": "大规模模拟环境中评估机器人策略的通用性和稳健性",
+    "创新点": [
+      "利用视觉语言模型和2D到3D生成建模，自动将真实机器人视频演示转换为模拟环境中的数字孪生",
+      "结合自动化VLM评分和众包人类偏好判断，将人类监督从繁重的场景设置转变为轻量级的偏好比较",
+      "在模拟环境中系统地引入扰动（如纹理和物体位置变化），以可控方式测试策略的泛化能力"
+    ]
+  },
+  "Evidence From a   Two-Wave Survey Study": {
+    "主题": "公众对生成式AI的态度转变",
+    "场景": "ChatGPT推出前后，瑞士公众对AI在决策场景中应用的接受度变化",
+    "创新点": [
+      "首次通过两波大规模调查揭示生成式AI热潮与公众AI接受度下降的显著关联",
+      "发现AI技术扩散加剧了教育、语言和性别维度的社会不平等现象",
+      "实证数据挑战了行业对公众AI部署准备度的假设，提出技术发展需动态匹配公众偏好"
+    ]
+  },
+  "Unify Plan and Action for Universal Granularity Control": {
+    "主题": "统一规划与行动的代码生成模型",
+    "场景": "基于大语言模型（LLM）的智能体在多粒度决策任务中的应用",
+    "创新点": [
+      "提出**递归代码生成（ReCode）**范式，用单一代码表示统一规划（抽象占位函数）与行动（原始动作），消除两者刚性边界",
+      "**动态粒度控制**：通过递归分解占位函数实现决策粒度的灵活调节，增强任务适应性与泛化能力",
+      "**自生成多粒度训练数据**：递归结构自动产生分层决策数据，显著提升模型训练效率"
+    ]
+  },
+  "Benchmarking Systematic Neural Relational   Reasoning": {
+    "主题": "系统化神经关系推理",
+    "场景": "评估神经网络在复杂关系推理任务中的表现",
+    "创新点": [
+      "提出NoRA新基准，增加多级难度，突破现有基于路径的推理限制",
+      "挑战现有简化假设，要求模型支持更广泛的泛化能力"
+    ]
+  },
+  "Learning Linearity in Audio Consistency Autoencoders via Implicit   Regularization": {
+    "主题": "音频自编码器的线性学习",
+    "场景": "音频压缩表示与处理，支持直观的代数操作（如混合或缩放）",
+    "创新点": [
+      "通过数据增强训练方法（不改变模型架构或损失函数），诱导高压缩一致性自编码器（CAE）的线性特性（齐次性和可加性）",
+      "保持重建保真度的同时，实现编码器和解码器的线性行为，支持音乐源合成与分离的隐空间算术操作"
+    ]
+  },
+  "An Ontology for the Interpretation of Human Behavior": {
+    "主题": "人类行为解释的语义模型",
+    "场景": "工业5.0中的人机协作，需要实时解析复杂人类行为（如制造任务偏差和游戏中的欺骗动作）。",
+    "创新点": [
+      "**融合认知科学与模块化工程方法**：提出OntoPret本体，首次将技术中心的机器人框架与描述性行为语义模型结合，填补实时协作解释的空白。",
+      "**可扩展的行为分类框架**：支持对任务偏差和欺骗等复杂行为的机器可处理形式化分类，适配制造和游戏等多场景。"
+    ]
+  },
+  "Towards a Foundational Visual-Programmatic Interface for   Code Intelligence": {
+    "主题": "视觉-程序化代码生成",
+    "场景": "多模态代码智能，涵盖从文本指令和视觉输入生成代码，应用于图表、交互式UI和动画制作。",
+    "创新点": [
+      "提出首个高效合成多模态代码数据的工具包，构建当前最大规模的高质量数据集JanusCode-800K。",
+      "开发统一模型JanusCoder系列，支持文本、视觉或混合输入生成代码，取代传统孤立任务的专用模型。",
+      "在7B-14B参数规模下性能接近或超越商业模型，并揭示程序逻辑与视觉表达的协同机制。"
+    ]
+  },
+  "A Deep Latent Factor Graph Clustering with Fairness-Utility Trade-off   Perspective": {
+    "主题": "公平图聚类",
+    "场景": "社区检测、团队组建、资源分配和社交网络分析中的网络分区",
+    "创新点": [
+      "提出DFNMF深度非负三因子分解方法，实现端到端公平图聚类",
+      "引入单个参数λ调谐公平性-效用平衡，简化权衡控制",
+      "采用稀疏友好交替更新，实现近线性计算复杂度",
+      "非负因子分解提供可解释的软成员分配"
+    ]
+  },
+  "Rethinking Data, Computation, and   Learning Paradigms for Sustainable Intelligence": {
+    "主题": "可持续人工智能框架",
+    "场景": "解决AI发展中的高计算需求和环境伦理问题",
+    "创新点": [
+      "提出Human AI (HAI)框架，结合增量学习、碳感知优化和人在环路协作，提升适应性与效率",
+      "借鉴生物认知机制和动态架构，平衡AI性能与生态责任，减少碳足迹和人工标注成本"
+    ]
+  },
+  "Emotion-Coherent Reasoning for Multimodal LLMs via Emotional Rationale   Verifier": {
+    "主题": "多模态大语言模型的情感一致性推理",
+    "场景": "人机交互中的情感理解与解释生成",
+    "创新点": [
+      "提出情感验证器（ERV）和解释奖励机制，确保情感预测与解释的一致性**（未修改模型结构）**",
+      "无需额外视频-描述标注即可提升多模态情感识别的解释可信度",
+      "在MAFW和DFEW数据集上显著提高解释-预测对齐度和情感准确性"
+    ]
+  },
+  "Mixed Precision Training of Neural ODEs": {
+    "主题": "混合精度训练",
+    "场景": "神经常微分方程（Neural ODEs）的高效训练",
+    "创新点": [
+      "提出结合显式ODE求解器与自定义反向传播的混合精度框架，在速度评估和中间状态存储时使用低精度计算",
+      "引入动态伴随缩放和高精度梯度累积机制，解决计算成本和内存需求增长问题",
+      "开源PyTorch工具包rampde，实现内存减少50%和2倍加速，同时保持与单精度相当的精度"
+    ]
+  },
+  "Are Agents Just Automata? On the Formal Equivalence Between Agentic AI   and the Chomsky Hierarchy": {
+    "主题": "AI代理与形式语言理论等价性",
+    "场景": "验证AI代理的计算能力与安全性",
+    "创新点": [
+      "建立AI代理架构与乔姆斯基层级自动机的形式等价性（有限自动机对应简单反射代理，下推自动机对应分层任务代理，图灵机对应可读写内存代理）",
+      "提出概率自动机扩展框架以量化LLM代理的随机性风险",
+      "开发基于该框架的静态分析工具与语法验证方法"
+    ]
+  },
+  "Human-AI Collaborative Uncertainty Quantification": {
+    "主题": "人类-AI协同不确定性量化",
+    "场景": "AI预测系统与人类专家协作进行高风险管理决策",
+    "创新点": [
+      "提出两阈值结构的协作预测集，优化AI对专家预测集的修正，避免反事实损害并实现互补性",
+      "开发离线/在线校准算法，具备分布自由的有限样本理论保证，在线方法可适应分布偏移（包括人类受AI影响的行为演化）",
+      "首次形式化\"人类到AI的适应\"现象，并通过跨领域实验验证协作方法在覆盖率和集合大小上的综合优势"
+    ]
+  },
+  "Measurement and Enhancement": {
+    "主题": "大规模视觉语言模型（LVLM）的多模态思维链（MCoT）忠实性",
+    "场景": "评估和提升多模态思维链（MCoT）在视觉语言模型中的忠实性",
+    "创新点": [
+      "引入基于LVLM的自动评估指标，从可靠性和充分性两个角度量化视觉线索的忠实性。",
+      "提出一种新颖的MCoT学习策略——充分-成分因果模型（SCCM），鼓励生成充分且最小化的独立视觉成分以提升答案正确性。"
+    ]
+  },
+  "Policy-Aware Generative AI for Safe, Auditable Data Access Governance": {
+    "主题": "政策感知的生成式AI在数据访问治理中的应用",
+    "场景": "企业数据访问决策，需满足最小权限原则、合规性及可审计性",
+    "创新点": [
+      "采用六阶段推理框架（包括语境解释、用户验证等），结合早期硬政策门限和默认拒绝机制，提升决策准确性和安全性",
+      "生成机器可读的决策依据（含引用条款），实现合规决策的透明化和可审计性",
+      "使用隐私保护基准测试，在14个典型案例中将精确决策匹配率从71.4%提升至92.9%，关键场景误批率降为0"
+    ]
+  },
+  "Benchmarking Black-Box Optimization for Chip Placement": {
+    "主题": "黑盒优化芯片布局",
+    "场景": "现代芯片设计中的布局优化",
+    "创新点": [
+      "提出首个针对芯片布局任务的黑盒优化（BBO）专用基准测试框架BBOPlace-Bench，整合三种问题建模并支持模块化算法对比",
+      "实验揭示掩码引导优化和超参优化问题建模优于传统序列对方法，且进化算法在高维搜索空间中表现最优",
+      "框架设计解耦灵活，支持快速集成新算法，填补了BBO领域在芯片布局中标准化评估工具的空白"
+    ]
+  },
+  "Confidence-Guided Test-Time Scaling for Web Agents": {
+    "主题": "LLMs置信度引导的测试时调整",
+    "场景": "多轮交互的LLM搜索代理场景",
+    "创新点": [
+      "引入多轮交互中基于置信度的测试时调整方法（TTS），通过置信分数动态判定回答质量",
+      "提出迭代重试机制直至达到满意置信水平，显著降低token消耗",
+      "在开源智能体模型中验证高低置信度与任务准确率的强相关性（高置信时准确率显著提升）"
+    ]
+  },
+  "Robust Decision Making with Partially Calibrated Forecasts": {
+    "主题": "决策校准与部分校准预测",
+    "场景": "在高维预测问题（如多分类结果）中，保守决策者如何在部分校准的预测下进行鲁棒决策",
+    "创新点": [
+      "提出一种基于极小化极大准则的鲁棒决策方法，将部分校准预测映射到最优动作",
+      "揭示令人惊讶的结果：决策校准（及更强校准概念）在极小化极大意义下仍可保持\"信任预测并据此行动\"的特性",
+      "提供对任何优化平方误差回归模型都适用的、可高效计算的最优决策规则实证评估"
+    ]
+  },
+  "Evaluating Large Language Models for Stance Detection on Financial   Targets from SEC Filing Reports and Earnings Call Transcripts": {
+    "主题": "金融领域大型语言模型的立场检测",
+    "场景": "SEC申报文件和收益电话会议记录中的金融指标（债务、每股收益、销售额）句子级立场分析",
+    "创新点": [
+      "构建首个针对核心金融指标的句子级立场检测语料库，结合ChatGPT标注与人工验证",
+      "提出零样本/少样本+思维链提示策略，验证LLMs在金融领域无需大量标注数据的实用可行性",
+      "对比分析LLMs在SEC文件与ECT数据中的性能差异，发现少样本+CoT优于监督基线模型"
+    ]
+  },
+  "What are the odds? Risk and uncertainty about AI existential risk": {
+    "主题": "AI生存风险评估",
+    "场景": "探讨人工智能存在性风险的哲学与模型局限性",
+    "创新点": [
+      "提出在认知无差异情境下，结构层级关系可能导致P(D)概率被低估",
+      "区分风险与不确定性，指出P(D)估计受选项不确定性和状态空间不确定性双重影响"
+    ]
+  },
+  "Towards Generalist Omni-Modal Reward Modeling with   Free-Form Preferences": {
+    "主题": "多模态奖励建模",
+    "场景": "构建通用多模态奖励模型，以支持更复杂和个性化的人类偏好",
+    "创新点": [
+      "提出首个涵盖五种模态（文本、图像、视频、音频、3D）的自由偏好基准Omni-RewardBench",
+      "构建包含248K通用偏好对和69K指令调优对的多模态数据集Omni-RewardData",
+      "提出兼具判别式和生成式奖励模型Omni-RewardModel，显著提升多模态奖励建模性能"
+    ]
+  },
+  "A Neuro-Symbolic Multi-Agent Approach to Legal-Cybersecurity Knowledge   Integration": {
+    "主题": "法律-网络安全知识整合",
+    "场景": "法律专家与网络安全专家在复杂信息空间中的协作",
+    "创新点": [
+      "提出神经符号多智能体方法，整合法律案例、法规与技术漏洞的关联",
+      "首创面向多语言任务的智能系统，弥补传统法律研究工具的不足"
+    ]
+  },
+  "Revisiting Low-Light Vision through Frequency-Domain Radial   Basis Network": {
+    "主题": "低频域径向基网络在弱光视觉中的应用",
+    "场景": "弱光条件下的计算机视觉任务（如检测、分割）",
+    "创新点": [
+      "**扩展经典光照模型**：将Lambertian模型扩展至弱光条件，更精确建模光照退化",
+      "**频域特征提取**：理论证明频域通道比可提取光照不变特征，提出结构化滤波方法",
+      "**端到端可训练模块**：结合频域通道比操作与可学习滤波器，实现光照不变特征增强（无需修改损失函数）"
+    ]
+  },
+  "Causal Deep Q Network": {
+    "主题": "因果强化学习",
+    "场景": "改进深度Q网络（DQN）在强化学习任务中的性能，消除虚假关联",
+    "创新点": [
+      "将因果推理整合到DQN中，利用PEACE公式估计因果效应",
+      "通过因果原则增强DQN对环境底层因果结构的理解，减少混杂因素和虚假关联的影响"
+    ]
+  },
+  "Exploring Vulnerability in AI Industry": {
+    "主题": "AI产业风险评估",
+    "场景": "基于基础模型（FMs）生产的AI上游价值链脆弱性分析",
+    "创新点": [
+      "提出合成AI脆弱性指数（AIVI），聚焦计算、数据、人才、资本和能源五大输入要素的供给风险",
+      "采用加权几何平均法聚合子指数，结合理论与实证基准归一化，量化系统性风险"
+    ]
+  },
+  "Revealing Dynamics of Bidding Environment in Online Advertising   from A Foundation Model Lens": {
+    "主题": "在线广告自动竞价基础模型",
+    "场景": "跨场景的在线广告自动竞价优化",
+    "创新点": [
+      "提出统一函数Bid2X，学习不同竞价场景下的通用效果估计函数（如预算消耗、GMV等）",
+      "设计双注意力机制分别处理变量间和时间动态依赖关系，增强表示学习",
+      "首创零膨胀预测模块，联合分类与回归优化目标拟合竞价数据独特分布"
+    ]
+  },
+  "Efficient Domain-Robust Data Valuation via Eigenvalue-Based   Approach": {
+    "主题": "数据估值",
+    "场景": "数据中心的AI领域中，处理域外（OOD）数据时的数据价值评估",
+    "创新点": [
+      "提出Eigen-Value（EV）框架，通过特征值比近似域差异，避免昂贵的OOD计算",
+      "将扰动理论应用于数据点贡献估计，降低计算负担",
+      "可即插即用，无需额外训练即可增强ID方法的OOD鲁棒性"
+    ]
+  },
+  "LLM Assisted Automatic Generation of Data Stream   Processing Pipelines": {
+    "主题": "LLM辅助的流数据处理管道自动生成",
+    "场景": "实时数据流处理管道的自动化设计与部署",
+    "创新点": [
+      "引入Hypergraph of Thoughts（HGoT）扩展GoT，弥合用户意图与平台实现间的语义鸿沟",
+      "结合弹性执行策略、高级查询分析与HGoT，提升管道生成准确性",
+      "实验显示开发时间减少6.3倍，错误率降低5.19倍（基于新型EFS指标）"
+    ]
+  },
+  "EMTSF:Extraordinary Mixture of SOTA Models for Time Series Forecasting": {
+    "主题": "时间序列预测（TSF）的混合专家模型（MoE）",
+    "场景": "结合多种先进模型进行时间序列预测，处理近期数据偏好和不可预测事件",
+    "创新点": [
+      "提出混合专家（MoE）框架，集成xLSTM、增强Linear、PatchTST和minGRU等多种SOTA模型",
+      "采用基于Transformer的MoE门控网络，实现互补和多样化模型的整合"
+    ]
+  },
+  "Detecting Religious Language in Climate Discourse": {
+    "主题": "宗教语言检测技术",
+    "场景": "气候相关文本中宗教语言的识别与分析",
+    "创新点": [
+      "提出基于生态神学文献的层次树规则模型与零样本大语言模型（LLMs）的双重检测方法",
+      "通过88万句数据集验证规则模型比LLMs更敏感，揭示宗教语言定义应兼顾词汇与语境的学术争议"
+    ]
+  },
+  "Opinion Mining Based Entity Ranking using Fuzzy Logic Algorithmic   Approach": {
+    "主题": "基于模糊逻辑的实体意见挖掘与排序",
+    "场景": "社交媒体和电子商务平台上的大规模用户意见分析",
+    "创新点": [
+      "引入模糊逻辑算法实现更细粒度的意见分类（如正/负/中性之外的更精细情感层次）",
+      "首次提出结合细粒度情感分类与实体排序的联合分析方法"
+    ]
+  },
+  "A Geospatial Foundation Model for Data-Efficient Flood   Susceptibility Mapping": {
+    "主题": "地理空间基础模型的洪水敏感性制图",
+    "场景": "数据稀缺地区的洪水风险预测",
+    "创新点": [
+      "采用Thinking-in-Modality (TiM)跨模态推理方法，通过调整地理空间基础模型(GFMs)，使用Sentinel-1/2等基础地球观测数据进行洪水预测",
+      "利用数据丰富区域的成对EO和模拟洪水地图进行跨模态表征学习，弥补数据稀缺区域的不足"
+    ]
+  },
+  "Symbolic Neural Generation with Applications to Lead Discovery in Drug   Design": {
+    "主题": "混合神经符号模型在药物设计中的应用",
+    "场景": "早期药物设计中的潜在抑制剂分子生成",
+    "创新点": [
+      "提出**符号神经生成器（SNG）**，结合符号学习与神经推理，生成符合形式化正确性标准的数据",
+      "引入基于**偏序集**的语义框架，并扩展概率化版本以增强实用性",
+      "在探索性药物靶点问题中，生成的分子结合亲和力与临床候选药物相当，且专家认为符号规范可作为有效预筛选工具"
+    ]
+  },
+  "Efficient Signalling in Dynamic Environments by   Projecting User Awareness across Future Timesteps": {
+    "主题": "自适应信号传递框架",
+    "场景": "动态环境中人机协作的时间敏感任务",
+    "创新点": [
+      "首次将理性言语行为（RSA）模型应用于动态环境的人机交互，优化多步消息序列以同步用户认知与环境变化",
+      "提出基于贝叶斯推理的自适应信号策略，动态调整消息粒度与时机，结合用户先验知识预测注意力分配",
+      "引入多步规划机制，量化用户认知资源限制对后续信息处理的影响，优于传统单步基线方法"
+    ]
+  },
+  "Multitask Multimodal Self-Supervised Learning for Medical Images": {
+    "主题": "医疗图像自监督学习",
+    "场景": "解决医疗图像分析中标注数据不足的问题，适用于多种医疗影像类型（如2D X光、3D MRI）。",
+    "创新点": [
+      "提出Medformer架构，支持多任务学习和深度域适应，能动态适应不同尺寸和模态的医疗图像。",
+      "设计新型自监督预训练任务，从未标注数据中提取有效特征，提升模型泛化能力。"
+    ]
+  },
+  "Arabic Children Speech Recognition Dataset": {
+    "主题": "阿拉伯语儿童语音识别数据集",
+    "场景": "针对阿拉伯语儿童（6-13岁）的课堂语音识别，解决低资源语言和儿童语音数据稀缺问题",
+    "创新点": [
+      "发布首个Levantine阿拉伯语儿童语音数据集（Arabic Little STT），包含288名儿童的355条课堂录音",
+      "系统评估Whisper模型在儿童语音上的表现，发现其错误率（0.66 WER）显著高于成人数据（<0.20 WER）"
+    ]
+  },
+  "Towards Accurate Multi-view 3D Object Reconstruction via   Generation": {
+    "主题": "多视角3D物体重建",
+    "场景": "输入视图存在遮挡或稀疏覆盖时，传统方法重建不完整",
+    "创新点": [
+      "提出ReconViaGen，将重建先验整合到生成框架中，解决扩散基3D生成方法一致性问题",
+      "设计策略增强跨视图连接提取和多视角图像特征利用",
+      "改进迭代去噪过程的可控性，生成与输入一致的细节"
+    ]
+  },
+  "A Reinforcement Learning Approach": {
+    "主题": "量子计算中的CNOT门优化",
+    "场景": "通过强化学习最小化量子电路中的CNOT门数量",
+    "创新点": [
+      "采用单一强化学习代理处理不同规模电路，通过嵌入或高斯条纹预处理适应非固定尺寸矩阵",
+      "训练m=8的代理在n=3~15的矩阵上测试，性能超越现有最优算法"
+    ]
+  },
+  "A Novel Framework for Multi-Modal Protein Representation Learning": {
+    "主题": "多模态蛋白质表示学习",
+    "场景": "蛋白质功能预测，整合蛋白质序列、结构和相互作用等异构数据",
+    "创新点": [
+      "提出基于最优传输（OT）的表示对齐方法，解决多模态嵌入间的分布不匹配问题",
+      "开发基于条件图生成（CGG）的信息融合机制，通过图重构增强表示学习",
+      "理论证明CGG目标驱动条件编码器吸收图感知知识，提升表示鲁棒性"
+    ]
+  },
+  "Deep Active Inference with Diffusion Policy and Multiple Timescale World   Model for Real-World Exploration and Navigation": {
+    "主题": "深度主动推理与机器人导航",
+    "场景": "真实环境下自主机器人的探索与目标导航",
+    "创新点": [
+      "提出结合扩散策略与多时间尺度世界模型的深度主动推理框架，支持多样化动作生成与长期结果预测",
+      "通过预期自由能最小化统一探索行为与目标导向导航，提高复杂场景成功率",
+      "在真实环境中验证框架优于基线方法（碰撞率更低/探索效率更高）"
+    ]
+  },
+  "Accelerating Automated Circuit Discovery through Mixed-Precision   Inference Optimization": {
+    "主题": "自动化电路发现的加速优化",
+    "场景": "预训练语言模型中的稀疏子网络识别",
+    "创新点": [
+      "提出基于注意力头量化的混合精度方法（PAHQ），针对每个修补操作进行效率优化",
+      "通过混合精度量化（MPQ）减少非关键组件的计算精度，保持分析忠实性的同时降低80%运行时间和30%内存消耗",
+      "无需训练即可与现有基于边缘的电路发现技术兼容，通过修改注意力机制实现加速"
+    ]
+  },
+  "Accelerating IC Thermal Simulation Data Generation via Block Krylov and   Operator Action": {
+    "主题": "IC热模拟数据生成加速",
+    "场景": "集成电路（IC）热仿真中高效生成训练数据，减少计算成本",
+    "创新点": [
+      "采用块Krylov算法和算子作用（BlocKOA）快速生成基础解并组合，大幅提升数据生成效率",
+      "理论分析表明BlocKOA时间复杂度比现有方法低一个数量级，实验验证速度提升420倍",
+      "仅需4%生成时间即可支持数据驱动方法达到与传统方法相当的精度"
+    ]
+  },
+  "a   Sample-Efficient Reinforcement Learning Approach": {
+    "主题": "样本高效的深度强化学习",
+    "场景": "视频游戏工业中训练和微调AI代理（如足球守门员）",
+    "创新点": [
+      "利用预收集数据提升基于价值的深度强化学习的样本效率",
+      "增加网络可塑性以加速训练（比标准方法快50%）",
+      "在商业游戏（EA SPORTS FC 25）中实现比内置AI高10%的扑救成功率及更拟人的游戏表现"
+    ]
+  },
+  "Curriculum Learning for Accelerated   and Improved Medical Image Segmentation": {
+    "主题": "3D医学图像分割",
+    "场景": "加速和改进3D医学图像分割模型的训练过程",
+    "创新点": [
+      "提出渐进式增大图像块（patch）尺寸的自动课程学习方法，优化类别平衡并加速训练收敛",
+      "设计两种训练模式：资源高效模式（训练时间减少56%）和性能模式（平均Dice分数提升1.28%，训练时间减少11%）",
+      "验证方法具有架构普适性，适用于UNet、UNETR、SwinUNETR等多种分割模型"
+    ]
+  },
+  "Process Reward Models for Sentence-Level Verification of LVLM Radiology   Reports": {
+    "主题": "视觉语言模型的放射学报告验证",
+    "场景": "自动化放射学报告生成中句级事实性核查",
+    "创新点": [
+      "提出轻量级句级过程奖励模型（PRM），结合临床上下文和前置文本进行条件化预测",
+      "采用弱监督标签在MIMIC-CXR上微调，0.5B参数模型性能超越白盒基线（MCC提升7.5%，AUROC提升1.8%）",
+      "实现跨LVLM的强泛化能力，并创新性应用于加权N选1报告筛选流程（F1-CheXbert提升7.4%）"
+    ]
+  },
+  "Accelerating Eigenvalue Dataset Generation via Chebyshev Subspace Filter": {
+    "主题": "特征值数据生成加速",
+    "场景": "机器学习中神经特征值方法的大规模标记数据需求",
+    "创新点": [
+      "提出Sorting Chebyshev Subspace Filter (SCSF)，通过算子相似性加速特征值数据生成",
+      "采用截断快速傅里叶变换排序对算子进行分组，减少冗余计算",
+      "利用已解决问题的特征对辅助后续问题求解"
+    ]
+  },
+  "A Reward Distribution Based   Abstraction Algorithm": {
+    "主题": "强化学习与抽象算法",
+    "场景": "Monte Carlo Tree Search (MCTS) 在策略优化中的应用，特别是在IPPC基准问题中",
+    "创新点": [
+      "提出AUPO算法，仅依赖MCTS中的奖励分布统计，无需访问转移概率或依赖有向无环搜索图",
+      "能够检测对称动作，解决了现有框架（如ASAP）在状态空间中对称状态较远时难以处理的问题",
+      "仅影响决策策略，可与其他抽象技术（仅影响树搜索的技术）互补使用"
+    ]
+  },
+  "Increasing LLM Coding Capabilities through Diverse Synthetic Coding   Tasks": {
+    "主题": "大型语言模型（LLM）代码生成能力提升",
+    "场景": "通过合成多样化编程任务数据增强LLM的代码生成能力",
+    "创新点": [
+      "提出可扩展的合成数据生成流程，产生包含任务、逐步推理、解决方案和可执行测试的四元组数据（近80万条）",
+      "采用遗传变异算法增强任务多样性，同时保持推理轨迹与代码实现的一致性",
+      "证实基于推理的数据可替代模型扩展，在相同样本预算下优于领先开源方案"
+    ]
+  },
+  "Drug-Drug Relation Extraction via Transfer Learning Method": {
+    "主题": "药物关系抽取",
+    "场景": "利用迁移学习从医学文本中提取药物间相互作用关系，用于预测副作用和构建药物关系本体",
+    "创新点": [
+      "提出DREAM方法，结合预训练关系抽取模型和医学文本语料库自动构建药物关系图谱",
+      "首次引入大型语言模型（LLM）作为药物关系验证工具，在PubMed摘要子集上达成71%的验证一致率",
+      "揭示医学领域关系抽取中的语义歧义问题，凸显该领域的技术挑战"
+    ]
+  },
+  "Predicting Domain-Adaptation   Performance at Unseen Pre-Training Budgets": {
+    "主题": "域适应的预训练性能预测",
+    "场景": "多语言域适应（英语/阿拉伯语→法语），在不可见预训练预算下预测模型性能",
+    "创新点": [
+      "提出PTPP感知的适应缩放法则，将预训练预算作为显式变量，预测不同预算下的适应损失",
+      "在低PTPP值（15,31）下训练的模型能够准确预测高PTPP值（279）的目标损失，超越传统方法",
+      "展示实际应用案例：在计算限制下规划重放比例和适应令牌预算以满足目标和遗忘约束"
+    ]
+  },
+  "Guiding Skill Discovery with Foundation Models": {
+    "主题": "基于基础模型的技能发现方法",
+    "场景": "强化学习中的多样化技能学习，避免危险行为并符合人类偏好",
+    "创新点": [
+      "通过基础模型提取评分函数，将人类意图融入技能发现过程",
+      "提出奖励重加权机制，有效消除不良行为（如翻滚）并规避危险区域",
+      "支持基于状态和像素的任务，并能发现难以明确定义的行为"
+    ]
+  },
+  "A Decomposed Approach to Well-Crafted   Screenwriting with LLMs": {
+    "主题": "LLM剧本创作",
+    "场景": "使用大型语言模型生成高质量的剧本",
+    "创新点": [
+      "提出双阶段优化（DSR）框架，将创意叙事生成与格式转换解耦",
+      "采用混合数据合成方法解决训练数据稀缺问题（反向合成解构现有剧本，前向合成生成高质量叙事文本）"
+    ]
+  },
+  "Adapting Interleaved Encoders with PPO for Language-Guided Reinforcement   Learning in BabyAI": {
+    "主题": "语言引导的强化学习",
+    "场景": "BabyAI环境中的视觉与语言任务理解",
+    "创新点": [
+      "引入感知-决策交替的Transformer架构（PDiT），动态反馈优化感知特征",
+      "结合CLIP风格的对比损失，对齐文本任务嵌入与视觉场景特征"
+    ]
+  },
+  "Enabling Vibration-Based Gesture Recognition on Everyday Furniture via   Energy-Efficient FPGA Implementation of 1D Convolutional Networks": {
+    "主题": "基于FPGA的振动手势识别",
+    "场景": "智能家居中通过家具振动实现非侵入式手势识别",
+    "创新点": [
+      "采用原始波形输入替代复杂频谱预处理，输入尺寸减少21倍且保持精度",
+      "设计两种轻量级架构（1D-CNN和1D-SepCNN），参数从3.69亿降至最少216",
+      "结合整数量化和自动RTL生成实现FPGA高效部署，乒乓缓冲机制提升内存受限场景适用性",
+      "硬件感知搜索框架支持多维度约束（精度/延迟/能耗）驱动的模型配置选择"
+    ]
+  },
+  "The Perplexity-Entropy Equivalence": {
+    "主题": "信息论与策略梯度优化",
+    "场景": "GSPO算法在数学推理任务中的应用",
+    "创新点": [
+      "将GSPO序列级权重重新解释为逆困惑度比（PPL比值），建立与信息论的显式关联",
+      "提出通过几何平均实现对数域方差缩减的新视角，解释混合专家模型训练稳定性"
+    ]
+  },
+  "GroupSHAP-Guided Integration of Financial News Keywords and Technical   Indicators for Stock Price Prediction": {
+    "主题": "金融新闻关键词与技术指标的融合用于股价预测",
+    "场景": "利用金融新闻情绪分析和GroupSHAP方法提升股价预测性能",
+    "创新点": [
+      "提出GroupSHAP方法对语义相关的关键词组进行贡献量化，显著降低计算负担并保持可解释性",
+      "将GroupSHAP与GRU预测框架结合，首次应用于新闻驱动的金融预测，同时提高了预测性能和可解释性"
+    ]
+  },
+  "Leveraging Hierarchical Organization for Medical Multi-document   Summarization": {
+    "主题": "医学多文档摘要生成",
+    "场景": "利用层次结构改进医疗领域多文档摘要的生成质量",
+    "创新点": [
+      "引入层次结构输入方法，相比传统扁平方法提升信息组织与上下文关联能力",
+      "通过自动指标、模型指标和领域专家评估（包括清晰度、事实性等8个维度）验证层次方法的优越性",
+      "证实GPT-4模拟评估与人类专家在客观维度上具有较高一致性"
+    ]
+  },
+  "Context as the Key to Unlocking Biomolecular   Understanding in Scientific LLMs": {
+    "主题": "科学大语言模型的生物分子理解",
+    "场景": "科学大语言模型在生物信息学中的应用，特别是处理生物分子序列和理解其功能。",
+    "创新点": [
+      "提出将高层次的、结构化的上下文信息（而非原始生物分子序列）作为科学大语言模型的主要输入，显著提升模型在生物推理任务中的性能。",
+      "揭示了原始序列信息在高层次上下文存在时会成为信息噪声，即模型更擅长基于专家知识的推理而非直接从序列解码生物分子语法。",
+      "重新定义科学大语言模型的角色，从序列解码器转变为基于专家知识的推理引擎，推动开发新型混合科学AI代理的方向。"
+    ]
+  },
+  "A Two-Sided Approach to Process and   Outcome Rewards": {
+    "主题": "代码生成奖励模型",
+    "场景": "大型语言模型（LLMs）生成高质量代码的任务",
+    "创新点": [
+      "提出结合过程奖励（中间步骤评估）和结果奖励（最终代码正确性）的双面奖励模型框架",
+      "验证小规模语言模型（如Phi-4）通过回归层改造后可作为高效奖励模型",
+      "通过代码样本数据集训练概率估计头，实现多候选代码20%的生成准确率提升"
+    ]
+  },
+  "A Deep Transfer Learning Framework for Cross-Disciplinary   Cognitive Diagnosis": {
+    "主题": "跨学科认知诊断",
+    "场景": "在线教育中的学生能力评估",
+    "创新点": [
+      "结合深度学习和迁移学习策略，利用主学科共性特征提升目标学科模型性能",
+      "提出新颖的跨学科认知诊断方法（TLCD），解决知识体系差异导致的数据稀缺问题"
+    ]
+  },
+  "Quality-Aware Translation Tagging in Multilingual RAG system": {
+    "主题": "多语言检索增强生成系统中的翻译质量评估",
+    "场景": "低资源语言环境下，通过翻译英文文档增强回答生成的性能",
+    "创新点": [
+      "提出三方面翻译质量评估指标（语义等价性、语法准确性、自然流畅性），作为元数据附加而不修改原文",
+      "在跨语言问答基准中优于现有方法（CrossRAG/DKM-RAG），保持事实完整性并提升生成模型决策可靠性"
+    ]
+  },
+  "Autonomous Reasoning-enhanced Recommender": {
+    "主题": "推理增强的推荐系统",
+    "场景": "利用大语言模型（LLMs）的推理能力提升用户-物品评分预测任务",
+    "创新点": [
+      "提出纯强化学习（RL）训练范式（RecZero），摒弃传统多模型/多阶段蒸馏方法，实现单一LLM自主发展推理能力",
+      "设计\"Think-before-Recommendation\"结构化推理模板，引导模型分步分析用户兴趣、物品特征及匹配关系",
+      "采用分组相对策略优化（GRPO）建立基于规则的奖励模型，优化LLM的推理轨迹",
+      "探索混合范式（RecOne），结合监督微调与强化学习，通过冷启动样本初始化解并进一步RL优化"
+    ]
+  },
+  "Unifying Pass@K   Policy Gradients": {
+    "主题": "强化学习策略梯度优化",
+    "场景": "具有可验证奖励的强化学习（RLVR）中的Pass@K目标优化",
+    "创新点": [
+      "揭示优势整形（advantage-shaping）技术与REINFORCE式方法的内在统一性，表明二者本质相同",
+      "提出通过逆向工程将现有优势整形算法解释为隐式优化替代奖励的新视角",
+      "将GRPO的硬样本加权修改重新阐释为奖励级正则化方法",
+      "基于替代奖励目标提出一个简单框架，可推导现有及新的优势整形方法"
+    ]
+  },
+  "Incentivizing Agentic Reasoning in LLM Judges via Tool-Integrated   Reinforcement Learning": {
+    "主题": "工具集成强化学习的LLM评委模型",
+    "场景": "用于大规模评估响应质量的自动化评委系统",
+    "创新点": [
+      "整合代码执行器提升复杂约束验证与计算准确性",
+      "采用多样化训练覆盖可验证/不可验证领域",
+      "创新迭代式RL框架，无需蒸馏直接从初始模型引导",
+      "（注：摘要中明确指出了三个设计原则对应三个创新维度，故提取三项）"
+    ]
+  },
+  "A high-capacity linguistic steganography based on entropy-driven   rank-token mapping": {
+    "主题": "语言隐写术",
+    "场景": "通过生成自然文本实现高效隐蔽通信",
+    "创新点": [
+      "提出基于秩-标记映射的自适应编码方法，提升嵌入容量",
+      "采用上下文感知的熵归一化动态调整采样策略，平衡隐蔽性与效率",
+      "混合概率秩与压缩算法，处理时间减少50%的同时容量提升3倍"
+    ]
+  },
+  "A Hybrid Framework for Crystal Material Generation": {
+    "主题": "晶体材料生成",
+    "场景": "利用生成模型设计新颖的周期性晶体结构",
+    "创新点": [
+      "提出混合框架CrysLLMGen，结合大语言模型（LLMs）和扩散模型，利用两者互补优势（LLMs处理离散原子类型，扩散模型优化连续原子坐标和晶格参数）。",
+      "实现了结构与组成有效性的平衡，生成的晶体材料更稳定且新颖，优于基于LLM或扩散模型的单一方法。",
+      "具备强大的条件生成能力，可有效满足用户定义的约束条件。"
+    ]
+  },
+  "Surveying the automatic Scientists and   Research": {
+    "主题": "AI科学家自主科研框架",
+    "场景": "构建端到端自主科学研究系统，覆盖从假设生成到论文发表的完整流程",
+    "创新点": [
+      "提出统一的六阶段方法论框架（文献综述→想法生成→实验准备→实验执行→科学写作→论文生成），系统化解构自主科研流程",
+      "揭示领域演进路径：基础模块（2022-2023）→闭环系统（2024）→可扩展性/影响力/人机协同（2025至今）",
+      "首次整合碎片化研究现状，为鲁棒性治理挑战提供发展路线图"
+    ]
+  },
+  "Efficient and Encrypted Inference using Binarized Neural Networks within   In-Memory Computing Architectures": {
+    "主题": "加密的二值神经网络内存计算",
+    "场景": "在内存计算架构中保护二值神经网络模型参数免受窃取攻击，同时保持高效推理性能",
+    "创新点": [
+      "使用物理不可克隆函数生成的密钥对模型参数进行加密存储，支持直接在加密权重上进行推理，实现同态加密",
+      "在推理阶段不依赖解密操作，显著减少计算开销，同时确保未经授权的推理准确率低于15%"
+    ]
+  },
+  "Nested AutoRegressive Models": {
+    "主题": "图像生成的嵌套自回归模型",
+    "场景": "高效且多样化的图像生成",
+    "创新点": [
+      "提出多尺度嵌套自回归架构，将复杂度从 $\\mathcal{O}(n)$ 降低至 $\\mathcal{O}(\\log n)$",
+      "采用流匹配损失（flow matching loss）处理连续令牌，提升生成多样性",
+      "开发多尺度模块协同训练目标，优化模块间协调性"
+    ]
+  },
+  "Efficient Planning with Non-uniform Temporal   Resolution": {
+    "主题": "非均匀时间分辨率规划",
+    "场景": "扩散规划器在机器人任务（如Maze2D、Franka Kitchen、Antmaze）中的高效路径规划",
+    "创新点": [
+      "提出混合密度扩散器（MDD），允许动态调整轨迹不同时间段的规划密度",
+      "验证了时间分辨率非均匀分布的假设，突破了传统均匀稀疏规划的性能瓶颈",
+      "无需增加计算成本，通过关键区域密集规划提升长期依赖捕捉能力"
+    ]
+  },
+  "Mixture-of-Experts Meta Learning for Few-Shot Relational   Learning": {
+    "主题": "小样本关系学习的元学习框架",
+    "场景": "知识图谱中仅有少量训练样本的关系推理",
+    "创新点": [
+      "采用混合专家（MoE）模型学习全局共享的关系原型，提升泛化能力",
+      "提出任务定制化适应机制，捕获局部上下文以实现快速任务特定适应"
+    ]
+  },
+  "  Enhancing Trustworthiness of Chinese LLM-Generated Liver MRI Reports": {
+    "主题": "中文LLM生成的肝脏MRI报告可信度提升",
+    "场景": "放射学报告生成、医学教育及质量控制",
+    "创新点": [
+      "提出多维可信度评估（MDCA）框架，系统评估LLM生成的放射学报告的可信度",
+      "提供针对特定机构的提示优化指导，以适应不同临床场景需求"
+    ]
+  },
+  "A tight bound across all $\\ell_p$ norms": {
+    "主题": "softmax函数的Lipschitz连续性分析",
+    "场景": "机器学习中的分类、注意力机制、强化学习及优化算法",
+    "创新点": [
+      "首次证明了softmax函数在所有ℓp范数下具有统一的Lipschitz常数1/2，改进了现有ℓ2范数下常数为1的理论",
+      "揭示了局部Lipschitz常数在p=1和p=∞时达到1/2，而在p∈(1,∞)时严格低于1/2的精细性质",
+      "通过实验验证了1/2常数的尖锐性，并展示了该结果在注意力架构（ViT、GPT-2等）和强化学习中的直接理论改进"
+    ]
+  },
+  "User-Adaptive Explainable AI": {
+    "主题": "用户自适应的可解释AI框架",
+    "场景": "为不同类型用户生成机器学习模型解释",
+    "创新点": [
+      "结合后置解释器（SHAP、LIME、Anchor）与检索增强的LLMs，实现模型和领域无关的解释生成",
+      "通过多模态知识库索引和定量标准选择解释器，生成基于聊天提示的可靠叙述"
+    ]
+  },
+  "An Investigation   of State Space and Hybrid Architectures": {
+    "主题": "大型语言模型架构比较",
+    "场景": "上下文学习（ICL）任务中的知识检索与理解",
+    "创新点": [
+      "发现不同架构（Transformer、状态空间、混合模型）在任务表现相似时内部机制仍存在差异",
+      "揭示功能向量（FVs）主要分布于自注意力层和Mamba层，并推测Mamba2采用不同于FVs的ICL机制",
+      "提出行为探测与干预结合的方法论，强调机制分析对理解LLM能力的重要性",
+      "发现FVs对参数化知识检索类ICL更关键，而对上下文知识理解作用有限"
+    ]
+  },
+  "Ultrasound Self-Supervised Foundation Model with Masked   Autoencoding": {
+    "主题": "超声自监督基础模型",
+    "场景": "医学超声图像诊断中的图像解释与分类任务",
+    "创新点": [
+      "提出首个基于掩码自动编码（MAE）的大规模超声自监督基础模型（USF-MAE），仅使用超声数据预训练",
+      "构建并公开跨20+解剖区域的开放超声数据集OpenUS-46（含37万2D/3D图像），解决领域数据稀缺问题",
+      "通过ViT编码器-解码器结构学习模态特异性表示，在下游分类任务中超越CNN/ViT基线，展现强跨解剖泛化能力"
+    ]
+  },
+  "Exploring Semantic-constrained Adversarial Example with Instruction   Uncertainty Reduction": {
+    "主题": "语义约束对抗样本生成",
+    "场景": "通过自然语言指令生成高攻击性的语义约束对抗样本",
+    "创新点": [
+      "提出多维指令不确定性降低框架（InSUR），解决语义不确定性中的引用多样性、描述不完整性和边界模糊性问题",
+      "设计残差驱动攻击方向稳定方法（ResAdv-DDIM采样器），提升多步扩散模型的对抗攻击能力和迁移性",
+      "引入上下文编码攻击场景约束，通过掩蔽引导和渲染器集成，增强2D/3D对抗样本的场景适应攻击能力",
+      "提出语义抽象攻击评估增强方法，明确评估边界，促进更有效的生成器开发"
+    ]
+  },
+  "Multi-Agent Conditional Diffusion Model with Mean Field Communication as   Wireless Resource Allocation Planner": {
+    "主题": "多智能体无线资源分配",
+    "场景": "去中心化无线通信系统中的资源管理与服务质量优化",
+    "创新点": [
+      "提出基于条件扩散模型的多智能体规划器（MA-CDMP），结合逆动力学模型提升采样效率和收敛速度",
+      "引入均值场机制近似大规模智能体交互，降低非平稳性并提高合作效率",
+      "理论证明均值场扩散生成的分布近似误差上界，确保随机动力学建模的稳定性"
+    ]
+  },
+  "How Enhancing LLM Reasoning Amplifies Tool   Hallucination": {
+    "主题": "大语言模型推理与工具幻觉",
+    "场景": "增强大语言模型（LLM）推理能力时，观察工具幻觉现象的系统性研究",
+    "创新点": [
+      "首次提出并验证推理能力增强与工具幻觉的因果关系，建立量化基准（SimpleToolHalluBench）区分两种故障模式",
+      "揭示现象的普适性：无关任务（如数学）训练仍会加剧工具幻觉，且与推理注入方法（微调/推理时逐步思考）无关",
+      "发现机制根源：推理强化学习会破坏工具可靠性相关表征，幻觉表现为深层残差流的异常发散"
+    ]
+  },
+  "Measuring Teaching with LLMs": {
+    "主题": "基于LLM的教学质量评估",
+    "场景": "利用定制化大型语言模型客观评估课堂教学质量",
+    "创新点": [
+      "采用句子级嵌入架构的定制LLM，优于传统子词标记化方法，更适合长篇幅课堂转录本的解读",
+      "提出数据高效训练方案防止过拟合，模型表现达到甚至超越人类专家评分水平（评分相关性>0.65）",
+      "发现高阶模型更多关注课程整体特征而非孤立语句，挑战单轮标注范式的充分性",
+      "模型聚合评分与教师增值评估相关联，验证其对学习相关特征的捕捉能力"
+    ]
+  },
+  "A Multi-Agent Debate Framework for Long-Form Factuality   Evaluation in LLMs": {
+    "主题": "大语言模型长文本事实性评估",
+    "场景": "生物医学、法律、教育等高危领域中LLM生成长文本的事实准确性验证",
+    "创新点": [
+      "提出基于多智能体辩论的验证框架（MAD-Fact），通过多角色协同检测长文本中的复杂推理链和交织观点",
+      "构建中文长文本事实性数据集LongHalluQA，填补非英语语种评估空白",
+      "设计事实重要性分层机制，量化长文本中不同主张的权重差异，提升评估粒度"
+    ]
+  },
+  "Fairness-aware Attention-modulated Video Editing": {
+    "主题": "公平感知的视频编辑",
+    "场景": "减少职业相关的性别偏见，同时保持视频编辑的提示对齐和时间一致性",
+    "创新点": [
+      "通过软注入去偏标记生成公平嵌入，平衡少数群体表示",
+      "在时间自注意力和跨注意力中集成公平调制，减少运动破坏和时间不一致",
+      "结合区域约束注意掩码和时间衰减加权，增强区域内一致性并抑制无关跨区域交互",
+      "利用去偏提示嵌入的公平敏感相似性掩码重新加权标记与区域匹配分数"
+    ]
+  },
+  "Manifold Approximation leads to Robust Kernel Alignment": {
+    "主题": "核对齐方法改进",
+    "场景": "衡量网络表示相似性，应用于神经网络比较和神经科学研究",
+    "创新点": [
+      "引入流形几何信息，提出流形近似核对齐（MKA）方法",
+      "提供理论框架证明，并在合成和真实数据集上验证效果",
+      "相比传统CKA，在不同数据规模下表现更鲁棒"
+    ]
+  },
+  "Exploiting Prompt Compression as a New Attack Surface   in LLM-Powered Agents": {
+    "主题": "LLM代理安全攻击",
+    "场景": "LLM代理使用提示压缩技术时引入的安全风险",
+    "创新点": [
+      "提出CompressionAttack框架，首次利用提示压缩作为攻击面，包含硬压缩（HardCom）和软压缩（SoftCom）两种策略",
+      "实验证明攻击效果显著（成功率80%、偏好翻转98%），且具备高隐蔽性和迁移性",
+      "通过VSCode Cline和Ollama案例验证实际影响，揭示现有防御措施的不足"
+    ]
+  },
+  "Geometry-to-Tangent Routing for Hyperbolic POI Recommendation": {
+    "主题": "双曲几何POI推荐",
+    "场景": "基于位置的社交网络（LBSN）中的个性化签到地点推荐",
+    "创新点": [
+      "使用双曲几何对静态的树状偏好层次进行建模，同时在欧几里得切线空间中路由动态序列更新",
+      "引入跨流形通道融合时空信息，指导状态空间模型（SSM）灵活适应上下文变化"
+    ]
+  },
+  "Is Your Prompt Poisoning Code? Defect Induction Rates and Security   Mitigation Strategies": {
+    "主题": "大型语言模型生成的代码安全性",
+    "场景": "研究良性但质量较差的提示对AI生成代码安全性的影响，并提出缓解策略",
+    "创新点": [
+      "提出基于目标清晰度、信息完整性和逻辑一致性的提示质量评估框架",
+      "构建并开源CWE-BENCH-PYTHON基准数据集，包含四种规范性等级的提示分类",
+      "验证高级提示技术（如思维链和自我校正）能有效减轻低质量提示引发的安全风险"
+    ]
+  },
+  "Joint Optimization of Task Offloading and Uplink PASS   Beamforming": {
+    "主题": "PASS增强移动边缘计算的任务卸载与波束成形联合优化",
+    "场景": "动态无线环境中，通过PASS提升任务卸载效率和延迟性能的高频MEC系统",
+    "创新点": [
+      "提出基于介质波导和可调夹持天线的PASS架构，建立短距直射链路，显著降低路径损耗和信号阻塞",
+      "将联合优化问题建模为MDP，并设计负载感知的近端策略优化算法(LBPPO)，融合节点级和波导级负载均衡信息",
+      "LBPPO算法通过规避目标函数中的max算子不稳定性，实现计算与传输延迟的双重均衡"
+    ]
+  },
+  "Robust Uncertainty Quantification for Self-Evolving Large Language   Models via Continual Domain Pretraining": {
+    "主题": "持续学习与大型语言模型的统计可靠性保证",
+    "场景": "持续领域预训练（CDP）中大型语言模型的统计可靠性评估与提升",
+    "创新点": [
+      "提出基于转换器的聚类方法，估计测试集的分布并重新加权校准数据，以应对未知或变化的域分布",
+      "引入自适应拒绝机制，使模型根据置信度或能力显著变化时有选择地拒绝回答，提升预测集的信息量"
+    ]
+  },
+  "Generalized Language Gaussian Splatting with Pre-Trained   Feature Compression": {
+    "主题": "3D语言场建模",
+    "场景": "开放词汇的3D场景交互与查询",
+    "创新点": [
+      "采用预训练的通用自编码器替代场景特定的训练，消除了逐场景优化的瓶颈",
+      "引入固定紧凑的潜在空间，实现跨场景的高效语言特征编码",
+      "通过消融研究确定最佳嵌入维度，平衡效率与表征保真度"
+    ]
+  },
+  "Hybrid Perception for Object-Oriented Navigation in Unknown   Environment": {
+    "主题": "机器人目标导向导航",
+    "场景": "未知环境中的自主导航",
+    "创新点": [
+      "提出HyPerNav方法，首次融合RGB-D传感器的第一视角观测与实时俯视地图的全局信息",
+      "利用视觉语言模型(VLMs)的推理能力，实现对局部和全局信息的联合感知",
+      "在仿真和实际场景中验证了混合感知模式能更有效捕捉环境线索，达到最先进性能"
+    ]
+  },
+  "A Multi-Objective Optimization Perspective and Future Directions": {
+    "主题": "边缘智能模型卸载与优化",
+    "场景": "边缘计算环境中部署大规模深度学习模型，平衡延迟、隐私和成本",
+    "创新点": [
+      "提出多目标优化框架（推理延迟、数据隐私、资源成本）的综合权衡方法",
+      "整合模型压缩、蒸馏及传输压缩技术以减少通信瓶颈",
+      "引入内部分类器等模型架构自适应设计提升边缘端计算效率"
+    ]
+  },
+  "Language Server CLI Empowers Language Agents with Process Rewards": {
+    "主题": "语言服务器与代码代理工具",
+    "场景": "提升大型语言模型在代码编辑与API调用中的准确性",
+    "创新点": [
+      "引入Selector DSL与重定位算法，提供超越传统\"文件:行:列\"的鲁棒寻址方案",
+      "设计确定性分析包(Analysis Bundles)，标准化语言服务器响应并包含环境元数据",
+      "为代码变更操作实现安全防护机制（预览、工作区隔离、事务性应用）",
+      "开发基于语言服务器事实的流程奖励函数，支持在线计算和离线重放"
+    ]
+  },
+  "CoreThink Agentic Reasoner   and MAVEN Dataset": {
+    "主题": "Agentic reasoning and tool-calling environments",
+    "场景": "Generalization across diverse agentic tool-calling environments, focusing on multi-step reasoning and tool coordination.",
+    "创新点": [
+      "Introduces MAVEN dataset: A new OOD benchmark for adversarial testing of multi-step reasoning with explicit verification.",
+      "Proposes CoreThink Agentic Reasoner: A lightweight symbolic reasoning layer that enhances LLMs for structured decomposition and adaptive tool orchestration without extra training, achieving significant performance gains at reduced computational cost."
+    ]
+  }
+}

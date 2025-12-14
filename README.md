@@ -77,8 +77,6 @@ pip install -r requirements.txt
 ```
 
 
-## 4 备注 此项目的open review出版论文的的爬虫代码来自https://github.com/zhihengli-casia/AI-Paper-Trends
- 环境安装相同。但是本项目不做数据分析，仅近生成创新点
- 代码片段引用自：https://github.com/zhihengli-casia/AI-Paper-Trends/tree/main/src/
- 原作者：https://github.com/zhihengli-casia
+## 4 备注 
+此项目的open review出版论文的的爬虫代码代码片段引用自：https://github.com/zhihengli-casia/AI-Paper-Trends/tree/main/src/
 仅供学习交流，遵守原项目开源协议

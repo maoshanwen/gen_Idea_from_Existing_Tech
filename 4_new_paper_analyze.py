@@ -8,7 +8,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 
 class OpenAIChatbot:
     def __init__(self, max_tokens,
-                 model='DeepSeek-V3-0324-jdcloud-iaas',
+                 model='DeepSeek-V3',
                  temperature=1,
                  api_key="ecf75959-048c1fde70ad"):
         self.api_key = api_key
@@ -19,7 +19,7 @@ class OpenAIChatbot:
     def get_response(self, prompt):
         messages = [{"role": "user", "content": prompt}]
         logging.info(f"请求消息长度: {len(prompt)}")
-        server = 'http://gpt-proxy.jd.com/v1/chat/completions'
+        server = 'http://url/v1/chat/completions'
         data = {
             "model": self.model,
             "messages": messages,

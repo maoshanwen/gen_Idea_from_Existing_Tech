@@ -10,7 +10,7 @@ class OpenAIChatbot:
     def __init__(self, max_tokens,
                  model='DeepSeek-V3-0324-jdcloud-iaas',
                  temperature=1,
-                 api_key="ecf75959-048c-4b2c-adee-32da1fde70ad"):
+                 api_key="ecf75959-048c1fde70ad"):
         self.api_key = api_key
         self.model = model
         self.temperature = temperature
